@@ -3,7 +3,7 @@ import Mazey from './components/Mazey'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import Aplayer from 'vue-aplayer'
+// import Aplayer from 'vue-aplayer'
 
 Vue.use(ElementUI)
 
@@ -12,8 +12,7 @@ let MazeyBlog = new Vue({
   router,
   template: '<Mazey/>',
   components: {
-    Mazey,
-    Aplayer
+    Mazey
   }
 })
 
