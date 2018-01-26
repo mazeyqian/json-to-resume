@@ -10,7 +10,7 @@
     name: 'v-mazey',
     data () {
       return {
-        msg: 'v-mazey'
+        msg: 'vv-mazey'
       }
     }
   }
