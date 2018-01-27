@@ -1,7 +1,9 @@
 <template>
   <section class="container-fluid">
     <v-header></v-header>
-    <main>Main</main>
+    <main>
+      <h1>主体</h1>
+    </main>
     <footer>
       Footer
       <img src="../assets/img/natsume-and-cat-0.gif">

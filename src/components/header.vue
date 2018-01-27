@@ -1,12 +1,11 @@
 <template>
   <header>
-    <ul class="menu">
-      <li>首页</li>
-      <li>读书</li>
-      <li>编程</li>
-      <li>Bootstrap实战</li>
-      <li>GitHub</li>
-    </ul>
+    <nav class="nav justify-content-end">
+        <a class="nav-link active" href="#">首页</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+    </nav>
   </header>
 </template>
 
