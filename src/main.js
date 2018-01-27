@@ -2,9 +2,10 @@ import Vue from 'vue'
 import Layout from './components/Layout'
 // import router from './router'
 import ElementUI from 'element-ui'
+import 'normalize.css'
 import 'element-ui/lib/theme-chalk/index.css'
 // import Aplayer from 'vue-aplayer'
-import './scss/main.css'
+import './scss/__main.css'
 
 Vue.use(ElementUI)
 

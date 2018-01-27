@@ -2,6 +2,12 @@
 
 > My blog project by Vue.js.
 
+## 主题
+
+- 色系：粉蓝色
+- 动物：猫咪三三
+
+
 ## Build Setup
 
 ``` bash
