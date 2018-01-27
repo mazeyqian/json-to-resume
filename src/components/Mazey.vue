@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ msg }}
     <router-view/>
   </div>
 </template>
@@ -10,7 +9,7 @@
     name: 'v-mazey',
     data () {
       return {
-        msg: 'vv-mazey'
+        msg: 'v-mazey'
       }
     }
   }
