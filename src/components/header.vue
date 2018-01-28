@@ -14,15 +14,15 @@
 
       <div class="collapse navbar-collapse" id="mazeyMenu">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item" :class="{'active': menuActive.home}" @click="tabMenu('home')">
+            <a class="nav-link">首页</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item" :class="{'active': menuActive.link}" @click="tabMenu('link')">
+            <a class="nav-link">链接</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="mazeySubMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+          <li class="nav-item dropdown" :class="{'active': menuActive.subMenu}">
+            <a class="nav-link dropdown-toggle" id="mazeySubMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              二级菜单
             </a>
             <div class="dropdown-menu" aria-labelledby="mazeySubMenu">
               <a class="dropdown-item" href="#">Action</a>
@@ -32,14 +32,14 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">失效</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" v-show="searchStatus">
           <button class="btn btn-outline-light my-2 my-sm-0" type="button" @click="toggleSearchStatus">
             <i class="mazeyiconfont mazeyicon-search" v-show="!searchStatus"></i>
-            <i class="mazeyiconfont mazeyicon-search" v-show="searchStatus"></i>
+            <i class="mazeyiconfont mazeyicon-close" v-show="searchStatus"></i>
           </button>
         </form>
       </div>
@@ -52,13 +52,25 @@
     name: 'v-header',
     data () {
       return {
-        activeIndex: '1',
-        searchStatus: false
+        searchStatus: false,
+        menuActive: {
+          home: true,
+          link: false,
+          subMenu: false
+        }
       }
     },
     methods: {
       toggleSearchStatus () {
         this.searchStatus = !this.searchStatus
+      },
+      tabMenu (menuName) {
+        for (let key in this.menuActive) {
+          if (this.menuActive.hasOwnProperty(key)) {
+            this.menuActive[key] = menuName === key ? Boolean(1) : Boolean(0)
+          }
+//          console.log(this.menuActive)
+        }
       }
     }
   }
