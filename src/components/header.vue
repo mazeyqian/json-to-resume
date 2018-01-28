@@ -7,7 +7,7 @@
         <!--<a class="nav-link" href="#">Link</a>-->
     <!--</nav>-->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark _bg-light col-lg-10 offset-lg-1">
-      <a class="navbar-brand" href="#">後除</a>
+      <a class="navbar-brand" href="/#/">後除</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mazeyMenu" aria-controls="mazeyMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,10 +25,10 @@
               二级菜单
             </a>
             <div class="dropdown-menu" aria-labelledby="mazeySubMenu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item">链接二</a>
+              <a class="dropdown-item">链接二</a>
+              <!--<div class="dropdown-divider"></div>-->
+              <a class="dropdown-item">链接二</a>
             </div>
           </li>
           <li class="nav-item">

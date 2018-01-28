@@ -1,4 +1,7 @@
 header.mazey-header{
   background-color: $mazey-menu-bgc;
   height: $mazey-menu-height;
+  >nav{
+    height: $mazey-menu-height;
+  }
 }
