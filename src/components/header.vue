@@ -1,11 +1,5 @@
 <template>
   <header class="row fixed-top _justify-content-lg-center mazey-header">
-    <!--<nav class="nav justify-content-end">-->
-        <!--<a class="nav-link active" href="#">首页</a>-->
-        <!--<a class="nav-link" href="#">Link</a>-->
-        <!--<a class="nav-link" href="#">Link</a>-->
-        <!--<a class="nav-link" href="#">Link</a>-->
-    <!--</nav>-->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark _bg-light col-lg-10 offset-lg-1">
       <a class="navbar-brand" href="/#/">後除</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mazeyMenu" aria-controls="mazeyMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,13 +8,13 @@
 
       <div class="collapse navbar-collapse" id="mazeyMenu">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item" :class="{'active': menuActive.home}" @click="tabMenu('home')">
+          <li class="nav-item" :class="{'active': $store.getters.getMenuActive.home}" @click="$store.commit('tabMenu', 'home')">
             <a class="nav-link">首页</a>
           </li>
-          <li class="nav-item" :class="{'active': menuActive.link}" @click="tabMenu('link')">
+          <li class="nav-item" :class="{'active': $store.getters.getMenuActive.link}" @click="$store.commit('tabMenu', 'link')">
             <a class="nav-link">链接</a>
           </li>
-          <li class="nav-item dropdown" :class="{'active': menuActive.subMenu}">
+          <li class="nav-item dropdown" :class="{'active': $store.getters.getMenuActive.subMenu}">
             <a class="nav-link dropdown-toggle" id="mazeySubMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               二级菜单
             </a>
@@ -52,25 +46,12 @@
     name: 'v-header',
     data () {
       return {
-        searchStatus: false,
-        menuActive: {
-          home: true,
-          link: false,
-          subMenu: false
-        }
+        searchStatus: false
       }
     },
     methods: {
       toggleSearchStatus () {
         this.searchStatus = !this.searchStatus
-      },
-      tabMenu (menuName) {
-        for (let key in this.menuActive) {
-          if (this.menuActive.hasOwnProperty(key)) {
-            this.menuActive[key] = menuName === key ? Boolean(1) : Boolean(0)
-          }
-//          console.log(this.menuActive)
-        }
       }
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <section class="container-fluid mazey">
     <v-header></v-header>
-    <v-main></v-main>
+    <router-view/>
     <footer>
       Footer
       <img src="../assets/img/natsume-and-cat-0.gif">
@@ -20,11 +20,9 @@
 
 <script>
   import VHeader from './header.vue'
-  import VMain from './main.vue'
 
   export default {
     components: {
-      VMain,
       VHeader},
     name: 'v-layout'
   }
