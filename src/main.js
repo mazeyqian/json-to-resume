@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Layout from './components/Layout'
-// import router from './router'
+// 路由
+import router from './router'
+// vuex
+import store from './store/index'
 // import ElementUI from 'element-ui'
 // import 'normalize.css' // DONE: 为何Bootstrap不格式化
 // import 'element-ui/lib/theme-chalk/index.css'
@@ -17,13 +20,16 @@ import 'bootstrap/dist/js/bootstrap.bundle' // TODO: 后期按需引入插件
 import './assets/icon-font/iconfont.css'
 // import './assets/icon-font/iconfont.js'
 
-let MazeyBlog = new Vue({
+Vue.config.productionTip = false
+
+let Mazey = new Vue({
   el: '#mazey',
-  // router,
+  router,
+  store,
   template: '<Layout/>',
   components: {
     Layout
   }
 })
 
-Vue.use(MazeyBlog)
+Vue.use(Mazey)
