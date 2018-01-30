@@ -1,7 +1,13 @@
 header.mazey-header{
   background-color: $mazey-menu-bgc;
   height: $mazey-menu-height;
-  >nav{
-    height: $mazey-menu-height;
+  @media (min-width: 768px) {
+    >nav{
+      // DONE: 这边高度固定以后小屏下拉错误
+      height: $mazey-menu-height;
+    }
+  }
+  #mazeyMenu{
+    //background-color: $mazey-menu-bgc;
   }
 }
