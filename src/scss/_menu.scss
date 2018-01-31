@@ -4,6 +4,7 @@ header.mazey-header{
   $mazey-header-shadow-color: darken($mazey-body-bgc, 10%);
   $mazey-header-shadow-len: 2px;
   //box-shadow: $mazey-header-shadow-len $mazey-header-shadow-len $mazey-header-shadow-len $mazey-header-shadow-color;
+  box-shadow: 0 3px 3px -2px hsla(0,0%,0%,0.13);
   @media (min-width: 768px) {
     >nav{
       // DONE: 这边高度固定以后小屏下拉错误

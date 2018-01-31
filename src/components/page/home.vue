@@ -23,7 +23,10 @@
 
 
           </div>
-          <div class="col-lg-4">心情</div>
+          <div class="col-lg-4" class="mood">
+            <!--心情-->
+            <div class="hr"></div>
+          </div>
         </div>
         <div class="row">
           <div class="col-lg-4">文章</div>
