@@ -23,9 +23,25 @@
 
 
           </div>
-          <div class="col-lg-4" class="mood">
+          <div class="col-lg-4 mood">
             <!--心情-->
-            <div class="hr"></div>
+            <!--<div class="hr"></div>-->
+            <div class="tag-cloud">
+              <h3>标签云</h3>
+              <ul class="tag-hot">
+                <li><a href="#">ECMAScript6</a></li>
+                <li>|</li>
+                <li><a href="#">ECMAScript6</a></li>
+                <li>|</li>
+                <li><a href="#">ECMAScript6</a></li>
+                <li>|</li>
+                <li><a href="#">ECMAScript6</a></li>
+                <li>|</li>
+                <li><a href="#">ECMAScript6</a></li>
+                <li>|</li>
+                <li><a href="#">ECMAScript6</a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="row">

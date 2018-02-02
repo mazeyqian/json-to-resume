@@ -1,0 +1,49 @@
+.mood{
+  background-color: $mazey-module-bgc;
+  border: 1px solid #dedfe0;
+  >div.hr{}
+  >div.tag-cloud{
+    >h3{
+      color: $mazey-font-color;
+      font-size: 16px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      @extend %mazey-home-tag-cloud-border-bottom;
+      //line-height: 24px;
+    }
+    >ul.tag-hot{
+      list-style: none;
+      padding-left: 0;
+      display: block;
+      height: 70px;
+      margin-left: -20px;
+      >li{
+        display: inline-block;
+        //float: left;
+        //cursor: pointer;
+        &:nth-child(2n+1){
+          //padding-right: 20px;
+        }
+        &:nth-child(2n){
+          //width: 1px;
+          //height: 20px;
+          //background-color: $mazey-border-color;
+          //align-self: center;
+          color: $mazey-border-color;
+        }
+        &:nth-child(2n+1){
+          padding-right: 20px;
+          padding-left: 20px;
+          //border-left: 1px solid $mazey-border-color;
+          //&:before{
+          //  content: '|';
+          //}
+        }
+        >a{
+          color: $mazey-font-color;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
