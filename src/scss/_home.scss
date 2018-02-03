@@ -8,6 +8,7 @@
       font-size: 16px;
       padding-top: 14px;
       padding-bottom: 14px;
+      margin-bottom: 0;
       @extend %mazey-home-tag-cloud-border-bottom;
       //line-height: 24px;
     }
@@ -15,10 +16,21 @@
       list-style: none;
       padding-left: 0;
       display: block;
-      height: 70px;
+      //height: 70px;
       margin-left: -20px;
+      margin-bottom: 0;
+      padding: 14px 0;
+      //@extend %mazey-home-tag-cloud-border-bottom;
       >li{
         display: inline-block;
+        >a{
+          margin-right: 20px;
+          margin-left: 20px;
+        }
+        &:after{
+          content: '|';
+          color: $mazey-border-color;
+        }
         //float: left;
         //cursor: pointer;
         &:nth-child(2n+1){
@@ -29,11 +41,10 @@
           //height: 20px;
           //background-color: $mazey-border-color;
           //align-self: center;
-          color: $mazey-border-color;
+          //color: $mazey-border-color;
         }
-        &:nth-child(2n+1){
-          padding-right: 20px;
-          padding-left: 20px;
+        //&:nth-child(2n+1){
+        &:nth-child(n+2){
           //border-left: 1px solid $mazey-border-color;
           //&:before{
           //  content: '|';

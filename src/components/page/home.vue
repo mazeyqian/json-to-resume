@@ -30,16 +30,18 @@
               <h3>标签云</h3>
               <ul class="tag-hot">
                 <li><a href="#">ECMAScript6</a></li>
-                <li>|</li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
                 <li><a href="#">ECMAScript6</a></li>
-                <li>|</li>
+                <li><a href="#">HTML5</a></li>
                 <li><a href="#">ECMAScript6</a></li>
-                <li>|</li>
+                <li><a href="#">HTML5</a></li>
                 <li><a href="#">ECMAScript6</a></li>
-                <li>|</li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
                 <li><a href="#">ECMAScript6</a></li>
-                <li>|</li>
-                <li><a href="#">ECMAScript6</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
               </ul>
             </div>
           </div>
