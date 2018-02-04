@@ -26,23 +26,30 @@
           <div class="col-lg-4 mood">
             <!--心情-->
             <!--<div class="hr"></div>-->
-            <div class="tag-cloud">
-              <h3>标签云</h3>
-              <ul class="tag-hot">
-                <li><a href="#">ECMAScript6</a></li>
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">CSS3</a></li>
-                <li><a href="#">ECMAScript6</a></li>
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">ECMAScript6</a></li>
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">ECMAScript6</a></li>
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">CSS3</a></li>
-                <li><a href="#">ECMAScript6</a></li>
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">CSS3</a></li>
-              </ul>
+            <div class="hot">
+              <div class="tag-cloud">
+                <h3>标签云</h3>
+                <ul class="tag-hot">
+                  <li><a href="#">ECMAScript6</a></li>
+                  <li><a href="#">HTML5</a></li>
+                  <li><a href="#">CSS3</a></li>
+                  <li><a href="#">ECMAScript6</a></li>
+                  <li><a href="#">HTML5</a></li>
+                  <li><a href="#">ECMAScript6</a></li>
+                  <li><a href="#">HTML5</a></li>
+                  <li><a href="#">ECMAScript6</a></li>
+                  <li><a href="#">HTML5</a></li>
+                </ul>
+                <div class="hot-article">
+                  <a href="#">JavaScript中label与break配合使用</a>
+                </div>
+                <div class="hot-article">
+                  <a href="#">JavaScript中label与break配合使用</a>
+                </div>
+              </div>
+            </div>
+            <div class="img">
+              &nbsp;
             </div>
           </div>
         </div>
