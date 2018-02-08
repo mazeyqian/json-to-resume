@@ -4,6 +4,7 @@ const state = {
     GridGutter: 20,
     BannerHeight: 0,
     MoodHotHeight: 0,
+    MoodHotWidth: 0,
     MoodImgHeight: 0
   },
   // 菜单
@@ -15,15 +16,25 @@ const state = {
   BannerElement: [
     {
       title: '夏目友人帐',
-      address: '/static/img/banner/p2176789456.jpg'
+      address: '/static/img/banner/0.jpg'
+    },
+    {
+      title: '夏目友人帐',
+      address: '/static/img/banner/1.jpg'
+    },
+    {
+      title: '夏目友人帐',
+      address: '/static/img/banner/2.jpg'
     }
-  ]
+  ],
+  MoodImgElement: '/static/img/mood/img/0.jpg'
 }
 
 const getters = {
   getMenuActive: state => state.MenuActive,
   getBannerElement: state => state.BannerElement,
-  getBaseLayout: state => state.BaseLayout
+  getBaseLayout: state => state.BaseLayout,
+  getMoodImgElement: state => state.MoodImgElement
 }
 
 const actions = {}
@@ -36,11 +47,12 @@ const mutations = {
       }
     }
   },
-  initLayout (state, {BannerHeight, MoodHotHeight}) {
+  initLayout (state, {BannerHeight, MoodHotHeight, MoodHotWidth}) {
     state.BaseLayout.BannerHeight = BannerHeight
     state.BaseLayout.MoodHotHeight = MoodHotHeight
+    state.BaseLayout.MoodHotWidth = MoodHotWidth
     state.BaseLayout.MoodImgHeight = state.BaseLayout.BannerHeight - state.BaseLayout.MoodHotHeight - state.BaseLayout.GridGutter
-    console.log(state.BaseLayout)
+    // console.log(state.BaseLayout)
   }
 }
 

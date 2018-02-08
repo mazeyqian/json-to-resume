@@ -9,8 +9,10 @@
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <div v-for="(item, index) in $store.getters.getBannerElement" class="carousel-item active">
-                  <img class="d-block w-100" :src="item.address" alt="First slide">
+                <div v-for="(item, index) in $store.getters.getBannerElement" class="carousel-item" :class="{'active': index === 0}">
+                  <img class="d-block w-100" :src="item.address"
+                       :alt="item.title"
+                       :id="'bannerImg-' + index">
                 </div>
               </div>
             </div>
@@ -42,7 +44,8 @@
               </div>
             </div>
             <div class="img" :style="{height: $store.getters.getBaseLayout.MoodImgHeight + 'px'}">
-              &nbsp;小图片
+              <img :style="{maxWidth: $store.getters.getBaseLayout.MoodHotWidth + 'px'}"
+                   :src="$store.getters.getMoodImgElement"/>
             </div>
           </div>
         </div>
@@ -60,10 +63,15 @@
   export default {
     name: 'v-page-home',
     mounted () {
-      this.$store.commit('initLayout', {
-        BannerHeight: document.querySelector('.banner').offsetHeight,
-        MoodHotHeight: document.querySelector('.mood>.hot').offsetHeight
-      })
+      console.log(document.querySelector('#bannerImg-0'))
+      let self = this
+      document.querySelector('#bannerImg-0').onload = function () {
+        self.$store.commit('initLayout', {
+          BannerHeight: document.querySelector('.banner').offsetHeight,
+          MoodHotHeight: document.querySelector('.mood>.hot').offsetHeight,
+          MoodHotWidth: document.querySelector('.mood>.hot').offsetWidth
+        })
+      }
     }
   }
 </script>
