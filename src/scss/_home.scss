@@ -96,3 +96,14 @@
     }
   }
 }
+.main{
+  // 分隔符
+  div.hr.row{
+    padding: 30px 0;
+    >div.col-lg-12{
+      >div{
+        border-top: 1px solid #d4d5d5;
+      }
+    }
+  }
+}

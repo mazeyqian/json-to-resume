@@ -5,8 +5,6 @@
         <div class="row">
           <div class="col-lg-8 banner">
             <!--轮播-->
-
-
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div v-for="(item, index) in $store.getters.getBannerElement" class="carousel-item" :class="{'active': index === 0}">
@@ -16,11 +14,9 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-lg-4 mood">
             <!--心情-->
-            <!--<div class="hr"></div>-->
             <div class="hot">
               <div class="tag-cloud">
                 <h3>标签云</h3>
@@ -49,7 +45,13 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row hr">
+          <div class="col-lg-12">
+            <div class="hr-padding"></div>
+          </div>
+        </div>
+        <!--文章-->
+        <div class="row article">
           <div class="col-lg-4">文章</div>
           <div class="col-lg-4">文章</div>
           <div class="col-lg-4">文章</div>
