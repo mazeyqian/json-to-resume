@@ -52,9 +52,9 @@
         </div>
         <!--文章-->
         <div class="row article">
-          <div class="col-lg-4">文章</div>
-          <div class="col-lg-4">文章</div>
-          <div class="col-lg-4">文章</div>
+          <div class="col-lg-2 article-item" v-for="item in new Array(6)">
+            <h3>JavaScript</h3>
+          </div>
         </div>
       </div>
     </div>

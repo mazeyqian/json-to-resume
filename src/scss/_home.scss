@@ -106,4 +106,14 @@
       }
     }
   }
+  div.article>.article-item{
+    h3{
+      font-size: 18px;
+      font-weight: 400;
+      //overflow: auto;
+      //height: 24px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid $mazey-menu-active;
+    }
+  }
 }
