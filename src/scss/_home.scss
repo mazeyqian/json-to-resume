@@ -148,11 +148,33 @@
           }
         }
         >div.list-title{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          a, span{
+            font:{
+              size: 14px;
+              //family: 'Microsoft YaHei',PingFangSC-Regular,'-apple-system',Simsun;
+            }
+          }
           a{
-            float: left;
+            //float: left;
+            //height: $mazey-article-list-li-height;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color: #1a1a1a;
+            //font: 14px/31px PingFangSC-Regular,'-apple-system',Simsun;
           }
           span{
-            float: right;
+            //float: right;
+            //height: $mazey-article-list-li-height;
+            text-align: right;
+            white-space: normal;
+            text-overflow: ellipsis;
+            color: #b3b3b3;
+            width: 50px;
+            //font: 12px/32px PingFangSC-Regular,'-apple-system',Simsun;
           }
         }
       }

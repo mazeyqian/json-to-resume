@@ -5,7 +5,9 @@ const state = {
     BannerHeight: 0,
     MoodHotHeight: 0,
     MoodHotWidth: 0,
-    MoodImgHeight: 0
+    MoodImgHeight: 0,
+    ArticleListWidth: 0,
+    ArticleListTitleAWidth: 150
   },
   // 菜单
   MenuActive: {
@@ -53,6 +55,8 @@ const mutations = {
     state.BaseLayout.MoodHotWidth = MoodHotWidth
     state.BaseLayout.MoodImgHeight = state.BaseLayout.BannerHeight - state.BaseLayout.MoodHotHeight - state.BaseLayout.GridGutter
     // console.log(state.BaseLayout)
+    state.BaseLayout.ArticleListWidth = document.querySelector('.article-list').offsetWidth
+    state.BaseLayout.ArticleListTitleAWidth = state.BaseLayout.ArticleListWidth - 28 - 50
   }
 }
 

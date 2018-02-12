@@ -60,7 +60,7 @@
                   <span>{{ index + 1 }}</span>
                 </div>
                 <div class="list-title">
-                  <a href="#">文章标题文章标题文章标题</a>
+                  <a href="#" :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">文章标题文章标题文章标题</a>
                   <span>03/22</span>
                 </div>
               </li>
