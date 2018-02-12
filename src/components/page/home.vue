@@ -52,8 +52,19 @@
         </div>
         <!--文章-->
         <div class="row article">
-          <div class="col-lg-2 article-item" v-for="item in new Array(6)">
+          <div class="col-lg-3 article-item" v-for="item in new Array(4)">
             <h3>JavaScript</h3>
+            <ul class="article-list">
+              <li v-for="(item, index) in new Array(10)">
+                <div class="list-index">
+                  <span>{{ index + 1 }}</span>
+                </div>
+                <div class="list-title">
+                  <a href="#">文章标题文章标题文章标题</a>
+                  <span>03/22</span>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -64,6 +75,11 @@
 <script>
   export default {
     name: 'v-page-home',
+    data () {
+      return {
+        LineCount: 4
+      }
+    },
     mounted () {
       console.log(document.querySelector('#bannerImg-0'))
       let self = this
