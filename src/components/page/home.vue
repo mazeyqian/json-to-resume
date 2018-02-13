@@ -53,7 +53,10 @@
         <!--文章-->
         <div class="row article">
           <div class="col-lg-3 article-item" v-for="item in new Array(4)">
-            <h3>JavaScript</h3>
+            <h3>
+              前端 / JavaScript (233)
+              <a href="#">更多 ></a>
+            </h3>
             <ul class="article-list">
               <li v-for="(item, index) in new Array(10)">
                 <div class="list-index">
