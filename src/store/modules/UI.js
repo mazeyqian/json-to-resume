@@ -56,7 +56,7 @@ const mutations = {
     state.BaseLayout.MoodImgHeight = state.BaseLayout.BannerHeight - state.BaseLayout.MoodHotHeight - state.BaseLayout.GridGutter
     // console.log(state.BaseLayout)
     state.BaseLayout.ArticleListWidth = document.querySelector('.article-list').offsetWidth
-    state.BaseLayout.ArticleListTitleAWidth = state.BaseLayout.ArticleListWidth - 28 - 50
+    state.BaseLayout.ArticleListTitleAWidth = state.BaseLayout.ArticleListWidth - 28 - 50 - 2 // 为了兼容计算误差减2
   }
 }
 

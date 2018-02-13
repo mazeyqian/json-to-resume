@@ -2,27 +2,17 @@
   <section class="container-fluid mazey">
     <v-header></v-header>
     <router-view/>
-    <footer>
-      Footer
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-      <img src="../assets/img/natsume-and-cat-0.gif">
-    </footer>
+    <v-footer></v-footer>
   </section>
 </template>
 
 <script>
   import VHeader from './header.vue'
+  import VFooter from './footer.vue'
 
   export default {
     components: {
+      VFooter,
       VHeader},
     name: 'v-layout'
   }
