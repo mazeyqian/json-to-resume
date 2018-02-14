@@ -1,0 +1,33 @@
+footer.mazey-footer{
+  background-color: darken($mazey-body-bgc, 5%);
+  border-top: 1px solid darken($mazey-body-bgc, 10%);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  //height: 300px;
+  .footer-cat{
+    padding: 9px 32px;
+    border-left: 1px solid darken($mazey-body-bgc, 12%);
+  }
+  >.footer-cat:last-child{
+    border-right: 1px solid darken($mazey-body-bgc, 12%);
+  }
+  .footer-cat-title{
+    font-size: 13px;
+    padding-bottom: 15px;
+    color: lighten($mazey-font-color, 2%);
+  }
+  ul.footer-cat-list{
+    list-style: none;
+    padding-left: 0;
+    >li{
+      width: 50%;
+      float: left;
+      >a{
+        color: lighten($mazey-font-color, 5%);
+        font-size: 13px;
+        height: 30px;
+        display: flex;
+      }
+    }
+  }
+}
