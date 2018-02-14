@@ -30,4 +30,14 @@ footer.mazey-footer{
       }
     }
   }
+  .footer-copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    >span.footer-copyright-text, >a.footer-copyright-gov{
+      font-size: 13px;
+      color: lighten($mazey-font-color, 8%);
+    }
+  }
 }
