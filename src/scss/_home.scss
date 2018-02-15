@@ -121,6 +121,7 @@
       border-bottom: 1px solid $mazey-menu-active;
       display: flex;
       justify-content: space-between;
+      color: $mazey-font-color;
       >a{
         color: #3f5a93;
         font-size: 12px;
@@ -179,7 +180,7 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-            color: #1a1a1a;
+            color: $mazey-font-color; // #1a1a1a;
             //font: 14px/31px PingFangSC-Regular,'-apple-system',Simsun;
           }
           span{
