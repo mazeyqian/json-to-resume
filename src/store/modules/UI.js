@@ -57,6 +57,19 @@ const mutations = {
     // console.log(state.BaseLayout)
     state.BaseLayout.ArticleListWidth = document.querySelector('.article-list').offsetWidth
     state.BaseLayout.ArticleListTitleAWidth = state.BaseLayout.ArticleListWidth - 28 - 50 - 2 // 为了兼容计算误差减2
+    // 兼容吃西瓜的猫
+    // let reset = function () {
+    //   state.BaseLayout.MoodHotHeight = state.BaseLayout.BannerHeight
+    //   document.querySelector('.mood>.hot').style.maxHeight = state.BaseLayout.MoodHotHeight + 'px'
+    // }
+    if (state.BaseLayout.MoodHotHeight >= state.BaseLayout.BannerHeight) {
+      state.BaseLayout.MoodHotHeight = state.BaseLayout.BannerHeight
+      document.querySelector('.mood>.hot').style.maxHeight = state.BaseLayout.MoodHotHeight + 'px'
+    } else if (state.BaseLayout.MoodImgHeight < 100) {
+      state.BaseLayout.MoodHotHeight = state.BaseLayout.BannerHeight
+      document.querySelector('.mood>.hot').style.height = state.BaseLayout.MoodHotHeight + 'px'
+      state.BaseLayout.MoodImgHeight = 0
+    }
   }
 }
 

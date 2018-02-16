@@ -39,7 +39,7 @@
                 </div>
               </div>
             </div>
-            <div class="img" :style="{height: $store.getters.getBaseLayout.MoodImgHeight + 'px'}">
+            <div class="img" :style="{height: $store.getters.getBaseLayout.MoodImgHeight + 'px'}" v-show="$store.getters.getBaseLayout.MoodImgHeight > 0">
               <img :style="{maxWidth: $store.getters.getBaseLayout.MoodHotWidth + 'px'}"
                    :src="$store.getters.getMoodImgElement"/>
             </div>
@@ -52,23 +52,10 @@
         </div>
         <!--文章-->
         <div class="row article">
-          <div class="col-lg-3 article-item" v-for="item in new Array(4)">
-            <h3>
-              前端 / JavaScript (233)
-              <a href="#">更多 ></a>
-            </h3>
-            <ul class="article-list">
-              <li v-for="(item, index) in new Array(10)">
-                <div class="list-index">
-                  <span>{{ index + 1 }}</span>
-                </div>
-                <div class="list-title">
-                  <a href="#" :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">文章标题文章标题文章标题</a>
-                  <span>03/22</span>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <v-page-article-item cat="前端" tag="JavaScript"></v-page-article-item>
+          <v-page-article-item cat="前端" tag="CSS"></v-page-article-item>
+          <v-page-article-item cat="后端" tag="PHP"></v-page-article-item>
+          <v-page-article-item cat="数据库" tag="SQL"></v-page-article-item>
         </div>
       </div>
     </div>
@@ -76,7 +63,10 @@
 </template>
 
 <script>
+  import VPageArticleItem from './article-item.vue'
+
   export default {
+    components: {VPageArticleItem},
     name: 'v-page-home',
     data () {
       return {
@@ -84,11 +74,12 @@
       }
     },
     mounted () {
-      console.log(document.querySelector('#bannerImg-0'))
+//      console.log(document.querySelector('#bannerImg-0'))
       let self = this
       document.querySelector('#bannerImg-0').onload = function () {
         self.$store.commit('initLayout', {
-          BannerHeight: document.querySelector('.banner').offsetHeight,
+//          BannerHeight: document.querySelector('.banner').offsetHeight,
+          BannerHeight: document.querySelector('#bannerImg-0').offsetHeight,
           MoodHotHeight: document.querySelector('.mood>.hot').offsetHeight,
           MoodHotWidth: document.querySelector('.mood>.hot').offsetWidth
         })
