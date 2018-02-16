@@ -12,7 +12,7 @@
     </div>
     <div class="col-lg-12 footer-copyright">
       <span class="footer-copyright-text">
-        Copyright&nbsp;©&nbsp;2017-2018&nbsp;后除&nbsp;-&nbsp;
+        Copyright&nbsp;©&nbsp;2017-{{ new Date().getFullYear() }}&nbsp;后除&nbsp;-&nbsp;
       </span>
       <a href="http://www.miitbeian.gov.cn" target="_blank" class="footer-copyright-gov">苏ICP备16050427号</a>
     </div>
