@@ -222,4 +222,26 @@
       }
     }
   }
+  div.browse-more{
+    >div{
+      display: flex;
+      justify-content: center;
+      padding-top: 24px;
+      >div.browse-more-text{
+        //width: 120px;
+        //height: 40px;
+        padding: 10px 20px;
+        font-size: 15px;
+        @extend %flex-center;
+        color: darken($mazey-white, 10%);
+        background-color: $mazey-menu-active;
+        font-weight: 700;
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover{
+          background-color: darken($mazey-menu-active, 10%);
+        }
+      }
+    }
+  }
 }
