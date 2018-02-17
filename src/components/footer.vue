@@ -1,6 +1,6 @@
 <template>
   <footer class="row mazey-footer">
-    <div class="col-lg-2 footer-cat" v-for="(item, index) in new Array(5)" :class="{'offset-lg-1': index === 0}">
+    <div class="col-lg-2 footer-cat" v-for="(item, index) in new Array(5)" :class="{'offset-lg-1': index === 0, 'footer-cat-last': index === 4}">
       <div class="footer-cat-title">
         关于我们 {{ index }}
       </div>
