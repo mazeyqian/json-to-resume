@@ -9,7 +9,7 @@ import store from './store/index'
 // import 'element-ui/lib/theme-chalk/index.css'
 // import Aplayer from 'vue-aplayer'
 import './assets/main.css'
-import 'jquery'
+import jQuery from 'jquery'
 // import 'bootstrap/js/dist/index'
 // import 'bootstrap/js/dist/util'
 // import 'bootstrap/js/dist/collapse'
@@ -21,6 +21,7 @@ import './assets/icon-font/iconfont.css'
 // import './assets/icon-font/iconfont.js'
 
 Vue.config.productionTip = false
+Vue.prototype.jQuery = jQuery
 
 let Mazey = new Vue({
   el: '#mazey',

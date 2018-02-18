@@ -12,6 +12,7 @@
         <div class="list-title">
           <a :href="article.link"
              target="_blank"
+             data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"
              :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.title }}</a>
           <span>{{ article.date }}</span>
         </div>
@@ -22,6 +23,7 @@
 
 <script>
   import axios from 'axios'
+  import $ from 'jquery'
 
   export default {
     name: 'v-page-article-item',
@@ -34,6 +36,9 @@
     props: ['cat', 'tag'],
     mounted () {
       this.getArticleDetail()
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
     },
     methods: {
       getArticleDetail () {
