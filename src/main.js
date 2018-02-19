@@ -9,11 +9,11 @@ import store from './store/index'
 // import 'element-ui/lib/theme-chalk/index.css'
 // import Aplayer from 'vue-aplayer'
 import './assets/main.css'
-import jQuery from 'jquery'
+import 'jquery'
 // import 'bootstrap/js/dist/index'
 // import 'bootstrap/js/dist/util'
 // import 'bootstrap/js/dist/collapse'
-import 'bootstrap/dist/js/bootstrap.bundle' // TODO: 后期按需引入插件
+import 'bootstrap/dist/js/bootstrap.bundle.min' // TODO: 后期按需引入插件
 // require('bootstrap')
 // Vue.use(ElementUI)
 // 引入字体
@@ -21,7 +21,6 @@ import './assets/icon-font/iconfont.css'
 // import './assets/icon-font/iconfont.js'
 
 Vue.config.productionTip = false
-Vue.prototype.jQuery = jQuery
 
 let Mazey = new Vue({
   el: '#mazey',

@@ -5,14 +5,32 @@
         <div class="row">
           <div class="col-lg-8 banner">
             <!--轮播-->
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="MazeyBannerCarouselTarget" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#MazeyBannerCarouselTarget"
+                    v-for="(item, index) in $store.getters.getBannerElement"
+                    :data-slide-to="index"
+                    :class="{'active': index === 0}"></li>
+              </ol>
               <div class="carousel-inner">
                 <div v-for="(item, index) in $store.getters.getBannerElement" class="carousel-item" :class="{'active': index === 0}">
                   <img class="d-block w-100" :src="item.address"
                        :alt="item.title"
                        :id="'bannerImg-' + index">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.paragraph }}</p>
+                  </div>
                 </div>
               </div>
+              <a class="carousel-control-prev" href="#MazeyBannerCarouselTarget" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#MazeyBannerCarouselTarget" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 mood">

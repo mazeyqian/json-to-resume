@@ -18,14 +18,17 @@ const state = {
   BannerElement: [
     {
       title: '夏目友人帐',
+      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: '/static/img/banner/0.jpg'
     },
     {
       title: '夏目友人帐',
+      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: '/static/img/banner/1.jpg'
     },
     {
       title: '夏目友人帐',
+      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: '/static/img/banner/2.jpg'
     }
   ],

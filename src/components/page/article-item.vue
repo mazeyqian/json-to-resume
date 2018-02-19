@@ -12,7 +12,9 @@
         <div class="list-title">
           <a :href="article.link"
              target="_blank"
-             data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             :title="article.title"
              :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.title }}</a>
           <span>{{ article.date }}</span>
         </div>
