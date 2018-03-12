@@ -19,17 +19,17 @@ const state = {
     {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/0.jpg'
+      address: '/static/img/banner/00.jpg'
     },
     {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/1.jpg'
+      address: '/static/img/banner/01.jpg'
     },
     {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/2.jpg'
+      address: '/static/img/banner/02.jpg'
     }
   ],
   MoodImgElement: '/static/img/mood/img/0.jpg'
