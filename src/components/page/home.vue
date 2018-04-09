@@ -108,6 +108,8 @@
           MoodHotWidth: document.querySelector('.mood>.hot').offsetWidth
         })
       }
+      // 动态加载轮播
+      self.$store.dispatch('fetchAllBanner', 1)
     }
   }
 </script>

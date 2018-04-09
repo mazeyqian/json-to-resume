@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 const state = {
   // 基本布局
   BaseLayout: {
@@ -20,17 +22,18 @@ const state = {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: '/static/img/banner/00.jpg'
-    },
-    {
-      title: '夏目友人帐',
-      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/01.jpg'
-    },
-    {
-      title: '夏目友人帐',
-      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/02.jpg'
     }
+    // ,
+    // {
+    //   title: '夏目友人帐',
+    //   paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
+    //   address: '/static/img/banner/01.jpg'
+    // },
+    // {
+    //   title: '夏目友人帐',
+    //   paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
+    //   address: '/static/img/banner/02.jpg'
+    // }
   ],
   MoodImgElement: '/static/img/mood/img/0.jpg'
 }
@@ -42,7 +45,21 @@ const getters = {
   getMoodImgElement: state => state.MoodImgElement
 }
 
-const actions = {}
+const actions = {
+  fetchAllBanner ({state, commit}, num) {
+    axios.get(`static/img/banner/${num}.json`)
+      .then(
+        res => {
+          let [data] = [res.data]
+          let ret = data.ret
+          if (parseInt(ret, 10) === 1) {
+            let [index, base64] = [parseInt(data.data.index, 10), data.data.base64]
+            commit('updateBannerElement', {index, base64})
+          }
+        }
+      )
+  }
+}
 
 const mutations = {
   tabMenu (state, menuName) {
@@ -72,6 +89,13 @@ const mutations = {
       state.BaseLayout.MoodHotHeight = state.BaseLayout.BannerHeight
       document.querySelector('.mood>.hot').style.height = state.BaseLayout.MoodHotHeight + 'px'
       state.BaseLayout.MoodImgHeight = 0
+    }
+  },
+  updateBannerElement (state, {index, base64}) {
+    state.BannerElement[index] = {
+      title: '夏目友人帐1',
+      paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了1',
+      address: base64
     }
   }
 }
