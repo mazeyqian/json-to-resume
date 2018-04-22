@@ -52,20 +52,17 @@ const actions = {
       .then(
         res => {
           let data = res.data
-          console.log(data, data.data.index)
+          // console.log(data, data.data.index)
           let ret = data.ret
           if (parseInt(ret, 10) === 1) {
-            let [index, base64] = [parseInt(data.data.index, 10), data.data.base64]
-            commit('updateBannerElement', {index, base64})
+            let [index, base64, title, paragraph] = [num, data.data.address, data.data.title, data.data.paragraph]
+            commit('updateBannerElement', {index, base64, title, paragraph})
             dispatch('fetchAllBanner', ++num)
           }
         }
       )
       .catch(
-        err => {
-          console.log(err, 123)
-          console.log(state.BannerElement)
-        }
+        () => {}
       )
   }
 }
@@ -100,13 +97,13 @@ const mutations = {
       state.BaseLayout.MoodImgHeight = 0
     }
   },
-  updateBannerElement (state, {index, base64}) {
+  updateBannerElement (state, {index, base64, title, paragraph}) {
     Vue.set(
       state.BannerElement,
       index,
       {
-        title: '夏目友人帐 + ' + index,
-        paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了 + ' + index,
+        title: title,
+        paragraph: paragraph,
         address: base64
       }
     )
@@ -115,7 +112,7 @@ const mutations = {
     //   paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了 + ' + index,
     //   address: base64
     // }
-    console.log(state.BannerElement)
+    // console.log(state.BannerElement)
   }
 }
 
