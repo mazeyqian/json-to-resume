@@ -52,7 +52,7 @@
         })
           .then(
             ({data}) => {
-              console.log(data)
+//              console.log(data)
               if (data.ret === 1) {
                 let dataData = data.data
                 this.num = dataData.num
