@@ -18,11 +18,12 @@ const state = {
     link: false,
     subMenu: false
   },
+  MaxBannerCount: 3,
   BannerElement: [
     {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/00.jpg'
+      address: '/static/img/banner/banner0.jpg'
     }
     // ,
     // {
@@ -48,17 +49,32 @@ const getters = {
 
 const actions = {
   fetchAllBanner ({state, commit, dispatch}, num) {
-    axios.get(`static/img/banner/${num}.json`)
+    // 检测banner数量
+    if (num >= state.MaxBannerCount) {
+      return
+    }
+    // g
+    const DEAL_DATA = function (data) {
+      let ret = data.ret
+      if (parseInt(ret, 10) === 1) {
+        let [index, base64, title, paragraph] = [num, data.data.address, data.data.title, data.data.paragraph]
+        commit('updateBannerElement', {index, base64, title, paragraph})
+        dispatch('fetchAllBanner', ++num)
+      }
+    }
+    // 判断ls里有无缓存
+    const LS_IMG = localStorage.getItem(`banner${num}`)
+    if (LS_IMG) {
+      let data = JSON.parse(LS_IMG)
+      DEAL_DATA(data)
+      return
+    }
+    axios.get(`static/img/banner/banner${num}.json`)
       .then(
         res => {
           let data = res.data
-          // console.log(data, data.data.index)
-          let ret = data.ret
-          if (parseInt(ret, 10) === 1) {
-            let [index, base64, title, paragraph] = [num, data.data.address, data.data.title, data.data.paragraph]
-            commit('updateBannerElement', {index, base64, title, paragraph})
-            dispatch('fetchAllBanner', ++num)
-          }
+          localStorage.setItem(`banner${num}`, JSON.stringify(data))
+          DEAL_DATA(data)
         }
       )
       .catch(
