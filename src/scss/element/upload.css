@@ -1,0 +1,45 @@
+/*
+Error: Invalid GBK character "\xE7"
+        on line 29 of upload.scss
+
+24:     left: 0;
+25:     opacity: 0;
+26:     filter: alpha(opacity=0);
+27:   }
+28: 
+29:   /* 照片墙模式 *\/
+30:   @include m(picture-card) {
+31:     background-color: #fbfdff;
+32:     border: 1px dashed #c0ccda;
+33:     border-radius: 6px;
+34:     box-sizing: border-box;
+
+Backtrace:
+upload.scss:29
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:1048:in `rescue in block in find_encoding_error'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:1045:in `block in find_encoding_error'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `each'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `each_with_index'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:1044:in `find_encoding_error'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/util.rb:772:in `check_sass_encoding'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:444:in `check_encoding!'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:400:in `_to_tree'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/scss:13:in `<top (required)>'
+C:/Software/Ruby24-x64/bin/scss:22:in `load'
+C:/Software/Ruby24-x64/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE7\"\A         on line 29 of upload.scss\A \A 24:     left: 0;\A 25:     opacity: 0;\A 26:     filter: alpha(opacity=0);\A 27:   }\A 28: \A 29:   /* 照片墙模式 */\A 30:   @include m(picture-card) {\A 31:     background-color: #fbfdff;\A 32:     border: 1px dashed #c0ccda;\A 33:     border-radius: 6px;\A 34:     box-sizing: border-box;"; }
