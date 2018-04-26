@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd8c8ee6-2cf7-4818-bf80-12bef8558773" name="Default" comment="290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/server/hello.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/banner/00.jpg" afterPath="$PROJECT_DIR$/static/img/banner/banner0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/banner/1.json" afterPath="$PROJECT_DIR$/static/img/banner/banner1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/banner/2.json" afterPath="$PROJECT_DIR$/static/img/banner/banner2.json" />
+    <list default="true" id="bd8c8ee6-2cf7-4818-bf80-12bef8558773" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/banner/banner0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/banner/banner1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/banner/banner2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.a2a4685d8acff1774f1d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/manifest.2cbd20fe4c7ecac3d690.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/vendor.9b1cbfca58a1e0a54cbd.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/banner/00.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/banner/1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/banner/2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.e044f2d917f4a5c80ea7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.8c4ce27a85c170e23865.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.33fbd31a7eae07af0026.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.e044f2d917f4a5c80ea7.js" afterPath="$PROJECT_DIR$/dist/static/js/app.e044f2d917f4a5c80ea7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/layout.vue" afterPath="$PROJECT_DIR$/src/components/layout.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/modules/UI.js" afterPath="$PROJECT_DIR$/src/store/modules/UI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/store/modules/UI.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#2062#2246#0" expanded="false" />
@@ -41,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/page/home.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+              <caret line="110" column="15" lean-forward="false" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#template#0;n#!!top" expanded="false" />
               </folding>
@@ -75,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -357,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -406,7 +412,7 @@
       <workItem from="1523287097785" duration="4009000" />
       <workItem from="1524405191667" duration="69000" />
       <workItem from="1524405373658" duration="6884000" />
-      <workItem from="1524757020376" duration="3073000" />
+      <workItem from="1524757020376" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1516893248814</created>
@@ -720,18 +726,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154911000" />
+    <option name="totallyTimeSpent" value="155377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15539113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27828056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28280544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28280544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -795,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="热门文章完成，调整banner尺寸。" />
     <MESSAGE value="调整小图片尺寸，放个可以缩放的图片，谷歌浏览器计算有问题，定时器解决？" />
     <MESSAGE value="用onload判断加载后在计算高度，让小图缩放在框框内，后续根据尺寸隐藏小图。" />
     <MESSAGE value="轮播和文章分隔符，思考文章的格式，想分成几个重复的模块，可是没有参考样式，很多都是带图片的。" />
@@ -820,7 +824,8 @@
     <MESSAGE value="用get异步获取轮播第二个图片，需改成递归轮询依次获取剩余的图片直到返回404错误&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- banner 第一个直接获取，之后用异步base64&#10;- 页面加载的时候固定body尺寸" />
     <MESSAGE value="banner 第一个直接获取，之后用异步base64&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
     <MESSAGE value="修改banner json格式，将文字加入。&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改banner json格式，将文字加入。&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
+    <MESSAGE value="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,7 +1149,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1180,7 +1185,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/page/home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+          <caret line="110" column="15" lean-forward="false" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#template#0;n#!!top" expanded="false" />
           </folding>
@@ -1190,7 +1195,7 @@
     <entry file="file://$PROJECT_DIR$/src/store/modules/UI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#2062#2246#0" expanded="false" />
