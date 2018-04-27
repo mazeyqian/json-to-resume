@@ -18,9 +18,9 @@
     created () {
       // 检测ls版本
       let MazeyVersion = localStorage.getItem('MazeyVersion')
-      if (!(Boolean(MazeyVersion) && parseInt(MazeyVersion, 10) === 2)) {
+      if (!(Boolean(MazeyVersion) && parseFloat(MazeyVersion) === this.$store.getters.getMazeyVersion)) {
         localStorage.clear()
-        localStorage.setItem('MazeyVersion', '2')
+        localStorage.setItem('MazeyVersion', this.$store.getters.getMazeyVersion.toString())
       }
     }
   }

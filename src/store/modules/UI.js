@@ -2,6 +2,8 @@ import axios from 'axios'
 import Vue from 'vue'
 
 const state = {
+  // 版本
+  MazeyVersion: 2018.0427,
   // 基本布局
   BaseLayout: {
     GridGutter: 20,
@@ -25,22 +27,12 @@ const state = {
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: '/static/img/banner/banner0.jpg'
     }
-    // ,
-    // {
-    //   title: '夏目友人帐',
-    //   paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-    //   address: '/static/img/banner/01.jpg'
-    // },
-    // {
-    //   title: '夏目友人帐',
-    //   paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-    //   address: '/static/img/banner/02.jpg'
-    // }
   ],
   MoodImgElement: '/static/img/mood/img/0.jpg'
 }
 
 const getters = {
+  getMazeyVersion: state => state.MazeyVersion,
   getMenuActive: state => state.MenuActive,
   getBannerElement: state => state.BannerElement,
   getBaseLayout: state => state.BaseLayout,
