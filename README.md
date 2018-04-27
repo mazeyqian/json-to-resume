@@ -4,9 +4,12 @@
 
 ## 主题
 
-- 色系：粉蓝色
+- 色系：#847B76
 - 动物：猫咪三三
 
+## 技术栈
+
+ES5+, localStorage
 
 ## Build Setup
 

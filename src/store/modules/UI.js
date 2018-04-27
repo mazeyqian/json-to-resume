@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 const state = {
   // 版本
-  MazeyVersion: 2018.0427,
+  MazeyVersion: 2018.04271132,
   // 基本布局
   BaseLayout: {
     GridGutter: 20,
@@ -25,7 +25,7 @@ const state = {
     {
       title: '夏目友人帐',
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
-      address: '/static/img/banner/banner0.jpg'
+      address: localStorage.getItem('banner0') || '/static/img/banner/banner0.jpg'
     }
   ],
   MoodImgElement: '/static/img/mood/img/0.jpg'
@@ -44,6 +44,16 @@ const actions = {
     // 检测banner数量
     if (num >= state.MaxBannerCount) {
       return
+    }
+    // 缓存第一个banner
+    if (num === 1 && !(localStorage.getItem('banner0'))) {
+      axios.get('static/img/banner/banner0.txt')
+        .then(
+          res => {
+            // console.log(res, res.data)
+            localStorage.setItem('banner0', res.data)
+          }
+        )
     }
     // g
     const DEAL_DATA = function (data) {
