@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd8c8ee6-2cf7-4818-bf80-12bef8558773" name="Default" comment="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载">
+    <list default="true" id="bd8c8ee6-2cf7-4818-bf80-12bef8558773" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
               <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,11 +154,11 @@
         <option value="$PROJECT_DIR$/src/components/page/home.vue" />
         <option value="$PROJECT_DIR$/static/img/banner/1.json" />
         <option value="$PROJECT_DIR$/static/img/banner/2.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dist/server/hello.js" />
         <option value="$PROJECT_DIR$/src/components/layout.vue" />
         <option value="$PROJECT_DIR$/src/store/modules/UI.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -201,85 +211,6 @@
             <path>
               <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,7 +307,7 @@
       <workItem from="1524405373658" duration="6884000" />
       <workItem from="1524757020376" duration="3788000" />
       <workItem from="1524932702207" duration="715000" />
-      <workItem from="1525080361878" duration="421000" />
+      <workItem from="1525080361878" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1516893248814</created>
@@ -693,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524761116752</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="修改title&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸">
+      <created>1525080816168</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1525080816168</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156762000" />
+    <option name="totallyTimeSpent" value="157126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -706,10 +644,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15539113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27828056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27828056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28280544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -772,7 +710,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整小图片尺寸，放个可以缩放的图片，谷歌浏览器计算有问题，定时器解决？" />
     <MESSAGE value="用onload判断加载后在计算高度，让小图缩放在框框内，后续根据尺寸隐藏小图。" />
     <MESSAGE value="轮播和文章分隔符，思考文章的格式，想分成几个重复的模块，可是没有参考样式，很多都是带图片的。" />
     <MESSAGE value="文章六个分类吧。" />
@@ -797,7 +734,8 @@
     <MESSAGE value="banner 第一个直接获取，之后用异步base64&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
     <MESSAGE value="修改banner json格式，将文字加入。&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
     <MESSAGE value="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载" />
+    <MESSAGE value="修改title&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改title&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/server/hello.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1156,6 +1087,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
