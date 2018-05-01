@@ -5,7 +5,7 @@
         <span>{{ title }} / {{ text || cat }}</span>
         <span> ({{ num }})</span>
       </span>
-      <a :href="`http://blog.mazey.net/category/${slug}`" target="_blank">更多 ></a>
+      <a :href="`${$store.getters.getDomains.blog}/category/${slug}`" target="_blank">更多 ></a>
     </h3>
     <ul class="article-list">
       <li v-for="(article, index) in articles">
@@ -13,7 +13,7 @@
           <span>{{ index + 1 }}</span>
         </div>
         <div class="list-title">
-          <a :href="`http://blog.mazey.net/${article.id}.html`"
+          <a :href="`${$store.getters.getDomains.blog}/${article.id}.html`"
              target="_blank"
              data-toggle="tooltip"
              data-placement="bottom"
@@ -36,7 +36,7 @@
       return {
         num: 0,
         articles: [],
-        slug: 'http://blog.mazey.net'
+        slug: 'javascript'
       }
     },
     props: ['title', 'cat', 'text'],
@@ -63,7 +63,7 @@
 //            return ret
 //          }]
 //        })
-        axios.get('http://mazey.cn/server', {
+        axios.get(`${this.$store.getters.getDomains.main}/server`, {
           params: {
             cat: this.cat
           }

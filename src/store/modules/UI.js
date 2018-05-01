@@ -4,6 +4,10 @@ import Vue from 'vue'
 const state = {
   // 版本
   MazeyVersion: 2018.04271132,
+  Domains: {
+    main: 'http://mazey.cn',
+    blog: 'http://blog.mazey.net'
+  },
   // 基本布局
   BaseLayout: {
     GridGutter: 20,
@@ -36,7 +40,8 @@ const getters = {
   getMenuActive: state => state.MenuActive,
   getBannerElement: state => state.BannerElement,
   getBaseLayout: state => state.BaseLayout,
-  getMoodImgElement: state => state.MoodImgElement
+  getMoodImgElement: state => state.MoodImgElement,
+  getDomains: state => state.Domains
 }
 
 const actions = {
