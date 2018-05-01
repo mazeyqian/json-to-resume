@@ -1,7 +1,10 @@
 <template>
   <div class="col-lg-3 article-item">
     <h3>
-      {{ title }} / {{ text || cat }} ({{ num }})
+      <span>
+        <span>{{ title }} / {{ text || cat }}</span>
+        <span> ({{ num }})</span>
+      </span>
       <a :href="`http://blog.mazey.net/category/${slug}`" target="_blank">更多 ></a>
     </h3>
     <ul class="article-list">
@@ -37,6 +40,10 @@
       }
     },
     props: ['title', 'cat', 'text'],
+    created () {
+//      this.rndNum = this.genRndNum(10)
+//      console.log(this.rndNum)
+    },
     mounted () {
       this.getArticleDetail()
     },
@@ -74,7 +81,11 @@
                 this.articles = dataData.posts
                 this.slug = dataData.slug
                 $(function () {
-                  $('[data-toggle="tooltip"]').tooltip()
+//                  console.log($(`[data-toggle="tooltip"]`).length)
+                  if ($('[data-toggle="tooltip"]').length > 30) {
+//                    console.log('go')
+                    $('[data-toggle="tooltip"]').tooltip()
+                  }
                 })
               }
             }
@@ -89,7 +100,14 @@
         let d = new Date(str)
         let day = d.getDate().toString().length === 1 ? `0${d.getDate().toString()}` : d.getDate().toString()
         let month = (d.getMonth() + 1).toString().length === 1 ? `0${(d.getMonth() + 1).toString()}` : (d.getMonth() + 1).toString()
-        return `${day}/${month}`
+        return `${month}/${day}`
+      },
+      genRndNum (n) {
+        let rndNum = ''
+        for (let i = 0; i < n; ++i) {
+          rndNum += Math.floor(Math.random() * 10)
+        }
+        return rndNum
       }
     }
   }
