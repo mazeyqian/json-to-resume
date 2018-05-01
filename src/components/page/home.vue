@@ -72,8 +72,8 @@
         <div class="row article">
           <v-page-article-item title="前端" cat="JavaScript"></v-page-article-item>
           <v-page-article-item title="前端" cat="UI"></v-page-article-item>
-          <v-page-article-item title="后端" cat="后端"></v-page-article-item>
-          <v-page-article-item title="读书" cat="读书"></v-page-article-item>
+          <v-page-article-item title="后端" cat="后端" text="PHP, NodeJS..."></v-page-article-item>
+          <v-page-article-item title="读书" cat="读书" text="互联网, 小说..."></v-page-article-item>
         </div>
         <!--浏览更多-->
         <div class="row browse-more">

@@ -1,8 +1,8 @@
 <template>
   <div class="col-lg-3 article-item">
     <h3>
-      {{ title }} / {{ cat }} ({{ num }})
-      <a href="#">更多 ></a>
+      {{ title }} / {{ text || cat }} ({{ num }})
+      <a :href="`http://blog.mazey.net/category/${slug}`" target="_blank">更多 ></a>
     </h3>
     <ul class="article-list">
       <li v-for="(article, index) in articles">
@@ -10,13 +10,13 @@
           <span>{{ index + 1 }}</span>
         </div>
         <div class="list-title">
-          <a :href="article.id"
+          <a :href="`http://blog.mazey.net/${article.id}.html`"
              target="_blank"
              data-toggle="tooltip"
              data-placement="bottom"
              :title="article.postTitle"
              :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
-          <span>{{ article.postDate }}</span>
+          <span>{{ formatDate(article.postDate) }}</span>
         </div>
       </li>
     </ul>
@@ -32,18 +32,30 @@
     data () {
       return {
         num: 0,
-        articles: []
+        articles: [],
+        slug: 'http://blog.mazey.net'
       }
     },
     props: ['title', 'cat', 'text'],
     mounted () {
       this.getArticleDetail()
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
     },
     methods: {
       getArticleDetail () {
+//        axios({
+//          method: 'post',
+//          url: 'http://mazey.cn/server',
+//          data: {
+//            cat: this.cat
+//          },
+//          transformRequest: [function (data) {
+//            let ret = ''
+//            for (let it in data) {
+//              ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
+//            }
+//            return ret
+//          }]
+//        })
         axios.get('http://mazey.cn/server', {
           params: {
             cat: this.cat
@@ -52,10 +64,18 @@
           .then(
             ({data}) => {
 //              console.log(data)
+              let dataData = data.data
               if (data.ret === 1) {
-                let dataData = data.data
+                if (dataData.queryCat !== this.cat) {
+                  this.getArticleDetail()
+                  return
+                }
                 this.num = dataData.postCount
                 this.articles = dataData.posts
+                this.slug = dataData.slug
+                $(function () {
+                  $('[data-toggle="tooltip"]').tooltip()
+                })
               }
             }
           )
@@ -64,6 +84,12 @@
               console.log(err)
             }
           )
+      },
+      formatDate (str) {
+        let d = new Date(str)
+        let day = d.getDate().toString().length === 1 ? `0${d.getDate().toString()}` : d.getDate().toString()
+        let month = (d.getMonth() + 1).toString().length === 1 ? `0${(d.getMonth() + 1).toString()}` : (d.getMonth() + 1).toString()
+        return `${day}/${month}`
       }
     }
   }
