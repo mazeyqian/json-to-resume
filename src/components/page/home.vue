@@ -70,10 +70,10 @@
         </div>
         <!--文章-->
         <div class="row article">
-          <v-page-article-item cat="前端" tag="JavaScript"></v-page-article-item>
-          <v-page-article-item cat="前端" tag="CSS"></v-page-article-item>
-          <v-page-article-item cat="后端" tag="PHP"></v-page-article-item>
-          <v-page-article-item cat="数据库" tag="SQL"></v-page-article-item>
+          <v-page-article-item title="前端" cat="JavaScript"></v-page-article-item>
+          <v-page-article-item title="前端" cat="UI"></v-page-article-item>
+          <v-page-article-item title="后端" cat="后端"></v-page-article-item>
+          <v-page-article-item title="读书" cat="读书"></v-page-article-item>
         </div>
         <!--浏览更多-->
         <div class="row browse-more">

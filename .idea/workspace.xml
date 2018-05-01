@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8c8ee6-2cf7-4818-bf80-12bef8558773" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/server/hello.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.ebecba94f963d9cecb1ca78554c11226.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/0.83a16efa34874d2d1281.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.6f9c93b20d7453e513cf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/manifest.fc0a880ef9400a2ff328.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/vendor.dcd5fba68ecfa32a6a21.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/page/article-item.vue" afterPath="$PROJECT_DIR$/src/components/page/article-item.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/page/home.vue" afterPath="$PROJECT_DIR$/src/components/page/home.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,6 +37,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="article-item.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/page/article-item.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/page/home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#template#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/data/article/item.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -150,8 +190,6 @@
         <option value="$PROJECT_DIR$/src/components/page/back-to-top.vue" />
         <option value="$PROJECT_DIR$/static/img/banner/01.json" />
         <option value="$PROJECT_DIR$/static/img/banner/02.json" />
-        <option value="$PROJECT_DIR$/src/components/page/article-item.vue" />
-        <option value="$PROJECT_DIR$/src/components/page/home.vue" />
         <option value="$PROJECT_DIR$/static/img/banner/1.json" />
         <option value="$PROJECT_DIR$/static/img/banner/2.json" />
         <option value="$PROJECT_DIR$/dist/server/hello.js" />
@@ -159,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/store/modules/UI.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/page/article-item.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/home.vue" />
       </list>
     </option>
   </component>
@@ -212,6 +252,42 @@
               <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog.mazey.net" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog.mazey.net" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -307,7 +383,7 @@
       <workItem from="1524405373658" duration="6884000" />
       <workItem from="1524757020376" duration="3788000" />
       <workItem from="1524932702207" duration="715000" />
-      <workItem from="1525080361878" duration="785000" />
+      <workItem from="1525080361878" duration="5550000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1516893248814</created>
@@ -631,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525080816168</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="更新 .gitignore&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸">
+      <created>1525081177028</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1525081177028</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157126000" />
+    <option name="totallyTimeSpent" value="161891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -644,8 +727,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15539113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27828056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28280544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27828056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28280544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -710,7 +793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用onload判断加载后在计算高度，让小图缩放在框框内，后续根据尺寸隐藏小图。" />
     <MESSAGE value="轮播和文章分隔符，思考文章的格式，想分成几个重复的模块，可是没有参考样式，很多都是带图片的。" />
     <MESSAGE value="文章六个分类吧。" />
     <MESSAGE value="暂定四个分类一排，索引大体确定。" />
@@ -735,7 +817,8 @@
     <MESSAGE value="修改banner json格式，将文字加入。&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
     <MESSAGE value="build 290k&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸&#10;- 路由懒加载" />
     <MESSAGE value="修改title&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改title&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
+    <MESSAGE value="更新 .gitignore&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 .gitignore&#10;&#10;未完成：&#10;- 布局 前端 / js 前端 / css 后端 / php 数据库 / sql&#10;- 页面加载的时候固定body尺寸" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -927,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/article/item.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_variate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1009,14 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/page/article-item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/banner/banner2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1045,15 +1113,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/page/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="110" column="15" lean-forward="false" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#161#195#0" expanded="false" />
+            <marker date="1524838013556" expanded="true" signature="251:664" ph="{&quot;name&quot;: 'v-layout'...}" />
+            <marker date="1524838013556" expanded="true" signature="339:660" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1062,16 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/modules/UI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,6 +1148,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/modules/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/article/item.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/page/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/page/article-item.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
           <folding />
         </state>
       </provider>

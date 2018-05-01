@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-3 article-item">
     <h3>
-      {{ cat }} / {{ tag }} ({{ num }})
+      {{ title }} / {{ cat }} ({{ num }})
       <a href="#">更多 ></a>
     </h3>
     <ul class="article-list">
@@ -10,13 +10,13 @@
           <span>{{ index + 1 }}</span>
         </div>
         <div class="list-title">
-          <a :href="article.link"
+          <a :href="article.id"
              target="_blank"
              data-toggle="tooltip"
              data-placement="bottom"
-             :title="article.title"
-             :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.title }}</a>
-          <span>{{ article.date }}</span>
+             :title="article.postTitle"
+             :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
+          <span>{{ article.postDate }}</span>
         </div>
       </li>
     </ul>
@@ -35,7 +35,7 @@
         articles: []
       }
     },
-    props: ['cat', 'tag'],
+    props: ['title', 'cat', 'text'],
     mounted () {
       this.getArticleDetail()
       $(function () {
@@ -44,10 +44,9 @@
     },
     methods: {
       getArticleDetail () {
-        axios.get('/static/data/article/item.json', {
+        axios.get('http://mazey.cn/server', {
           params: {
-            cat: this.cat,
-            tag: this.tag
+            cat: this.cat
           }
         })
           .then(
@@ -55,8 +54,8 @@
 //              console.log(data)
               if (data.ret === 1) {
                 let dataData = data.data
-                this.num = dataData.num
-                this.articles = dataData.list
+                this.num = dataData.postCount
+                this.articles = dataData.posts
               }
             }
           )
