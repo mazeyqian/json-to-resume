@@ -11,6 +11,10 @@
 
 ES5+, localStorage
 
+## Bug
+
+Server返回空继续请求，请求计数最多10次？
+
 ## Build Setup
 
 ``` bash
