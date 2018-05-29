@@ -43,7 +43,7 @@
 
 <script>
   export default {
-    name: 'v-header',
+    name: 'm-header',
     data () {
       return {
         searchStatus: false

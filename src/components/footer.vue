@@ -26,6 +26,6 @@
 
   export default {
     components: {VPageBackToTop},
-    name: 'v-footer'
+    name: 'm-footer'
   }
 </script>

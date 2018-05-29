@@ -1,19 +1,19 @@
 <template>
   <section class="container-fluid mazey">
-    <v-header></v-header>
+    <m-header></m-header>
     <router-view/>
-    <v-footer></v-footer>
+    <m-footer></m-footer>
   </section>
 </template>
 
 <script>
-  import VHeader from './header.vue'
-  import VFooter from './footer.vue'
+  import MHeader from './header.vue'
+  import MFooter from './footer.vue'
 
   export default {
     components: {
-      VFooter,
-      VHeader},
+      MFooter,
+      MHeader},
     name: 'v-layout',
     created () {
       // 检测ls版本
