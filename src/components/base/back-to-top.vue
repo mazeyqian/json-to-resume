@@ -1,19 +1,3 @@
-<style>
-  #toTop {
-    display: none;
-    text-decoration: none;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    overflow: hidden;
-    width: 48px;
-    height: 48px;
-    border: none;
-    text-indent: 100%;
-    background: url(/static/img/back-to-top/top_move.png) no-repeat 0px 0px;
-  }
-</style>
-
 <template>
   <a href="javascript:void(0);" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </template>
@@ -22,7 +6,7 @@
   import $ from 'jquery'
 
   export default {
-    name: 'v-page-back-to-top',
+    name: 'm-back-to-top',
     created () {
       // move-top
       (function ($) {
@@ -268,3 +252,19 @@
     }
   }
 </script>
+
+<style>
+  #toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url(/static/img/back-to-top/top_move.png) no-repeat 0px 0px;
+  }
+</style>

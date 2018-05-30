@@ -17,15 +17,15 @@
       <a href="http://www.miitbeian.gov.cn" target="_blank" class="footer-copyright-gov">苏ICP备16050427号</a>
     </div>
     <!--回到顶部-->
-    <v-page-back-to-top></v-page-back-to-top>
+    <m-back-to-top></m-back-to-top>
   </footer>
 </template>
 
 <script>
-  import VPageBackToTop from './page/back-to-top.vue'
+  import MBackToTop from './base/back-to-top.vue'
 
   export default {
-    components: {VPageBackToTop},
+    components: {MBackToTop},
     name: 'm-footer'
   }
 </script>
