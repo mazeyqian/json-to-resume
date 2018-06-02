@@ -8,7 +8,8 @@
       <a :href="`${$store.getters.getDomains.blog}/category/${slug}`" target="_blank">更多 ></a>
     </h3>
     <ul class="article-list">
-      <li v-for="(article, index) in articles">
+      <li v-for="(article, index) in articles"
+      :key="article.id">
         <div class="list-index">
           <span>{{ index + 1 }}</span>
         </div>
@@ -36,33 +37,24 @@
       return {
         num: 0,
         articles: [],
-        slug: 'javascript'
+        slug: 'javascript',
+        queryCount: 10
       }
     },
     props: ['title', 'cat', 'text'],
     created () {
-//      this.rndNum = this.genRndNum(10)
-//      console.log(this.rndNum)
+      let count = 10
+      while (count--) {
+        this.articles.push(
+          {id: count, postTitle: `${this.text || this.cat} 加载中...`, postDate: new Date()}
+        )
+      }
     },
     mounted () {
       this.getArticleDetail()
     },
     methods: {
       getArticleDetail () {
-//        axios({
-//          method: 'post',
-//          url: 'http://mazey.cn/server',
-//          data: {
-//            cat: this.cat
-//          },
-//          transformRequest: [function (data) {
-//            let ret = ''
-//            for (let it in data) {
-//              ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
-//            }
-//            return ret
-//          }]
-//        })
         axios.get(`${this.$store.getters.getDomains.main}/server`, {
           params: {
             cat: this.cat
@@ -70,10 +62,9 @@
         })
           .then(
             ({data}) => {
-//              console.log(data)
               let dataData = data.data
               if (data.ret === 1) {
-                if (dataData.queryCat !== this.cat) {
+                if (dataData.queryCat !== this.cat && this.queryCount) {
                   this.getArticleDetail()
                   return
                 }
@@ -81,13 +72,12 @@
                 this.articles = dataData.posts
                 this.slug = dataData.slug
                 $(function () {
-//                  console.log($(`[data-toggle="tooltip"]`).length)
                   if ($('[data-toggle="tooltip"]').length > 30) {
-//                    console.log('go')
                     $('[data-toggle="tooltip"]').tooltip()
                   }
                 })
               }
+              this.queryCount--
             }
           )
           .catch(
@@ -98,8 +88,9 @@
       },
       formatDate (str) {
         let d = new Date(str)
-        let day = d.getDate().toString().length === 1 ? `0${d.getDate().toString()}` : d.getDate().toString()
-        let month = (d.getMonth() + 1).toString().length === 1 ? `0${(d.getMonth() + 1).toString()}` : (d.getMonth() + 1).toString()
+        let [day, month] = [d.getDate().toString(), (d.getMonth() + 1).toString()]
+        day = day.length === 1 ? `0${day}` : day
+        month = month.length === 1 ? `0${month}` : month
         return `${month}/${day}`
       },
       genRndNum (n) {
