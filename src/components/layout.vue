@@ -14,7 +14,7 @@
     components: {
       MFooter,
       MHeader},
-    name: 'v-layout',
+    name: 'm-layout',
     created () {
       // 检测ls版本
       let MazeyVersion = localStorage.getItem('MazeyVersion')

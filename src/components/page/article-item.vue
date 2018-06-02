@@ -31,7 +31,7 @@
   import $ from 'jquery'
 
   export default {
-    name: 'v-page-article-item',
+    name: 'm-page-article-item',
     data () {
       return {
         num: 0,
