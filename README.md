@@ -9,15 +9,15 @@
 
 ## 技术栈
 
-ES5+, localStorage
+Vue2, ES5+, localStorage
 
 ## Bug
 
-- Server返回空继续请求，请求计数最多10次？
 - Node短时间内不同GET返回相同结果。
 
 ## 需求
 
+- 底部链接 JSON 动态获取。
 - 页面加载的时候固定body尺寸。
 
 ## 完善

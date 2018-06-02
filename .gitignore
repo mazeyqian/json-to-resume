@@ -1,4 +1,5 @@
 server/
+mazey-ui/
 
 .DS_Store
 node_modules/
