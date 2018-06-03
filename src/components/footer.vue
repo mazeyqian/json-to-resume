@@ -1,15 +1,17 @@
 <template>
   <footer class="row mazey-footer">
-    <div class="col-lg-2 footer-cat" v-for="(item, index) in new Array(5)" :class="{'offset-lg-1': index === 0, 'footer-cat-last': index === 4}">
-      <div class="footer-cat-title">
-        关于我们 {{ index }}
-      </div>
-      <ul class="footer-cat-list">
-        <li v-for="(item, index) in new Array(8)">
-          <a href="#">关于我们</a>
-        </li>
-      </ul>
-    </div>
+    <!--<div class="col-lg-2 footer-cat" v-for="(item, index) in new Array(5)" :class="{'offset-lg-1': index === 0, 'footer-cat-last': index === 4}">-->
+      <!--<div class="footer-cat-title">-->
+        <!--关于我们 {{ index }}-->
+      <!--</div>-->
+      <!--<ul class="footer-cat-list">-->
+        <!--<li v-for="(item, index) in new Array(8)">-->
+          <!--<a href="#">关于我们</a>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+    <m-footer-link
+    link-title="社交账号"></m-footer-link>
     <div class="col-lg-12 footer-copyright">
       <span class="footer-copyright-text">
         Copyright&nbsp;©&nbsp;2017-{{ new Date().getFullYear() }}&nbsp;后除&nbsp;-&nbsp;
@@ -23,9 +25,12 @@
 
 <script>
   import MBackToTop from './base/back-to-top.vue'
+  import MFooterLink from './footer-link.vue'
 
   export default {
-    components: {MBackToTop},
+    components: {
+      MFooterLink,
+      MBackToTop},
     name: 'm-footer'
   }
 </script>
