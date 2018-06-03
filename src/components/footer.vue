@@ -11,7 +11,22 @@
       <!--</ul>-->
     <!--</div>-->
     <m-footer-link
-    link-title="社交账号"></m-footer-link>
+      link-title="社交账号"
+      link-attr="SocialMedia"
+      :link-class="['offset-lg-1']"></m-footer-link>
+    <m-footer-link
+      link-title="专题"
+      link-attr="SpecialSubject"></m-footer-link>
+    <m-footer-link
+      link-title="社交账号"
+      link-attr="SocialMedia"></m-footer-link>
+    <m-footer-link
+      link-title="社交账号"
+      link-attr="SocialMedia"></m-footer-link>
+    <m-footer-link
+      link-title="友情链接"
+      link-attr="FriendlyLink"
+      :link-class="['footer-cat-last']"></m-footer-link>
     <div class="col-lg-12 footer-copyright">
       <span class="footer-copyright-text">
         Copyright&nbsp;©&nbsp;2017-{{ new Date().getFullYear() }}&nbsp;后除&nbsp;-&nbsp;

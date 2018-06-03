@@ -26,7 +26,8 @@ footer.mazey-footer{
         color: lighten($mazey-font-color, 5%);
         font-size: 13px;
         height: 30px;
-        display: flex;
+        display: block;
+        @extend .m-ellipsis;
       }
     }
   }

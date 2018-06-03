@@ -72,7 +72,7 @@
                 this.articles = dataData.posts
                 this.slug = dataData.slug
                 $(function () {
-                  if ($('[data-toggle="tooltip"]').length > 30) {
+                  if ($('[data-toggle="tooltip"]').length === 39) {
                     $('[data-toggle="tooltip"]').tooltip()
                   }
                 })
