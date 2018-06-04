@@ -18,7 +18,10 @@
              data-toggle="tooltip"
              data-placement="bottom"
              :title="article.postTitle"
-             _style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
+             :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
+          <div class="list-title-tip">
+            {{ article.postTitle }}
+          </div>
           <span>{{ formatDate(article.postDate) }}</span>
         </div>
       </li>

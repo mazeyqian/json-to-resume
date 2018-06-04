@@ -18,7 +18,6 @@ Vue2, ES5+, localStorage
 ## 需求
 
 - 页面加载的时候固定body尺寸。
-- CSS Title pop。
 
 ## 完善
 

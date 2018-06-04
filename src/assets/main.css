@@ -152,7 +152,6 @@ header.mazey-header {
     .main div.article > .article-item ul.article-list > li:first-child > div.list-index > span, .main div.article > .article-item ul.article-list > li:nth-child(2) > div.list-index > span, .main div.article > .article-item ul.article-list > li:nth-child(3) > div.list-index > span {
       color: #ffffff; }
     .main div.article > .article-item ul.article-list > li {
-      display: flex;
       height: 31px; }
       .main div.article > .article-item ul.article-list > li:first-child > div.list-index > span {
         background-color: #bf2c24; }
@@ -178,7 +177,7 @@ header.mazey-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90%; }
+        position: relative; }
         .main div.article > .article-item ul.article-list > li > div.list-title a, .main div.article > .article-item ul.article-list > li > div.list-title span {
           font-size: 14px; }
         .main div.article > .article-item ul.article-list > li > div.list-title a {
@@ -186,12 +185,38 @@ header.mazey-header {
           white-space: nowrap;
           text-overflow: ellipsis;
           color: #494949; }
+          .main div.article > .article-item ul.article-list > li > div.list-title a:hover ~ .list-title-tip {
+            display: block; }
         .main div.article > .article-item ul.article-list > li > div.list-title span {
           text-align: right;
           white-space: normal;
           text-overflow: ellipsis;
           color: #b3b3b3;
           width: 50px; }
+        .main div.article > .article-item ul.article-list > li > div.list-title > div.list-title-tip {
+          display: none;
+          position: absolute;
+          left: 0px;
+          top: 33px;
+          background-color: #181818;
+          padding: 5px 8px;
+          border-radius: 4px;
+          z-index: 2;
+          color: #ffffff;
+          text-align: center;
+          transition: all 0.5s ease-in; }
+          .main div.article > .article-item ul.article-list > li > div.list-title > div.list-title-tip:before {
+            content: '';
+            border-width: 8px;
+            border-style: solid;
+            border-color: transparent transparent #181818;
+            display: block;
+            position: absolute;
+            left: 28px;
+            top: -16px;
+            width: 0px;
+            height: 0px;
+            z-index: 2; }
   .main div.browse-more > div {
     display: flex;
     justify-content: center;

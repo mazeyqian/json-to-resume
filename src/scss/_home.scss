@@ -172,7 +172,7 @@
         }
       }
       >li{
-        display: flex;
+        //display: flex;
         &:first-child>div.list-index>span{background-color: #bf2c24;}
         &:nth-child(2)>div.list-index>span{background-color: #e67225;}
         &:nth-child(3)>div.list-index>span{background-color: #e6bf25;}
@@ -200,7 +200,8 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 90%;
+          position: relative;
+          //width: 90%;
           a, span{
             font:{
               size: 14px;
@@ -215,6 +216,10 @@
             text-overflow: ellipsis;
             color: $mazey-font-color; // #1a1a1a;
             //font: 14px/31px PingFangSC-Regular,'-apple-system',Simsun;
+            &:hover~.list-title-tip{
+              //opacity: 1;
+              display: block;
+            }
           }
           span{
             //float: right;
@@ -225,6 +230,45 @@
             color: #b3b3b3;
             width: 50px;
             //font: 12px/32px PingFangSC-Regular,'-apple-system',Simsun;
+          }
+          // tip
+          >div.list-title-tip{
+            $bgc: #181818;
+            //opacity: 0;
+            display: none;
+            position: absolute;
+            left: 0px;
+            top: 33px;
+            background-color: $bgc;
+            padding: 5px 8px;
+            border-radius: 4px;
+            z-index: 2;
+            color: $color-white;
+            text-align: center;
+            transition: all 0.5s ease-in;
+            >span{
+              //color: $color-white;
+              //text-align: center;
+              //@extend %m-flex-center;
+              //width: 100%;
+            }
+            &:before{
+              content: '';
+              $border-width: 8px;
+              border:{
+                width: $border-width;
+                style: solid;
+                color: transparent transparent $bgc;
+              }
+              display: block;
+              position: absolute;
+              left: 28px;
+              top: -$border-width * 2;
+              //box-sizing: border-box;
+              width: 0px;
+              height: 0px;
+              z-index: 2;
+            }
           }
         }
       }
