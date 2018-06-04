@@ -15,9 +15,6 @@
         <div class="list-title">
           <a :href="`${$store.getters.getDomains.blog}/${article.id}.html`"
              target="_blank"
-             data-toggle="tooltip"
-             data-placement="bottom"
-             :title="article.postTitle"
              :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
           <div class="list-title-tip">
             {{ article.postTitle }}
@@ -31,7 +28,7 @@
 
 <script>
   import axios from 'axios'
-  import $ from 'jquery'
+//  import $ from 'jquery'
 
   export default {
     name: 'm-page-article-item',
@@ -73,11 +70,11 @@
                 this.num = dataData.postCount
                 this.articles = dataData.posts
                 this.slug = dataData.slug
-                $(function () {
-                  if ($('[data-toggle="tooltip"]').length === 39) {
-                    $('[data-toggle="tooltip"]').tooltip()
-                  }
-                })
+//                $(function () {
+//                  if ($('[data-toggle="tooltip"]').length === 39) {
+//                    $('[data-toggle="tooltip"]').tooltip()
+//                  }
+//                })
               }
               this.queryCount--
             }
