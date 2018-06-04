@@ -20,20 +20,6 @@
       padding: 8px;
       color: #929495; }
 
-.m-pointer {
-  cursor: pointer; }
-
-.m-show {
-  display: block; }
-
-.m-hide {
-  display: none; }
-
-.m-ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
-
 .mood > div.hot > div.tag-cloud > h3 {
   border-bottom: 1px solid #ebebeb; }
 
