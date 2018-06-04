@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {camelCaseToKebabCase} from '@/scss/mazey-ui/src/js/index.js'
+import {mCamelCaseToKebabCase} from '@/scss/mazey-ui/src/js/index.js'
 
 const state = {
   FooterSocialMedia: [],
@@ -15,7 +15,7 @@ const getters = {
 
 const actions = {
   fetchFooterLink ({state, commit, dispatch}, linkName) {
-    axios.get(`/static/data/footer/${camelCaseToKebabCase(linkName)}.json`)
+    axios.get(`/static/data/footer/${mCamelCaseToKebabCase(linkName)}.json`)
       .then(
         res => {
           let links = res.data.data.links
