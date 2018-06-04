@@ -70,19 +70,21 @@
         </div>
         <!--文章-->
         <div class="row article">
-          <!--<v-page-article-item title="前端" cat="JavaScript"></v-page-article-item>-->
-          <!--<v-page-article-item title="前端" cat="UI"></v-page-article-item>-->
-          <!--<v-page-article-item title="后端" cat="后端" text="PHP, Node..."></v-page-article-item>-->
-          <!--<v-page-article-item title="读书" cat="读书" text="互联网, 小说..."></v-page-article-item>-->
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>
           <m-page-article-item title="前端" cat="UI" text="H5, CSS, PS, Cache"></m-page-article-item>
           <m-page-article-item title="后端" cat="后端" text="PHP, Node, MySQL, SQLServer"></m-page-article-item>
           <m-page-article-item title="读书" cat="读书" text="互联网, 计算机, 人性, 生活, 小说"></m-page-article-item>
         </div>
+        <div class="row article" v-show="!BrowseMore">
+          <m-page-article-item title="烹饪" cat="烹饪" text="煲汤, 炒菜, 煮, 煎"></m-page-article-item>
+          <m-page-article-item title="生活" cat="生活" text="不小心摔倒了"></m-page-article-item>
+          <m-page-article-item title="文章" cat="文章" text="自由的灵魂"></m-page-article-item>
+          <m-page-article-item title="心情" cat="心情" text="讨厌有闹钟的生活"></m-page-article-item>
+        </div>
         <!--浏览更多-->
         <div class="row browse-more">
           <div class="col-lg-12">
-            <div class="browse-more-text">浏览更多 ></div>
+            <div class="browse-more-text" @click="BrowseMore = !BrowseMore">{{ BrowseMore ? '浏览更多 ↓' : '收起 ↑' }}</div>
           </div>
         </div>
       </div>
@@ -98,7 +100,8 @@
     name: 'm-page-home',
     data () {
       return {
-        LineCount: 4
+        LineCount: 4,
+        BrowseMore: true
       }
     },
     mounted () {

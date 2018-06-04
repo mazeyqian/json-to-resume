@@ -180,6 +180,7 @@ header.mazey-header {
           color: #b3b3b3;
           width: 50px; }
         .main div.article > .article-item ul.article-list > li > div.list-title > div.list-title-tip {
+          font-size: 14px;
           display: none;
           position: absolute;
           left: 0px;
