@@ -6,7 +6,11 @@
     </div>
     <ul class="footer-cat-list">
       <li v-for="(item, index) in $store.getters[`getFooter${linkAttr}`]">
-        <a :href="item.link" target="_blank" :title="item.title">{{ item.title }}</a>
+        <a
+          :href="item.link"
+          target="_blank"
+          :title="item.title"
+          :class="{'mazey-hidden': !item.title}">{{ item.title }}</a>
       </li>
     </ul>
   </div>

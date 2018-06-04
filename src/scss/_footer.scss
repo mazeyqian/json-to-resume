@@ -27,7 +27,7 @@ footer.mazey-footer{
         font-size: 13px;
         height: 30px;
         display: block;
-        @extend .m-ellipsis;
+        @extend %m-ellipsis;
       }
     }
   }

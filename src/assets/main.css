@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.main div.article > .article-item h3 > span:first-child, footer.mazey-footer ul.footer-cat-list > li > a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
 .m-table {
   width: 100%;
   border: 1px solid #E4EBEE; }
@@ -24,7 +29,7 @@
 .m-hide {
   display: none; }
 
-.m-ellipsis, footer.mazey-footer ul.footer-cat-list > li > a {
+.m-ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -139,13 +144,15 @@ header.mazey-header {
       display: flex;
       align-items: center;
       opacity: 0;
-      transition: all 0.5s ease-in; }
+      transition: all 0.5s ease-in;
+      white-space: nowrap; }
   .main div.article > .article-item ul.article-list {
     list-style: none;
     padding-left: 0; }
     .main div.article > .article-item ul.article-list > li:first-child > div.list-index > span, .main div.article > .article-item ul.article-list > li:nth-child(2) > div.list-index > span, .main div.article > .article-item ul.article-list > li:nth-child(3) > div.list-index > span {
       color: #ffffff; }
     .main div.article > .article-item ul.article-list > li {
+      display: flex;
       height: 31px; }
       .main div.article > .article-item ul.article-list > li:first-child > div.list-index > span {
         background-color: #bf2c24; }
@@ -170,7 +177,8 @@ header.mazey-header {
       .main div.article > .article-item ul.article-list > li > div.list-title {
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: center;
+        width: 90%; }
         .main div.article > .article-item ul.article-list > li > div.list-title a, .main div.article > .article-item ul.article-list > li > div.list-title span {
           font-size: 14px; }
         .main div.article > .article-item ul.article-list > li > div.list-title a {
@@ -6748,5 +6756,8 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   padding-top: 86px;
   background-color: #EEEEEE; }
+
+.mazey-hidden {
+  visibility: hidden; }
 
 /*# sourceMappingURL=main.css.map */

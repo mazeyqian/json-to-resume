@@ -147,6 +147,11 @@
       display: flex;
       justify-content: space-between;
       color: $mazey-font-color;
+      >span{
+        &:first-child{
+          @extend %m-ellipsis;
+        }
+      }
       >a{
         color: #3f5a93;
         font-size: 12px;
@@ -155,6 +160,7 @@
         align-items: center;
         opacity: 0;
         transition: all 0.5s ease-in;
+        white-space: nowrap;
       }
     }
     ul.article-list{
@@ -166,6 +172,7 @@
         }
       }
       >li{
+        display: flex;
         &:first-child>div.list-index>span{background-color: #bf2c24;}
         &:nth-child(2)>div.list-index>span{background-color: #e67225;}
         &:nth-child(3)>div.list-index>span{background-color: #e6bf25;}
@@ -193,6 +200,7 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
+          width: 90%;
           a, span{
             font:{
               size: 14px;

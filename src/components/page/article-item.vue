@@ -2,8 +2,7 @@
   <div class="col-lg-3 article-item">
     <h3>
       <span>
-        <span>{{ title }} / {{ text || cat }}</span>
-        <span> ({{ num }})</span>
+        {{ title }} / {{ text || cat }}&nbsp;({{ num }})
       </span>
       <a :href="`${$store.getters.getDomains.blog}/category/${slug}`" target="_blank">更多 ></a>
     </h3>
@@ -19,7 +18,7 @@
              data-toggle="tooltip"
              data-placement="bottom"
              :title="article.postTitle"
-             :style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
+             _style="{width: $store.getters.getBaseLayout.ArticleListTitleAWidth + 'px'}">{{ article.postTitle }}</a>
           <span>{{ formatDate(article.postDate) }}</span>
         </div>
       </li>

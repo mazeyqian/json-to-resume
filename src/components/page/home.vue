@@ -75,9 +75,9 @@
           <!--<v-page-article-item title="后端" cat="后端" text="PHP, Node..."></v-page-article-item>-->
           <!--<v-page-article-item title="读书" cat="读书" text="互联网, 小说..."></v-page-article-item>-->
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>
-          <m-page-article-item title="前端" cat="UI"></m-page-article-item>
-          <m-page-article-item title="后端" cat="后端" text="PHP, Node..."></m-page-article-item>
-          <m-page-article-item title="读书" cat="读书" text="互联网, 小说..."></m-page-article-item>
+          <m-page-article-item title="前端" cat="UI" text="H5, CSS, PS, Cache"></m-page-article-item>
+          <m-page-article-item title="后端" cat="后端" text="PHP, Node, MySQL, SQLServer"></m-page-article-item>
+          <m-page-article-item title="读书" cat="读书" text="互联网, 计算机, 人性, 生活, 小说"></m-page-article-item>
         </div>
         <!--浏览更多-->
         <div class="row browse-more">
