@@ -8,12 +8,12 @@
         "link": "https://read.douban.com/column/6946508/"
       },
       {
-        "title": null,
-        "link": "/"
-      },
-      {
         "title": "前端开发笔记",
         "link": "https://www.jianshu.com/c/1499d63b1185"
+      },
+      {
+        "title": "深入理解JavaScript系列",
+        "link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"
       }
     ]
   }

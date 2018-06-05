@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 const state = {
   // 版本
-  MazeyVersion: 2018.04271132,
+  MazeyVersion: 2018.06051433,
   Domains: {
     main: 'http://mazey.cn',
     blog: 'http://blog.mazey.net'
@@ -27,7 +27,8 @@ const state = {
   MaxBannerCount: 3,
   BannerElement: [
     {
-      title: '夏目友人帐',
+      title: '',
+      // 如果结果不如你所愿，就在尘埃落定前奋力一搏
       paragraph: '世上存在着无论如何期望也无法得到的东西，既然如此，干脆忘掉好了',
       address: localStorage.getItem('banner0') || '/static/img/banner/banner0.jpg'
     }

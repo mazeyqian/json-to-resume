@@ -18,11 +18,11 @@
       link-title="专题"
       link-attr="SpecialSubject"></m-footer-link>
     <m-footer-link
-      link-title="社交账号"
-      link-attr="SocialMedia"></m-footer-link>
+      link-title="文档"
+      link-attr="OnlineDocument"></m-footer-link>
     <m-footer-link
-      link-title="社交账号"
-      link-attr="SocialMedia"></m-footer-link>
+      link-title="工具"
+      link-attr="OnlineTool"></m-footer-link>
     <m-footer-link
       link-title="友情链接"
       link-attr="FriendlyLink"

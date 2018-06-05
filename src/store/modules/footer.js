@@ -4,13 +4,17 @@ import {mCamelCaseToKebabCase} from '@/scss/mazey-ui/src/js/index.js'
 const state = {
   FooterSocialMedia: [],
   FooterSpecialSubject: [],
-  FooterFriendlyLink: []
+  FooterFriendlyLink: [],
+  FooterOnlineDocument: [],
+  FooterOnlineTool: []
 }
 
 const getters = {
   getFooterSocialMedia: state => state.FooterSocialMedia,
   getFooterSpecialSubject: state => state.FooterSpecialSubject,
-  getFooterFriendlyLink: state => state.FooterFriendlyLink
+  getFooterFriendlyLink: state => state.FooterFriendlyLink,
+  getFooterOnlineDocument: state => state.FooterOnlineDocument,
+  getFooterOnlineTool: state => state.FooterOnlineTool
 }
 
 const actions = {
