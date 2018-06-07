@@ -39,15 +39,11 @@
               <div class="tag-cloud">
                 <h3>标签云</h3>
                 <ul class="tag-hot">
-                  <li><a href="#">ECMAScript6</a></li>
-                  <li><a href="#">HTML5</a></li>
-                  <li><a href="#">CSS3</a></li>
-                  <li><a href="#">ECMAScript6</a></li>
-                  <li><a href="#">HTML5</a></li>
-                  <li><a href="#">ECMAScript6</a></li>
-                  <li><a href="#">HTML5</a></li>
-                  <li><a href="#">ECMAScript6</a></li>
-                  <li><a href="#">HTML5</a></li>
+                  <li
+                    v-for="tag in $store.getters.getHomeTags">
+                    <a
+                      :href="`${$store.getters.getDomains.blog}/tag/${tag.tagSlug}`" target="_blank">{{ tag.tagName }}</a>
+                  </li>
                 </ul>
                 <div class="hot-article">
                   <a href="#">JavaScript中label与break配合使用</a>
