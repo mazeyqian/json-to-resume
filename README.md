@@ -10,6 +10,7 @@
 ## 技术栈
 
 Vue2, ES5+, localStorage
+
 ...postMessage
 
 ## Bug
