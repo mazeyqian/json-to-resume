@@ -10,6 +10,7 @@
 ## 技术栈
 
 Vue2, ES5+, localStorage
+...postMessage
 
 ## Bug
 
@@ -22,7 +23,6 @@ Vue2, ES5+, localStorage
 
 ## 完善
 
-- 把文章列表属性放在Vuex里面，初始化的时候遍历下。
 - 观察下面冒泡会不会失败，改成setTimeout异步试试。
 
 ## Build Setup
