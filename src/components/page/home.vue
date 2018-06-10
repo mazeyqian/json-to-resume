@@ -64,10 +64,11 @@
             <div class="hr-padding"></div>
           </div>
         </div>
+        <m-test testAttr="in parent"></m-test>
         <!--文章-->
         <div class="row article">
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>
-          <m-page-article-item title="前端" cat="UI" text="H5, CSS, PS, Cache"></m-page-article-item>
+          <m-page-article-item title="前端" cat="HTML/CSS" text="H5, CSS, PS, Cache"></m-page-article-item>
           <m-page-article-item title="后端" cat="后端" text="PHP, Node, MySQL, SQLServer"></m-page-article-item>
           <m-page-article-item title="文章" cat="文章" text="自由的灵魂"></m-page-article-item>
         </div>
@@ -90,9 +91,12 @@
 
 <script>
   import MPageArticleItem from './article-item.vue'
+  import MTest from './test.vue'
 
   export default {
-    components: {MPageArticleItem},
+    components: {
+      MTest,
+      MPageArticleItem},
     name: 'm-page-home',
     data () {
       return {
