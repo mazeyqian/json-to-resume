@@ -4,7 +4,7 @@
 .mood{
   display: flex;
   flex-direction: column;
-  >div{
+  >div:not(.img){
     background-color: $mazey-module-bgc;
     border: 1px solid darken($mazey-body-bgc, 5%); // #dedfe0;
     //color: darken($mazey-body-bgc, 10%);
@@ -297,4 +297,11 @@
       }
     }
   }
+}
+
+// banner
+#MazeyBannerCarouselTarget,
+.mood>.hot,
+.mood>.img{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
 }

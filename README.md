@@ -9,9 +9,7 @@
 
 ## 技术栈
 
-Vue2, ES5+, localStorage
-
-...postMessage
+Vue2, ES5+, localStorage, postMessage
 
 ## Bug
 
@@ -20,7 +18,6 @@ Vue2, ES5+, localStorage
 ## 需求
 
 - 页面加载的时候固定body尺寸。
-- 轮播，标签云悬浮出现阴影。
 
 ## 完善
 

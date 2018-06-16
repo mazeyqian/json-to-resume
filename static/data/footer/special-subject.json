@@ -14,6 +14,18 @@
       {
         "title": "深入理解JavaScript系列",
         "link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"
+      },
+      {
+        "title": "“JavaScript patterns”中译本 - 《JavaScript 模式》",
+        "link": "https://github.com/TooBug/javascript.patterns"
+      },
+      {
+        "title": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列",
+        "link": "https://github.com/mqyqingfeng/Blog"
+      },
+      {
+        "title": "V8引擎深入研究目录贴",
+        "link": "https://segmentfault.com/a/1190000008618731"
       }
     ]
   }

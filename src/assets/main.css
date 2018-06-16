@@ -39,7 +39,7 @@ header.mazey-header {
 .mood {
   display: flex;
   flex-direction: column; }
-  .mood > div {
+  .mood > div:not(.img) {
     background-color: #FFFFFF;
     border: 1px solid #e1e1e1; }
   .mood > div.hot {
@@ -218,6 +218,11 @@ header.mazey-header {
       cursor: pointer; }
       .main div.browse-more > div > div.browse-more-text:hover {
         background-color: #dd7d1b; }
+
+#MazeyBannerCarouselTarget,
+.mood > .hot,
+.mood > .img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04); }
 
 footer.mazey-footer {
   background-color: #e1e1e1;
