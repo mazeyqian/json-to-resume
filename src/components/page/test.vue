@@ -13,6 +13,8 @@
       <!--</select>-->
       <!--<button type="button" @click="reset('test0', 'test1', 'test2', 'test3')">重置</button>-->
     <!--</form>-->
+    <button @click="addsonMsg">addsonMsg</button>
+    {{ sonMsg }}
   </div>
 </template>
 
@@ -22,8 +24,13 @@
     name: 'm-test',
     data () {
       return {
-        testAttr0: 'in data'
+        testAttr0: 'in data',
+        sonMsg: 0
       }
+    },
+    model: {
+      prop: 'sonMsg',
+      event: 'sonEvent'
     },
     props: {
       testAttr: {
@@ -34,10 +41,13 @@
     },
     mounted () {
 //      console.log(this.testAttr)
-      this.$root.eventHub.$emit('eventName', 'I am Mazey!')
+//      this.$root.eventHub.$emit('eventName', 'I am Mazey!')
     },
     methods: {
-      reset
+      reset,
+      addsonMsg () {
+        this.$emit('sonEvent', ++this.sonMsg)
+      }
     }
   }
 </script>

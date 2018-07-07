@@ -63,7 +63,10 @@
             <div class="hr-padding"></div>
           </div>
         </div>
-        <m-test testAttr="in parent"></m-test>
+        <m-test
+          testAttr="in parent"
+          v-model="parentMsg"></m-test>
+        {{ parentMsg }}
         <!--文章-->
         <div class="row article">
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>
@@ -100,13 +103,14 @@
     data () {
       return {
         LineCount: 4,
-        BrowseMore: true
+        BrowseMore: true,
+        parentMsg: 0
       }
     },
     created () {
-      this.$root.eventHub.$on('eventName', msg => {
-        console.log(msg)
-      })
+//      this.$root.eventHub.$on('eventName', msg => {
+//        console.log(msg)
+//      })
     },
     mounted () {
 //      console.log(document.querySelector('#bannerImg-0'))
