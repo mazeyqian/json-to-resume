@@ -68,11 +68,22 @@ const state = {
       tagName: 'Python',
       tagSlug: 'python'
     }
+  ],
+  HomeHotArticles: [
+    {
+      title: 'vue+vuex+axios+echarts画一个动态更新的中国地图',
+      link: '//blog.mazey.net/794.html'
+    },
+    {
+      title: 'HTML5全屏浏览器兼容方案',
+      link: '//blog.mazey.net/799.html'
+    }
   ]
 }
 
 const getters = {
-  getHomeTags: state => state.HomeTags
+  getHomeTags: state => state.HomeTags,
+  getHomeHotArticles: state => state.HomeHotArticles
 }
 
 export default {

@@ -29,6 +29,9 @@ let Mazey = new Vue({
   template: '<Layout/>',
   components: {
     Layout
+  },
+  data: {
+    eventHub: new Vue()
   }
 })
 

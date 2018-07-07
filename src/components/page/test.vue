@@ -34,6 +34,7 @@
     },
     mounted () {
 //      console.log(this.testAttr)
+      this.$root.eventHub.$emit('eventName', 'I am Mazey!')
     },
     methods: {
       reset

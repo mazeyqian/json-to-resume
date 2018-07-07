@@ -45,11 +45,10 @@
                       :href="`${$store.getters.getDomains.blog}/tag/${tag.tagSlug}`" target="_blank">{{ tag.tagName }}</a>
                   </li>
                 </ul>
-                <div class="hot-article">
-                  <a href="#">JavaScript中label与break配合使用</a>
-                </div>
-                <div class="hot-article">
-                  <a href="#">JavaScript中label与break配合使用</a>
+                <div
+                  v-for="article in $store.getters.getHomeHotArticles"
+                  class="hot-article">
+                  <a :href="article.link" target="_blank">{{ article.title }}</a>
                 </div>
               </div>
             </div>
@@ -103,6 +102,11 @@
         LineCount: 4,
         BrowseMore: true
       }
+    },
+    created () {
+      this.$root.eventHub.$on('eventName', msg => {
+        console.log(msg)
+      })
     },
     mounted () {
 //      console.log(document.querySelector('#bannerImg-0'))

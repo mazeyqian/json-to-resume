@@ -18,6 +18,8 @@ Vue2, ES5+, localStorage, postMessage
 ## 需求
 
 - 页面加载的时候固定body尺寸。
+- 加载更多添加动画效果。
+- 低版本浏览器跳转至老博客。
 
 ## 完善
 
