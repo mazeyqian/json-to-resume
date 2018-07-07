@@ -13,8 +13,8 @@
       <!--</select>-->
       <!--<button type="button" @click="reset('test0', 'test1', 'test2', 'test3')">重置</button>-->
     <!--</form>-->
-    <button @click="addsonMsg">addsonMsg</button>
-    {{ sonMsg }}
+    <!--<button @click="addsonMsg">addsonMsg</button>-->
+    <!--{{ sonMsg }}-->
   </div>
 </template>
 

@@ -63,10 +63,9 @@
             <div class="hr-padding"></div>
           </div>
         </div>
-        <m-test
-          testAttr="in parent"
-          v-model="parentMsg"></m-test>
-        {{ parentMsg }}
+        <!--<m-test-->
+          <!--testAttr="in parent"></m-test>-->
+        <!--{{ parentMsg }}-->
         <!--文章-->
         <div class="row article">
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>
@@ -103,8 +102,7 @@
     data () {
       return {
         LineCount: 4,
-        BrowseMore: true,
-        parentMsg: 0
+        BrowseMore: true
       }
     },
     created () {
