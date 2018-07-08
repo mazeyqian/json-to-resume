@@ -19,3 +19,12 @@ body{
 .mazey-hidden{
   visibility: hidden;
 }
+
+.mazey-enter-active,
+.mazey-leave-active {
+  transition: opacity .5s ease-in;
+}
+.mazey-enter,
+.mazey-leave-to {
+  opacity: 0;
+}

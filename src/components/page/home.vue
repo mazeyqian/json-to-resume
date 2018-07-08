@@ -73,12 +73,14 @@
           <m-page-article-item title="后端" cat="后端" text="PHP, Node, MySQL, SQLServer"></m-page-article-item>
           <m-page-article-item title="文章" cat="文章" text="自由的灵魂"></m-page-article-item>
         </div>
-        <div class="row article" v-show="!BrowseMore">
-          <m-page-article-item title="读书" cat="读书" text="互联网, 计算机, 人性, 生活, 小说"></m-page-article-item>
-          <m-page-article-item title="烹饪" cat="烹饪" text="煲汤, 炒菜, 煮, 煎"></m-page-article-item>
-          <!--<m-page-article-item title="生活" cat="生活" text="不小心摔倒了"></m-page-article-item>-->
-          <m-page-article-item title="心情" cat="心情" text="讨厌有闹钟的生活"></m-page-article-item>
-        </div>
+        <transition name="mazey">
+          <div class="row article" v-show="!BrowseMore">
+            <m-page-article-item title="读书" cat="读书" text="互联网, 计算机, 人性, 生活, 小说"></m-page-article-item>
+            <m-page-article-item title="烹饪" cat="烹饪" text="煲汤, 炒菜, 煮, 煎"></m-page-article-item>
+            <!--<m-page-article-item title="生活" cat="生活" text="不小心摔倒了"></m-page-article-item>-->
+            <m-page-article-item title="心情" cat="心情" text="讨厌有闹钟的生活"></m-page-article-item>
+          </div>
+        </transition>
         <!--浏览更多-->
         <div class="row browse-more">
           <div class="col-lg-12">

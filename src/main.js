@@ -8,7 +8,7 @@ import store from './store/index'
 // import 'normalize.css' // DONE: 为何Bootstrap不格式化
 // import 'element-ui/lib/theme-chalk/index.css'
 // import Aplayer from 'vue-aplayer'
-import './assets/main.css'
+import './scss/__main.css'
 // import 'jquery'
 // import 'bootstrap/js/dist/index'
 // import 'bootstrap/js/dist/util'
