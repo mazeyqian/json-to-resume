@@ -5,8 +5,8 @@ const state = {
   // 版本
   MazeyVersion: 2018.06051433,
   Domains: {
-    main: 'http://mazey.cn',
-    blog: 'http://blog.mazey.net'
+    main: 'https://mazey.cn',
+    blog: 'https://blog.mazey.net'
   },
   // 基本布局
   BaseLayout: {
