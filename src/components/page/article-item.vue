@@ -54,7 +54,8 @@
     },
     methods: {
       getArticleDetail () {
-        axios.get(`${this.$store.getters.getDomains.main}/server`, {
+        // axios.get(`${this.$store.getters.getDomains.main}/server`, {
+        axios.get(`/static/data/article/${this.cat.replace(/\//, '')}.json`, {
           params: {
             cat: this.cat
           }
