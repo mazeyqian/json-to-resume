@@ -20,6 +20,7 @@
 
 <script>
   import {mResetForm as reset} from '@/scss/mazey-ui/src/js/index.js'
+  import axios from 'axios'
   export default {
     name: 'm-test',
     data () {
@@ -35,9 +36,23 @@
     props: {
       testAttr: {
         type: String,
-        required: true,
+        required: false,
         default: 'in default'
       }
+    },
+    created () {
+      const params = new URLSearchParams()
+      params.append('date', '2018')
+      params.append('date', '8')
+      params.append('date', '13')
+      axios({
+        method: 'get',
+        url: '/',
+        params
+      })
+        .then((res) => {
+          console.log(res.status) // 200
+        })
     },
     mounted () {
 //      console.log(this.testAttr)
