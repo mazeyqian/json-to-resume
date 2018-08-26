@@ -1,67 +1,70 @@
 <template>
-  <div>
-    <!--<span>{{ testAttr }}</span>-->
-    <!--<form>-->
-      <!--<input name="test0"/>-->
-      <!--<input name="test1"/>-->
-      <!--<input name="test2"/>-->
-      <!--<select name="test3">-->
-        <!--<option value="0">请选择</option>-->
-        <!--<option value="1">1</option>-->
-        <!--<option value="2">2</option>-->
-        <!--<option value="3">3</option>-->
-      <!--</select>-->
-      <!--<button type="button" @click="reset('test0', 'test1', 'test2', 'test3')">重置</button>-->
-    <!--</form>-->
-    <!--<button @click="addsonMsg">addsonMsg</button>-->
-    <!--{{ sonMsg }}-->
+  <div class="vue-screenfull">
+    <button type="button" @click="request()">全屏</button>
   </div>
 </template>
 
 <script>
-  import {mResetForm as reset} from '@/scss/mazey-ui/src/js/index.js'
-  import axios from 'axios'
   export default {
-    name: 'm-test',
+    name: 'vue-screenfull',
     data () {
       return {
-        testAttr0: 'in data',
-        sonMsg: 0
-      }
-    },
-    model: {
-      prop: 'sonMsg',
-      event: 'sonEvent'
-    },
-    props: {
-      testAttr: {
-        type: String,
-        required: false,
-        default: 'in default'
+        prefixArr: ['', 'webkit', 'moz', 'ms'], // 浏览器前缀
+        requestSuffixArr: ['RequestFullscreen', 'RequestFullScreen'], // 后缀
+        exitSuffixArr: ['ExitFullscreen', 'CancelFullScreen'], // 后缀
+        request: null,
+        exit: null,
+        fullStatus: false
       }
     },
     created () {
-      const params = new URLSearchParams()
-      params.append('date', '2018')
-      params.append('date', '8')
-      params.append('date', '13')
-      axios({
-        method: 'get',
-        url: '/',
-        params
+      let isRightRequest = null // 是否找到适配的方法
+      let isRightExit = null
+      let requestMethod = null // 全屏方法
+      let exitMethod = null // 退出全屏方法
+      this.prefixArr.forEach(prefix => {
+        if (isRightRequest && isRightExit) {
+          return
+        }
+        // 查找请求
+        requestMethod = this.searchRightMethod(prefix, this.requestSuffixArr, document.documentElement)
+        isRightRequest = Boolean(requestMethod)
+        // 查找退出
+        exitMethod = this.searchRightMethod(prefix, this.exitSuffixArr, document)
+        isRightExit = Boolean(exitMethod)
       })
-        .then((res) => {
-          console.log(res.status) // 200
-        })
-    },
-    mounted () {
-//      console.log(this.testAttr)
-//      this.$root.eventHub.$emit('eventName', 'I am Mazey!')
+      this.request = function (element) {
+        let domEle = document.querySelector(element) || document.documentElement
+        domEle[requestMethod]()
+      }
+      this.exit = function () {
+        document[exitMethod]()
+      }
     },
     methods: {
-      reset,
-      addsonMsg () {
-        this.$emit('sonEvent', ++this.sonMsg)
+      lowerFirst (str) {
+        return str.slice(0, 1).toLowerCase() + str.slice(1)
+      },
+      searchRightMethod (prefix, suffixArr, documentParent) {
+        let methodArr = suffixArr.map((suffix) => {
+          return prefix + suffix
+        })
+        let method = null
+        let isRight = null
+        methodArr.forEach(wholePrefix => {
+          if (isRight) {
+            return
+          }
+          if (prefix.length === 0) {
+            wholePrefix = this.lowerFirst(wholePrefix)
+          }
+          if (wholePrefix in documentParent) {
+            method = wholePrefix
+            isRight = true
+            // console.log(method);
+          }
+        })
+        return method
       }
     }
   }
