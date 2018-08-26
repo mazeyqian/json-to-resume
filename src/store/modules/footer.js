@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {mCamelCaseToKebabCase} from '@/scss/mazey-ui/src/js/index.js'
+import {mCamelCaseToKebabCase} from '@/mazey-ui/src/js/index.js'
 
 const state = {
   FooterSocialMedia: [],

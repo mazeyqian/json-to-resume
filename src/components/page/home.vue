@@ -66,7 +66,7 @@
         <!--<m-test-->
           <!--testAttr="in parent"></m-test>-->
         <!--{{ parentMsg }}-->
-        <m-test></m-test>
+        <!--<m-test></m-test>-->
         <!--文章-->
         <div class="row article">
           <m-page-article-item title="前端" cat="JavaScript"></m-page-article-item>

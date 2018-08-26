@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'vue-screenfull',
+    name: 'm-test',
     data () {
       return {
         prefixArr: ['', 'webkit', 'moz', 'ms'], // 浏览器前缀
