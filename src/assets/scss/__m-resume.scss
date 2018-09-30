@@ -1,0 +1,27 @@
+.m-resume {
+  padding: 20px;
+  .resume-person-left{
+    float: left;
+    width: 50%;
+  }
+  .resume-person-right{
+    float: left;
+    width: 42%;
+  }
+  .resume-clear{
+    clear: both;
+  }
+  .resume-font-small{
+    font-size: 12px;
+  }
+  a,
+  a:active,
+  a:visited
+  {
+    color: #626262;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #0780b9 !important;
+  }
+}

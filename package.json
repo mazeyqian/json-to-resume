@@ -1,6 +1,6 @@
 {
   "name": "vue-empty",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Vue.js project",
   "author": "mazey <mazey@mazey.net>",
   "private": true,
@@ -17,8 +17,10 @@
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
     "element-ui": "^2.0.11",
     "jquery": "^3.3.1",
+    "mazey-ui": "^1.0.2",
     "normalize.css": "^7.0.0",
     "vue": "^2.5.2",
     "vue-aplayer": "^1.0.1",
