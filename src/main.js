@@ -9,10 +9,6 @@ import store from './store/index'
 // import 'element-ui/lib/theme-chalk/index.css'
 // import Aplayer from 'vue-aplayer'
 import './scss/__main.css'
-// import 'jquery'
-// import 'bootstrap/js/dist/index'
-// import 'bootstrap/js/dist/util'
-// import 'bootstrap/js/dist/collapse'
 import 'bootstrap/dist/js/bootstrap.bundle.min' // TODO: 后期按需引入插件
 // require('bootstrap')
 // Vue.use(ElementUI)
