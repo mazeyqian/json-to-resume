@@ -5,25 +5,24 @@
     </div>
     <div class="resume-item">
       <h3>
-        <span class="resume-item-rect">r</span>
         <span>基本信息</span>
       </h3>
       <div class="resume-item-content resume-item-between">
         <ul>
-          <li>姓名：钱程</li>
-          <li>性别：男</li>
-          <li>生日：1993 年 4 月</li>
-          <li>电话：18551470413</li>
-          <li>邮箱：mazey@mazey.net</li>
-          <li>工作年限：2年</li>
+          <li><span class="resume-info-name">姓<span class="info-padding"></span>名：</span>钱程</li>
+          <li><span class="resume-info-name">性<span class="info-padding"></span>别：</span>男</li>
+          <li><span class="resume-info-name">生<span class="info-padding"></span>日：</span>1993 年 4 月</li>
+          <li><span class="resume-info-name">电<span class="info-padding"></span>话：</span>18551470413</li>
+          <li><span class="resume-info-name">邮<span class="info-padding"></span>箱：</span>mazey@mazey.net</li>
+          <li><span class="resume-info-name">工作年限：</span>2年</li>
         </ul>
         <ul>
-          <li>院校：三江学院<span class="resume-small">（2012年9月 - 2016年6月）</span></li>
-          <li>专业：电气工程及其自动化</li>
-          <li>学历：本科</li>
-          <li>英语：CET-6</li>
-          <li>博客：<a href="http://blog.mazey.net/" target="_blank">blog.mazey.net</a></li>
-          <li>GitHub：<a href="https://github.com/mazeyqian" target="_blank">mazeyqian</a></li>
+          <li><span class="resume-info-name">院校：</span>三江学院<span class="resume-small">（2012年9月 - 2016年6月）</span></li>
+          <li><span class="resume-info-name">专业：</span>电气工程及其自动化</li>
+          <li><span class="resume-info-name">学历：</span>本科</li>
+          <li><span class="resume-info-name">英语：</span>CET-6</li>
+          <li><span class="resume-info-name">博客：</span><a href="http://blog.mazey.net/" target="_blank">blog.mazey.net</a></li>
+          <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank">mazeyqian</a></li>
         </ul>
       </div>
     </div>
@@ -31,13 +30,13 @@
       <h3>工作经历</h3>
       <h4>1.苏宁云商集团 / 苏宁技术研究院 / 数据分析部</h4>
       <ul>
-        <li>工作时间：2017年11月 - 2018年4月20日</li>
+        <li>工作时间：2017 年 11 月 - 2018 年 4 月</li>
         <li>职位名称：前端工程师</li>
         <li>工作描述：负责集团数据可视化分析的前端工作，制定前端编码规范以及培训新人。</li>
       </ul>
       <h4>2.邦宁集团 / 江苏邦宁科技有限公司 / 主站研发部</h4>
       <ul>
-        <li>工作时间：2016年6月 - 2017年8月</li>
+        <li>工作时间：2016 年 6 月 - 2017 年 8 月</li>
         <li>职位名称：研发工程师</li>
         <li>工作描述：负责公司网站从服务器端到前端的开发和维护，对接第三方接口；根据客服需求定制管理系统。</li>
       </ul>

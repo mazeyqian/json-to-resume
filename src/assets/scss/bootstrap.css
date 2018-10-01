@@ -6491,16 +6491,20 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 .m-resume {
+  font-size: 14px;
   color: #38424F;
   padding: 20px 30px; }
   .m-resume .resume-title, .m-resume .resume-item:nth-last-child(n + 2) {
     border-bottom: 1px solid #E5E5E5; }
-  .m-resume .resume-item-rect {
-    width: 4px;
-    height: 22px;
-    display: flex;
-    background: #45C8DC;
-    margin-right: 12px; }
+  .m-resume ul {
+    list-style-type: none;
+    padding-left: 0; }
+  .m-resume .resume-info-name {
+    color: #A8A8A8; }
+  .m-resume .info-padding {
+    width: 2em;
+    height: auto;
+    display: inline-flex; }
   .m-resume .resume-item {
     padding-top: 24px; }
     .m-resume .resume-item > h3 {
@@ -6508,6 +6512,13 @@ a.text-dark:hover, a.text-dark:focus {
       align-items: center;
       font-size: 22px;
       color: #1B2026; }
+      .m-resume .resume-item > h3:before {
+        content: ' ';
+        width: 4px;
+        height: 22px;
+        display: flex;
+        background: #45C8DC;
+        margin-right: 12px; }
   .m-resume .resume-item-content.resume-item-between {
     display: flex; }
     .m-resume .resume-item-content.resume-item-between > ul {
