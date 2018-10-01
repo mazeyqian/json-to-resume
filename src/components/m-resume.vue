@@ -100,7 +100,7 @@
     </div>
     <div class="resume-item">
       <h3>项目经验</h3>
-      <!--Pinnacle-->
+      <!--IDAP智能数据分析平台-->
       <div class="resume-experience">
         <div class="resume-experience-timeline">
           <div class="timeline-line-before"></div>
@@ -116,7 +116,7 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">前端技术：</div>
-            <div class="detail-content">Vue2，Echarts3，Sass，Webpack，Element-UI</div>
+            <div class="detail-content">Vue2，Echarts3，Sass，Webpack，Element-UI。</div>
           </div>
           <div class="project-detail">
             <div class="detail-name">项目职责：</div>
@@ -128,42 +128,50 @@
           </div>
         </div>
       </div>
-      <h4>1.IDAP智能数据分析平台</h4>
-      <ul>
-        <li>项目时间：2017年11月 - 2018年4月</li>
-        <li>前端技术：</li>
-        <li>项目概述：</li>
-        <li>职责描述：</li>
-      </ul>
-      <h4>2.邦宁备案核查系统</h4>
-      <ul>
-        <li>项目时间：2017月4月 – 2017年5月</li>
-        <li>前端技术：Bootstrap，jQuery，Less。</li>
-        <li>后端技术：Windows，IIS，ASP，SQLServer。</li>
-        <li>项目概述：用户登录，数据筛选，数据对比，定时任务。</li>
-        <li>职责描述：独立完成从前端页面渲染到后端的系统架构设计，数据库设计。</li>
-      </ul>
+      <!--邦宁备案核查系统-->
+      <div class="resume-experience">
+        <div class="resume-experience-timeline">
+          <div class="timeline-line-before"></div>
+          <div class="timeline-circle"></div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="resume-experience-content">
+          <div class="content-title">
+            <div class="project">
+              <span class="project-name">邦宁备案核查系统</span>
+              <span>2017 月 4 月 – 2017 年 5 月</span>
+            </div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">前端技术：</div>
+            <div class="detail-content">Bootstrap，jQuery，Less。</div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">后端技术：</div>
+            <div class="detail-content">Windows，IIS，ASP，SQLServer。</div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">项目职责：</div>
+            <div class="detail-content">独立完成从前端页面渲染到后端的系统架构设计，数据库设计。</div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">项目描述：</div>
+            <div class="detail-content">用户登录，数据筛选，数据对比，定时任务。</div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="resume-item">
-      <h3>专业技能</h3>
-      <ul>
-        <li>两年从后端到前端开发经验，有数据可视化、CMS、企业站等上线项目并运行至今。</li>
-        <li>制定前端编码规范，带新人，定期为团队分享新技术；有从零开始组建前端团队的经验。</li>
-      </ul>
-    </div>
-    <div class="resume-item">
-      <h3>技术文章</h3>
-      <ul>
-        <li>Bootstrap实战 <a href="https://read.douban.com/column/6946508/" target="_blank">[//read.douban.com/column/6946508/]</a></li>
-        <li>vue+vuex+axios+echarts画一个动态更新的中国地图 <a href="http://blog.mazey.net/794.html" target="_blank">[//blog.mazey.net/794.html]</a></li>
-        <li>HTML5全屏浏览器兼容方案 <a href="http://blog.mazey.net/799.html" target="_blank">[//blog.mazey.net/799.html]</a></li>
-      </ul>
+      <h3>技能</h3>
     </div>
     <div class="resume-item">
       <h3>专利</h3>
       <ul>
         <li>基于HTML5协议的浏览器全屏显示方法及显示装置[WHD18002（PT20180080-DD-P）]</li>
       </ul>
+    </div>
+    <div class="resume-item">
+      <h3>自我介绍</h3>
     </div>
   </div>
 </template>
