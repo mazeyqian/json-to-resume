@@ -1,19 +1,38 @@
 .m-resume {
   // var
   $font-color-primary: #38424F;
+  $font-color-name: lighten($font-color-primary, 20%);
   $bgc-color-primary: #45C8DC;
   $border-color-primary: #E5E5E5;
   $item-between-space: 30px;
   %module-border-bottom {
     border-bottom: 1px solid $border-color-primary;
   }
+  .resume-clear{
+    clear: both;
+  }
+  .resume-small{
+    font-size: 12px;
+  }
+  .info-padding {
+    width: 2em;
+    height: auto;
+    display: inline-flex;
+  }
   // reset
   ul {
     list-style-type: none;
     padding-left: 0;
   }
-  font-size: 14px;
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    &:hover {
+      text-decoration: none;
+    }
+  }
   // parent
+  font-size: 14px;
   color: $font-color-primary;
   padding: 20px 30px;
   // title
@@ -22,12 +41,8 @@
     @extend %module-border-bottom;
   }
   .resume-info-name {
-    color: #A8A8A8;
-  }
-  .info-padding {
-    width: 2em;
-    height: auto;
-    display: inline-flex;
+    //color: #A8A8A8;
+    color: $font-color-name;
   }
   .resume-item {
     //margin: 0 $item-between-space;
@@ -58,11 +73,74 @@
       }
     }
   }
-  .resume-clear{
-    clear: both;
+  // experience
+  .resume-experience {
+    display: flex;
   }
-  .resume-small{
-    font-size: 12px;
+  .resume-experience-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    .timeline-circle {
+      width: 12px;
+      border-radius: 50%;
+      border: 3px solid $bgc-color-primary;
+      flex: 0 0 12px;
+    }
+    .timeline-line {
+      width: 1px;
+      background: $border-color-primary;
+      flex: 1 1 auto;
+    }
+    .timeline-line-before {
+      width: 1px;
+      background: $border-color-primary;
+      flex: 0 0 6px;
+    }
+  }
+  .resume-experience-content {
+    flex: 1 1 auto;
+    .company-name,
+    .project-name {
+      font-size: 18px;
+      color: #1B2026;
+    }
+    .company,
+    .department,
+    .project {
+      display: flex;
+      justify-content: space-between;
+      color: #868C94;
+    }
+    .content-description {
+      //color: #5E5E5E;
+    }
+  }
+  .resume-item {
+    .resume-experience {
+      &:first-of-type {
+        .timeline-line-before {
+          background: transparent;
+        }
+      }
+      &:last-of-type {
+        .timeline-line {
+          background: transparent;
+        }
+      }
+    }
+  }
+  // project
+  .project-detail {
+    display: flex;
+    .detail-name {
+      color: $font-color-name;
+      flex: 0 0 auto;
+    }
+    .detail-content {
+      flex: 1 1 auto;
+    }
   }
   // past
   //.resume-person-left{

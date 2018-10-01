@@ -6496,15 +6496,24 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 20px 30px; }
   .m-resume .resume-title, .m-resume .resume-item:nth-last-child(n + 2) {
     border-bottom: 1px solid #E5E5E5; }
-  .m-resume ul {
-    list-style-type: none;
-    padding-left: 0; }
-  .m-resume .resume-info-name {
-    color: #A8A8A8; }
+  .m-resume .resume-clear {
+    clear: both; }
+  .m-resume .resume-small {
+    font-size: 12px; }
   .m-resume .info-padding {
     width: 2em;
     height: auto;
     display: inline-flex; }
+  .m-resume ul {
+    list-style-type: none;
+    padding-left: 0; }
+  .m-resume a {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor; }
+    .m-resume a:hover {
+      text-decoration: none; }
+  .m-resume .resume-info-name {
+    color: #62748b; }
   .m-resume .resume-item {
     padding-top: 24px; }
     .m-resume .resume-item > h3 {
@@ -6523,9 +6532,48 @@ a.text-dark:hover, a.text-dark:focus {
     display: flex; }
     .m-resume .resume-item-content.resume-item-between > ul {
       flex: 1 1 50%; }
-  .m-resume .resume-clear {
-    clear: both; }
-  .m-resume .resume-small {
-    font-size: 12px; }
+  .m-resume .resume-experience {
+    display: flex; }
+  .m-resume .resume-experience-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center; }
+    .m-resume .resume-experience-timeline .timeline-circle {
+      width: 12px;
+      border-radius: 50%;
+      border: 3px solid #45C8DC;
+      flex: 0 0 12px; }
+    .m-resume .resume-experience-timeline .timeline-line {
+      width: 1px;
+      background: #E5E5E5;
+      flex: 1 1 auto; }
+    .m-resume .resume-experience-timeline .timeline-line-before {
+      width: 1px;
+      background: #E5E5E5;
+      flex: 0 0 6px; }
+  .m-resume .resume-experience-content {
+    flex: 1 1 auto; }
+    .m-resume .resume-experience-content .company-name,
+    .m-resume .resume-experience-content .project-name {
+      font-size: 18px;
+      color: #1B2026; }
+    .m-resume .resume-experience-content .company,
+    .m-resume .resume-experience-content .department,
+    .m-resume .resume-experience-content .project {
+      display: flex;
+      justify-content: space-between;
+      color: #868C94; }
+  .m-resume .resume-item .resume-experience:first-of-type .timeline-line-before {
+    background: transparent; }
+  .m-resume .resume-item .resume-experience:last-of-type .timeline-line {
+    background: transparent; }
+  .m-resume .project-detail {
+    display: flex; }
+    .m-resume .project-detail .detail-name {
+      color: #62748b;
+      flex: 0 0 auto; }
+    .m-resume .project-detail .detail-content {
+      flex: 1 1 auto; }
 
 /*# sourceMappingURL=bootstrap.css.map */
