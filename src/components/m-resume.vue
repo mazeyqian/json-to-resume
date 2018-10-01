@@ -42,12 +42,12 @@
               <span>2018 年 7 月 - 至今</span>
             </div>
             <div class="department">
-              <span>工作流研发部</span>
+              <span>技术部</span>
               <span>前端工程师</span>
             </div>
           </div>
           <div class="content-description">
-            ——
+            <span>负责公司猎头系统的前端开发，开发并完善工作流平台；承担前端项目管理和运维的工作。</span>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
         <div class="resume-experience-content">
           <div class="content-title">
             <div class="company">
-              <span class="company-name">苏宁云商</span>
+              <span class="company-name">苏宁云商集团股份有限公司</span>
               <span>2017 年 11 月 - 2018 年 4 月</span>
             </div>
             <div class="department">
@@ -70,7 +70,7 @@
             </div>
           </div>
           <div class="content-description">
-            负责集团数据可视化分析的前端工作，制定前端编码规范以及培训新人。
+            <span>负责集团数据可视化分析的前端工作，使苏宁线下线上促销活动的数据更加直观。</span>
           </div>
         </div>
       </div>
@@ -93,13 +93,41 @@
             </div>
           </div>
           <div class="content-description">
-            负责公司网站从服务器端到前端的开发和维护，对接第三方接口；根据客服需求定制管理系统。
+            <span>参与公司销售网站从后端到前端的开发和维护；收集需求开发管理系统提高客服工作效率；管理服务器，承担一部分的运维工作。</span>
           </div>
         </div>
       </div>
     </div>
     <div class="resume-item">
       <h3>项目经验</h3>
+      <!--PinnacleSolution智能招聘系统-->
+      <div class="resume-experience">
+        <div class="resume-experience-timeline">
+          <div class="timeline-line-before"></div>
+          <div class="timeline-circle"></div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="resume-experience-content">
+          <div class="content-title">
+            <div class="project">
+              <span class="project-name">PinnacleSolution智能招聘系统</span>
+              <span>2018 年 7 月 - 至今</span>
+            </div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">前端技术：</div>
+            <div class="detail-content">Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。</div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">项目职责：</div>
+            <div class="detail-content">——</div>
+          </div>
+          <div class="project-detail">
+            <div class="detail-name">项目描述：</div>
+            <div class="detail-content">——</div>
+          </div>
+        </div>
+      </div>
       <!--IDAP智能数据分析平台-->
       <div class="resume-experience">
         <div class="resume-experience-timeline">
@@ -116,7 +144,7 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">前端技术：</div>
-            <div class="detail-content">Vue2，Echarts3，Sass，Webpack，Element-UI。</div>
+            <div class="detail-content">Vue 2，Element-UI，Echarts 3，Webpack，Sass。</div>
           </div>
           <div class="project-detail">
             <div class="detail-name">项目职责：</div>
@@ -148,7 +176,7 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">后端技术：</div>
-            <div class="detail-content">Windows，IIS，ASP，SQLServer。</div>
+            <div class="detail-content">WindowsServer，IIS，ASP，SQLServer。</div>
           </div>
           <div class="project-detail">
             <div class="detail-name">项目职责：</div>

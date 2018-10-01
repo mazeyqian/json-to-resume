@@ -6493,7 +6493,7 @@ a.text-dark:hover, a.text-dark:focus {
 .m-resume {
   font-size: 14px;
   color: #38424F;
-  padding: 20px 30px; }
+  padding: 30px 50px; }
   .m-resume .resume-title, .m-resume .resume-item:nth-last-child(n + 2) {
     border-bottom: 1px solid #E5E5E5; }
   .m-resume .resume-clear {
@@ -6506,16 +6506,24 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline-flex; }
   .m-resume ul {
     list-style-type: none;
-    padding-left: 0; }
+    padding-left: 0;
+    margin-bottom: 0; }
+    .m-resume ul li:nth-last-child(n + 2) {
+      margin-bottom: 4px; }
   .m-resume a {
     text-decoration: none;
     border-bottom: 1px solid currentColor; }
     .m-resume a:hover {
       text-decoration: none; }
+  .m-resume h1 {
+    font-size: 30px; }
+  .m-resume h1,
+  .m-resume h3 {
+    margin-bottom: 10px; }
   .m-resume .resume-info-name {
     color: #62748b; }
   .m-resume .resume-item {
-    padding-top: 24px; }
+    padding: 24px 0; }
     .m-resume .resume-item > h3 {
       display: flex;
       align-items: center;
@@ -6534,6 +6542,8 @@ a.text-dark:hover, a.text-dark:focus {
       flex: 1 1 50%; }
   .m-resume .resume-experience {
     display: flex; }
+    .m-resume .resume-experience:nth-last-child(n + 2) .resume-experience-content {
+      padding-bottom: 20px; }
   .m-resume .resume-experience-timeline {
     display: flex;
     flex-direction: column;
@@ -6563,13 +6573,16 @@ a.text-dark:hover, a.text-dark:focus {
     .m-resume .resume-experience-content .project {
       display: flex;
       justify-content: space-between;
-      color: #868C94; }
+      color: #868C94;
+      margin-bottom: 8px; }
   .m-resume .resume-item .resume-experience:first-of-type .timeline-line-before {
     background: transparent; }
   .m-resume .resume-item .resume-experience:last-of-type .timeline-line {
     background: transparent; }
   .m-resume .project-detail {
     display: flex; }
+    .m-resume .project-detail:nth-last-child(n + 2) {
+      margin-bottom: 8px; }
     .m-resume .project-detail .detail-name {
       color: #62748b;
       flex: 0 0 auto; }
