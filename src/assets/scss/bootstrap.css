@@ -6588,5 +6588,23 @@ a.text-dark:hover, a.text-dark:focus {
       flex: 0 0 auto; }
     .m-resume .project-detail .detail-content {
       flex: 1 1 auto; }
+  .m-resume .skill-show {
+    display: flex;
+    flex-wrap: wrap; }
+    .m-resume .skill-show .skill-item {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center; }
+      .m-resume .skill-show .skill-item:nth-child(even) {
+        padding-left: 20px; }
+      .m-resume .skill-show .skill-item:nth-child(odd) {
+        padding-right: 20px; }
+    .m-resume .skill-show .skill-name {
+      width: 70px; }
+    .m-resume .skill-show .skill-progress {
+      flex: 1 1 auto;
+      border-radius: .7em; }
+      .m-resume .skill-show .skill-progress .progress-bar {
+        background: #45C8DC; }
 
 /*# sourceMappingURL=bootstrap.css.map */

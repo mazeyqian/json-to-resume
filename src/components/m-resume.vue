@@ -120,11 +120,11 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">项目职责：</div>
-            <div class="detail-content">——</div>
+            <div class="detail-content">作为项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。</div>
           </div>
           <div class="project-detail">
             <div class="detail-name">项目描述：</div>
-            <div class="detail-content">——</div>
+            <div class="detail-content">通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。</div>
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">项目描述：</div>
-            <div class="detail-content">项目分为实时数据，数据分析，后台管理三个部分，包括图表展示、大小屏切换、用户增删改查数据等模块。</div>
+            <div class="detail-content">项目分为实时数据展示，历史数据分析，促销活动后台管理三个部分，引入 Echarts 做数据的可视化；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。</div>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@
         <div class="resume-experience-content">
           <div class="content-title">
             <div class="project">
-              <span class="project-name">邦宁备案核查系统</span>
+              <span class="project-name">邦宁域名备案核查系统</span>
               <span>2017 月 4 月 – 2017 年 5 月</span>
             </div>
           </div>
@@ -180,17 +180,28 @@
           </div>
           <div class="project-detail">
             <div class="detail-name">项目职责：</div>
-            <div class="detail-content">独立完成从前端页面渲染到后端的系统架构设计，数据库设计。</div>
+            <div class="detail-content">前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。</div>
           </div>
           <div class="project-detail">
             <div class="detail-name">项目描述：</div>
-            <div class="detail-content">用户登录，数据筛选，数据对比，定时任务。</div>
+            <div class="detail-content">前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；通过数据筛选，数据对比，批量处理数据等功能提高备案专员的工作效率。</div>
           </div>
         </div>
       </div>
     </div>
     <div class="resume-item">
       <h3>技能</h3>
+      <div class="skill-show">
+        <div class="skill-item" v-for="skill in resume.skills">
+          <span class="skill-name">{{ skill.name }}</span>
+          <b-progress
+            :value="skill.level"
+            height="12px"
+            class="skill-progress"></b-progress>
+          <!--<span class="skill-level">熟悉</span>-->
+        </div>
+      </div>
+
     </div>
     <div class="resume-item">
       <h3>专利</h3>
@@ -198,15 +209,43 @@
         <li>基于HTML5协议的浏览器全屏显示方法及显示装置[WHD18002（PT20180080-DD-P）]</li>
       </ul>
     </div>
-    <div class="resume-item">
-      <h3>自我介绍</h3>
-    </div>
+    <!--<div class="resume-item">-->
+      <!--<h3>自我介绍</h3>-->
+    <!--</div>-->
   </div>
 </template>
 
 <script>
   export default {
     name: 'm-resume',
+    data () {
+      return {
+        resume: {
+          skills: [
+            {
+              name: 'ES6/5/3',
+              level: 80
+            },
+            {
+              name: 'Vue',
+              level: 75
+            },
+            {
+              name: 'CSS',
+              level: 70
+            },
+            {
+              name: 'Sass',
+              level: 65
+            },
+            {
+              name: 'Nginx',
+              level: 60
+            }
+          ]
+        }
+      }
+    },
     created () {
       // TODO: 公司LOGO 技能熟练度进度条 自我评价 行业TAG
     }
