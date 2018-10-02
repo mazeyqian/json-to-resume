@@ -42,6 +42,11 @@
   h3 {
     margin-bottom: 10px;
   }
+  img[class^="icon-"] {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+  }
   // parent
   font-size: 14px;
   color: $font-color-primary;
@@ -122,6 +127,13 @@
       font-size: 18px;
       color: #1B2026;
     }
+    .company-name {
+      display: flex;
+      align-items: center;
+    }
+    .icon-company {
+      width: auto;
+    }
     .company,
     .department,
     .project {
@@ -188,6 +200,11 @@
         background: $bgc-color-primary;
       }
     }
+  }
+  // patent
+  .patent-item {
+    display: flex;
+    align-items: center;
   }
   // past
   //.resume-person-left{

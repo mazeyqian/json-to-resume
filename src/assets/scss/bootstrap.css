@@ -6520,6 +6520,10 @@ a.text-dark:hover, a.text-dark:focus {
   .m-resume h1,
   .m-resume h3 {
     margin-bottom: 10px; }
+  .m-resume img[class^="icon-"] {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px; }
   .m-resume .resume-info-name {
     color: #62748b; }
   .m-resume .resume-item {
@@ -6568,6 +6572,11 @@ a.text-dark:hover, a.text-dark:focus {
     .m-resume .resume-experience-content .project-name {
       font-size: 18px;
       color: #1B2026; }
+    .m-resume .resume-experience-content .company-name {
+      display: flex;
+      align-items: center; }
+    .m-resume .resume-experience-content .icon-company {
+      width: auto; }
     .m-resume .resume-experience-content .company,
     .m-resume .resume-experience-content .department,
     .m-resume .resume-experience-content .project {
@@ -6606,5 +6615,8 @@ a.text-dark:hover, a.text-dark:focus {
       border-radius: .7em; }
       .m-resume .skill-show .skill-progress .progress-bar {
         background: #45C8DC; }
+  .m-resume .patent-item {
+    display: flex;
+    align-items: center; }
 
 /*# sourceMappingURL=bootstrap.css.map */

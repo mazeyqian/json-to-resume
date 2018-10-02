@@ -21,7 +21,7 @@
           <li><span class="resume-info-name">专业：</span>电气工程及其自动化</li>
           <li><span class="resume-info-name">学历：</span>本科</li>
           <li><span class="resume-info-name">英语：</span>CET-6</li>
-          <li><span class="resume-info-name">博客：</span><a href="http://blog.mazey.net/" target="_blank">blog.mazey.net</a></li>
+          <li><span class="resume-info-name">博客：</span><a href="https://blog.mazey.net/" target="_blank">blog.mazey.net</a></li>
           <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank">mazeyqian</a></li>
         </ul>
       </div>
@@ -38,7 +38,10 @@
         <div class="resume-experience-content">
           <div class="content-title">
             <div class="company">
-              <span class="company-name">平纳科信息咨询有限公司</span>
+              <span class="company-name">
+                <img class="icon-company" src="../assets/img/pinnacle-logo.png"/>
+                <span>平纳科信息咨询有限公司</span>
+              </span>
               <span>2018 年 7 月 - 至今</span>
             </div>
             <div class="department">
@@ -61,7 +64,10 @@
         <div class="resume-experience-content">
           <div class="content-title">
             <div class="company">
-              <span class="company-name">苏宁云商集团股份有限公司</span>
+              <span class="company-name">
+                <img class="icon-company" src="../assets/img/suning-logo.png"/>
+                <span>苏宁云商集团股份有限公司</span>
+              </span>
               <span>2017 年 11 月 - 2018 年 4 月</span>
             </div>
             <div class="department">
@@ -84,7 +90,10 @@
         <div class="resume-experience-content">
           <div class="content-title">
             <div class="company">
-              <span class="company-name">江苏邦宁科技有限公司</span>
+              <span class="company-name">
+                <img class="icon-company" src="../assets/img/bangning-logo.png"/>
+                <span>江苏邦宁科技有限公司</span>
+              </span>
               <span>2016 年 6 月 - 2017 年 8 月</span>
             </div>
             <div class="department">
@@ -192,7 +201,7 @@
     <div class="resume-item">
       <h3>技能</h3>
       <div class="skill-show">
-        <div class="skill-item" v-for="skill in resume.skills">
+        <div class="skill-item" v-for="(skill, index) in resume.skills" :key="`skill-item${index}`">
           <span class="skill-name">{{ skill.name }}</span>
           <b-progress
             :value="skill.level"
@@ -205,9 +214,12 @@
     </div>
     <div class="resume-item">
       <h3>专利</h3>
-      <ul>
-        <li>基于HTML5协议的浏览器全屏显示方法及显示装置[WHD18002（PT20180080-DD-P）]</li>
-      </ul>
+      <div class="patent">
+        <div class="patent-item">
+          <img class="icon-html5" src="../assets/img/html5.png"/>
+          <span>基于HTML5协议的浏览器全屏显示方法及显示装置[WHD18002（PT20180080-DD-P）]</span>
+        </div>
+      </div>
     </div>
     <!--<div class="resume-item">-->
       <!--<h3>自我介绍</h3>-->
@@ -216,6 +228,7 @@
 </template>
 
 <script>
+  // 15 + 6 + 4?
   export default {
     name: 'm-resume',
     data () {
@@ -247,6 +260,7 @@
       }
     },
     created () {
+      document.title = '钱程-前端工程师-2年'
       // TODO: 公司LOGO 技能熟练度进度条 自我评价 行业TAG
     }
   }
