@@ -116,8 +116,7 @@
     <!--项目经验-->
     <div class="resume-item">
       <h3>项目经验</h3>
-      <!--PinnacleSolution智能招聘系统-->
-      <div class="resume-experience">
+      <div class="resume-experience" v-for="(project, index) in resume.projects" :key="`resume-experience-${index}`">
         <div class="resume-experience-timeline">
           <div class="timeline-line-before"></div>
           <div class="timeline-circle"></div>
@@ -127,91 +126,26 @@
           <div class="content-title">
             <div class="project">
               <span class="project-name">
-                <span>PinnacleSolution智能招聘系统</span>
+                <span>{{ project.name }}</span>
                 <span class="project-badges">
-                  <b-badge pill variant="dark" class="project-badge">招聘</b-badge>
-                  <b-badge pill variant="primary" class="project-badge">人工智能</b-badge>
-                  <b-badge pill variant="secondary" class="project-badge">招聘</b-badge>
-                  <b-badge pill variant="success" class="project-badge">爬虫</b-badge>
-                  <b-badge pill variant="danger" class="project-badge">大数据</b-badge>
-                  <b-badge pill variant="warning" class="project-badge">数据可视化</b-badge>
-                  <b-badge pill variant="info" class="project-badge">管理</b-badge>
+                  <b-badge v-for="(tag, index) in project.tags"
+                           pill
+                           class="project-badge"
+                           :class="tag.bgc">{{ tag.name }}</b-badge>
+                  <!--<b-badge pill variant="primary" class="project-badge">人工智能</b-badge>-->
+                  <!--<b-badge pill variant="secondary" class="project-badge">招聘</b-badge>-->
+                  <!--<b-badge pill variant="success" class="project-badge">爬虫</b-badge>-->
+                  <!--<b-badge pill variant="danger" class="project-badge">大数据</b-badge>-->
+                  <!--<b-badge pill variant="warning" class="project-badge">数据可视化</b-badge>-->
+                  <!--<b-badge pill variant="info" class="project-badge">管理</b-badge>-->
                 </span>
               </span>
-              <span>2018 年 7 月 - 至今</span>
+              <span>{{ project.timeRange }}</span>
             </div>
           </div>
-          <div class="project-detail">
-            <div class="detail-name">前端技术：</div>
-            <div class="detail-content">Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目职责：</div>
-            <div class="detail-content">作为项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目描述：</div>
-            <div class="detail-content">通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。</div>
-          </div>
-        </div>
-      </div>
-      <!--IDAP智能数据分析平台-->
-      <div class="resume-experience">
-        <div class="resume-experience-timeline">
-          <div class="timeline-line-before"></div>
-          <div class="timeline-circle"></div>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="resume-experience-content">
-          <div class="content-title">
-            <div class="project">
-              <span class="project-name">IDAP智能数据分析平台</span>
-              <span>2017 年 11 月 - 2018 年 4 月</span>
-            </div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">前端技术：</div>
-            <div class="detail-content">Vue 2，Element-UI，Echarts 3，Webpack，Sass。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目职责：</div>
-            <div class="detail-content">前期就项目进行讨论，约定接口格式，并对照视觉图进行职责分配及项目排期；开发阶段根据后端提供接口文档模拟数据进行页面渲染；后期与后端进行联调并进一步改进项目。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目描述：</div>
-            <div class="detail-content">项目分为实时数据展示，历史数据分析，促销活动后台管理三个部分，引入 Echarts 做数据的可视化；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。</div>
-          </div>
-        </div>
-      </div>
-      <!--邦宁备案核查系统-->
-      <div class="resume-experience">
-        <div class="resume-experience-timeline">
-          <div class="timeline-line-before"></div>
-          <div class="timeline-circle"></div>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="resume-experience-content">
-          <div class="content-title">
-            <div class="project">
-              <span class="project-name">邦宁域名备案核查系统</span>
-              <span>2017 月 4 月 – 2017 年 5 月</span>
-            </div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">前端技术：</div>
-            <div class="detail-content">Bootstrap，jQuery，Less。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">后端技术：</div>
-            <div class="detail-content">WindowsServer，IIS，ASP，SQLServer。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目职责：</div>
-            <div class="detail-content">前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。</div>
-          </div>
-          <div class="project-detail">
-            <div class="detail-name">项目描述：</div>
-            <div class="detail-content">前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；通过数据筛选，数据对比，批量处理数据等功能提高备案专员的工作效率。</div>
+          <div class="project-detail" v-for="(detail, index) in project.detail">
+            <div class="detail-name">{{ detail.name }}：</div>
+            <div class="detail-content">{{ detail.value }}</div>
           </div>
         </div>
       </div>
@@ -220,7 +154,7 @@
     <div class="resume-item">
       <h3>技能</h3>
       <div class="skill-show">
-        <div class="skill-item" v-for="(skill, index) in resume.skills" :key="`skill-item${index}`">
+        <div class="skill-item" v-for="(skill, index) in resume.skills" :key="`skill-item-${index}`">
           <span class="skill-name">{{ skill.name }}</span>
           <b-progress
             :value="skill.level"
@@ -249,21 +183,31 @@
     data () {
       return {
         resume: {
-          project: [
+          projects: [
             {
               name: 'PinnacleSolution智能招聘系统',
               timeRange: '2018 年 7 月 - 至今',
-              content: [
+              tags: [
                 {
-                  name: '前端技术：',
+                  name: '招聘',
+                  bgc: 'dark'
+                },
+                {
+                  name: '效率',
+                  bgc: 'secondary'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
                   value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
                 },
                 {
-                  name: '项目职责：',
+                  name: '项目职责',
                   value: '作为项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。'
                 },
                 {
-                  name: '项目描述：',
+                  name: '项目描述',
                   value: '通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。'
                 }
               ]
@@ -271,17 +215,31 @@
             {
               name: 'IDAP智能数据分析平台',
               timeRange: '2017 年 11 月 - 2018 年 4 月',
-              content: [
+              tags: [
                 {
-                  name: '前端技术：',
+                  name: '数据可视化',
+                  bgc: 'blue'
+                },
+                {
+                  name: '大屏',
+                  bgc: ''
+                },
+                {
+                  name: '响应式',
+                  bgc: ''
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
                   value: 'Vue 2，Element-UI，Echarts 3，Webpack，Sass。'
                 },
                 {
-                  name: '项目职责：',
+                  name: '项目职责',
                   value: '前期就项目进行讨论，约定接口格式，并对照视觉图进行职责分配及项目排期；开发阶段根据后端提供接口文档模拟数据进行页面渲染；后期与后端进行联调并进一步改进项目。'
                 },
                 {
-                  name: '项目描述：',
+                  name: '项目描述',
                   value: '项目分为实时数据展示，历史数据分析，促销活动后台管理三个部分，引入 Echarts 做数据的可视化；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
                 }
               ]
@@ -289,21 +247,35 @@
             {
               name: '邦宁域名备案核查系统',
               timeRange: '2017 月 4 月 – 2017 年 5 月',
-              content: [
+              tags: [
                 {
-                  name: '前端技术：',
+                  name: 'CRM',
+                  bgc: ''
+                },
+                {
+                  name: 'IE8+',
+                  bgc: ''
+                },
+                {
+                  name: '效率',
+                  bgc: 'secondary'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
                   value: 'Bootstrap，jQuery，Less。'
                 },
                 {
-                  name: '后端技术：',
+                  name: '后端技术',
                   value: 'WindowsServer，IIS，ASP，SQLServer。'
                 },
                 {
-                  name: '项目职责：',
+                  name: '项目职责',
                   value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
                 },
                 {
-                  name: '项目描述：',
+                  name: '项目描述',
                   value: '前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；通过数据筛选，数据对比，批量处理数据等功能提高备案专员的工作效率。'
                 }
               ]

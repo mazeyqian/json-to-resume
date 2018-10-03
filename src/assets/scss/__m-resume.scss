@@ -221,6 +221,16 @@
   .project-badges {
     display: flex;
     align-items: center;
+    // badge color
+    .dark {
+      background-color: #343a40;
+    }
+    .blue {
+      background-color: #007bff;
+    }
+    .secondary {
+      background-color: #6c757d;
+    }
   }
   .project-badge {
     border: none;

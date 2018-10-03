@@ -6630,6 +6630,12 @@ a.text-dark:hover, a.text-dark:focus {
   .m-resume .project-badges {
     display: flex;
     align-items: center; }
+    .m-resume .project-badges .dark {
+      background-color: #343a40; }
+    .m-resume .project-badges .blue {
+      background-color: #007bff; }
+    .m-resume .project-badges .secondary {
+      background-color: #6c757d; }
   .m-resume .project-badge {
     border: none;
     margin-left: 4px; }
