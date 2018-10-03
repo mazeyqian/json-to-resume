@@ -6593,8 +6593,9 @@ a.text-dark:hover, a.text-dark:focus {
       width: 32px; }
       .m-resume .resume-experience-content .company-logo-suning .icon-company {
         width: 25px;
+        height: 25px;
         background-image: url(../img/suning-logo.png);
-        background-size: auto 39px;
+        background-size: auto 37px;
         background-position: 0 -7px; }
     .m-resume .resume-experience-content .company-logo-bangning {
       width: 53px; }
