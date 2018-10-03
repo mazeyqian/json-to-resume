@@ -6571,7 +6571,8 @@ a.text-dark:hover, a.text-dark:focus {
     .m-resume .resume-experience-content .company-name,
     .m-resume .resume-experience-content .project-name {
       font-size: 18px;
-      color: #1B2026; }
+      color: #1B2026;
+      display: flex; }
     .m-resume .resume-experience-content [class^="company-logo"] {
       display: flex;
       align-items: center;
@@ -6606,8 +6607,6 @@ a.text-dark:hover, a.text-dark:focus {
         background-size: auto 25px;
         background-position: 0 0;
         margin-bottom: -2px; }
-    .m-resume .resume-experience-content .company-name {
-      display: flex; }
     .m-resume .resume-experience-content .company,
     .m-resume .resume-experience-content .department,
     .m-resume .resume-experience-content .project {
@@ -6628,6 +6627,12 @@ a.text-dark:hover, a.text-dark:focus {
       flex: 0 0 auto; }
     .m-resume .project-detail .detail-content {
       flex: 1 1 auto; }
+  .m-resume .project-badges {
+    display: flex;
+    align-items: center; }
+  .m-resume .project-badge {
+    border: none;
+    margin-left: 4px; }
   .m-resume .skill-show {
     display: flex;
     flex-wrap: wrap; }

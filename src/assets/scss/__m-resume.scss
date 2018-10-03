@@ -126,6 +126,7 @@
     .project-name {
       font-size: 18px;
       color: #1B2026;
+      display: flex;
     }
     [class^="company-logo"] {
       display: flex;
@@ -171,7 +172,7 @@
       }
     }
     .company-name {
-      display: flex;
+      //display: flex;
       //align-items: center;
     }
     //.icon-company {
@@ -216,6 +217,14 @@
     .detail-content {
       flex: 1 1 auto;
     }
+  }
+  .project-badges {
+    display: flex;
+    align-items: center;
+  }
+  .project-badge {
+    border: none;
+    margin-left: 4px;
   }
   // skill
   .skill-show {
