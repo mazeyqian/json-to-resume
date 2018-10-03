@@ -189,12 +189,16 @@
               timeRange: '2018 年 7 月 - 至今',
               tags: [
                 {
-                  name: '招聘',
-                  bgc: 'dark'
+                  name: 'CRM',
+                  bgc: 'crm'
                 },
+                // {
+                //   name: '效率',
+                //   bgc: 'green'
+                // },
                 {
-                  name: '效率',
-                  bgc: 'secondary'
+                  name: 'Vue',
+                  bgc: 'vue'
                 }
               ],
               detail: [
@@ -222,11 +226,15 @@
                 },
                 {
                   name: '大屏',
-                  bgc: ''
+                  bgc: 'orange'
                 },
                 {
                   name: '响应式',
-                  bgc: ''
+                  bgc: 'purple'
+                },
+                {
+                  name: 'Vue',
+                  bgc: 'vue'
                 }
               ],
               detail: [
@@ -250,14 +258,18 @@
               tags: [
                 {
                   name: 'CRM',
-                  bgc: ''
+                  bgc: 'crm'
                 },
                 {
                   name: 'IE8+',
-                  bgc: ''
+                  bgc: 'ms'
                 },
+                // {
+                //   name: '效率',
+                //   bgc: 'green'
+                // },
                 {
-                  name: '效率',
+                  name: '报表',
                   bgc: 'secondary'
                 }
               ],
@@ -308,7 +320,7 @@
     },
     created () {
       document.title = '钱程-前端工程师-2年'
-      // TODO: 公司LOGO 行业TAG 技能带颜色
+      // TODO: 技能带颜色
     }
   }
 </script>

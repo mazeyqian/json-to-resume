@@ -6631,11 +6631,31 @@ a.text-dark:hover, a.text-dark:focus {
     display: flex;
     align-items: center; }
     .m-resume .project-badges .dark {
-      background-color: #343a40; }
+      background-color: #111111; }
     .m-resume .project-badges .blue {
       background-color: #007bff; }
     .m-resume .project-badges .secondary {
       background-color: #6c757d; }
+    .m-resume .project-badges .purple {
+      background-color: #7952b3; }
+    .m-resume .project-badges .green {
+      background-color: #28a745; }
+    .m-resume .project-badges .ms {
+      background-color: #0067b8; }
+    .m-resume .project-badges .orange {
+      background-color: #FF851B; }
+    .m-resume .project-badges .red {
+      background-color: #FF4136; }
+    .m-resume .project-badges .gray {
+      background-color: #AAAAAA; }
+    .m-resume .project-badges .yellow {
+      background-color: #FFDC00; }
+    .m-resume .project-badges .cyan {
+      background-color: #17a2b8; }
+    .m-resume .project-badges .crm {
+      background-color: #5990a7; }
+    .m-resume .project-badges .vue {
+      background-color: #52b983; }
   .m-resume .project-badge {
     border: none;
     margin-left: 4px; }
@@ -6658,6 +6678,7 @@ a.text-dark:hover, a.text-dark:focus {
       .m-resume .skill-show .skill-progress .progress-bar {
         background: #45C8DC; }
   .m-resume .patent-item {
+    font-size: 15px;
     display: flex;
     align-items: center; }
 

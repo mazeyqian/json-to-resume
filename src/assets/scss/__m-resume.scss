@@ -223,13 +223,43 @@
     align-items: center;
     // badge color
     .dark {
-      background-color: #343a40;
+      background-color: #111111;
     }
     .blue {
       background-color: #007bff;
     }
     .secondary {
       background-color: #6c757d;
+    }
+    .purple {
+      background-color: #7952b3;
+    }
+    .green {
+      background-color: #28a745;
+    }
+    .ms {
+      background-color: #0067b8;
+    }
+    .orange {
+      background-color: #FF851B;
+    }
+    .red {
+      background-color: #FF4136;
+    }
+    .gray {
+      background-color: #AAAAAA;
+    }
+    .yellow {
+      background-color: #FFDC00;
+    }
+    .cyan {
+      background-color: #17a2b8;
+    }
+    .crm {
+      background-color: #5990a7; // #2b3188;
+    }
+    .vue {
+      background-color: #52b983; // #4fc08d;
     }
   }
   .project-badge {
@@ -265,6 +295,7 @@
   }
   // patent
   .patent-item {
+    font-size: 15px;
     display: flex;
     align-items: center;
   }
