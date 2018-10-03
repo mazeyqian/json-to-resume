@@ -6572,11 +6572,41 @@ a.text-dark:hover, a.text-dark:focus {
     .m-resume .resume-experience-content .project-name {
       font-size: 18px;
       color: #1B2026; }
-    .m-resume .resume-experience-content .company-name {
+    .m-resume .resume-experience-content [class^="company-logo"] {
       display: flex;
-      align-items: center; }
-    .m-resume .resume-experience-content .icon-company {
-      width: auto; }
+      align-items: center;
+      width: 100px; }
+    .m-resume .resume-experience-content [class^="icon-company"] {
+      display: inline-flex;
+      width: 100%;
+      height: 27px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left top; }
+    .m-resume .resume-experience-content .company-logo-pinnacle {
+      width: 32px; }
+      .m-resume .resume-experience-content .company-logo-pinnacle .icon-company {
+        width: 27px;
+        height: 23px;
+        background-image: url(../img/pinnacle-logo.png); }
+    .m-resume .resume-experience-content .company-logo-suning {
+      width: 32px; }
+      .m-resume .resume-experience-content .company-logo-suning .icon-company {
+        width: 25px;
+        background-image: url(../img/suning-logo.png);
+        background-size: auto 39px;
+        background-position: 0 -7px; }
+    .m-resume .resume-experience-content .company-logo-bangning {
+      width: 53px; }
+      .m-resume .resume-experience-content .company-logo-bangning .icon-company {
+        width: 49px;
+        height: 23px;
+        background-image: url(../img/bangning-logo.png);
+        background-size: auto 25px;
+        background-position: 0 0;
+        margin-bottom: -2px; }
+    .m-resume .resume-experience-content .company-name {
+      display: flex; }
     .m-resume .resume-experience-content .company,
     .m-resume .resume-experience-content .department,
     .m-resume .resume-experience-content .project {

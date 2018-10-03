@@ -127,13 +127,55 @@
       font-size: 18px;
       color: #1B2026;
     }
-    .company-name {
+    [class^="company-logo"] {
       display: flex;
       align-items: center;
+      width: 100px;
     }
-    .icon-company {
-      width: auto;
+    [class^="icon-company"] {
+      //outline: 1px solid $border-color-primary;
+      display: inline-flex;
+      width: 100%;
+      height: 27px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left top;
     }
+    .company-logo-pinnacle {
+      width: 32px;
+      .icon-company {
+        width: 27px;
+        height: 23px;
+        background-image: url(../img/pinnacle-logo.png);
+      }
+    }
+    .company-logo-suning {
+      width: 32px;
+      .icon-company {
+        width: 25px;
+        background-image: url(../img/suning-logo.png);
+        background-size: auto 39px;
+        background-position: 0 -7px;
+      }
+    }
+    .company-logo-bangning {
+      width: 53px;
+      .icon-company {
+        width: 49px;
+        height: 23px;
+        background-image: url(../img/bangning-logo.png);
+        background-size: auto 25px;
+        background-position: 0 0;
+        margin-bottom: -2px;
+      }
+    }
+    .company-name {
+      display: flex;
+      //align-items: center;
+    }
+    //.icon-company {
+    //  width: auto;
+    //}
     .company,
     .department,
     .project {

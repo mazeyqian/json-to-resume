@@ -39,7 +39,9 @@
           <div class="content-title">
             <div class="company">
               <span class="company-name">
-                <img class="icon-company" src="../assets/img/pinnacle-logo.png"/>
+                <div class="company-logo-pinnacle">
+                  <i class="icon-company"></i>
+                </div>
                 <span>平纳科信息咨询有限公司</span>
               </span>
               <span>2018 年 7 月 - 至今</span>
@@ -65,7 +67,9 @@
           <div class="content-title">
             <div class="company">
               <span class="company-name">
-                <img class="icon-company" src="../assets/img/suning-logo.png"/>
+                <div class="company-logo-suning">
+                  <i class="icon-company"></i>
+                </div>
                 <span>苏宁云商集团股份有限公司</span>
               </span>
               <span>2017 年 11 月 - 2018 年 4 月</span>
@@ -91,7 +95,9 @@
           <div class="content-title">
             <div class="company">
               <span class="company-name">
-                <img class="icon-company" src="../assets/img/bangning-logo.png"/>
+                <div class="company-logo-bangning">
+                  <i class="icon-company"></i>
+                </div>
                 <span>江苏邦宁科技有限公司</span>
               </span>
               <span>2016 年 6 月 - 2017 年 8 月</span>
@@ -261,7 +267,7 @@
     },
     created () {
       document.title = '钱程-前端工程师-2年'
-      // TODO: 公司LOGO 技能熟练度进度条 自我评价 行业TAG
+      // TODO: 公司LOGO 行业TAG 技能带颜色
     }
   }
 </script>
