@@ -173,6 +173,14 @@
         </div>
       </div>
     </div>
+    <!--底部-->
+    <div class="resume-footer">
+      <div class="footer-line"></div>
+      <div class="footer-content">
+        <span>Made with 💖 by Mazey（End）</span>
+      </div>
+      <div class="footer-line"></div>
+    </div>
   </div>
 </template>
 
@@ -320,7 +328,6 @@
     },
     created () {
       document.title = '钱程-前端工程师-2年'
-      // TODO: 技能带颜色
     }
   }
 </script>

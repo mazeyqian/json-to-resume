@@ -6494,7 +6494,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px;
   color: #38424F;
   padding: 30px 50px; }
-  .m-resume .resume-title, .m-resume .resume-item:nth-last-child(n + 2) {
+  .m-resume .resume-title, .m-resume .resume-item:nth-last-child(n + 3) {
     border-bottom: 1px solid #E5E5E5; }
   .m-resume .resume-clear {
     clear: both; }
@@ -6681,5 +6681,16 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 15px;
     display: flex;
     align-items: center; }
+  .m-resume .resume-footer {
+    display: flex;
+    align-items: center;
+    color: #62748b;
+    margin-top: 5px; }
+  .m-resume .footer-content {
+    padding: 0 1em; }
+  .m-resume .footer-line {
+    flex: 1 0 auto;
+    height: 1px;
+    background-color: #E5E5E5; }
 
 /*# sourceMappingURL=bootstrap.css.map */
