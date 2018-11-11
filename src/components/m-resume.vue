@@ -129,6 +129,7 @@
                 <span>{{ project.name }}</span>
                 <span class="project-badges">
                   <b-badge v-for="(tag, index) in project.tags"
+                           :key="`project-badges-${index}`"
                            pill
                            class="project-badge"
                            :class="tag.bgc">{{ tag.name }}</b-badge>
@@ -143,7 +144,7 @@
               <span>{{ project.timeRange }}</span>
             </div>
           </div>
-          <div class="project-detail" v-for="(detail, index) in project.detail">
+          <div class="project-detail" v-for="(detail, index) in project.detail" :key="`project-detail-${index}`">
             <div class="detail-name">{{ detail.name }}：</div>
             <div class="detail-content">{{ detail.value }}</div>
           </div>
