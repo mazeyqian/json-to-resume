@@ -6491,11 +6491,11 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 @media screen and (min-width: 1000px) {
-  .m-layout {
+  .m-resume-box {
     display: flex;
     justify-content: center;
     background-color: #f2f2f2; }
-    .m-layout .m-resume {
+    .m-resume-box .m-resume {
       flex: 0 1 1000px;
       background-color: #fff;
       border-radius: 4px;
