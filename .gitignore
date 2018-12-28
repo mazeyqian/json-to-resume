@@ -1,6 +1,7 @@
 server/
 mazey-ui/
 .sass-cache
+package-lock.json
 
 .DS_Store
 node_modules/
