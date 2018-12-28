@@ -45,7 +45,7 @@
                 </div>
                 <span>平纳科信息咨询有限公司</span>
               </span>
-                <span>2018 年 7 月 - 至今</span>
+                <span>2018 年 7 月 - 2018 年 12 月</span>
               </div>
               <div class="department">
                 <span>技术部</span>
