@@ -15,6 +15,10 @@
         "src/**/*.vue": [
             "stylelint --fix",
             "git add"
+        ],
+        "src/**/*.html": [
+            "htmllint",
+            "git add"
         ]
     }
 }

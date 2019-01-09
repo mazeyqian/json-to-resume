@@ -12,7 +12,13 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "release": "cd dist && scp -r ./ root@118.89.31.187:/web/mazey.cn && cd ../"
+    "release": "cd dist && scp -r ./ root@118.89.31.187:/web/mazey.cn && cd ../",
+    "html-lint": "htmllint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "axios": "^0.17.1",
@@ -109,10 +115,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  ]
 }
