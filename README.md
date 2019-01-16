@@ -1,29 +1,7 @@
-# blog.mazey.net
+# m-resume
 
-> My blog project by Vue.js.
+> My resume project by Vue.js.
 
-## 主题
-
-- 色系：#847B76
-- 动物：猫咪三三
-
-## 技术栈
-
-Vue2, ES5+, localStorage, postMessage
-
-## Bug
-
-- Node短时间内不同GET返回相同结果。
-
-## 需求
-
-- 页面加载的时候固定body尺寸。
-- 加载更多添加动画效果。
-- 低版本浏览器跳转至老博客。
-
-## 完善
-
-- 观察下面冒泡会不会失败，改成setTimeout异步试试。
 
 ## Build Setup
 
