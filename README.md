@@ -1,4 +1,4 @@
-# m-resume
+# Mazey's Resume
 
 > My resume project by Vue.js.
 
