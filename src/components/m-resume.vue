@@ -21,8 +21,8 @@
             <li><span class="resume-info-name">专业：</span>电气工程及其自动化</li>
             <li><span class="resume-info-name">学历：</span>本科</li>
             <li><span class="resume-info-name">英语：</span>CET-6</li>
-            <li><span class="resume-info-name">博客：</span><a href="https://blog.mazey.net/" target="_blank">blog.mazey.net</a></li>
-            <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank">mazeyqian</a></li>
+            <li><span class="resume-info-name">博客：</span><a href="https://blog.mazey.net/" target="_blank" rel="noopener">blog.mazey.net</a></li>
+            <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank" rel="noopener">mazeyqian</a></li>
           </ul>
         </div>
       </div>
@@ -130,10 +130,10 @@
                 <span>{{ project.name }}</span>
                 <span class="project-badges">
                   <b-badge v-for="(tag, index) in project.tags"
-                           :key="`project-badges-${index}`"
-                           pill
-                           class="project-badge"
-                           :class="tag.bgc">{{ tag.name }}</b-badge>
+                    :key="`project-badges-${index}`"
+                    :pill="true"
+                    class="project-badge"
+                    :class="tag.bgc">{{ tag.name }}</b-badge>
                   <!--<b-badge pill variant="primary" class="project-badge">人工智能</b-badge>-->
                   <!--<b-badge pill variant="secondary" class="project-badge">招聘</b-badge>-->
                   <!--<b-badge pill variant="success" class="project-badge">爬虫</b-badge>-->
@@ -170,8 +170,8 @@
         <h3>专利</h3>
         <div class="patent">
           <div class="patent-item">
-            <img class="icon-html5" src="../assets/img/html5.png"/>
-            <span>基于HTML5协议的浏览器全屏显示方法及显示装置[WHD18002（PT20180080-DD-P）]</span>
+            <img class="icon-html5" alt="h5" src="../assets/img/html5.png"/>
+            <span>基于HTML5协议的浏览器全屏显示方法及显示装置[CN110083409A]</span>
           </div>
         </div>
       </div>
