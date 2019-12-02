@@ -14,7 +14,7 @@
             <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
             <li><span class="resume-info-name">电话：</span>18551470413</li>
             <li><span class="resume-info-name">邮箱：</span>mazey@mazey.net</li>
-            <li><span class="resume-info-name">工作年限：</span>2年</li>
+            <li><span class="resume-info-name">工作年限：</span>3 年</li>
           </ul>
           <ul>
             <li><span class="resume-info-name">院校：</span>三江学院<span class="resume-small">（2012 年 9 月 - 2016 年 6 月）</span></li>
@@ -196,7 +196,7 @@
         resume: {
           projects: [
             {
-              name: '游戏中心开放平台-游戏版本和灰度控制',
+              name: '游戏中心开放平台 - 游戏版本和灰度控制',
               timeRange: '2019 年 8 月 - 2019 年 11 月',
               tags: [
                 {
@@ -211,16 +211,16 @@
               detail: [
                 {
                   name: '项目职责',
-                  value: '产品经理+前端工程师，编写PRD并且参与前端开发'
+                  value: '项目负责人，编写 PRD 并且参与前端开发。'
                 },
                 {
                   name: '项目描述',
-                  value: '打通测试流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量。'
+                  value: '打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量。'
                 }
               ]
             },
             {
-              name: '游戏中心首页1.0-加载体验优化',
+              name: '游戏中心首页1.0 - 加载体验优化',
               timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
               tags: [
                 {
@@ -235,16 +235,16 @@
               detail: [
                 {
                   name: '项目职责',
-                  value: '前端工程师，'
+                  value: '前端工程师'
                 },
                 {
                   name: '项目描述',
-                  value: '首屏时间从 3357ms 减少到 917ms（-72%）。'
+                  value: '由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms 减少到 917ms（-72%）。'
                 }
               ]
             },
             {
-              name: '游戏中心-SDK',
+              name: '游戏中心 - SDK',
               timeRange: '2019 年 2 月 - 2019 年 11 月',
               tags: [
                 {
