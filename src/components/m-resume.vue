@@ -29,6 +29,34 @@
       <!--工作经历-->
       <div class="resume-item">
         <h3>工作经历</h3>
+        <!--QTT-->
+        <div class="resume-experience">
+          <div class="resume-experience-timeline">
+            <div class="timeline-line-before"></div>
+            <div class="timeline-circle"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="resume-experience-content">
+            <div class="content-title">
+              <div class="company">
+              <span class="company-name">
+                <div class="company-logo-pinnacle">
+                  <i class="icon-company"></i>
+                </div>
+                <span>上海基分文化传播有限公司</span>
+              </span>
+                <span>2018 年 7 月 - 2018 年 12 月</span>
+              </div>
+              <div class="department">
+                <span>技术部</span>
+                <span>前端工程师</span>
+              </div>
+            </div>
+            <div class="content-description">
+              <span>负责公司猎头系统的前端开发，开发并完善工作流平台；承担前端项目管理和运维的工作。</span>
+            </div>
+          </div>
+        </div>
         <!--Pinnacle-->
         <div class="resume-experience">
           <div class="resume-experience-timeline">
@@ -196,6 +224,66 @@
         resume: {
           projects: [
             {
+              name: '广告专项 - DSP激励视频',
+              timeRange: '2019 年 12 月 - 2020 年 1 月',
+              tags: [],
+              detail: [
+                {
+                  name: '项目职责',
+                  value: '前端工程师'
+                },
+                {
+                  name: '项目描述',
+                  value: `H5 激励视频的体验和扩展相对于 NA 激励视频存在诸多限制，推动 DSP 激励视频在发行游戏的扩量以及多平台的上线，CPM 提升 30%，Show CVR 提升 14%。`
+                }
+              ]
+            },
+            {
+              name: '游戏中心CMS后台 - 广告配置',
+              timeRange: '2019 年 12 月 - 2020 年 1 月',
+              tags: [
+                {
+                  name: 'ToA',
+                  bgc: 'blue'
+                },
+                {
+                  name: 'Vue',
+                  bgc: 'vue'
+                }
+              ],
+              detail: [
+                {
+                  name: '项目职责',
+                  value: '项目负责人，编写 PRD 并且参与前端开发。'
+                },
+                {
+                  name: '项目描述',
+                  value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题。
+                  通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天节约 1~2 小时的工作时间。`
+                }
+              ]
+            },
+            {
+              name: '游戏体验优化 - 接入Cocos',
+              timeRange: '2019 年 11 月 - 2020 年 12 月',
+              tags: [
+                {
+                  name: 'ToC',
+                  bgc: 'blue'
+                }
+              ],
+              detail: [
+                {
+                  name: '项目职责',
+                  value: '前端工程师'
+                },
+                {
+                  name: '项目描述',
+                  value: `游戏中心低端机用户占约 15%，减轻低端机兼容性问题，提高游戏性能，收入将得到绝对的提升，Cocos 原生广告部分联调并上线以及入口灰度的推动。`
+                }
+              ]
+            },
+            {
               name: '游戏中心开放平台 - 游戏版本和灰度控制',
               timeRange: '2019 年 8 月 - 2019 年 11 月',
               tags: [
@@ -215,7 +303,27 @@
                 },
                 {
                   name: '项目描述',
-                  value: '打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏的稳定性。'
+                  value: `
+                  打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏的稳定性。
+                  接入灰度的游戏：赚遍全球、植物战僵尸、零点街机捕鱼、王者大脑、趣种菜、装个球球、天天斗地主、疯狂切菜、全民烧脑、豆子斗地主、开心小农场。
+                  另外，之前厂家测试游戏需要运营花费巨大的时间精力将游戏挂载在冷门分类的底部位置，这样不仅不方便还容易出错，现在开放一个仅供厂商测试栏位，节约了运营大量的验收成本。`
+                }
+              ]
+            },
+            {
+              name: '离线包一期 / 二期',
+              timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
+              tags: [],
+              detail: [
+                {
+                  name: '项目职责',
+                  value: '前端工程师'
+                },
+                {
+                  name: '项目描述',
+                  value: `一期：为了优化外部厂商的游戏体验，将离线包功能开放给厂商使用，转化率提升 5%。
+                  二期：趣头条平台的 CDN 由于游戏的大离线包流程成本骤增，将游戏的离线包拆分 CDN 域名并且打散削峰值，成本降低约 80%，并且持续接入多达 30 款游戏，
+                  覆盖 100% 的发行游戏。`
                 }
               ]
             },
@@ -295,10 +403,6 @@
                   name: 'CRM',
                   bgc: 'crm'
                 },
-                // {
-                //   name: '效率',
-                //   bgc: 'green'
-                // },
                 {
                   name: 'Vue',
                   bgc: 'vue'
