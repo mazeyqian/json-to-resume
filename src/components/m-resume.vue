@@ -45,7 +45,7 @@
                 </div>
                 <span>上海基分文化传播有限公司</span>
               </span>
-                <span>2018 年 7 月 - 2018 年 12 月</span>
+                <span>2018 年 12 月 - 2020 年 1 月</span>
               </div>
               <div class="department">
                 <span>技术部</span>
