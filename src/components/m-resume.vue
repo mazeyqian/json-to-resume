@@ -48,12 +48,12 @@
                 <span>2018 年 12 月 - 2020 年 1 月</span>
               </div>
               <div class="department">
-                <span>技术部</span>
+                <span>游戏组</span>
                 <span>前端工程师</span>
               </div>
             </div>
             <div class="content-description">
-              <span>负责公司猎头系统的前端开发，开发并完善工作流平台；承担前端项目管理和运维的工作。</span>
+              <span>- -</span>
             </div>
           </div>
         </div>
