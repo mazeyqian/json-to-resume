@@ -40,20 +40,20 @@
             <div class="content-title">
               <div class="company">
               <span class="company-name">
-                <div class="company-logo-pinnacle">
+                <div class="company-logo-qtt">
                   <i class="icon-company"></i>
                 </div>
                 <span>上海基分文化传播有限公司</span>
               </span>
-                <span>2018 年 12 月 - 2020 年 1 月</span>
+                <span>2018 年 12 月 - 至今</span>
               </div>
               <div class="department">
-                <span>游戏组</span>
+                <span>技术中心 - 游戏组</span>
                 <span>前端工程师</span>
               </div>
             </div>
             <div class="content-description">
-              <span>- -</span>
+              <span>从零开始搭建集成在趣头条 App 中的游戏中心入口落地页以及面向外部游戏厂商接入的 JS-SDK。</span>
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@
             </div>
             <div class="project-detail" v-for="(detail, index) in project.detail" :key="`project-detail-${index}`">
               <div class="detail-name">{{ detail.name }}：</div>
-              <div class="detail-content">{{ detail.value }}</div>
+              <div class="detail-content" v-html="detail.value"></div>
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@
               ]
             },
             {
-              name: '游戏中心首页1.0 - 加载体验优化',
+              name: '趣头条游戏中心首页1.0 - 加载体验优化',
               timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
               tags: [
                 {
@@ -352,7 +352,7 @@
               ]
             },
             {
-              name: '游戏中心 - SDK',
+              name: '趣头条游戏中心 JS-SDK',
               timeRange: '2019 年 2 月 - 2019 年 11 月',
               tags: [
                 {
@@ -391,12 +391,12 @@
                 },
                 {
                   name: '项目描述',
-                  value: '给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，\n游戏SDK文档：https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README。'
+                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README</a>。`
                 }
               ]
             },
             {
-              name: 'PinnacleSolution智能招聘系统',
+              name: 'PinnacleSolution 智能招聘系统',
               timeRange: '2018 年 7 月 - 2018 年 12 月',
               tags: [
                 {
@@ -424,7 +424,7 @@
               ]
             },
             {
-              name: 'IDAP智能数据分析平台',
+              name: 'IDAP 智能数据分析平台',
               timeRange: '2017 年 11 月 - 2018 年 4 月',
               tags: [
                 {

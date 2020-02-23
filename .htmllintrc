@@ -20,7 +20,7 @@
     "indent-style": "nonmixed",
     "indent-width": 2,
     "indent-width-cont": false,
-    "spec-char-escape": true,
+    "spec-char-escape": false,
     "text-ignore-regex": false,
     "tag-bans": [
         "style",
