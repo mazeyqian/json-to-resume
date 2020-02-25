@@ -322,11 +322,11 @@
               tags: [
                 {
                   name: '性能',
-                  bgc: 'blue'
+                  bgc: 'orange'
                 },
                 {
                   name: '用户体验',
-                  bgc: 'blue'
+                  bgc: 'green'
                 }
               ],
               detail: [
