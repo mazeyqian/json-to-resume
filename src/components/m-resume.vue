@@ -224,12 +224,56 @@
         resume: {
           projects: [
             {
+              name: '趣头条游戏中心 JS-SDK',
+              timeRange: '2019 年 2 月 - 2019 年 11 月',
+              tags: [
+                {
+                  name: '支付',
+                  bgc: 'pay'
+                },
+                {
+                  name: '广告',
+                  bgc: 'a-d'
+                },
+                {
+                  name: '埋点',
+                  bgc: 'blue'
+                },
+                {
+                  name: '分享',
+                  bgc: 'green'
+                },
+                {
+                  name: 'API',
+                  bgc: 'api'
+                },
+                {
+                  name: '错误监控',
+                  bgc: 'error-monitor'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
+                  value: 'Raven-js，Docsify，Sass。'
+                },
+                {
+                  name: '项目职责',
+                  value: '前端工程师，负责从刚开始架构设计到后期功能迭代。'
+                },
+                {
+                  name: '项目描述',
+                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README</a>。`
+                }
+              ]
+            },
+            {
               name: '游戏中心CMS后台 - 广告配置',
               timeRange: '2019 年 12 月 - 2020 年 1 月',
               tags: [
                 {
                   name: 'ToA',
-                  bgc: 'blue'
+                  bgc: 'cyan'
                 },
                 {
                   name: 'Vue',
@@ -254,7 +298,7 @@
               tags: [
                 {
                   name: 'ToB',
-                  bgc: 'blue'
+                  bgc: 'cyan'
                 },
                 {
                   name: 'Vue',
@@ -269,21 +313,6 @@
                 {
                   name: '项目描述',
                   value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
-                }
-              ]
-            },
-            {
-              name: '离线包',
-              timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
-              tags: [],
-              detail: [
-                {
-                  name: '项目职责',
-                  value: '前端工程师'
-                },
-                {
-                  name: '项目描述',
-                  value: `为了优化外部厂商的游戏体验，将离线包功能开放给厂商使用，转化率提升 5%，并且持续接入多达 30 款游戏，覆盖 100% 的发行游戏。`
                 }
               ]
             },
@@ -308,50 +337,6 @@
                 {
                   name: '项目描述',
                   value: '由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms 减少到 917ms（-72%），页面折损率降低 3%。'
-                }
-              ]
-            },
-            {
-              name: '趣头条游戏中心 JS-SDK',
-              timeRange: '2019 年 2 月 - 2019 年 11 月',
-              tags: [
-                {
-                  name: '支付',
-                  bgc: 'pay'
-                },
-                {
-                  name: '广告',
-                  bgc: 'a-d'
-                },
-                {
-                  name: '埋点',
-                  bgc: 'blue'
-                },
-                {
-                  name: '分享',
-                  bgc: 'blue'
-                },
-                {
-                  name: 'API',
-                  bgc: 'blue'
-                },
-                {
-                  name: '错误监控',
-                  bgc: 'blue'
-                }
-              ],
-              detail: [
-                {
-                  name: '前端技术',
-                  value: 'Raven-js，Docsify，Sass。'
-                },
-                {
-                  name: '项目职责',
-                  value: '前端工程师，负责从刚开始架构设计到后期功能迭代。'
-                },
-                {
-                  name: '项目描述',
-                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README</a>。`
                 }
               ]
             },
