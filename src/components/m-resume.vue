@@ -225,7 +225,7 @@
           projects: [
             {
               name: '趣头条游戏中心 JS-SDK',
-              timeRange: '2019 年 2 月 - 2019 年 11 月',
+              timeRange: '2019 年 2 月 - 2020 年 2 月',
               tags: [
                 {
                   name: '支付',
