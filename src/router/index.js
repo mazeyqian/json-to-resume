@@ -11,8 +11,13 @@ export default new Router({
       component: resolve => require(['@/components/m-resume.vue'], resolve) // Resume
     },
     {
+      path: '/home',
+      name: 'home',
+      component: resolve => require(['@/components/m-home.vue'], resolve) // Resume
+    },
+    {
       path: '/',
-      redirect: {name: 'resume'}
+      redirect: {name: 'home'}
     }
   ]
 })
