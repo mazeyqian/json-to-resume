@@ -255,7 +255,7 @@
               detail: [
                 {
                   name: '前端技术',
-                  value: 'Raven-js，Docsify，Sass。'
+                  value: 'Raven-js，Docsify，Sass，Webpack。'
                 },
                 {
                   name: '项目职责',
