@@ -13,7 +13,7 @@
             <li><span class="resume-info-name">性别：</span>男</li>
             <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
             <li><span class="resume-info-name">电话：</span>18551470413</li>
-            <li><span class="resume-info-name">邮箱：</span>mazey@mazey.net</li>
+            <li><span class="resume-info-name">邮箱：</span><a href="mailto:mazeyqian@gmail.com" rel="noopener">mazeyqian@gmail.com</a></li>
             <li><span class="resume-info-name">工作年限：</span>3 年</li>
           </ul>
           <ul>
@@ -133,7 +133,7 @@
               </div>
               <div class="department">
                 <span>主站研发部</span>
-                <span>ASP工程师</span>
+                <span>后端工程师</span>
               </div>
             </div>
             <div class="content-description">
@@ -225,7 +225,7 @@
           projects: [
             {
               name: '趣头条游戏中心 JS-SDK',
-              timeRange: '2019 年 2 月 - 2020 年 2 月',
+              timeRange: '2019 年 2 月 - 2020 年 4 月',
               tags: [
                 {
                   name: '支付',
@@ -263,7 +263,7 @@
                 },
                 {
                   name: '项目描述',
-                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README</a>。`
+                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
                 }
               ]
             },
