@@ -14,7 +14,7 @@
             <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
             <li><span class="resume-info-name">电话：</span>18551470413</li>
             <li><span class="resume-info-name">邮箱：</span><a href="mailto:mazeyqian@gmail.com" rel="noopener">mazeyqian@gmail.com</a></li>
-            <li><span class="resume-info-name">工作年限：</span>3 年</li>
+            <li><span class="resume-info-name">工作年限：</span>4 年</li>
           </ul>
           <ul>
             <li><span class="resume-info-name">院校：</span>三江学院<span class="resume-small">（2012 年 9 月 - 2016 年 6 月）</span></li>
@@ -225,7 +225,7 @@
           projects: [
             {
               name: '趣头条游戏中心 JS-SDK',
-              timeRange: '2019 年 2 月 - 2020 年 4 月',
+              timeRange: '2019 年 2 月 - 2020 年 6 月',
               tags: [
                 {
                   name: '支付',
@@ -471,7 +471,7 @@
       }
     },
     created () {
-      document.title = '钱程-前端工程师-3年'
+      document.title = '钱程-前端工程师-4年'
     }
   }
 </script>
