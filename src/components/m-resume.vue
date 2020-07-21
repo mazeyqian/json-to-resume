@@ -253,7 +253,7 @@
                 },
                 {
                   name: '灰度发版',
-                  bgc: 'gray'
+                  bgc: 'secondary'
                 }
               ],
               detail: [
