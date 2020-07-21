@@ -49,11 +49,11 @@
               </div>
               <div class="department">
                 <span>技术中心 - 游戏组</span>
-                <span>前端工程师</span>
+                <span>研发工程师（前端 &amp; Golang）</span>
               </div>
             </div>
             <div class="content-description">
-              <span>从零开始搭建集成在趣头条 App 中的游戏中心入口落地页以及面向外部游戏厂商的 JS-SDK。</span>
+              <span>从零开始搭建集成在<strong>趣头条</strong> App 中的游戏中心入口落地页以及面向外部游戏厂商的 JS-SDK。</span>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
               </div>
             </div>
             <div class="content-description">
-              <span>负责集团数据可视化分析的前端工作，使苏宁线下线上促销活动的数据更加直观。</span>
+              <span>负责集团数据可视化分析的前端工作，使<strong>苏宁易购</strong>线下线上促销活动的数据更加直观。</span>
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@
               </div>
               <div class="department">
                 <span>主站研发部</span>
-                <span>后端工程师</span>
+                <span>后端工程师（ASP &amp; PHP）</span>
               </div>
             </div>
             <div class="content-description">
@@ -225,7 +225,7 @@
           projects: [
             {
               name: '趣头条游戏中心 JS-SDK',
-              timeRange: '2019 年 2 月 - 2020 年 6 月',
+              timeRange: '2019 年 2 月 - 2020 年 7 月',
               tags: [
                 {
                   name: '支付',
@@ -250,20 +250,28 @@
                 {
                   name: '错误监控',
                   bgc: 'error-monitor'
+                },
+                {
+                  name: '灰度发版',
+                  bgc: 'gray'
                 }
               ],
               detail: [
                 {
                   name: '前端技术',
-                  value: 'Raven-js，Docsify，Sass，Webpack。'
+                  value: 'JavaScript，Docsify，Sass，Webpack，Rollup，Gulp。'
+                },
+                {
+                  name: '后端技术',
+                  value: 'Go，Gin，Gorm，MySQL，MurmurHash，JsonLogic。'
                 },
                 {
                   name: '项目职责',
-                  value: '前端工程师，负责从刚开始架构设计到后期功能迭代。'
+                  value: '技术负责人，从架构设计到后期功能迭代。'
                 },
                 {
                   name: '项目描述',
-                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
+                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://mazey.cn/t/sdk" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
                 }
               ]
             },
