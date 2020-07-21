@@ -49,7 +49,7 @@
               </div>
               <div class="department">
                 <span>技术中心 - 游戏组</span>
-                <span>研发工程师（前端 &amp; Go）</span>
+                <span>研发工程师（前端 &amp; Golang）</span>
               </div>
             </div>
             <div class="content-description">
@@ -133,7 +133,7 @@
               </div>
               <div class="department">
                 <span>主站研发部</span>
-                <span>PHP 工程师</span>
+                <span>后端工程师（ASP &amp; PHP）</span>
               </div>
             </div>
             <div class="content-description">
@@ -263,7 +263,7 @@
                 },
                 {
                   name: '后端技术',
-                  value: 'Go，Gin，Gorm。'
+                  value: 'Go，Gin，Gorm，MySQL，MurmurHash，JsonLogic。'
                 },
                 {
                   name: '项目职责',
@@ -271,7 +271,7 @@
                 },
                 {
                   name: '项目描述',
-                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
+                  value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://mazey.cn/t/sdk" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
                 }
               ]
             },
