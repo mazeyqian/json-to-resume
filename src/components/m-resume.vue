@@ -9,20 +9,18 @@
         <h3>基本信息</h3>
         <div class="resume-item-content resume-item-between">
           <ul>
-            <li><span class="resume-info-name">姓名：</span>钱程</li>
-            <li><span class="resume-info-name">性别：</span>男</li>
-            <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
-            <li><span class="resume-info-name">电话：</span>18551470413</li>
-            <li><span class="resume-info-name">邮箱：</span><a href="mailto:mazeyqian@gmail.com" rel="noopener">mazeyqian@gmail.com</a></li>
-            <li><span class="resume-info-name">工作年限：</span>4 年</li>
+            <li><span class="resume-info-name">姓名：</span>吴钰镕</li>
+            <li><span class="resume-info-name">性别：</span>女</li>
+            <li><span class="resume-info-name">生日：</span>1994 年 10 月</li>
+            <li><span class="resume-info-name">电话：</span>17621601053</li>
+            <li><span class="resume-info-name">邮箱：</span><a href="mailto:yurongfighting@163.com" rel="noopener">yurongfighting@163.com</a></li>
           </ul>
           <ul>
-            <li><span class="resume-info-name">院校：</span>三江学院<span class="resume-small">（2012 年 9 月 - 2016 年 6 月）</span></li>
-            <li><span class="resume-info-name">专业：</span>电气工程及其自动化</li>
+            <li><span class="resume-info-name">院校：</span>盐城师范学院<span class="resume-small">（2013 年 9 月 - 2017 年 6 月）</span></li>
+            <li><span class="resume-info-name">专业：</span>计算机科学与技术</li>
             <li><span class="resume-info-name">学历：</span>本科</li>
-            <li><span class="resume-info-name">英语：</span>CET-6</li>
-            <li><span class="resume-info-name">博客：</span><a href="https://blog.mazey.net/" target="_blank" rel="noopener">blog.mazey.net</a></li>
-            <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank" rel="noopener">mazeyqian</a></li>
+            <li><span class="resume-info-name">英语：</span>CET-4</li>
+            <li><span class="resume-info-name">工作年限：</span>3 年</li>
           </ul>
         </div>
       </div>
@@ -45,15 +43,15 @@
                 </div>
                 <span>上海基分文化传播有限公司</span>
               </span>
-                <span>2018 年 12 月 - 至今</span>
+                <span>2019 年 3 月 - 至今</span>
               </div>
               <div class="department">
                 <span>技术中心 - 游戏组</span>
-                <span>研发工程师（前端 &amp; Golang）</span>
+                <span>前端工程师</span>
               </div>
             </div>
             <div class="content-description">
-              <span>从零开始搭建集成在<strong>趣头条</strong> App 中的游戏中心入口落地页以及面向外部游戏厂商的 JS-SDK。</span>
+              <span>主要负责趣头条游戏平台运营后台管理系统从 0 到 1 的搭建。</span>
             </div>
           </div>
         </div>
