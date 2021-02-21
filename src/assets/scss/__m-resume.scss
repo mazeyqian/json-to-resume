@@ -158,6 +158,17 @@
       }
     }
 
+    // https://mazey.cn/asset/login_logo_120_116.png
+    .company-logo-lilith {
+      width: 32px;
+
+      .icon-company {
+        width: 24px;
+        height: 24px;
+        background-image: url(https://mazey.cn/asset/login_logo_120_116.png);
+      }
+    }
+
     .company,
     .department,
     .project {
@@ -332,6 +343,10 @@
       background-color: #52b983; // #4fc08d;
     }
 
+    .react {
+      background-color: #61dafb;
+    }
+
     .pay {
       background-color: rgba(19, 141, 227, 1);
     }
@@ -354,6 +369,10 @@
 
     .error-monitor {
       background-color: rgba(224, 93, 7, 1);
+    }
+
+    .gitlab {
+      background-color: #fa7035;
     }
   }
 

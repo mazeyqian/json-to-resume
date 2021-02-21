@@ -2,6 +2,7 @@
 
 > My resume project by Vue.js.
 
+URL: [https://mazey.cn/#/resume](https://mazey.cn/#/resume)
 
 ## Build Setup
 

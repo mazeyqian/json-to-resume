@@ -29,6 +29,34 @@
       <!--工作经历-->
       <div class="resume-item">
         <h3>工作经历</h3>
+        <!--Lilith-->
+        <div class="resume-experience">
+          <div class="resume-experience-timeline">
+            <div class="timeline-line-before"></div>
+            <div class="timeline-circle"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="resume-experience-content">
+            <div class="content-title">
+              <div class="company">
+              <span class="company-name">
+                <div class="company-logo-lilith">
+                  <i class="icon-company"></i>
+                </div>
+                <span>上海莉莉丝科技股份有限公司</span>
+              </span>
+                <span>2020 年 8 月 - 至今</span>
+              </div>
+              <div class="department">
+                <span>平台产品中心</span>
+                <span>前端工程师</span>
+              </div>
+            </div>
+            <div class="content-description">
+              <span>维护游戏官网、礼包兑换码、会员中心、社区。</span>
+            </div>
+          </div>
+        </div>
         <!--QTT-->
         <div class="resume-experience">
           <div class="resume-experience-timeline">
@@ -45,7 +73,7 @@
                 </div>
                 <span>上海基分文化传播有限公司</span>
               </span>
-                <span>2018 年 12 月 - 至今</span>
+                <span>2018 年 12 月 - 2020 年 8 月</span>
               </div>
               <div class="department">
                 <span>技术中心 - 游戏组</span>
@@ -162,12 +190,6 @@
                     :pill="true"
                     class="project-badge"
                     :class="tag.bgc">{{ tag.name }}</b-badge>
-                  <!--<b-badge pill variant="primary" class="project-badge">人工智能</b-badge>-->
-                  <!--<b-badge pill variant="secondary" class="project-badge">招聘</b-badge>-->
-                  <!--<b-badge pill variant="success" class="project-badge">爬虫</b-badge>-->
-                  <!--<b-badge pill variant="danger" class="project-badge">大数据</b-badge>-->
-                  <!--<b-badge pill variant="warning" class="project-badge">数据可视化</b-badge>-->
-                  <!--<b-badge pill variant="info" class="project-badge">管理</b-badge>-->
                 </span>
               </span>
                 <span>{{ project.timeRange }}</span>
@@ -224,6 +246,94 @@
         resume: {
           projects: [
             {
+              name: '社区',
+              timeRange: '2020 年 x 月 - 2021 年 x 月',
+              tags: [
+                {
+                  name: 'ToC',
+                  bgc: 'cyan'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
+                  value: 'React，Less，SSR。'
+                },
+                {
+                  name: '项目职责',
+                  value: '-'
+                },
+                {
+                  name: '项目描述',
+                  value: `-`
+                }
+              ]
+            },
+            {
+              name: '莉莉丝游戏会员中心',
+              timeRange: '2020 年 x 月 - 2021 年 x 月',
+              tags: [
+                {
+                  name: 'ToC',
+                  bgc: 'cyan'
+                },
+                {
+                  name: 'CI/CD',
+                  bgc: 'gitlab'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
+                  value: 'React，Webpack，Sass。'
+                },
+                {
+                  name: '后端技术',
+                  value: 'Node，Egg，Redis，MySQL，Sequelize，Docker。'
+                },
+                {
+                  name: '项目职责',
+                  value: '全栈工程师，负责项目前后端开发及 CI/CD 部署。'
+                },
+                {
+                  name: '项目描述',
+                  value: `莉莉丝游戏会员中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>。`
+                }
+              ]
+            },
+            {
+              name: '莉莉丝游戏（万国觉醒 & 剑与远征）礼包兑换码（CDKey）网站',
+              timeRange: '2020 年 x 月 - 2021 年 x 月',
+              tags: [
+                {
+                  name: 'ToC',
+                  bgc: 'cyan'
+                },
+                {
+                  name: '国际化',
+                  bgc: 'blue'
+                }
+              ],
+              detail: [
+                {
+                  name: '前端技术',
+                  value: 'React，Umi。'
+                },
+                {
+                  name: '后端技术',
+                  value: 'Node，Egg，Redis。'
+                },
+                {
+                  name: '项目职责',
+                  value: '后端工程师，项目初期承担项目后端开发，中后期维护整个项目的前后端工作。'
+                },
+                {
+                  name: '项目描述',
+                  value: `从零搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。`
+                }
+              ]
+            },
+            {
               name: '趣头条游戏中心 JS-SDK',
               timeRange: '2019 年 2 月 - 2020 年 7 月',
               tags: [
@@ -263,7 +373,7 @@
                 },
                 {
                   name: '后端技术',
-                  value: 'Go，Gin，Gorm，MySQL，MurmurHash，JsonLogic。'
+                  value: 'Golang，Gin，Gorm，MySQL，MurmurHash，JsonLogic。'
                 },
                 {
                   name: '项目职责',
@@ -284,11 +394,15 @@
                   bgc: 'cyan'
                 },
                 {
-                  name: 'Vue',
-                  bgc: 'vue'
+                  name: '效率',
+                  bgc: 'green'
                 }
               ],
               detail: [
+                {
+                  name: '前端技术',
+                  value: 'Vue 2，Element-UI。'
+                },
                 {
                   name: '项目职责',
                   value: '项目负责人，编写 PRD 并且参与前端开发。'
@@ -309,11 +423,15 @@
                   bgc: 'cyan'
                 },
                 {
-                  name: 'Vue',
-                  bgc: 'vue'
+                  name: '灰度发版',
+                  bgc: 'secondary'
                 }
               ],
               detail: [
+                {
+                  name: '前端技术',
+                  value: 'Vue 2，Element-UI。'
+                },
                 {
                   name: '项目职责',
                   value: '项目负责人，编写 PRD 并且参与前端开发。'
@@ -357,8 +475,8 @@
                   bgc: 'crm'
                 },
                 {
-                  name: 'Vue',
-                  bgc: 'vue'
+                  name: '效率',
+                  bgc: 'green'
                 }
               ],
               detail: [
@@ -391,10 +509,6 @@
                 {
                   name: '响应式',
                   bgc: 'purple'
-                },
-                {
-                  name: 'Vue',
-                  bgc: 'vue'
                 }
               ],
               detail: [
@@ -459,7 +573,7 @@
               level: 80
             },
             {
-              name: 'Vue',
+              name: 'React/Vue',
               level: 75
             },
             {
@@ -467,7 +581,7 @@
               level: 70
             },
             {
-              name: 'Sass',
+              name: 'Sass/Less',
               level: 65
             },
             {
