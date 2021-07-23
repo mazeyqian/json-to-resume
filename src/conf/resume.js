@@ -6,9 +6,13 @@ export default {
       timeRange: '2020 年 8 月 - 至今',
       tags: [
         {
-          name: '游戏',
-          bgc: 'yellow'
-        }
+          name: '手机游戏',
+          bgc: 'game'
+        },
+        {
+          name: '发行',
+          bgc: 'publish'
+        },
       ],
       department: '平台产品中心',
       position: '前端工程师',
@@ -18,7 +22,20 @@ export default {
       name: '上海基分文化传播有限公司',
       nameAbbr: 'qtt',
       timeRange: '2018 年 12 月 - 2020 年 8 月',
-      tags: [],
+      tags: [
+        {
+          name: '新闻资讯',
+          bgc: 'blue'
+        },
+        {
+          name: '广告',
+          bgc: 'a-d'
+        },
+        {
+          name: 'NASDAQ',
+          bgc: 'nasdaq'
+        },
+      ],
       department: '技术中心 - 游戏组',
       position: '研发工程师（前端 & Golang）',
       description: '从零开始搭建集成在趣头条 App 中的游戏中心入口落地页以及面向外部游戏厂商的 JS-SDK。'
@@ -27,7 +44,20 @@ export default {
       name: '平纳科信息咨询有限公司',
       nameAbbr: 'pinnacle',
       timeRange: '2018 年 7 月 - 2018 年 12 月',
-      tags: [],
+      tags: [
+        {
+          name: '招聘',
+          bgc: 'recruit'
+        },
+        {
+          name: '智能推荐',
+          bgc: 'cyan'
+        },
+        {
+          name: 'SaaS',
+          bgc: 'saas'
+        },
+      ],
       department: '技术部',
       position: '前端工程师',
       description: '负责公司猎头系统的前端开发，开发并完善工作流平台；承担前端项目管理和运维的工作。'
@@ -36,7 +66,16 @@ export default {
       name: '苏宁云商集团股份有限公司',
       nameAbbr: 'suning',
       timeRange: '2017 年 11 月 - 2018 年 4 月',
-      tags: [],
+      tags: [
+        {
+          name: '电商',
+          bgc: 'e-commerce'
+        },
+        {
+          name: '深交所',
+          bgc: 'szse',
+        }
+      ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
       description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观。'
@@ -45,37 +84,50 @@ export default {
       name: '江苏邦宁科技有限公司',
       nameAbbr: 'bangning',
       timeRange: '2016 年 6 月 - 2017 年 8 月',
-      tags: [],
+      tags: [
+        {
+          name: '域名注册',
+          bgc: 'domain-register'
+        },
+        {
+          name: '云主机',
+          bgc: 'cloud-host'
+        },
+        {
+          name: '智能建站',
+          bgc: 'auto-web'
+        },
+      ],
       department: '主站研发部',
       position: '后端工程师（ASP & PHP）',
       description: '参与公司销售网站从后端到前端的开发和维护；收集需求开发管理系统提高客服工作效率；管理服务器，承担一部分的运维工作。'
     }
   ],
   projects: [
-    {
-      name: '社区',
-      timeRange: '2020 年 x 月 - 2021 年 x 月',
-      tags: [
-        {
-          name: 'ToC',
-          bgc: 'cyan'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'React，Less，SSR。'
-        },
-        {
-          name: '项目职责',
-          value: '-'
-        },
-        {
-          name: '项目描述',
-          value: `-`
-        }
-      ]
-    },
+    // {
+    //   name: '社区',
+    //   timeRange: '2020 年 x 月 - 2021 年 x 月',
+    //   tags: [
+    //     {
+    //       name: 'ToC',
+    //       bgc: 'cyan'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'React，Less，SSR。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '-'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       value: `-`
+    //     }
+    //   ]
+    // },
     {
       name: '莉莉丝游戏会员中心',
       timeRange: '2020 年 x 月 - 2021 年 x 月',
