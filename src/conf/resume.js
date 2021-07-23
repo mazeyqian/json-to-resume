@@ -104,30 +104,30 @@ export default {
     }
   ],
   projects: [
-    {
-      name: '社区',
-      timeRange: '2020 年 x 月 - 2021 年 x 月',
-      tags: [
-        {
-          name: 'ToC',
-          bgc: 'cyan'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'React，Less，SSR。'
-        },
-        {
-          name: '项目职责',
-          value: '-'
-        },
-        {
-          name: '项目描述',
-          value: `-`
-        }
-      ]
-    },
+    // {
+    //   name: '社区',
+    //   timeRange: '2020 年 x 月 - 2021 年 x 月',
+    //   tags: [
+    //     {
+    //       name: 'ToC',
+    //       bgc: 'cyan'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'React，Less，SSR。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '-'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       value: `-`
+    //     }
+    //   ]
+    // },
     {
       name: '莉莉丝游戏会员中心',
       timeRange: '2020 年 x 月 - 2021 年 x 月',

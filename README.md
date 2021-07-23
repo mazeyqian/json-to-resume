@@ -4,6 +4,9 @@
 
 URL: [https://mazey.cn/#/resume](https://mazey.cn/#/resume)
 
+## Preview
+
+![](https://blog.mazey.net/wp-content/uploads/2021/07/mazey-resume-preview-20210723-1000x660-1.png)
 ## Build Setup
 
 ``` bash

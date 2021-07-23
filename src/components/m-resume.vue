@@ -2,19 +2,19 @@
   <div class="m-resume-box">
     <div class="m-resume">
       <div class="resume-title">
-        <h1>前端工程师</h1>
+        <h1>{{ position }}</h1>
       </div>
       <!--基本信息-->
       <div class="resume-item">
         <h3>基本信息</h3>
         <div class="resume-item-content resume-item-between">
           <ul>
-            <li><span class="resume-info-name">姓名：</span>钱程</li>
+            <li><span class="resume-info-name">姓名：</span>{{ name }}</li>
             <li><span class="resume-info-name">性别：</span>男</li>
             <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
             <li><span class="resume-info-name">电话：</span>18551470413</li>
             <li><span class="resume-info-name">邮箱：</span><a href="mailto:mazeyqian@gmail.com" rel="noopener">mazeyqian@gmail.com</a></li>
-            <li><span class="resume-info-name">工作年限：</span>4 年</li>
+            <li><span class="resume-info-name">工作年限：</span>{{ experience }}</li>
           </ul>
           <ul>
             <li><span class="resume-info-name">院校：</span>三江学院<span class="resume-small">（2012 年 9 月 - 2016 年 6 月）</span></li>
@@ -138,11 +138,14 @@
     name: 'm-resume',
     data () {
       return {
-        resume
+        resume,
+        name: '钱程',
+        position: '前端工程师',
+        experience: '4 年',
       }
     },
     created () {
-      document.title = '钱程-前端工程师-4年'
+      document.title = `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
     }
   }
 </script>
