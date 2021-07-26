@@ -240,12 +240,12 @@ export default {
         },
         {
           name: '项目描述',
-          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生App功能的能力，游戏SDK文档：<a href="https://mazey.cn/t/sdk" target="_blank" rel="noopener">mazey.cn/t/sdk</a>。`
+          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">https://mazey.cn/t/dl</a>。`
         }
       ]
     },
     {
-      name: '游戏中心CMS后台 - 广告配置',
+      name: '游戏中心 CMS 后台 - 广告配置',
       timeRange: '2019 年 12 月 - 2020 年 1 月',
       tags: [
         {
@@ -425,6 +425,28 @@ export default {
         }
       ]
     }
+  ],
+  individualProjects: [
+    {
+      name: 'aliyunoss-cli',
+      timeRange: '',
+      tags: [
+        {
+          name: 'ToC',
+          bgc: 'cyan'
+        },
+        {
+          name: 'CI/CD',
+          bgc: 'gitlab'
+        }
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>。`
+        }
+      ]
+    },
   ],
   skills: [
     {
