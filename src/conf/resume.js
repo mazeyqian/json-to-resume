@@ -156,7 +156,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `莉莉丝游戏会员中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>。`
+          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>。`
         }
       ]
     },
@@ -184,11 +184,11 @@ export default {
         },
         {
           name: '项目职责',
-          value: '后端工程师，项目初期承担项目后端开发，中后期维护整个项目的前后端工作。'
+          value: '后端工程师，项目初期承担项目后端开发，中后期维护整个项目的前后端工作；从零搭建日服礼包兑换码网站，并迭代至国际化。'
         },
         {
           name: '项目描述',
-          value: `从零搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。`
+          value: `支持玩家兑换礼包，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。`
         }
       ]
     },
@@ -349,7 +349,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: `通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
+          // 通过使用 Vue 全家桶构建的单页面 SPA，
+          value: `通过权限分配将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
         }
       ]
     },
@@ -381,7 +382,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分，引入 Echarts 做数据的可视化；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
+          // ，引入 Echarts 做数据的可视化
+          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
         }
       ]
     },
@@ -397,10 +399,10 @@ export default {
           name: 'IE8+',
           bgc: 'ms'
         },
-                // {
-                //   name: '效率',
-                //   bgc: 'green'
-                // },
+        // {
+        //   name: '效率',
+        //   bgc: 'green'
+        // },
         {
           name: '报表',
           bgc: 'secondary'
@@ -421,7 +423,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: '前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
+          // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
+          value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
         }
       ]
     }
@@ -432,8 +435,8 @@ export default {
       timeRange: '',
       tags: [
         {
-          name: 'ToC',
-          bgc: 'cyan'
+          name: 'NPM',
+          bgc: 'npm'
         },
         {
           name: 'CI/CD',
@@ -447,27 +450,91 @@ export default {
         }
       ]
     },
+    {
+      name: 'Mazey',
+      timeRange: '',
+      tags: [
+        {
+          name: 'NPM',
+          bgc: 'npm'
+        },
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey</a>。`
+        }
+      ]
+    },
+    // {
+    //   name: '短链接/短网址在线生成',
+    //   timeRange: '',
+    //   tags: [
+    //     {
+    //       name: 'Web',
+    //       bgc: 'blue'
+    //     },
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '项目描述',
+    //       value: `长链接转换成短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>。`
+    //     }
+    //   ]
+    // },
+    {
+      name: '前端工作小站',
+      timeRange: '',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue'
+        },
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `前端性能监控，静态资源上传，短链接/短网址在线生成。`
+        }
+      ]
+    },
+    {
+      name: '小莉读书会',
+      timeRange: '',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue'
+        },
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `读书分享，积分兑换。`
+        }
+      ]
+    },
   ],
   skills: [
     {
-      name: 'ES6/5/3',
-      level: 80
+      name: 'JavaScript',
+      level: 90
     },
     {
       name: 'React/Vue',
-      level: 75
+      level: 85
     },
     {
       name: 'CSS',
-      level: 70
+      level: 80
     },
     {
       name: 'Sass/Less',
-      level: 65
+      level: 75
     },
     {
-      name: 'Nginx',
-      level: 60
+      name: 'Node',
+      level: 70
     }
   ]
 }
