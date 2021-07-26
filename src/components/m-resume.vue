@@ -97,6 +97,38 @@
           </div>
         </div>
       </div>
+      <!--个人项目-->
+      <div class="resume-item">
+        <h3>个人项目</h3>
+        <div class="resume-experience" v-for="(project, index) in resume.individualProjects" :key="`resume-experience-${index}`">
+          <div class="resume-experience-timeline">
+            <div class="timeline-line-before"></div>
+            <div class="timeline-circle"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="resume-experience-content">
+            <div class="content-title">
+              <div class="project">
+              <span class="project-name">
+                <span>{{ project.name }}</span>
+                <span class="project-badges">
+                  <b-badge v-for="(tag, index) in project.tags"
+                    :key="`project-badges-${index}`"
+                    :pill="true"
+                    class="project-badge"
+                    :class="tag.bgc">{{ tag.name }}</b-badge>
+                </span>
+              </span>
+                <span>{{ project.timeRange }}</span>
+              </div>
+            </div>
+            <div class="project-detail" v-for="(detail, index) in project.detail" :key="`project-detail-${index}`">
+              <div class="detail-name">{{ detail.name }}：</div>
+              <div class="detail-content" v-html="detail.value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--技能-->
       <div class="resume-item">
         <h3>技能</h3>
