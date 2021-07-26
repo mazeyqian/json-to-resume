@@ -104,33 +104,37 @@ export default {
     }
   ],
   projects: [
-    // {
-    //   name: '社区',
-    //   timeRange: '2020 年 x 月 - 2021 年 x 月',
-    //   tags: [
-    //     {
-    //       name: 'ToC',
-    //       bgc: 'cyan'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'React，Less，SSR。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '-'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       value: `-`
-    //     }
-    //   ]
-    // },
+    {
+      name: '莉莉丝游戏内社区',
+      timeRange: '2020 年 10 月 - 至今',
+      tags: [
+        {
+          name: 'ToC',
+          bgc: 'cyan'
+        },
+        {
+          name: '国际化',
+          bgc: 'blue'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'React，Umi，Less，SSR。'
+        },
+        {
+          name: '项目职责',
+          value: '前端工程师'
+        },
+        {
+          name: '项目描述',
+          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
+        }
+      ]
+    },
     {
       name: '莉莉丝游戏会员中心',
-      timeRange: '2020 年 x 月 - 2021 年 x 月',
+      timeRange: '2020 年 8 月 - 2021 年 3 月',
       tags: [
         {
           name: 'ToC',
@@ -162,7 +166,7 @@ export default {
     },
     {
       name: '莉莉丝游戏（万国觉醒 & 剑与远征）礼包兑换码（CDKey）网站',
-      timeRange: '2020 年 x 月 - 2021 年 x 月',
+      timeRange: '2020 年 9 月 - 2021 年 3 月',
       tags: [
         {
           name: 'ToC',
@@ -458,6 +462,10 @@ export default {
           name: 'NPM',
           bgc: 'npm'
         },
+        {
+          name: 'Tool',
+          bgc: 'gray'
+        },
       ],
       detail: [
         {
@@ -490,6 +498,10 @@ export default {
           name: 'Web',
           bgc: 'blue'
         },
+        {
+          name: '效率',
+          bgc: 'green'
+        }
       ],
       detail: [
         {
@@ -499,12 +511,16 @@ export default {
       ]
     },
     {
-      name: '小莉读书会',
+      name: '读书会 Lite',
       timeRange: '',
       tags: [
         {
           name: 'Web',
           bgc: 'blue'
+        },
+        {
+          name: '分享',
+          bgc: 'green'
         },
       ],
       detail: [
