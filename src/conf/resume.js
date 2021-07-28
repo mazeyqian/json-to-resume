@@ -463,8 +463,8 @@ export default {
           bgc: 'npm'
         },
         {
-          name: 'Tool',
-          bgc: 'gray'
+          name: '工具',
+          bgc: 'secondary'
         },
       ],
       detail: [
