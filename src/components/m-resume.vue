@@ -173,7 +173,7 @@
         resume,
         name: '钱程',
         position: '前端工程师',
-        experience: '4 年',
+        experience: '5 年',
       }
     },
     created () {
