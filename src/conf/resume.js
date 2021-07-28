@@ -128,7 +128,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `社区覆盖 AFK、ROK、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
+          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
         }
       ]
     },
