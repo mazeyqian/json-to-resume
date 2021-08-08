@@ -499,3 +499,9 @@
   //  color: #0780b9 !important;
   //}
 }
+
+.hide-in-print {
+  @media print {
+    display: none;
+  }
+}

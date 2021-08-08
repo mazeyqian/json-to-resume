@@ -130,7 +130,8 @@ export default {
           name: '项目描述',
           value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
         }
-      ]
+      ],
+      hideInPrint: true,
     },
     {
       name: '莉莉丝游戏会员中心',
@@ -180,7 +181,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Umi。'
+          value: 'React，Umi，Less，SSR。'
         },
         {
           name: '后端技术',
@@ -277,34 +278,35 @@ export default {
         }
       ]
     },
-    // {
-    //   name: '游戏中心开放平台 - 游戏版本和灰度控制',
-    //   timeRange: '2019 年 8 月 - 2019 年 11 月',
-    //   tags: [
-    //     {
-    //       name: 'ToB',
-    //       bgc: 'cyan'
-    //     },
-    //     {
-    //       name: '灰度发版',
-    //       bgc: 'secondary'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'Vue 2，Element-UI。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '项目负责人，编写 PRD 并且参与前端开发。'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
-    //     }
-    //   ]
-    // },
+    {
+      name: '游戏中心开放平台 - 游戏版本和灰度控制',
+      timeRange: '2019 年 8 月 - 2019 年 11 月',
+      tags: [
+        {
+          name: 'ToB',
+          bgc: 'cyan'
+        },
+        {
+          name: '灰度发版',
+          bgc: 'secondary'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'Vue 2，Element-UI。'
+        },
+        {
+          name: '项目职责',
+          value: '项目负责人，编写 PRD 并且参与前端开发。'
+        },
+        {
+          name: '项目描述',
+          value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
+        }
+      ],
+      hideInPrint: true,
+    },
     {
       name: '趣头条游戏中心首页1.0 - 加载体验优化',
       timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
@@ -391,47 +393,48 @@ export default {
         }
       ]
     },
-    // {
-    //   name: '邦宁域名备案核查系统',
-    //   timeRange: '2017 月 4 月 – 2017 年 5 月',
-    //   tags: [
-    //     {
-    //       name: 'CRM',
-    //       bgc: 'crm'
-    //     },
-    //     {
-    //       name: 'IE8+',
-    //       bgc: 'ms'
-    //     },
-    //     // {
-    //     //   name: '效率',
-    //     //   bgc: 'green'
-    //     // },
-    //     {
-    //       name: '报表',
-    //       bgc: 'secondary'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'Bootstrap，jQuery，Less。'
-    //     },
-    //     {
-    //       name: '后端技术',
-    //       value: 'WindowsServer，IIS，ASP，SQLServer。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
-    //       value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
-    //     }
-    //   ]
-    // },
+    {
+      name: '邦宁域名备案核查系统',
+      timeRange: '2017 月 4 月 – 2017 年 5 月',
+      tags: [
+        {
+          name: 'CRM',
+          bgc: 'crm'
+        },
+        {
+          name: 'IE8+',
+          bgc: 'ms'
+        },
+        // {
+        //   name: '效率',
+        //   bgc: 'green'
+        // },
+        {
+          name: '报表',
+          bgc: 'secondary'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'Bootstrap，jQuery，Less。'
+        },
+        {
+          name: '后端技术',
+          value: 'WindowsServer，IIS，ASP，SQLServer。'
+        },
+        {
+          name: '项目职责',
+          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
+        },
+        {
+          name: '项目描述',
+          // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
+          value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
+        }
+      ],
+      hideInPrint: true,
+    },
   ],
   individualProjects: [
     {
