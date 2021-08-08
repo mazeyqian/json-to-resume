@@ -68,7 +68,7 @@
       <!--项目经验-->
       <div class="resume-item">
         <h3>项目经验</h3>
-        <div class="resume-experience" v-for="(project, index) in resume.projects" :key="`resume-experience-${index}`">
+        <div :class="`resume-experience ${project.hideInPrint ? 'hide-in-print' : ''}`" v-for="(project, index) in resume.projects" :key="`resume-experience-${index}`">
           <div class="resume-experience-timeline">
             <div class="timeline-line-before"></div>
             <div class="timeline-circle"></div>
