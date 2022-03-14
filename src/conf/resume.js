@@ -14,9 +14,10 @@ export default {
           bgc: 'publish'
         },
       ],
-      department: '平台产品中心',
-      position: '前端工程师',
-      description: '维护游戏官网、礼包兑换码、会员中心、社区。'
+      department: '平台产品中心 - 游戏组件组',
+      // position: '前端工程师',
+      position: '前端&Node.js工程师',
+      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统。'
     },
     {
       name: '上海基分文化传播有限公司',
@@ -31,14 +32,15 @@ export default {
           name: '广告',
           bgc: 'a-d'
         },
-        {
-          name: 'NASDAQ',
-          bgc: 'nasdaq'
-        },
+        // {
+        //   name: 'NASDAQ',
+        //   bgc: 'nasdaq'
+        // },
       ],
       department: '技术中心 - 游戏组',
-      position: '研发工程师（前端 & Golang）',
-      description: '从零开始搭建集成在趣头条 App 中的游戏中心入口落地页以及面向外部游戏厂商的 JS-SDK。'
+      // position: '研发工程师（前端 & Golang）',
+      position: '前端&Golang工程师',
+      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK。'
     },
     {
       name: '平纳科信息咨询有限公司',
@@ -60,7 +62,7 @@ export default {
       ],
       department: '技术部',
       position: '前端工程师',
-      description: '负责公司猎头系统的前端开发，开发并完善工作流平台；承担前端项目管理和运维的工作。'
+      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。'
     },
     {
       name: '苏宁云商集团股份有限公司',
@@ -71,10 +73,10 @@ export default {
           name: '电商',
           bgc: 'e-commerce'
         },
-        {
-          name: '深交所',
-          bgc: 'szse',
-        }
+        // {
+        //   name: '深交所',
+        //   bgc: 'szse',
+        // }
       ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
@@ -99,42 +101,43 @@ export default {
         },
       ],
       department: '主站研发部',
-      position: '后端工程师（ASP & PHP）',
-      description: '参与公司销售网站从后端到前端的开发和维护；收集需求开发管理系统提高客服工作效率；管理服务器，承担一部分的运维工作。'
+      // position: '后端工程师（ASP & PHP）',
+      position: 'PHP工程师',
+      description: '参与公司域名售卖网站（nic.top）从后端到前端的开发和维护；承担服务器运维工作。'
     }
   ],
   projects: [
+    // {
+    //   name: '莉莉丝游戏内社区',
+    //   timeRange: '2020 年 10 月 - 至今',
+    //   tags: [
+    //     {
+    //       name: 'ToC',
+    //       bgc: 'cyan'
+    //     },
+    //     {
+    //       name: '国际化',
+    //       bgc: 'blue'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'React，Umi，Less，SSR。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '前端工程师，负责项目日常需求迭代和问题修复。'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
+    //     }
+    //   ],
+    //   hideInPrint: true,
+    // },
     {
-      name: '莉莉丝游戏内社区',
-      timeRange: '2020 年 10 月 - 至今',
-      tags: [
-        {
-          name: 'ToC',
-          bgc: 'cyan'
-        },
-        {
-          name: '国际化',
-          bgc: 'blue'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'React，Umi，Less，SSR。'
-        },
-        {
-          name: '项目职责',
-          value: '前端工程师，负责项目日常需求迭代和问题修复。'
-        },
-        {
-          name: '项目描述',
-          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
-        }
-      ],
-      hideInPrint: true,
-    },
-    {
-      name: '莉莉丝游戏会员中心',
+      name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
       timeRange: '2020 年 8 月 - 2021 年 3 月',
       tags: [
         {
@@ -153,11 +156,11 @@ export default {
         },
         {
           name: '后端技术',
-          value: 'Node，Egg，Redis，MySQL，Sequelize，Docker。'
+          value: 'Node.js，Egg.js，Redis，MySQL，Sequelize，Docker，Nginx。'
         },
         {
           name: '项目职责',
-          value: '全栈工程师，负责项目前后端开发及 CI/CD 部署。'
+          value: '前端&Node.js工程师'
         },
         {
           name: '项目描述',
@@ -166,7 +169,7 @@ export default {
       ]
     },
     {
-      name: '莉莉丝游戏（万国觉醒 & 剑与远征）礼包兑换码（CDKey）网站',
+      name: '莉莉丝游戏（万国觉醒&剑与远征）礼包兑换码（CDKey）网站',
       timeRange: '2020 年 9 月 - 2021 年 3 月',
       tags: [
         {
@@ -185,15 +188,15 @@ export default {
         },
         {
           name: '后端技术',
-          value: 'Node，Egg，Redis。'
+          value: 'Node.js，Egg.js，Redis，Nginx。'
         },
         {
           name: '项目职责',
-          value: '后端工程师，项目初期承担项目后端开发，中后期维护整个项目的前后端工作；从零搭建日服礼包兑换码网站，并迭代至国际化。'
+          value: '前端&Node.js工程师'
         },
         {
           name: '项目描述',
-          value: `支持玩家兑换礼包，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。`
+          value: `搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。`
         }
       ]
     },
@@ -233,7 +236,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'JavaScript，Docsify，Sass，Webpack，Rollup，Gulp。'
+          value: 'Webpack，Rollup，Gulp，Docsify，Sass。'
         },
         {
           name: '后端技术',
@@ -241,7 +244,7 @@ export default {
         },
         {
           name: '项目职责',
-          value: '技术负责人，从架构设计到后期功能迭代。'
+          value: '前端&Golang工程师'
         },
         {
           name: '项目描述',
@@ -249,35 +252,35 @@ export default {
         }
       ]
     },
-    {
-      name: '游戏中心 CMS 后台 - 广告配置',
-      timeRange: '2019 年 12 月 - 2020 年 1 月',
-      tags: [
-        {
-          name: 'ToA',
-          bgc: 'cyan'
-        },
-        {
-          name: '效率',
-          bgc: 'green'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'Vue 2，Element-UI。'
-        },
-        {
-          name: '项目职责',
-          value: '项目负责人，编写 PRD 并且参与前端开发。'
-        },
-        {
-          name: '项目描述',
-          value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题。
-          通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。`
-        }
-      ]
-    },
+    // {
+    //   name: '游戏中心 CMS 后台 - 广告配置',
+    //   timeRange: '2019 年 12 月 - 2020 年 1 月',
+    //   tags: [
+    //     {
+    //       name: 'ToA',
+    //       bgc: 'cyan'
+    //     },
+    //     {
+    //       name: '效率',
+    //       bgc: 'green'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'Vue 2，Element-UI。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '项目负责人，编写 PRD 并且参与前端开发。'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题。
+    //       通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。`
+    //     }
+    //   ]
+    // },
     {
       name: '游戏中心开放平台 - 游戏版本和灰度控制',
       timeRange: '2019 年 8 月 - 2019 年 11 月',
@@ -298,7 +301,7 @@ export default {
         },
         {
           name: '项目职责',
-          value: '项目负责人，编写 PRD 并且参与前端开发。'
+          value: '前端工程师&产品经理'
         },
         {
           name: '项目描述',
@@ -331,35 +334,35 @@ export default {
         }
       ]
     },
-    {
-      name: 'PinnacleSolution 智能招聘系统',
-      timeRange: '2018 年 7 月 - 2018 年 12 月',
-      tags: [
-        {
-          name: 'CRM',
-          bgc: 'crm'
-        },
-        {
-          name: '效率',
-          bgc: 'green'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
-        },
-        {
-          name: '项目职责',
-          value: '项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。'
-        },
-        {
-          name: '项目描述',
-          // 通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配
-          value: `将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
-        }
-      ]
-    },
+    // {
+    //   name: 'PinnacleSolution 智能招聘系统',
+    //   timeRange: '2018 年 7 月 - 2018 年 12 月',
+    //   tags: [
+    //     {
+    //       name: 'CRM',
+    //       bgc: 'crm'
+    //     },
+    //     {
+    //       name: '效率',
+    //       bgc: 'green'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       // 通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配
+    //       value: `将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
+    //     }
+    //   ]
+    // },
     {
       name: 'IDAP 智能数据分析平台',
       timeRange: '2017 年 11 月 - 2018 年 4 月',
@@ -384,7 +387,7 @@ export default {
         },
         {
           name: '项目职责',
-          value: '前端工程师，前期就项目进行讨论，约定接口格式，并对照视觉图进行职责分配及项目排期；开发阶段根据后端提供接口文档模拟数据进行页面渲染；后期与后端进行联调并进一步改进项目。'
+          value: '前端工程师'
         },
         {
           name: '项目描述',
@@ -393,53 +396,104 @@ export default {
         }
       ]
     },
-    {
-      name: '邦宁域名备案核查系统',
-      timeRange: '2017 月 4 月 – 2017 年 5 月',
-      tags: [
-        {
-          name: 'CRM',
-          bgc: 'crm'
-        },
-        {
-          name: 'IE8+',
-          bgc: 'ms'
-        },
-        // {
-        //   name: '效率',
-        //   bgc: 'green'
-        // },
-        {
-          name: '报表',
-          bgc: 'secondary'
-        }
-      ],
-      detail: [
-        {
-          name: '前端技术',
-          value: 'Bootstrap，jQuery，Less。'
-        },
-        {
-          name: '后端技术',
-          value: 'WindowsServer，IIS，ASP，SQLServer。'
-        },
-        {
-          name: '项目职责',
-          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
-        },
-        {
-          name: '项目描述',
-          // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
-          value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
-        }
-      ],
-      hideInPrint: true,
-    },
+    // {
+    //   name: '邦宁域名备案核查系统',
+    //   timeRange: '2017 月 4 月 – 2017 年 5 月',
+    //   tags: [
+    //     {
+    //       name: 'CRM',
+    //       bgc: 'crm'
+    //     },
+    //     {
+    //       name: 'IE8+',
+    //       bgc: 'ms'
+    //     },
+    //     // {
+    //     //   name: '效率',
+    //     //   bgc: 'green'
+    //     // },
+    //     {
+    //       name: '报表',
+    //       bgc: 'secondary'
+    //     }
+    //   ],
+    //   detail: [
+    //     {
+    //       name: '前端技术',
+    //       value: 'Bootstrap，jQuery，Less。'
+    //     },
+    //     {
+    //       name: '后端技术',
+    //       value: 'WindowsServer，IIS，ASP，SQLServer。'
+    //     },
+    //     {
+    //       name: '项目职责',
+    //       value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
+    //     },
+    //     {
+    //       name: '项目描述',
+    //       // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
+    //       value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
+    //     }
+    //   ],
+    //   hideInPrint: true,
+    // },
   ],
   individualProjects: [
     {
-      name: 'aliyunoss-cli',
+      name: '小栗读书会',
       timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/gray-6ce2b956-144x144-1.png',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue'
+        },
+        {
+          name: '分享',
+          bgc: 'green'
+        },
+        {
+          name: 'PWA',
+          bgc: 'purple'
+        },
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/fc" target="_blank" rel="noopener">https://mazey.cn/t/fc</a>。`
+        }
+      ]
+    },
+    {
+      name: '上海地铁运营系统',
+      timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/metro-144x144-1.png',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue'
+        },
+        {
+          name: '数据可视化',
+          bgc: 'blue'
+        },
+        {
+          name: 'D3.js',
+          bgc: 'd3'
+        },
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">https://mazey.cn/t/fe</a>。`
+        }
+      ]
+    },
+    {
+      name: 'AliyunOss-Cli',
+      timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
         {
           name: 'NPM',
@@ -460,6 +514,7 @@ export default {
     {
       name: 'Mazey',
       timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
         {
           name: 'NPM',
@@ -496,6 +551,7 @@ export default {
     {
       name: '前端工作小站',
       timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
       tags: [
         {
           name: 'ToB',
@@ -513,27 +569,7 @@ export default {
       detail: [
         {
           name: '项目描述',
-          value: `前端性能监控，静态资源上传，短链接/短网址在线生成。`
-        }
-      ]
-    },
-    {
-      name: '读书会 Lite',
-      timeRange: '',
-      tags: [
-        {
-          name: 'Web',
-          bgc: 'blue'
-        },
-        {
-          name: '分享',
-          bgc: 'green'
-        },
-      ],
-      detail: [
-        {
-          name: '项目描述',
-          value: `提供一个读书分享的平台。`
+          value: `前端性能监控，静态资源上传，<a href="https://blog.mazey.net/tiny?hide_sidebar=1" target="_blank" rel="noopener">短链接/短网址在线生成</a>，DEMO 地址：<a href="https://mazey.cn/t/fd" target="_blank" rel="noopener">https://mazey.cn/t/fd</a>，密码：demo。`
         }
       ]
     },
@@ -541,6 +577,10 @@ export default {
   skills: [
     {
       name: 'JavaScript',
+      level: 95
+    },
+    {
+      name: 'Golang',
       level: 90
     },
     {
@@ -556,7 +596,15 @@ export default {
       level: 75
     },
     {
-      name: 'Node',
+      name: 'Node.js',
+      level: 70
+    },
+    {
+      name: 'Sketch/PS',
+      level: 70
+    },
+    {
+      name: '墨刀',
       level: 70
     }
   ]

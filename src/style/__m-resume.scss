@@ -97,6 +97,23 @@
       display: flex;
     }
 
+    .project-logo {
+      width: 32px;
+      display: inline-flex;
+      // justify-content: center;
+      align-items: center;
+
+      .icon {
+        display: inline-flex;
+        width: 23px;
+        height: 23px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left top;
+        background-image: url(../assets/img/qtt-logo.png);
+      }
+    }
+
     [class^="company-logo"] {
       display: flex;
       align-items: center;
@@ -418,11 +435,22 @@
     .npm {
       background-color: #CB0000;
     }
+
+    .d3 {
+      background-color: #e1784b;
+    }
   }
 
   .project-badge {
     border: none;
     margin-left: 4px;
+    // padding: 0.25em 0.4em;
+    $ttt: 0.3em;
+    padding-top: $ttt;
+    padding-bottom: $ttt;
+    // display: inline-flex;
+    // justify-content: center;
+    // align-items: center;
   }
   // skill
   .skill-show {
