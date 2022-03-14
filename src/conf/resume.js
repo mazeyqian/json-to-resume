@@ -569,7 +569,7 @@ export default {
       detail: [
         {
           name: '项目描述',
-          value: `前端性能监控，静态资源上传，<a href="https://blog.mazey.net/tiny?hide_sidebar=1" target="_blank" rel="noopener">短链接/短网址在线生成</a>，DEMO 地址：<a href="https://mazey.cn/t/fd" target="_blank" rel="noopener">https://mazey.cn/t/fd</a>，密码：demo。`
+          value: `前端性能监控，静态资源上传，<a href="https://blog.mazey.net/tiny?hide_sidebar=1" target="_blank" rel="noopener">短链接/短网址在线生成</a>，DEMO 地址：<a href="https://mazey.cn/t/fg" target="_blank" rel="noopener">https://mazey.cn/t/fg</a>，密码：demo。`
         }
       ]
     },
