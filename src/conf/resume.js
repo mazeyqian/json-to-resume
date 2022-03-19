@@ -311,7 +311,7 @@ export default {
       hideInPrint: true,
     },
     {
-      name: '趣头条游戏中心首页1.0 - 加载体验优化',
+      name: '趣头条游戏中心首页 - 加载体验优化',
       timeRange: '2019 年 6 月 10 日 - 2019 年 6 月 25 日',
       tags: [
         {
@@ -330,7 +330,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: '由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>。'
+          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://mazey.cn/t/fh" target="_blank" rel="noopener">https://mazey.cn/t/fh</a>。`
         }
       ]
     },
@@ -554,12 +554,16 @@ export default {
       logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
       tags: [
         {
-          name: 'ToB',
-          bgc: 'cyan'
-        },
-        {
           name: 'Web',
           bgc: 'blue'
+        },
+        {
+          name: '数据可视化',
+          bgc: 'blue'
+        },
+        {
+          name: 'ToB',
+          bgc: 'cyan'
         },
         {
           name: '效率',
