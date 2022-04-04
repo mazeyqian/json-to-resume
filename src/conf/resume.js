@@ -491,27 +491,6 @@ export default {
       ]
     },
     {
-      name: 'AliyunOss-Cli',
-      timeRange: '',
-      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
-      tags: [
-        {
-          name: 'NPM',
-          bgc: 'npm'
-        },
-        {
-          name: 'CI/CD',
-          bgc: 'gitlab'
-        }
-      ],
-      detail: [
-        {
-          name: '项目描述',
-          value: `阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>。`
-        }
-      ]
-    },
-    {
       name: 'Mazey',
       timeRange: '',
       logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
@@ -529,6 +508,27 @@ export default {
         {
           name: '项目描述',
           value: `前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey</a>。`
+        }
+      ]
+    },
+    {
+      name: 'AliyunOss-Cli',
+      timeRange: '',
+      logo: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
+      tags: [
+        {
+          name: 'NPM',
+          bgc: 'npm'
+        },
+        {
+          name: 'CI/CD',
+          bgc: 'gitlab'
+        }
+      ],
+      detail: [
+        {
+          name: '项目描述',
+          value: `阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>。`
         }
       ]
     },
