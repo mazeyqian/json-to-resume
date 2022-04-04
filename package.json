@@ -13,6 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "release": "cd dist && scp -r ./ root@118.89.31.187:/web/mazey.cn && cd ../",
+    "publish": "npm run build && npm run release",
     "html-lint": "htmllint"
   },
   "husky": {
