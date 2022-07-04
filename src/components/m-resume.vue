@@ -11,7 +11,8 @@
           <ul>
             <li><span class="resume-info-name">姓名：</span>{{ name }}</li>
             <li><span class="resume-info-name">性别：</span>男</li>
-            <li><span class="resume-info-name">生日：</span>1993 年 4 月</li>
+            <li><span class="resume-info-name">现居：</span>上海</li>
+            <li><span class="resume-info-name">出生：</span>1993 年 4 月</li>
             <li><span class="resume-info-name">电话：</span>18551470413</li>
             <li><span class="resume-info-name">邮箱：</span><a href="mailto:mazeyqian@gmail.com" rel="noopener">mazeyqian@gmail.com</a></li>
             <li><span class="resume-info-name">工作年限：</span>{{ experience }}</li>
@@ -22,7 +23,8 @@
             <li><span class="resume-info-name">学历：</span>本科</li>
             <li><span class="resume-info-name">英语：</span>CET-6</li>
             <li><span class="resume-info-name">博客：</span><a href="https://blog.mazey.net/" target="_blank" rel="noopener">blog.mazey.net</a></li>
-            <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank" rel="noopener">mazeyqian</a></li>
+            <li><span class="resume-info-name">GitHub：</span><a href="https://github.com/mazeyqian" target="_blank" rel="noopener">github.com/mazeyqian</a></li>
+            <li><span class="resume-info-name">站酷：</span><a href="https://www.zcool.com.cn/u/24032804" target="_blank" rel="noopener">zcool.com.cn/u/24032804</a></li>
           </ul>
         </div>
       </div>
@@ -110,6 +112,9 @@
             <div class="content-title">
               <div class="project">
               <span class="project-name">
+                <div :class="`project-logo`">
+                  <i class="icon" :style="{ backgroundImage: `url(${project.logo})` }"></i>
+                </div>
                 <span>{{ project.name }}</span>
                 <span class="project-badges">
                   <b-badge v-for="(tag, index) in project.tags"
