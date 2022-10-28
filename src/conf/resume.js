@@ -1,9 +1,27 @@
 export default {
   companies: [
     {
+      name: '上海哔哩哔哩科技有限公司',
+      nameAbbr: 'bilibili',
+      timeRange: '2022 年 5 月 - 至今',
+      tags: [
+        {
+          name: '手机游戏',
+          bgc: 'game'
+        },
+        {
+          name: '发行',
+          bgc: 'publish'
+        },
+      ],
+      department: '游戏发行事业部 - 游戏业务组',
+      position: '前端工程师',
+      description: '哔哩哔哩游戏中心桌面端 Web 和移动端 H5，维护面向外部游戏厂商的开放平台和为内部运营服务的管理后台。'
+    },
+    {
       name: '上海莉莉丝科技股份有限公司',
       nameAbbr: 'lilith',
-      timeRange: '2020 年 8 月 - 至今',
+      timeRange: '2020 年 8 月 - 2022 年 4 月',
       tags: [
         {
           name: '手机游戏',
@@ -15,7 +33,6 @@ export default {
         },
       ],
       department: '平台产品中心 - 游戏组件组',
-      // position: '前端工程师',
       position: '前端&Node.js工程师',
       description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统。'
     },
@@ -32,13 +49,12 @@ export default {
           name: '广告',
           bgc: 'a-d'
         },
-        // {
-        //   name: 'NASDAQ',
-        //   bgc: 'nasdaq'
-        // },
+        {
+          name: '发行',
+          bgc: 'publish'
+        },
       ],
       department: '技术中心 - 游戏组',
-      // position: '研发工程师（前端 & Golang）',
       position: '前端&Golang工程师',
       description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK。'
     },
@@ -73,10 +89,6 @@ export default {
           name: '电商',
           bgc: 'e-commerce'
         },
-        // {
-        //   name: '深交所',
-        //   bgc: 'szse',
-        // }
       ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
@@ -152,11 +164,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Webpack，Sass。'
+          value: 'React，Webpack，Sass'
         },
         {
           name: '后端技术',
-          value: 'Node.js，Egg.js，Redis，MySQL，Sequelize，Docker，Nginx。'
+          value: 'Node.js，Egg.js，Redis，MySQL，Sequelize，Docker，Nginx'
         },
         {
           name: '项目职责',
@@ -184,11 +196,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Umi，Less，SSR。'
+          value: 'React，Umi，Less，SSR'
         },
         {
           name: '后端技术',
-          value: 'Node.js，Egg.js，Redis，Nginx。'
+          value: 'Node.js，Egg.js，Redis，Nginx'
         },
         {
           name: '项目职责',
@@ -236,11 +248,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Webpack，Rollup，Gulp，Docsify，Sass。'
+          value: 'Webpack，Rollup，Gulp，Docsify，Sass'
         },
         {
           name: '后端技术',
-          value: 'Golang，Gin，Gorm，MySQL，MurmurHash，JsonLogic。'
+          value: 'Golang，Gin，Gorm，MySQL，MurmurHash，JsonLogic'
         },
         {
           name: '项目职责',
@@ -248,7 +260,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">https://mazey.cn/t/dl</a>。`
+          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>。`
         }
       ]
     },
@@ -268,7 +280,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI。'
+          value: 'Vue 2，Element-UI'
         },
         {
           name: '项目职责',
@@ -297,7 +309,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI。'
+          value: 'Vue 2，Element-UI'
         },
         {
           name: '项目职责',
@@ -330,7 +342,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://mazey.cn/t/fh" target="_blank" rel="noopener">https://mazey.cn/t/fh</a>。`
+          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://mazey.cn/t/fh" target="_blank" rel="noopener">mazey.cn/t/fh</a>。`
         }
       ]
     },
@@ -383,7 +395,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI，Echarts 3，Webpack，Sass。'
+          value: 'Vue 2，Element-UI，Echarts 3，Webpack，Sass'
         },
         {
           name: '项目职责',
@@ -461,7 +473,7 @@ export default {
       detail: [
         {
           name: '项目描述',
-          value: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/fc" target="_blank" rel="noopener">https://mazey.cn/t/fc</a>。`
+          value: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/fc" target="_blank" rel="noopener">mazey.cn/t/fc</a>。`
         }
       ]
     },
@@ -486,7 +498,7 @@ export default {
       detail: [
         {
           name: '项目描述',
-          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">https://mazey.cn/t/fe</a>。`
+          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">mazey.cn/t/fe</a>。`
         }
       ]
     },
@@ -573,7 +585,7 @@ export default {
       detail: [
         {
           name: '项目描述',
-          value: `前端性能监控，静态资源上传，<a href="https://blog.mazey.net/tiny?hide_sidebar=1" target="_blank" rel="noopener">短链接/短网址在线生成</a>，DEMO 地址：<a href="https://mazey.cn/t/fg" target="_blank" rel="noopener">https://mazey.cn/t/fg</a>，密码：demo。`
+          value: `前端性能监控，静态资源上传，<a href="https://blog.mazey.net/tiny?hide_sidebar=1" target="_blank" rel="noopener">短链接/短网址在线生成</a>，DEMO 地址：<a href="https://mazey.cn/t/fg" target="_blank" rel="noopener">mazey.cn/t/fg</a>，密码：demo。`
         }
       ]
     },

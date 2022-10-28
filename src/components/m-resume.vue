@@ -153,7 +153,7 @@
         <div class="patent">
           <div class="patent-item">
             <img class="icon-html5" alt="h5" src="../assets/img/html5.png"/>
-            <span>基于HTML5协议的浏览器全屏显示方法及显示装置[<a href="https://mazey.cn/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF" target="_blank" rel="noopener">CN110083409A</a>]</span>
+            <span>基于HTML5协议的浏览器全屏显示方法及显示装置[<a href="//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF" target="_blank" rel="noopener">CN110083409A</a>]</span>
           </div>
         </div>
       </div>

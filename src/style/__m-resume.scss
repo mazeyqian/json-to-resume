@@ -150,6 +150,16 @@
       }
     }
 
+    .company-logo-bilibili {
+      width: 32px;
+
+      .icon-company {
+        width: 23px;
+        height: 23px;
+        background-image: url(../assets/img/bilibili-logo.png);
+      }
+    }
+
     .company-logo-suning {
       width: 32px;
 
@@ -175,14 +185,13 @@
       }
     }
 
-    // https://mazey.cn/asset/login_logo_120_116.png
     .company-logo-lilith {
       width: 32px;
 
       .icon-company {
         width: 24px;
         height: 24px;
-        background-image: url(https://mazey.cn/asset/login_logo_120_116.png);
+        background-image: url(../assets/img/login_logo_120_116.png);
       }
     }
 
