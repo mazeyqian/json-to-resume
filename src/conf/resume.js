@@ -119,35 +119,31 @@ export default {
     }
   ],
   projects: [
-    // {
-    //   name: '莉莉丝游戏内社区',
-    //   timeRange: '2020 年 10 月 - 至今',
-    //   tags: [
-    //     {
-    //       name: 'ToC',
-    //       bgc: 'cyan'
-    //     },
-    //     {
-    //       name: '国际化',
-    //       bgc: 'blue'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'React，Umi，Less，SSR。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '前端工程师，负责项目日常需求迭代和问题修复。'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
-    //     }
-    //   ],
-    //   hideInPrint: true,
-    // },
+    {
+      name: '莉莉丝游戏内社区',
+      timeRange: '2020 年 10 月 - 至今',
+      tags: [
+        {
+          name: 'ToC',
+          bgc: 'cyan'
+        },
+        {
+          name: '国际化',
+          bgc: 'blue'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'React，Umi，Less，SSR。'
+        },
+        {
+          name: '项目描述',
+          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。负责项目日常需求迭代和问题修复。`
+        }
+      ],
+      hideInPrint: true,
+    },
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
       timeRange: '2020 年 8 月 - 2021 年 3 月',
@@ -169,10 +165,6 @@ export default {
         {
           name: '后端技术',
           value: 'Node.js，Egg.js，Redis，MySQL，Sequelize，Docker，Nginx'
-        },
-        {
-          name: '项目职责',
-          value: '前端&Node.js工程师'
         },
         {
           name: '项目描述',
@@ -201,10 +193,6 @@ export default {
         {
           name: '后端技术',
           value: 'Node.js，Egg.js，Redis，Nginx'
-        },
-        {
-          name: '项目职责',
-          value: '前端&Node.js工程师'
         },
         {
           name: '项目描述',
@@ -255,10 +243,6 @@ export default {
           value: 'Golang，Gin，Gorm，MySQL，MurmurHash，JsonLogic'
         },
         {
-          name: '项目职责',
-          value: '前端&Golang工程师'
-        },
-        {
           name: '项目描述',
           value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>。`
         }
@@ -281,10 +265,6 @@ export default {
         {
           name: '前端技术',
           value: 'Vue 2，Element-UI'
-        },
-        {
-          name: '项目职责',
-          value: '前端工程师&产品经理'
         },
         {
           name: '项目描述',
@@ -312,10 +292,6 @@ export default {
           value: 'Vue 2，Element-UI'
         },
         {
-          name: '项目职责',
-          value: '前端工程师&产品经理'
-        },
-        {
           name: '项目描述',
           value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
         }
@@ -337,44 +313,36 @@ export default {
       ],
       detail: [
         {
-          name: '项目职责',
-          value: '前端工程师'
-        },
-        {
           name: '项目描述',
           value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://mazey.cn/t/fh" target="_blank" rel="noopener">mazey.cn/t/fh</a>。`
         }
       ]
     },
-    // {
-    //   name: 'PinnacleSolution 智能招聘系统',
-    //   timeRange: '2018 年 7 月 - 2018 年 12 月',
-    //   tags: [
-    //     {
-    //       name: 'CRM',
-    //       bgc: 'crm'
-    //     },
-    //     {
-    //       name: '效率',
-    //       bgc: 'green'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '项目前端负责人，参与前期需求确认到项目稳定上线的整个过程。'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       // 通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配
-    //       value: `将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
-    //     }
-    //   ]
-    // },
+    {
+      name: 'PinnacleSolution 智能招聘系统',
+      timeRange: '2018 年 7 月 - 2018 年 12 月',
+      tags: [
+        {
+          name: 'CRM',
+          bgc: 'crm'
+        },
+        {
+          name: '效率',
+          bgc: 'green'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
+        },
+        {
+          name: '项目描述',
+          // 通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配
+          value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
+        }
+      ]
+    },
     {
       name: 'IDAP 智能数据分析平台',
       timeRange: '2017 年 11 月 - 2018 年 4 月',
@@ -398,58 +366,50 @@ export default {
           value: 'Vue 2，Element-UI，Echarts 3，Webpack，Sass'
         },
         {
-          name: '项目职责',
-          value: '前端工程师'
-        },
-        {
           name: '项目描述',
           // ，引入 Echarts 做数据的可视化
           value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
         }
       ]
     },
-    // {
-    //   name: '邦宁域名备案核查系统',
-    //   timeRange: '2017 月 4 月 – 2017 年 5 月',
-    //   tags: [
-    //     {
-    //       name: 'CRM',
-    //       bgc: 'crm'
-    //     },
-    //     {
-    //       name: 'IE8+',
-    //       bgc: 'ms'
-    //     },
-    //     // {
-    //     //   name: '效率',
-    //     //   bgc: 'green'
-    //     // },
-    //     {
-    //       name: '报表',
-    //       bgc: 'secondary'
-    //     }
-    //   ],
-    //   detail: [
-    //     {
-    //       name: '前端技术',
-    //       value: 'Bootstrap，jQuery，Less。'
-    //     },
-    //     {
-    //       name: '后端技术',
-    //       value: 'WindowsServer，IIS，ASP，SQLServer。'
-    //     },
-    //     {
-    //       name: '项目职责',
-    //       value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。'
-    //     },
-    //     {
-    //       name: '项目描述',
-    //       // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
-    //       value: '通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
-    //     }
-    //   ],
-    //   hideInPrint: true,
-    // },
+    {
+      name: '邦宁域名备案核查系统',
+      timeRange: '2017 月 4 月 – 2017 年 5 月',
+      tags: [
+        {
+          name: 'CRM',
+          bgc: 'crm'
+        },
+        {
+          name: 'IE8+',
+          bgc: 'ms'
+        },
+        // {
+        //   name: '效率',
+        //   bgc: 'green'
+        // },
+        {
+          name: '报表',
+          bgc: 'secondary'
+        }
+      ],
+      detail: [
+        {
+          name: '前端技术',
+          value: 'Bootstrap，jQuery，Less。'
+        },
+        {
+          name: '后端技术',
+          value: 'WindowsServer，IIS，ASP，SQLServer。'
+        },
+        {
+          name: '项目描述',
+          // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
+          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
+        }
+      ],
+      hideInPrint: true,
+    },
   ],
   individualProjects: [
     {
