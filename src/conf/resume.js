@@ -113,7 +113,6 @@ export default {
         },
       ],
       department: '主站研发部',
-      // position: '后端工程师（ASP & PHP）',
       position: 'PHP工程师',
       description: '参与公司域名售卖网站（nic.top）从后端到前端的开发和维护；承担服务器运维工作。'
     }
@@ -135,11 +134,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Umi，Less，SSR。'
+          value: 'React、Umi、Less、SSR'
         },
         {
           name: '项目描述',
-          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。负责项目日常需求迭代和问题修复。`
+          value: `社区覆盖 AFK Arena、Rise of Kingdoms、Warpath 等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
         }
       ],
       hideInPrint: true,
@@ -160,11 +159,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Webpack，Sass'
+          value: 'React、Webpack、Sass'
         },
         {
           name: '后端技术',
-          value: 'Node.js，Egg.js，Redis，MySQL，Sequelize，Docker，Nginx'
+          value: 'Node.js、Egg.js、Redis、MySQL、Sequelize、Docker、Nginx'
         },
         {
           name: '项目描述',
@@ -188,11 +187,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'React，Umi，Less，SSR'
+          value: 'React、Umi、Less、SSR'
         },
         {
           name: '后端技术',
-          value: 'Node.js，Egg.js，Redis，Nginx'
+          value: 'Node.js、Egg.js、Redis、Nginx'
         },
         {
           name: '项目描述',
@@ -236,11 +235,11 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Webpack，Rollup，Gulp，Docsify，Sass'
+          value: 'Webpack、Rollup、Gulp、Docsify、Sass'
         },
         {
           name: '后端技术',
-          value: 'Golang，Gin，Gorm，MySQL，MurmurHash，JsonLogic'
+          value: 'Golang、Gin、Gorm、MySQL、MurmurHash、JsonLogic'
         },
         {
           name: '项目描述',
@@ -264,7 +263,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI'
+          value: 'Vue 2、Element-UI'
         },
         {
           name: '项目描述',
@@ -289,7 +288,7 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI'
+          value: 'Vue 2、Element-UI'
         },
         {
           name: '项目描述',
@@ -334,11 +333,10 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Vue-cli 3，ColorAdmin，Echarts 4，Sass。'
+          value: 'Vue 2、Vue-cli 3、ColorAdmin、Echarts 4、Sass'
         },
         {
           name: '项目描述',
-          // 通过使用 Vue 全家桶构建的单页面 SPA，通过权限分配
           value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
         }
       ]
@@ -363,11 +361,10 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Vue 2，Element-UI，Echarts 3，Webpack，Sass'
+          value: 'Vue 2、Element-UI、Echarts 3、Webpack、Sass'
         },
         {
           name: '项目描述',
-          // ，引入 Echarts 做数据的可视化
           value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
         }
       ]
@@ -396,15 +393,14 @@ export default {
       detail: [
         {
           name: '前端技术',
-          value: 'Bootstrap，jQuery，Less。'
+          value: 'Bootstrap、jQuery、Less'
         },
         {
           name: '后端技术',
-          value: 'WindowsServer，IIS，ASP，SQLServer。'
+          value: 'WindowsServer、IIS、ASP、SQLServer'
         },
         {
           name: '项目描述',
-          // 前后端分离，前端通过 Bootstrap + jQuery 兼容到 IE8，后端提供 JSON 数据进行渲染；
           value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行。通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
         }
       ],
