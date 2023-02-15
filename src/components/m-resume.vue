@@ -31,7 +31,6 @@
       <!--工作经历-->
       <div class="resume-item">
         <h3>工作经历</h3>
-        <!--Lilith-->
         <div class="resume-experience" v-for="(company, index) in resume.companies" :key="`resume-experience-${index}`">
           <div class="resume-experience-timeline">
             <div class="timeline-line-before"></div>
