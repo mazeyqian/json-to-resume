@@ -19,8 +19,8 @@ export default {
     {
       name: '上海哔哩哔哩科技有限公司',
       iconName: 'bilibili',
-      timeRangeStart: '2022 年 5 月 - 至今',
-      timeRangeEnd: '2022 年 5 月 - 至今',
+      timeRangeStart: '2022 年 5 月',
+      timeRangeEnd: '至今',
       tags: [
         {
           name: '手机游戏',
