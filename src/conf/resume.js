@@ -4,14 +4,22 @@ export default {
   personInfo: {
     left: [
       {
-        name: '',
-        value: '',
+        name: 'name',
+        value: 'value',
+      },
+      {
+        name: 'name',
+        value: 'value',
       },
     ],
     right: [
       {
-        name: '',
-        value: '',
+        name: 'name',
+        value: 'value',
+      },
+      {
+        name: 'name',
+        value: 'value',
       },
     ],
   },

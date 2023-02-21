@@ -22,7 +22,6 @@ $resume-black: #111111;
 }
 
 .m-resume {
-  // var
   $font-color-primary: $resume-font-color-primary;
   $font-color-lighten: lighten($font-color-primary, 20%);
   $bgc-color-primary: $resume-color-primary;
@@ -46,7 +45,7 @@ $resume-black: #111111;
     height: auto;
     display: inline-flex;
   }
-  // reset
+
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -80,11 +79,11 @@ $resume-black: #111111;
     height: 1em;
     margin-right: 3px;
   }
-  // parent
+
   font-size: 14px;
   color: $font-color-primary;
   padding: 30px 50px;
-  // title
+
   .resume-title {
     @extend %module-border-bottom;
   }
@@ -229,7 +228,6 @@ $resume-black: #111111;
     flex: 1 1 auto;
   }
 
-  // experience
   .resume-experience-timeline {
     display: flex;
     flex-direction: column;
@@ -298,7 +296,6 @@ $resume-black: #111111;
     }
   }
 
-  // project
   .project-detail {
     display: flex;
 
@@ -319,7 +316,7 @@ $resume-black: #111111;
   .project-badges {
     display: flex;
     align-items: center;
-    // badge color
+
     .dark {
       background-color: $resume-black;
     }
@@ -365,11 +362,11 @@ $resume-black: #111111;
     }
 
     .crm {
-      background-color: #5990a7; // #2b3188;
+      background-color: #5990a7;
     }
 
     .vue {
-      background-color: #52b983; // #4fc08d;
+      background-color: #52b983;
     }
 
     .react {
@@ -460,7 +457,7 @@ $resume-black: #111111;
     padding-top: $ttt;
     padding-bottom: $ttt;
   }
-  // skill
+
   .skill-show {
     display: flex;
     flex-wrap: wrap;
@@ -491,13 +488,13 @@ $resume-black: #111111;
       }
     }
   }
-  // patent
+
   .patent-item {
     font-size: 15px;
     display: flex;
     align-items: center;
   }
-  // footer
+  
   .resume-footer {
     display: flex;
     align-items: center;
