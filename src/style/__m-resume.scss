@@ -1,3 +1,4 @@
+// Base Colours
 $resume-color-primary: #45c8dc;
 $resume-font-color-primary: #38424f;
 $resume-header-color: #1b2026;
@@ -5,6 +6,195 @@ $resume-sub-header-color: #868c94;
 $resume-border-color-primary: #e5e5e5;
 $resume-body-bgc: #f2f2f2;
 $resume-black: #111111;
+
+// Custom Style for Badges
+.m-resume {
+  .dark {
+    background-color: $resume-black;
+  }
+
+  .blue {
+    background-color: #007bff;
+  }
+
+  .secondary {
+    background-color: #6c757d;
+  }
+
+  .purple {
+    background-color: #7952b3;
+  }
+
+  .green {
+    background-color: #28a745;
+  }
+
+  .ms {
+    background-color: #0067b8;
+  }
+
+  .orange {
+    background-color: #ff851b;
+  }
+
+  .red {
+    background-color: #ff4136;
+  }
+
+  .gray {
+    background-color: #aaa;
+  }
+
+  .yellow {
+    background-color: #ffdc00;
+  }
+
+  .cyan {
+    background-color: #17a2b8;
+  }
+
+  .crm {
+    background-color: #5990a7;
+  }
+
+  .vue {
+    background-color: #52b983;
+  }
+
+  .react {
+    background-color: #61dafb;
+  }
+
+  .pay {
+    background-color: rgba(19, 141, 227, 1);
+  }
+
+  .a-d {
+    background-color: rgba(29, 148, 171, 1);
+  }
+
+  .report {
+    background-color: #396fff;
+  }
+
+  .share {
+    background-color: rgba(174, 228, 21, 1);
+  }
+
+  .api {
+    background-color: rgba(243, 57, 10, 1);
+  }
+
+  .error-monitor {
+    background-color: rgba(224, 93, 7, 1);
+  }
+
+  .gitlab {
+    background-color: #fa7035;
+  }
+
+  .game {
+    background-color: rgb(239, 8, 20);
+  }
+
+  .publish {
+    background-color: rgb(98, 16, 203);
+  }
+
+  .nasdaq {
+    background-color: rgb(16, 123, 178);
+  }
+
+  .recruit {
+    background-color: rgb(244, 215, 28);
+  }
+
+  .saas {
+    background-color: rgb(61, 181, 238);
+  }
+
+  .e-commerce {
+    background-color: rgb(227, 77, 28);
+  }
+
+  .szse {
+    background-color: rgb(21, 96, 171);
+  }
+
+  .domain-register {
+    background-color: rgb(14, 119, 207);
+  }
+
+  .cloud-host {
+    background-color: rgb(36, 87, 233);
+  }
+
+  .auto-web {
+    background-color: rgb(91, 82, 170);
+  }
+
+  .npm {
+    background-color: #CB0000;
+  }
+
+  .d3 {
+    background-color: #e1784b;
+  }
+}
+
+// Custom Image for ICON
+.m-resume {
+  .company-logo-pinnacle {
+    .icon-company {
+      width: 27px;
+      background-image: url(../assets/img/pinnacle-logo.png);
+    }
+  }
+
+  .company-logo-qtt {
+    .icon-company {
+      background-image: url(../assets/img/qtt-logo.png);
+    }
+  }
+
+  .company-logo-bilibili {
+    .icon-company {
+      background-image: url(../assets/img/bilibili-logo.png);
+    }
+  }
+
+  .company-logo-suning {
+    .icon-company {
+      width: 25px;
+      height: 25px;
+      background-image: url(../assets/img/suning-logo.png);
+      background-size: auto 37px;
+      background-position: 0 -7px;
+    }
+  }
+
+  .company-logo-bangning {
+    width: 53px;
+
+    .icon-company {
+      width: 49px;
+      background-image: url(../assets/img/bangning-logo.png);
+      background-size: auto 25px;
+      background-position: 0 0;
+      margin-bottom: -2px;
+    }
+  }
+
+  .company-logo-lilith {
+    width: 32px;
+
+    .icon-company {
+      width: 24px;
+      height: 24px;
+      background-image: url(../assets/img/login_logo_120_116.png);
+    }
+  }
+}
 
 @media screen and (min-width: 1000px) {
   .m-resume-box {
@@ -114,7 +304,7 @@ $resume-black: #111111;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left top;
-        background-image: url(../assets/img/qtt-logo.png);
+        // background-image: url(../assets/img/qtt-logo.png);
       }
     }
 
@@ -131,71 +321,6 @@ $resume-black: #111111;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: left top;
-    }
-
-    .company-logo-pinnacle {
-      // width: 32px;
-
-      .icon-company {
-        width: 27px;
-        // height: 23px;
-        background-image: url(../assets/img/pinnacle-logo.png);
-      }
-    }
-
-    .company-logo-qtt {
-      // width: 32px;
-
-      .icon-company {
-        // width: 23px;
-        // height: 23px;
-        background-image: url(../assets/img/qtt-logo.png);
-      }
-    }
-
-    .company-logo-bilibili {
-      // width: 32px;
-
-      .icon-company {
-        // width: 23px;
-        // height: 23px;
-        background-image: url(../assets/img/bilibili-logo.png);
-      }
-    }
-
-    .company-logo-suning {
-      // width: 32px;
-
-      .icon-company {
-        width: 25px;
-        height: 25px;
-        background-image: url(../assets/img/suning-logo.png);
-        background-size: auto 37px;
-        background-position: 0 -7px;
-      }
-    }
-
-    .company-logo-bangning {
-      width: 53px;
-
-      .icon-company {
-        width: 49px;
-        // height: 23px;
-        background-image: url(../assets/img/bangning-logo.png);
-        background-size: auto 25px;
-        background-position: 0 0;
-        margin-bottom: -2px;
-      }
-    }
-
-    .company-logo-lilith {
-      width: 32px;
-
-      .icon-company {
-        width: 24px;
-        height: 24px;
-        background-image: url(../assets/img/login_logo_120_116.png);
-      }
     }
 
     .company,
@@ -316,138 +441,6 @@ $resume-black: #111111;
   .project-badges {
     display: flex;
     align-items: center;
-
-    .dark {
-      background-color: $resume-black;
-    }
-
-    .blue {
-      background-color: #007bff;
-    }
-
-    .secondary {
-      background-color: #6c757d;
-    }
-
-    .purple {
-      background-color: #7952b3;
-    }
-
-    .green {
-      background-color: #28a745;
-    }
-
-    .ms {
-      background-color: #0067b8;
-    }
-
-    .orange {
-      background-color: #ff851b;
-    }
-
-    .red {
-      background-color: #ff4136;
-    }
-
-    .gray {
-      background-color: #aaa;
-    }
-
-    .yellow {
-      background-color: #ffdc00;
-    }
-
-    .cyan {
-      background-color: #17a2b8;
-    }
-
-    .crm {
-      background-color: #5990a7;
-    }
-
-    .vue {
-      background-color: #52b983;
-    }
-
-    .react {
-      background-color: #61dafb;
-    }
-
-    .pay {
-      background-color: rgba(19, 141, 227, 1);
-    }
-
-    .a-d {
-      background-color: rgba(29, 148, 171, 1);
-    }
-
-    .report {
-      background-color: #396fff;
-    }
-
-    .share {
-      background-color: rgba(174, 228, 21, 1);
-    }
-
-    .api {
-      background-color: rgba(243, 57, 10, 1);
-    }
-
-    .error-monitor {
-      background-color: rgba(224, 93, 7, 1);
-    }
-
-    .gitlab {
-      background-color: #fa7035;
-    }
-
-    .game {
-      background-color: rgb(239, 8, 20);
-    }
-
-    .publish {
-      background-color: rgb(98, 16, 203);
-    }
-
-    .nasdaq {
-      background-color: rgb(16, 123, 178);
-    }
-
-    .recruit {
-      background-color: rgb(244, 215, 28);
-    }
-
-    .saas {
-      background-color: rgb(61, 181, 238);
-    }
-
-    .e-commerce {
-      background-color: rgb(227, 77, 28);
-    }
-
-    .szse {
-      background-color: rgb(21, 96, 171);
-    }
-
-    .domain-register {
-      background-color: rgb(14, 119, 207);
-    }
-
-    .cloud-host {
-      background-color: rgb(36, 87, 233);
-    }
-
-    .auto-web {
-      background-color: rgb(91, 82, 170);
-    }
-
-    .npm {
-      background-color: #CB0000;
-    }
-
-    .d3 {
-      background-color: #e1784b;
-    }
   }
 
   .project-badge {
