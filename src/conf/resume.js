@@ -54,8 +54,8 @@ export default {
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
       iconName: 'bilibili',
-      timeRangeStart: '2020 年 8 月 - 2021 年 3 月',
-      timeRangeEnd: '2020 年 8 月 - 2021 年 3 月',
+      timeRangeStart: '2020 年 8 月',
+      timeRangeEnd: '2021 年 3 月',
       tags: [
         {
           name: 'ToC',

@@ -49,7 +49,7 @@
       <div class="resume-item">
         <h3>专利</h3>
         <div class="patent">
-          <div class="patent-item" v-for="(patent, index) in patents" :key="`patent-item-${index}`">
+          <div class="patent-item" v-for="(patent, index) in resume.patents" :key="`patent-item-${index}`">
             <img class="icon-html5" alt="h5" src="../assets/img/html5.png"/>
             <span>基于HTML5协议的浏览器全屏显示方法及显示装置[<a href="//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF" target="_blank" rel="noopener">CN110083409A</a>]</span>
           </div>

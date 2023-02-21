@@ -11,11 +11,11 @@
         <div class="content-title">
           <div class="company project">
           <span class="company-name project-name">
-            <div :class="`company-logo-${project.iconName}`">
+            <span v-if="project.iconName" :class="`company-logo-${project.iconName}`">
               <i class="icon-company"></i>
-            </div>
-            <div :class="`project-logo`">
-              <i class="icon" :style="{ backgroundImage: `url(${project.logo})` }"></i>
+            </span>
+            <div v-if="project.iconLink" :class="`project-logo`">
+              <i class="icon" :style="{ backgroundImage: `url(${project.iconLink})` }"></i>
             </div>
             <span>{{ project.name }}</span>
             <span class="project-badges">
@@ -23,7 +23,10 @@
                 :key="`project-badges-${index}`"
                 :pill="true"
                 class="project-badge"
-                :class="tag.bgc">{{ tag.name }}</b-badge>
+                :class="tag.bgc"
+              >
+                {{ tag.name }}
+              </b-badge>
             </span>
           </span>
             <span>{{ project.timeRangeStart }} - {{ project.timeRangeEnd }}</span>
@@ -37,9 +40,9 @@
           <span>{{ project.description }}</span>
         </div>
         <div class="project-detail" v-for="(detail, index) in project.details" :key="`project-detail-${index}`">
-              <div class="detail-name">{{ detail.name }}：</div>
-              <div class="detail-content" v-html="detail.value"></div>
-            </div>
+          <div class="detail-name">{{ detail.name }}：</div>
+          <div class="detail-content" v-html="detail.value"></div>
+        </div>
       </div>
     </div>
   </div>

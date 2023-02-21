@@ -119,52 +119,52 @@ $resume-black: #111111;
     }
 
     [class^="company-logo"] {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      width: 100px;
+      width: 32px;
     }
 
     [class^="icon-company"] {
       display: inline-flex;
-      width: 100%;
-      height: 27px;
+      width: 23px;
+      height: 23px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: left top;
     }
 
     .company-logo-pinnacle {
-      width: 32px;
+      // width: 32px;
 
       .icon-company {
         width: 27px;
-        height: 23px;
+        // height: 23px;
         background-image: url(../assets/img/pinnacle-logo.png);
       }
     }
 
     .company-logo-qtt {
-      width: 32px;
+      // width: 32px;
 
       .icon-company {
-        width: 23px;
-        height: 23px;
+        // width: 23px;
+        // height: 23px;
         background-image: url(../assets/img/qtt-logo.png);
       }
     }
 
     .company-logo-bilibili {
-      width: 32px;
+      // width: 32px;
 
       .icon-company {
-        width: 23px;
-        height: 23px;
+        // width: 23px;
+        // height: 23px;
         background-image: url(../assets/img/bilibili-logo.png);
       }
     }
 
     .company-logo-suning {
-      width: 32px;
+      // width: 32px;
 
       .icon-company {
         width: 25px;
@@ -180,7 +180,7 @@ $resume-black: #111111;
 
       .icon-company {
         width: 49px;
-        height: 23px;
+        // height: 23px;
         background-image: url(../assets/img/bangning-logo.png);
         background-size: auto 25px;
         background-position: 0 0;
@@ -494,7 +494,7 @@ $resume-black: #111111;
     display: flex;
     align-items: center;
   }
-  
+
   .resume-footer {
     display: flex;
     align-items: center;
