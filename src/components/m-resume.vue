@@ -2,14 +2,14 @@
   <div class="m-resume-box">
     <div class="m-resume">
       <div class="resume-title">
-        <h1>{{ position }}</h1>
+        <h1>{{ resume.title }}</h1>
       </div>
       <!--基本信息-->
       <div class="resume-item">
         <h3>基本信息</h3>
         <div class="resume-item-content resume-item-between">
           <ul>
-            <li v-for="( info, index) in resume.personInfo.left"
+            <li v-for="( info, index ) in resume.personInfo.left"
               :key="`resume-person-info-left-${index}`"
             >
               <span class="resume-info-name">{{ info.name }}：</span>
@@ -49,9 +49,9 @@
       <div class="resume-item">
         <h3>专利</h3>
         <div class="patent">
-          <div class="patent-item" v-for="(patent, index) in resume.patents" :key="`patent-item-${index}`">
-            <img class="icon-html5" alt="h5" src="../assets/img/html5.png"/>
-            <span>基于HTML5协议的浏览器全屏显示方法及显示装置[<a href="//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF" target="_blank" rel="noopener">CN110083409A</a>]</span>
+          <div class="patent-item" v-for="( patent, index ) in resume.patents" :key="`patent-item-${index}`">
+            <span class="icon-html5" alt="Patent ICON"></span>
+            <span>{{ patent.name }}[<a :href="patent.link" target="_blank" rel="noopener">{{ patent.publishNumber }}</a>]</span>
           </div>
         </div>
       </div>
@@ -78,13 +78,10 @@
     data () {
       return {
         resume,
-        name: '钱程',
-        position: '前端工程师',
-        experience: '5 年',
       }
     },
     created () {
-      document.title = `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
+      document.title = this.resume.pageAndFileName // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
     }
   }
 </script>

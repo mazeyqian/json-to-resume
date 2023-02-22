@@ -1,6 +1,6 @@
 export default {
   title: '前端工程师',
-  pageAndFileName: '-',
+  pageAndFileName: '钱程-前端工程师-6年',
   personInfo: {
     left: [
       {
@@ -86,7 +86,7 @@ export default {
   individualProjects: [
     {
       name: '小栗读书会',
-      iconName: 'https://blog.mazey.net/wp-content/uploads/2022/03/gray-6ce2b956-144x144-1.png',
+      iconName: 'nut-read',
       timeRangeStart: '',
       timeRangeEnd: '',
       tags: [
@@ -147,10 +147,10 @@ export default {
   ],
   patents: [
     {
-      name: 'JavaScript',
-      iconName: 'bilibili',
-      publishNumber: '',
-      link: '',
+      name: '基于HTML5协议的浏览器全屏显示方法及显示装置',
+      iconName: 'html5',
+      publishNumber: 'CN110083409A',
+      link: '//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
     },
   ],
 }

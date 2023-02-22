@@ -144,33 +144,29 @@ $resume-black: #111111;
 
 // Custom Image for ICON
 .m-resume {
-  .company-logo-pinnacle {
-    .icon-company {
-      width: 27px;
-      background-image: url(../assets/img/pinnacle-logo.png);
-    }
+  .company-logo-nut-read>.icon-company {
+    background-image: url(../assets/img/nut-read.png);
   }
 
-  .company-logo-qtt {
-    .icon-company {
-      background-image: url(../assets/img/qtt-logo.png);
-    }
+  .company-logo-qtt>.icon-company {
+    background-image: url(../assets/img/qtt-logo.png);
   }
 
-  .company-logo-bilibili {
-    .icon-company {
-      background-image: url(../assets/img/bilibili-logo.png);
-    }
+  .company-logo-bilibili>.icon-company {
+    background-image: url(../assets/img/bilibili-logo.png);
   }
 
-  .company-logo-suning {
-    .icon-company {
-      width: 25px;
-      height: 25px;
-      background-image: url(../assets/img/suning-logo.png);
-      background-size: auto 37px;
-      background-position: 0 -7px;
-    }
+  .company-logo-pinnacle>.icon-company {
+    width: 27px;
+    background-image: url(../assets/img/pinnacle-logo.png);
+  }
+
+  .company-logo-suning>.icon-company {
+    width: 25px;
+    height: 25px;
+    background-size: auto 37px;
+    background-position: 0 -7px;
+    background-image: url(../assets/img/suning-logo.png);
   }
 
   .company-logo-bangning {
@@ -178,10 +174,10 @@ $resume-black: #111111;
 
     .icon-company {
       width: 49px;
-      background-image: url(../assets/img/bangning-logo.png);
       background-size: auto 25px;
       background-position: 0 0;
       margin-bottom: -2px;
+      background-image: url(../assets/img/bangning-logo.png);
     }
   }
 
@@ -192,6 +188,14 @@ $resume-black: #111111;
       width: 24px;
       height: 24px;
       background-image: url(../assets/img/login_logo_120_116.png);
+    }
+  }
+
+  // Patent
+  .patent {
+    .icon-html5 {
+      margin-bottom: -1px;
+      background-image: url(../assets/img/html5.png);
     }
   }
 }
@@ -304,7 +308,6 @@ $resume-black: #111111;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left top;
-        // background-image: url(../assets/img/qtt-logo.png);
       }
     }
 
@@ -376,7 +379,7 @@ $resume-black: #111111;
   .resume-item {
     padding: 24px 0;
 
-    > h3 {
+    >h3 {
       display: flex;
       align-items: center;
       font-size: 22px;
@@ -486,6 +489,15 @@ $resume-black: #111111;
     font-size: 15px;
     display: flex;
     align-items: center;
+
+    span[class^="icon-"] {
+      width: 1em;
+      height: 1em;
+      margin-right: 3px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left top;
+    }
   }
 
   .resume-footer {
