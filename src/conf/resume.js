@@ -48,6 +48,14 @@ export default {
           value: 'Value'
         },
       ],
+      products: [
+        {
+          name: '',
+          iconName: '',
+          link: '',
+          bgc: '',
+        }
+      ],
     },
   ],
   projects: [
