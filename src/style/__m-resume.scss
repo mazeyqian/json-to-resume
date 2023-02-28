@@ -144,6 +144,12 @@ $resume-black: #111111;
 
 // Custom Image for ICON
 .m-resume {
+  // Common ICON
+  .icon-fgo {
+    background-image: url(../assets/img/fgo.png);
+  }
+
+  // Companies and Projects
   .company-logo-rabbit>.icon-company {
     background-image: url(../assets/img/rabbit.png);
   }
@@ -294,7 +300,8 @@ $resume-black: #111111;
     flex: 1 1 auto;
 
     .company-name,
-    .project-name {
+    .project-name,
+    .products-badges {
       font-size: 18px;
       color: $resume-header-color;
       display: flex;
@@ -456,6 +463,29 @@ $resume-black: #111111;
     $ttt: 0.3em;
     padding-top: $ttt;
     padding-bottom: $ttt;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .products-badges {
+    @extend .project-badges;
+  }
+
+  .product-badge {
+    @extend .project-badge;
+
+    &>span {
+      display: inline-flex;
+    }
+  }
+
+  .product-icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
   }
 
   .skill-show {
@@ -495,12 +525,7 @@ $resume-black: #111111;
     align-items: center;
 
     span[class^="icon-"] {
-      width: 1em;
-      height: 1em;
-      margin-right: 3px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: left top;
+      @extend .product-icon;
     }
   }
 
@@ -519,6 +544,10 @@ $resume-black: #111111;
     flex: 1 0 auto;
     height: 1px;
     background-color: $border-color-primary;
+  }
+
+  .hide {
+    display: none;
   }
 }
 

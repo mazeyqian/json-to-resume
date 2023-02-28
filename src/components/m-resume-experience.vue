@@ -1,5 +1,5 @@
 <template>
-  <div class="resume-item">
+  <div class="resume-item" :class="{ 'hide': projects.length === 0 }">
     <h3>{{ title }}</h3>
     <div :class="`resume-experience ${project.hideInPrint ? 'hide-in-print' : ''}`" v-for="(project, index) in projects" :key="`resume-experience-${index}`">
       <div class="resume-experience-timeline">
@@ -52,7 +52,7 @@
             :href="product.link"
             target="_blank"
           >
-            <span class="product-icon"></span>
+            <span class="product-icon" :class="`icon-${product.iconName}`"></span>
             <span class="product-name">{{ product.name }}</span>
           </b-badge>
         </div>

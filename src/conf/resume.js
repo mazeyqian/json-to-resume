@@ -31,17 +31,17 @@ export default {
       timeRangeEnd: '至今',
       tags: [
         {
-          name: '手机游戏',
+          name: '动物',
           bgc: 'game'
         },
         {
-          name: '发行',
+          name: '爱心',
           bgc: 'publish'
         },
       ],
-      department: '游戏发行事业部 - 游戏业务组',
-      position: '前端工程师',
-      description: '哔哩哔哩游戏中心桌面端 Web 和移动端 H5，维护面向外部游戏厂商的开放平台和为内部运营服务的管理后台。',
+      department: '猫爪发行事业部 - 喂猫组',
+      position: '初级喂猫师',
+      description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
       details: [
         {
           name: 'Name',
@@ -50,15 +50,22 @@ export default {
       ],
       products: [
         {
-          name: 'ProductName',
-          iconName: '',
+          name: '猫猫',
+          iconName: 'fgo',
           link: 'https://example.com',
-          bgc: 'blue',
-        }
+          bgc: 'gray',
+        },
+        {
+          name: '猫猫',
+          iconName: 'fgo',
+          link: 'https://example.com',
+          bgc: 'green',
+        },
       ],
     },
   ],
-  projects: [
+  projects: [],
+  _projects: [
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
       iconName: 'rabbit',
@@ -91,7 +98,8 @@ export default {
       hideInPrint: true,
     },
   ],
-  individualProjects: [
+  individualProjects: [],
+  _individualProjects: [
     {
       name: '小栗读书会',
       iconName: 'nut-read',
@@ -119,7 +127,8 @@ export default {
       ],
     },
   ],
-  skills: [
+  skills: [],
+  _skills: [
     {
       name: 'JavaScript',
       level: 95
@@ -153,7 +162,8 @@ export default {
       level: 70
     },
   ],
-  patents: [
+  patents: [],
+  _patents: [
     {
       name: '基于HTML5协议的浏览器全屏显示方法及显示装置',
       iconName: 'html5',

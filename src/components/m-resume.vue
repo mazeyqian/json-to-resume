@@ -33,7 +33,7 @@
       <!--个人项目-->
       <m-resume-experience :projects="resume.individualProjects" title="个人项目"></m-resume-experience>
       <!--技能-->
-      <div class="resume-item">
+      <div class="resume-item" :class="{ 'hide': resume.skills.length === 0 }">
         <h3>技能</h3>
         <div class="skill-show">
           <div class="skill-item" v-for="(skill, index) in resume.skills" :key="`skill-item-${index}`">
@@ -46,7 +46,7 @@
         </div>
       </div>
       <!--专利-->
-      <div class="resume-item">
+      <div class="resume-item" :class="{ 'hide': resume.patents.length === 0 }">
         <h3>专利</h3>
         <div class="patent">
           <div class="patent-item" v-for="( patent, index ) in resume.patents" :key="`patent-item-${index}`">
