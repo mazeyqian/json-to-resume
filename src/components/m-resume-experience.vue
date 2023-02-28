@@ -43,6 +43,19 @@
           <div class="detail-name">{{ detail.name }}：</div>
           <div class="detail-content" v-html="detail.value"></div>
         </div>
+        <div class="products-badges">
+          <b-badge v-for="(product, index) in project.products"
+            :key="`product-badge-${index}`"
+            :pill="true"
+            class="product-badge"
+            :class="product.bgc"
+            :href="product.link"
+            target="_blank"
+          >
+            <span class="product-icon"></span>
+            <span class="product-name">{{ product.name }}</span>
+          </b-badge>
+        </div>
       </div>
     </div>
   </div>

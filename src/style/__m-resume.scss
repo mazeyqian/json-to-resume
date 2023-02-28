@@ -144,6 +144,10 @@ $resume-black: #111111;
 
 // Custom Image for ICON
 .m-resume {
+  .company-logo-rabbit>.icon-company {
+    background-image: url(../assets/img/rabbit.png);
+  }
+
   .company-logo-nut-read>.icon-company {
     background-image: url(../assets/img/nut-read.png);
   }

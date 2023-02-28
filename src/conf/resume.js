@@ -1,14 +1,14 @@
 export default {
-  title: '前端工程师',
-  pageAndFileName: '钱程-前端工程师-6年',
+  title: '初级喂猫师',
+  pageAndFileName: '后除-初级喂猫师-5年',
   personInfo: {
     left: [
       {
-        name: 'name',
-        value: 'value',
+        name: '姓名',
+        value: '后除',
       },
       {
-        name: 'name',
+        name: '2333',
         value: 'value',
       },
     ],
@@ -25,9 +25,9 @@ export default {
   },
   companies: [
     {
-      name: '上海哔哩哔哩科技有限公司',
-      iconName: 'bilibili',
-      timeRangeStart: '2022 年 5 月',
+      name: '上海知问兔网络科技有限公司',
+      iconName: 'rabbit',
+      timeRangeStart: '-',
       timeRangeEnd: '至今',
       tags: [
         {
@@ -50,10 +50,10 @@ export default {
       ],
       products: [
         {
-          name: '',
+          name: 'ProductName',
           iconName: '',
-          link: '',
-          bgc: '',
+          link: 'https://example.com',
+          bgc: 'blue',
         }
       ],
     },
@@ -61,7 +61,7 @@ export default {
   projects: [
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
-      iconName: 'bilibili',
+      iconName: 'rabbit',
       timeRangeStart: '2020 年 8 月',
       timeRangeEnd: '2021 年 3 月',
       tags: [
