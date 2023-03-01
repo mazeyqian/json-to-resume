@@ -9,6 +9,7 @@ $resume-black: #111111;
 
 // Custom Style for Badges
 .m-resume {
+  // Color
   .dark {
     background-color: $resume-black;
   }
@@ -140,13 +141,31 @@ $resume-black: #111111;
   .d3 {
     background-color: #e1784b;
   }
-}
 
-// Custom Image for ICON
-.m-resume {
+  .fgo {
+    background-color: rgb(57, 87, 172);
+  }
+
+  .guardian-tales {
+    background-color: rgb(8, 35, 60);
+  }
+
+  .kusano-yui {
+    background-color: rgb(55, 67, 127);
+  }
+
+  // Custom Image for ICON
   // Common ICON
   .icon-fgo {
     background-image: url(../assets/img/fgo.png);
+  }
+
+  .icon-guardian-tales {
+    background-image: url(../assets/img/guardian-tales.png);
+  }
+
+  .icon-kusano-yui {
+    background-image: url(../assets/img/kusano-yui.png);
   }
 
   // Companies and Projects
@@ -476,6 +495,10 @@ $resume-black: #111111;
 
     &>span {
       display: inline-flex;
+    }
+
+    &>.product-icon {
+      border-radius: 50%;
     }
   }
 

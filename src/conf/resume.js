@@ -50,16 +50,22 @@ export default {
       ],
       products: [
         {
-          name: '猫猫',
-          iconName: 'fgo',
+          name: '公主连结Re:Dive',
+          iconName: 'kusano-yui',
           link: 'https://example.com',
-          bgc: 'gray',
+          bgc: 'kusano-yui',
         },
         {
-          name: '猫猫',
+          name: '坎公骑冠剑',
+          iconName: 'guardian-tales',
+          link: 'https://example.com',
+          bgc: 'guardian-tales',
+        },
+        {
+          name: '命运-冠位指定（Fate/GO）',
           iconName: 'fgo',
           link: 'https://example.com',
-          bgc: 'green',
+          bgc: 'fgo',
         },
       ],
     },
