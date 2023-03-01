@@ -69,6 +69,51 @@ export default {
         },
       ],
     },
+    {
+      name: '济南家里蹲教育科技有限公司',
+      iconName: 'rabbit',
+      timeRangeStart: '-',
+      timeRangeEnd: '-',
+      tags: [
+        {
+          name: '美食',
+          bgc: 'game'
+        },
+        {
+          name: '旅游',
+          bgc: 'publish'
+        },
+      ],
+      department: '旅游攻略事业部 - 文案组',
+      position: '初级文案员',
+      description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
+      details: [
+        {
+          name: 'Name',
+          value: 'Value'
+        },
+      ],
+      products: [
+        {
+          name: '公主连结Re:Dive',
+          iconName: 'kusano-yui',
+          link: 'https://example.com',
+          bgc: 'kusano-yui',
+        },
+        {
+          name: '坎公骑冠剑',
+          iconName: 'guardian-tales',
+          link: 'https://example.com',
+          bgc: 'guardian-tales',
+        },
+        {
+          name: '命运-冠位指定（Fate/GO）',
+          iconName: 'fgo',
+          link: 'https://example.com',
+          bgc: 'fgo',
+        },
+      ],
+    },
   ],
   projects: [],
   _projects: [
