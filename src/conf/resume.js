@@ -1,25 +1,25 @@
 export default {
   title: '初级喂猫师',
-  pageAndFileName: '后除-初级喂猫师-5年',
+  pageAndFileName: '猫宁-初级喂猫师-3年',
   personInfo: {
     left: [
       {
         name: '姓名',
-        value: '后除',
+        value: '猫宁',
       },
       {
-        name: '2333',
-        value: 'value',
+        name: '性别',
+        value: '女',
       },
     ],
     right: [
       {
-        name: 'name',
-        value: 'value',
+        name: '院校',
+        value: '门头沟学院',
       },
       {
-        name: 'name',
-        value: 'value',
+        name: '专业',
+        value: '制猫',
       },
     ],
   },
@@ -32,22 +32,16 @@ export default {
       tags: [
         {
           name: '动物',
-          bgc: 'game'
+          bgc: 'orange'
         },
         {
           name: '爱心',
-          bgc: 'publish'
+          bgc: 'red'
         },
       ],
       department: '猫爪发行事业部 - 喂猫组',
       position: '初级喂猫师',
       description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
-      details: [
-        {
-          name: 'Name',
-          value: 'Value'
-        },
-      ],
       products: [
         {
           name: '公主连结Re:Dive',
@@ -71,7 +65,7 @@ export default {
     },
     {
       name: '济南家里蹲教育科技有限公司',
-      iconName: 'rabbit',
+      iconName: 'pixel-cat',
       timeRangeStart: '-',
       timeRangeEnd: '-',
       tags: [
@@ -87,12 +81,6 @@ export default {
       department: '旅游攻略事业部 - 文案组',
       position: '初级文案员',
       description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
-      details: [
-        {
-          name: 'Name',
-          value: 'Value'
-        },
-      ],
       products: [
         {
           name: '公主连结Re:Dive',

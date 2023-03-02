@@ -156,6 +156,30 @@ $resume-black: #111111;
 
   // Custom Image for ICON
   // Common ICON
+  .icon-doraemon {
+    background-image: url(../assets/img/doraemon.png);
+  }
+
+  .icon-mr-black {
+    background-image: url(../assets/img/mr-black.png);
+  }
+
+  .icon-tom {
+    background-image: url(../assets/img/tom.png);
+  }
+
+  .icon-pet-photography {
+    background-image: url(../assets/img/pet-photography.png);
+  }
+
+  .icon-dog-sale {
+    background-image: url(../assets/img/dog-sale.png);
+  }
+
+  .icon-cat-sale {
+    background-image: url(../assets/img/cat-sale.png);
+  }
+
   .icon-fgo {
     background-image: url(../assets/img/fgo.png);
   }
@@ -169,6 +193,10 @@ $resume-black: #111111;
   }
 
   // Companies and Projects
+  .company-logo-pixel-cat>.icon-company {
+    background-image: url(../assets/img/pixel-cat.png);
+  }
+
   .company-logo-rabbit>.icon-company {
     background-image: url(../assets/img/rabbit.png);
   }
