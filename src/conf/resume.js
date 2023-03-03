@@ -1,6 +1,6 @@
 export default {
   title: '初级喂猫师',
-  pageAndFileName: '猫宁-初级喂猫师-3年',
+  pageAndFileName: '猫G宁-初A级B喂C猫D师-NNNNNNN年',
   personInfo: {
     left: [
       {
@@ -44,10 +44,10 @@ export default {
       description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
       products: [
         {
-          name: '公主连结Re:Dive',
-          iconName: 'kusano-yui',
+          name: '黑猫警长',
+          iconName: 'mr-black',
           link: 'https://example.com',
-          bgc: 'kusano-yui',
+          bgc: 'black',
         },
         {
           name: '坎公骑冠剑',

@@ -7,6 +7,15 @@ $resume-border-color-primary: #e5e5e5;
 $resume-body-bgc: #f2f2f2;
 $resume-black: #111111;
 
+$icons: () !default;
+$icons: map-merge(
+  (
+    "doraemon": "doraemon.png",
+    "mr-black": "mr-black.png"
+  ),
+  $icons
+);
+
 // Custom Style for Badges
 .m-resume {
   // Color
@@ -156,13 +165,19 @@ $resume-black: #111111;
 
   // Custom Image for ICON
   // Common ICON
-  .icon-doraemon {
-    background-image: url(../assets/img/doraemon.png);
+  @each $iconname, $filename in $icons {
+    .icon-#{$iconname} {
+      background-image: url("../assets/img/" + $filename);
+    }
   }
 
-  .icon-mr-black {
-    background-image: url(../assets/img/mr-black.png);
-  }
+  // .icon-doraemon {
+  //   background-image: url(../assets/img/doraemon.png);
+  // }
+
+  // .icon-mr-black {
+  //   background-image: url(../assets/img/mr-black.png);
+  // }
 
   .icon-tom {
     background-image: url(../assets/img/tom.png);
@@ -600,10 +615,10 @@ $resume-black: #111111;
   .hide {
     display: none;
   }
-}
 
-.hide-in-print {
-  @media print {
-    display: none;
+  .hide-in-print {
+    @media print {
+      display: none;
+    }
   }
 }
