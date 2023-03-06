@@ -7,17 +7,53 @@ $resume-border-color-primary: #e5e5e5;
 $resume-body-bgc: #f2f2f2;
 $resume-black: #111111;
 
+// tom pet-photography pixel-cat.png rabbit
 $icons: () !default;
 $icons: map-merge(
   (
+    "dog-sale": "dog-sale.png",
+    "cat-sale": "cat-sale.png",
+    "pet-photography": "pet-photography.png",
     "doraemon": "doraemon.png",
+    "tom": "tom.png",
+    "pixel-cat": "pixel-cat.png",
+    "rabbit": "rabbit.png",
     "mr-black": "mr-black.png"
   ),
   $icons
 );
 
+// cyan
+$colours: () !default;
+$colours: map-merge(
+  (
+    "secondary": #6c757d,
+    "cyan": #17a2b8,
+    "vue": #52b983,
+    "black": lighten($resume-black, 20%),
+    "coffee": #982c18
+  ),
+  $colours
+);
+
 // Custom Style for Badges
 .m-resume {
+  @each $iconname, $filename in $icons {
+    .icon-#{$iconname} {
+      background-image: url("../assets/img/" + $filename);
+    }
+
+    .company-logo-#{$iconname}>.icon-company {
+      background-image: url("../assets/img/" + $filename);
+    }
+  }
+
+  @each $colourname, $colourvalue in $colours {
+    .#{$colourname} {
+      background-color: $colourvalue;
+    }
+  }
+
   // Color
   .dark {
     background-color: $resume-black;
@@ -27,9 +63,9 @@ $icons: map-merge(
     background-color: #007bff;
   }
 
-  .secondary {
-    background-color: #6c757d;
-  }
+  // .secondary {
+  //   background-color: #6c757d;
+  // }
 
   .purple {
     background-color: #7952b3;
@@ -59,17 +95,17 @@ $icons: map-merge(
     background-color: #ffdc00;
   }
 
-  .cyan {
-    background-color: #17a2b8;
-  }
+  // .cyan {
+  //   background-color: #17a2b8;
+  // }
 
   .crm {
     background-color: #5990a7;
   }
 
-  .vue {
-    background-color: #52b983;
-  }
+  // .vue {
+  //   background-color: #52b983;
+  // }
 
   .react {
     background-color: #61dafb;
@@ -165,12 +201,6 @@ $icons: map-merge(
 
   // Custom Image for ICON
   // Common ICON
-  @each $iconname, $filename in $icons {
-    .icon-#{$iconname} {
-      background-image: url("../assets/img/" + $filename);
-    }
-  }
-
   // .icon-doraemon {
   //   background-image: url(../assets/img/doraemon.png);
   // }
@@ -179,21 +209,21 @@ $icons: map-merge(
   //   background-image: url(../assets/img/mr-black.png);
   // }
 
-  .icon-tom {
-    background-image: url(../assets/img/tom.png);
-  }
+  // .icon-tom {
+  //   background-image: url(../assets/img/tom.png);
+  // }
 
-  .icon-pet-photography {
-    background-image: url(../assets/img/pet-photography.png);
-  }
+  // .icon-pet-photography {
+  //   background-image: url(../assets/img/pet-photography.png);
+  // }
 
-  .icon-dog-sale {
-    background-image: url(../assets/img/dog-sale.png);
-  }
+  // .icon-dog-sale {
+  //   background-image: url(../assets/img/dog-sale.png);
+  // }
 
-  .icon-cat-sale {
-    background-image: url(../assets/img/cat-sale.png);
-  }
+  // .icon-cat-sale {
+  //   background-image: url(../assets/img/cat-sale.png);
+  // }
 
   .icon-fgo {
     background-image: url(../assets/img/fgo.png);
@@ -208,13 +238,13 @@ $icons: map-merge(
   }
 
   // Companies and Projects
-  .company-logo-pixel-cat>.icon-company {
-    background-image: url(../assets/img/pixel-cat.png);
-  }
+  // .company-logo-pixel-cat>.icon-company {
+  //   background-image: url(../assets/img/pixel-cat.png);
+  // }
 
-  .company-logo-rabbit>.icon-company {
-    background-image: url(../assets/img/rabbit.png);
-  }
+  // .company-logo-rabbit>.icon-company {
+  //   background-image: url(../assets/img/rabbit.png);
+  // }
 
   .company-logo-nut-read>.icon-company {
     background-image: url(../assets/img/nut-read.png);
