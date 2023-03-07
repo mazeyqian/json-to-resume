@@ -26,7 +26,7 @@ export default {
   companies: [
     {
       name: '上海知问兔网络科技有限公司',
-      iconName: 'rabbit',
+      iconName: 'pixel-rabbit',
       timeRangeStart: '-',
       timeRangeEnd: '至今',
       tags: [
@@ -41,7 +41,7 @@ export default {
       ],
       department: '猫爪发行事业部 - 喂猫组',
       position: '初级喂猫师',
-      description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
+      description: '为猫咪提供一系列服务：1）添粮换水 2）清理猫砂 3）开窗通风 4）陪伴玩耍 5）健康监测 6）实时反馈',
       products: [
         {
           name: '黑猫警长',
@@ -71,16 +71,16 @@ export default {
       tags: [
         {
           name: '美食',
-          bgc: 'game'
+          bgc: 'e-commerce'
         },
         {
           name: '旅游',
-          bgc: 'publish'
+          bgc: 'kusano-yui'
         },
       ],
       department: '旅游攻略事业部 - 文案组',
       position: '初级文案员',
-      description: '喂猫，铲猫砂，陪玩等和猫咪相关的工作。',
+      description: '旅游和收集素材，以供能够产出优质内容；成长，输出优质内容；处理商家的试吃、试睡、带货、合作邀请。',
       products: [
         {
           name: '旅行拍照',
@@ -97,41 +97,48 @@ export default {
       ],
     },
   ],
-  projects: [],
-  _projects: [
+  _projects: [/* Disable */],
+  projects: [
     {
-      name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
-      iconName: 'rabbit',
+      name: '国庆节外高桥保税区上门喂猫',
+      iconName: 'orange-cat',
       timeRangeStart: '2020 年 8 月',
       timeRangeEnd: '2021 年 3 月',
       tags: [
         {
-          name: 'ToC',
-          bgc: 'cyan'
+          name: '喂猫',
+          bgc: 'react'
         },
         {
-          name: 'CI/CD',
-          bgc: 'gitlab'
-        }
+          name: '铲猫砂',
+          bgc: 'error-monitor'
+        },
+        {
+          name: '陪玩',
+          bgc: 'game'
+        },
       ],
-      details: [
+      description: '猫咪服务项目：1）清洁猫碗，添加猫粮，饮用水等 2）铲屎，添砂，清理周边卫生等，会把垃圾带走 3）开窗通风换气，临走时会关好 4）不认生的，可陪玩一会儿',
+    },
+    {
+      name: '春节期间静安区遛狗服务',
+      iconName: 'brown-dog',
+      timeRangeStart: '2020 年 8 月',
+      timeRangeEnd: '2021 年 3 月',
+      tags: [
         {
-          name: '前端技术',
-          value: 'React、Webpack、Sass'
+          name: '喂狗',
+          bgc: 'orange'
         },
         {
-          name: '后端技术',
-          value: 'Node.js、Egg.js、Redis、MySQL、Sequelize、Docker、Nginx'
+          name: '遛狗',
+          bgc: 'green'
         },
-        {
-          name: '项目描述',
-          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>。`
-        }
       ],
-      hideInPrint: true,
+      description: '遛狗服务项目：1）添加狗粮，冻干饮用水等 2）帮忙简单打扫拆家现场，情况复杂的不帮 3）通风换气，反馈狗狗情况，可拍小视频，照片',
     },
   ],
-  individualProjects: [],
+  individualProjects: [/* Disable */],
   _individualProjects: [
     {
       name: '小栗读书会',
@@ -160,48 +167,48 @@ export default {
       ],
     },
   ],
-  skills: [],
-  _skills: [
+  _skills: [/* Disable */],
+  skills: [
     {
-      name: 'JavaScript',
+      name: '喂猫',
       level: 95
     },
     {
-      name: 'Golang',
+      name: '遛狗',
       level: 90
     },
     {
-      name: 'React/Vue',
+      name: '拍照',
       level: 85
     },
     {
-      name: 'CSS',
+      name: '陪玩',
       level: 80
     },
     {
-      name: 'Sass/Less',
+      name: '文案',
       level: 75
     },
     {
-      name: 'Node.js',
+      name: '旅游',
       level: 70
     },
     {
-      name: 'Sketch/PS',
+      name: '铲猫砂',
       level: 70
     },
     {
-      name: '墨刀',
+      name: '清理',
       level: 70
     },
   ],
-  patents: [],
-  _patents: [
+  _patents: [/* Disable */],
+  patents: [
     {
-      name: '基于HTML5协议的浏览器全屏显示方法及显示装置',
-      iconName: 'html5',
-      publishNumber: 'CN110083409A',
-      link: '//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
+      name: '专利：贵族猫粮•贵芬溶菌酶无谷猫粮',
+      iconName: 'cat-sale',
+      publishNumber: 'B0F2000000002103AD1C',
+      link: 'https://example.com',
     },
   ],
 }

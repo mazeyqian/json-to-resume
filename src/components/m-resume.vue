@@ -45,12 +45,12 @@
           </div>
         </div>
       </div>
-      <!--专利-->
+      <!--其他-->
       <div class="resume-item" :class="{ 'hide': resume.patents.length === 0 }">
-        <h3>专利</h3>
+        <h3>其他</h3>
         <div class="patent">
           <div class="patent-item" v-for="( patent, index ) in resume.patents" :key="`patent-item-${index}`">
-            <span class="icon-html5" alt="Patent ICON"></span>
+            <span :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
             <span>{{ patent.name }}[<a :href="patent.link" target="_blank" rel="noopener">{{ patent.publishNumber }}</a>]</span>
           </div>
         </div>
@@ -59,7 +59,7 @@
       <div class="resume-footer">
         <div class="footer-line"></div>
         <div class="footer-content">
-          <span>Made with 💖 by Mazey（End）</span>
+          <span>Made with 💖 by <a class="author" href="https://github.com/mazeyqian" target="_blank" rel="noopener">Mazey</a>（End）</span>
         </div>
         <div class="footer-line"></div>
       </div>
