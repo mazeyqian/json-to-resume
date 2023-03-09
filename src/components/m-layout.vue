@@ -1,6 +1,6 @@
 <template>
   <section class="m-layout">
-    <router-view/>
+    <router-view></router-view>
   </section>
 </template>
 
@@ -13,7 +13,6 @@
       }
     },
     created () {
-      // 检测ls版本
       let MazeyVersion = localStorage.getItem('MazeyVersion')
       if (!(Boolean(MazeyVersion) || parseFloat(MazeyVersion) === this.MazeyVersion)) {
         localStorage.clear()

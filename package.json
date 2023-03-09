@@ -1,17 +1,17 @@
 {
   "name": "mazey-resume",
-  "version": "1.0.3",
-  "description": "A Vue.js project",
-  "author": "mazey <mazey@mazey.net>",
+  "version": "2.0.0",
+  "description": "A tool to generate the resume.",
+  "author": "Mazey <mazey@mazey.net>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "npm run dev",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "_release": "Note: It's my server; Please replace the IP address and paths if you want to deploy the project.",
     "release": "cd dist && scp -r ./ root@118.89.31.187:/web/mazey.cn && cd ../",
     "publish": "npm run build && npm run release",
     "html-lint": "htmllint"

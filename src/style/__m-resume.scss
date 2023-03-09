@@ -1,12 +1,330 @@
+// Base Colours
+$resume-color-primary: #45c8dc;
+$resume-font-color-primary: #38424f;
+$resume-header-color: #1b2026;
+$resume-sub-header-color: #868c94;
+$resume-border-color-primary: #e5e5e5;
+$resume-body-bgc: #f2f2f2;
+$resume-black: #111111;
+
+// Base Length
+$column-padding: 8px;
+
+// tom pet-photography pixel-cat.png rabbit brown-dog pink-rabbit gray-rabbit pixel-rabbit cat-food gray-cat line-cat
+$icons: () !default;
+$icons: map-merge(
+  (
+    "line-cat": "line-cat.png",
+    "gray-cat": "gray-cat.png",
+    "cat-food": "cat-food.png",
+    "pixel-rabbit": "pixel-rabbit.png",
+    "gray-rabbit": "gray-rabbit.png",
+    "pink-rabbit": "pink-rabbit.png",
+    "dog-sale": "dog-sale.png",
+    "brown-dog": "brown-dog.png",
+    "orange-cat": "orange-cat.png",
+    "cat-sale": "cat-sale.png",
+    "pet-photography": "pet-photography.png",
+    "doraemon": "doraemon.png",
+    "tom": "tom.png",
+    "pixel-cat": "pixel-cat.png",
+    "rabbit": "rabbit.png",
+    "mr-black": "mr-black.png"
+  ),
+  $icons
+);
+
+// cyan e-commerce
+$colours: () !default;
+$colours: map-merge(
+  (
+    "green": #28a745,
+    "secondary": #6c757d,
+    "cyan": #17a2b8,
+    "vue": #52b983,
+    "kusano-yui": rgb(55, 67, 127),
+    "e-commerce": rgb(227, 77, 28),
+    "black": lighten($resume-black, 20%),
+    "coffee": #982c18
+  ),
+  $colours
+);
+
+// Custom Style for Badges
+.m-resume {
+  @each $iconname, $filename in $icons {
+    .icon-#{$iconname} {
+      background-image: url("../assets/img/" + $filename);
+    }
+
+    .company-logo-#{$iconname}>.icon-company {
+      background-image: url("../assets/img/" + $filename);
+    }
+  }
+
+  @each $colourname, $colourvalue in $colours {
+    .#{$colourname} {
+      background-color: $colourvalue;
+    }
+  }
+
+  // Color
+  .dark {
+    background-color: $resume-black;
+  }
+
+  .blue {
+    background-color: #007bff;
+  }
+
+  // .secondary {
+  //   background-color: #6c757d;
+  // }
+
+  .purple {
+    background-color: #7952b3;
+  }
+
+  // .green {
+  //   background-color: #28a745;
+  // }
+
+  .ms {
+    background-color: #0067b8;
+  }
+
+  .orange {
+    background-color: #ff851b;
+  }
+
+  .red {
+    background-color: #ff4136;
+  }
+
+  .gray {
+    background-color: #aaa;
+  }
+
+  .yellow {
+    background-color: #ffdc00;
+  }
+
+  // .cyan {
+  //   background-color: #17a2b8;
+  // }
+
+  .crm {
+    background-color: #5990a7;
+  }
+
+  // .vue {
+  //   background-color: #52b983;
+  // }
+
+  .react {
+    background-color: #61dafb;
+  }
+
+  .pay {
+    background-color: rgba(19, 141, 227, 1);
+  }
+
+  .a-d {
+    background-color: rgba(29, 148, 171, 1);
+  }
+
+  .report {
+    background-color: #396fff;
+  }
+
+  .share {
+    background-color: rgba(174, 228, 21, 1);
+  }
+
+  .api {
+    background-color: rgba(243, 57, 10, 1);
+  }
+
+  .error-monitor {
+    background-color: rgba(224, 93, 7, 1);
+  }
+
+  .gitlab {
+    background-color: #fa7035;
+  }
+
+  .game {
+    background-color: rgb(239, 8, 20);
+  }
+
+  .publish {
+    background-color: rgb(98, 16, 203);
+  }
+
+  .nasdaq {
+    background-color: rgb(16, 123, 178);
+  }
+
+  .recruit {
+    background-color: rgb(244, 215, 28);
+  }
+
+  .saas {
+    background-color: rgb(61, 181, 238);
+  }
+
+  // .e-commerce {
+  //   background-color: rgb(227, 77, 28);
+  // }
+
+  .szse {
+    background-color: rgb(21, 96, 171);
+  }
+
+  .domain-register {
+    background-color: rgb(14, 119, 207);
+  }
+
+  .cloud-host {
+    background-color: rgb(36, 87, 233);
+  }
+
+  .auto-web {
+    background-color: rgb(91, 82, 170);
+  }
+
+  .npm {
+    background-color: #CB0000;
+  }
+
+  .d3 {
+    background-color: #e1784b;
+  }
+
+  .fgo {
+    background-color: rgb(57, 87, 172);
+  }
+
+  .guardian-tales {
+    background-color: rgb(8, 35, 60);
+  }
+
+  // .kusano-yui {
+  //   background-color: rgb(55, 67, 127);
+  // }
+
+  // Custom Image for ICON
+  // Common ICON
+  // .icon-doraemon {
+  //   background-image: url(../assets/img/doraemon.png);
+  // }
+
+  // .icon-mr-black {
+  //   background-image: url(../assets/img/mr-black.png);
+  // }
+
+  // .icon-tom {
+  //   background-image: url(../assets/img/tom.png);
+  // }
+
+  // .icon-pet-photography {
+  //   background-image: url(../assets/img/pet-photography.png);
+  // }
+
+  // .icon-dog-sale {
+  //   background-image: url(../assets/img/dog-sale.png);
+  // }
+
+  // .icon-cat-sale {
+  //   background-image: url(../assets/img/cat-sale.png);
+  // }
+
+  .icon-fgo {
+    background-image: url(../assets/img/fgo.png);
+  }
+
+  .icon-guardian-tales {
+    background-image: url(../assets/img/guardian-tales.png);
+  }
+
+  .icon-kusano-yui {
+    background-image: url(../assets/img/kusano-yui.png);
+  }
+
+  // Companies and Projects
+  // .company-logo-pixel-cat>.icon-company {
+  //   background-image: url(../assets/img/pixel-cat.png);
+  // }
+
+  // .company-logo-rabbit>.icon-company {
+  //   background-image: url(../assets/img/rabbit.png);
+  // }
+
+  .company-logo-nut-read>.icon-company {
+    background-image: url(../assets/img/nut-read.png);
+  }
+
+  .company-logo-qtt>.icon-company {
+    background-image: url(../assets/img/qtt-logo.png);
+  }
+
+  .company-logo-bilibili>.icon-company {
+    background-image: url(../assets/img/bilibili-logo.png);
+  }
+
+  .company-logo-pinnacle>.icon-company {
+    width: 27px;
+    background-image: url(../assets/img/pinnacle-logo.png);
+  }
+
+  .company-logo-suning>.icon-company {
+    width: 25px;
+    height: 25px;
+    background-size: auto 37px;
+    background-position: 0 -7px;
+    background-image: url(../assets/img/suning-logo.png);
+  }
+
+  .company-logo-bangning {
+    width: 53px;
+
+    .icon-company {
+      width: 49px;
+      background-size: auto 25px;
+      background-position: 0 0;
+      margin-bottom: -2px;
+      background-image: url(../assets/img/bangning-logo.png);
+    }
+  }
+
+  .company-logo-lilith {
+    width: 32px;
+
+    .icon-company {
+      width: 24px;
+      height: 24px;
+      background-image: url(../assets/img/login_logo_120_116.png);
+    }
+  }
+
+  // Patent
+  .patent {
+    .icon-html5 {
+      margin-bottom: -1px;
+      background-image: url(../assets/img/html5.png);
+    }
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .m-resume-box {
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: $resume-body-bgc;
 
     .m-resume {
       flex: 0 1 1000px;
-      background-color: #fff;
+      background-color: $white;
       border-radius: 4px;
       margin: 5px;
     }
@@ -14,11 +332,10 @@
 }
 
 .m-resume {
-  // var
-  $font-color-primary: #38424f;
+  $font-color-primary: $resume-font-color-primary;
   $font-color-lighten: lighten($font-color-primary, 20%);
-  $bgc-color-primary: #45c8dc;
-  $border-color-primary: #e5e5e5;
+  $bgc-color-primary: $resume-color-primary;
+  $border-color-primary: $resume-border-color-primary;
   $item-between-space: 30px;
 
   %module-border-bottom {
@@ -38,7 +355,7 @@
     height: auto;
     display: inline-flex;
   }
-  // reset
+
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -72,18 +389,16 @@
     height: 1em;
     margin-right: 3px;
   }
-  // parent
+
   font-size: 14px;
   color: $font-color-primary;
   padding: 30px 50px;
-  // title
+
   .resume-title {
-    //margin: 16px $item-between-space;
     @extend %module-border-bottom;
   }
 
   .resume-info-name {
-    //color: #A8A8A8;
     color: $font-color-lighten;
   }
 
@@ -91,16 +406,16 @@
     flex: 1 1 auto;
 
     .company-name,
-    .project-name {
+    .project-name,
+    .products-badges {
       font-size: 18px;
-      color: #1b2026;
+      color: $resume-header-color;
       display: flex;
     }
 
     .project-logo {
       width: 32px;
       display: inline-flex;
-      // justify-content: center;
       align-items: center;
 
       .icon {
@@ -110,80 +425,22 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left top;
-        background-image: url(../assets/img/qtt-logo.png);
       }
     }
 
     [class^="company-logo"] {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      width: 100px;
+      width: 32px;
     }
 
     [class^="icon-company"] {
-      //outline: 1px solid $border-color-primary;
       display: inline-flex;
-      width: 100%;
-      height: 27px;
+      width: 23px;
+      height: 23px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: left top;
-    }
-
-    .company-logo-pinnacle {
-      width: 32px;
-
-      .icon-company {
-        width: 27px;
-        height: 23px;
-        background-image: url(../assets/img/pinnacle-logo.png);
-      }
-    }
-
-    .company-logo-qtt {
-      width: 32px;
-
-      .icon-company {
-        width: 23px;
-        height: 23px;
-        background-image: url(../assets/img/qtt-logo.png);
-      }
-    }
-
-    .company-logo-suning {
-      width: 32px;
-
-      .icon-company {
-        width: 25px;
-        height: 25px;
-        background-image: url(../assets/img/suning-logo.png);
-        background-size: auto 37px;
-        background-position: 0 -7px;
-      }
-    }
-
-    .company-logo-bangning {
-      width: 53px;
-
-      .icon-company {
-        width: 49px;
-        height: 23px;
-        background-image: url(../assets/img/bangning-logo.png);
-        background-size: auto 25px;
-        background-position: 0 0;
-        margin-bottom: -2px;
-      }
-    }
-
-    // https://mazey.cn/asset/login_logo_120_116.png
-    .company-logo-lilith {
-      width: 32px;
-
-      .icon-company {
-        width: 24px;
-        height: 24px;
-        background-image: url(https://mazey.cn/asset/login_logo_120_116.png);
-      }
     }
 
     .company,
@@ -191,12 +448,12 @@
     .project {
       display: flex;
       justify-content: space-between;
-      color: #868c94;
-      margin-bottom: 8px;
+      color: $resume-sub-header-color;
+      margin-bottom: $column-padding;
     }
 
     .b {
-      color: #111;
+      color: $resume-black;
     }
   }
 
@@ -216,7 +473,6 @@
     flex: 1 1 auto;
   }
 
-  // experience
   .resume-experience-timeline {
     display: flex;
     flex-direction: column;
@@ -238,14 +494,13 @@
   }
 
   .resume-item {
-    //margin: 0 $item-between-space;
     padding: 24px 0;
 
-    > h3 {
+    >h3 {
       display: flex;
       align-items: center;
       font-size: 22px;
-      color: #1b2026;
+      color: $resume-header-color;
 
       &::before {
         content: ' ';
@@ -286,12 +541,11 @@
     }
   }
 
-  // project
   .project-detail {
     display: flex;
 
     &:nth-last-child(n + 2) {
-      margin-bottom: 8px;
+      margin-bottom: $column-padding;
     }
 
     .detail-name {
@@ -307,152 +561,45 @@
   .project-badges {
     display: flex;
     align-items: center;
-    // badge color
-    .dark {
-      background-color: #111;
-    }
-
-    .blue {
-      background-color: #007bff;
-    }
-
-    .secondary {
-      background-color: #6c757d;
-    }
-
-    .purple {
-      background-color: #7952b3;
-    }
-
-    .green {
-      background-color: #28a745;
-    }
-
-    .ms {
-      background-color: #0067b8;
-    }
-
-    .orange {
-      background-color: #ff851b;
-    }
-
-    .red {
-      background-color: #ff4136;
-    }
-
-    .gray {
-      background-color: #aaa;
-    }
-
-    .yellow {
-      background-color: #ffdc00;
-    }
-
-    .cyan {
-      background-color: #17a2b8;
-    }
-
-    .crm {
-      background-color: #5990a7; // #2b3188;
-    }
-
-    .vue {
-      background-color: #52b983; // #4fc08d;
-    }
-
-    .react {
-      background-color: #61dafb;
-    }
-
-    .pay {
-      background-color: rgba(19, 141, 227, 1);
-    }
-
-    .a-d {
-      background-color: rgba(29, 148, 171, 1);
-    }
-
-    .report {
-      background-color: #396fff;
-    }
-
-    .share {
-      background-color: rgba(174, 228, 21, 1);
-    }
-
-    .api {
-      background-color: rgba(243, 57, 10, 1);
-    }
-
-    .error-monitor {
-      background-color: rgba(224, 93, 7, 1);
-    }
-
-    .gitlab {
-      background-color: #fa7035;
-    }
-
-    .game {
-      background-color: rgb(239, 8, 20);
-    }
-
-    .publish {
-      background-color: rgb(98, 16, 203);
-    }
-
-    .nasdaq {
-      background-color: rgb(16, 123, 178);
-    }
-
-    .recruit {
-      background-color: rgb(244, 215, 28);
-    }
-
-    .saas {
-      background-color: rgb(61, 181, 238);
-    }
-
-    .e-commerce {
-      background-color: rgb(227, 77, 28);
-    }
-
-    .szse {
-      background-color: rgb(21, 96, 171);
-    }
-
-    .domain-register {
-      background-color: rgb(14, 119, 207);
-    }
-
-    .cloud-host {
-      background-color: rgb(36, 87, 233);
-    }
-
-    .auto-web {
-      background-color: rgb(91, 82, 170);
-    }
-
-    .npm {
-      background-color: #CB0000;
-    }
-
-    .d3 {
-      background-color: #e1784b;
-    }
   }
 
   .project-badge {
     border: none;
     margin-left: 4px;
-    // padding: 0.25em 0.4em;
     $ttt: 0.3em;
     padding-top: $ttt;
     padding-bottom: $ttt;
-    // display: inline-flex;
-    // justify-content: center;
-    // align-items: center;
+    display: inline-flex;
+    align-items: center;
   }
-  // skill
+
+  .products-badges {
+    @extend .project-badges;
+
+    margin-top: $column-padding;
+  }
+
+  .product-badge {
+    @extend .project-badge;
+
+    &>span {
+      display: inline-flex;
+    }
+
+    &>.product-icon {
+      border-radius: 50%;
+    }
+  }
+
+  .product-icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+  }
+
   .skill-show {
     display: flex;
     flex-wrap: wrap;
@@ -461,7 +608,6 @@
       flex: 0 0 50%;
       display: flex;
       align-items: center;
-      //padding-right: 30px;
       &:nth-child(even) {
         padding-left: 20px;
       }
@@ -484,18 +630,28 @@
       }
     }
   }
-  // patent
+
   .patent-item {
     font-size: 15px;
     display: flex;
     align-items: center;
+
+    span[class^="icon-"] {
+      @extend .product-icon;
+    }
   }
-  // footer
+
   .resume-footer {
     display: flex;
     align-items: center;
     color: $font-color-lighten;
     margin-top: 5px;
+
+    .author {
+      color: inherit;
+      text-decoration: none;
+      border: none;
+    }
   }
 
   .footer-content {
@@ -507,29 +663,14 @@
     height: 1px;
     background-color: $border-color-primary;
   }
-  // past
-  //.resume-person-left{
-  //  float: left;
-  //  width: 50%;
-  //}
-  //.resume-person-right{
-  //  float: left;
-  //  width: 42%;
-  //}
-  //a,
-  //a:active,
-  //a:visited
-  //{
-  //  color: #626262;
-  //  text-decoration: underline;
-  //}
-  //a:hover{
-  //  color: #0780b9 !important;
-  //}
-}
 
-.hide-in-print {
-  @media print {
+  .hide {
     display: none;
+  }
+
+  .hide-in-print {
+    @media print {
+      display: none;
+    }
   }
 }
