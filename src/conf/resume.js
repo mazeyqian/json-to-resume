@@ -1,6 +1,6 @@
 export default {
   title: '初级喂猫师',
-  pageAndFileName: '猫G宁-初A级B喂C猫D师-NNNNNNN年',
+  pageAndFileName: '猫宁-初级喂猫师-2年',
   personInfo: {
     left: [
       {
@@ -11,15 +11,23 @@ export default {
         name: '性别',
         value: '女',
       },
+      {
+        name: '邮箱',
+        value: 'noreply@example.com',
+      },
     ],
     right: [
       {
         name: '院校',
-        value: '门头沟学院',
+        value: `江南猫科大学<span class="resume-small">（2017 年 9 月 - 2021 年 6 月）</span>`,
       },
       {
         name: '专业',
-        value: '制猫',
+        value: '生物制猫',
+      },
+      {
+        name: '学历',
+        value: '本科',
       },
     ],
   },
@@ -27,7 +35,7 @@ export default {
     {
       name: '上海知问兔网络科技有限公司',
       iconName: 'pixel-rabbit',
-      timeRangeStart: '-',
+      timeRangeStart: '2022 年 6 月',
       timeRangeEnd: '至今',
       tags: [
         {
@@ -66,8 +74,8 @@ export default {
     {
       name: '济南家里蹲教育科技有限公司',
       iconName: 'pixel-cat',
-      timeRangeStart: '-',
-      timeRangeEnd: '-',
+      timeRangeStart: '2021 年 6 月',
+      timeRangeEnd: '2022 年 6 月',
       tags: [
         {
           name: '美食',
@@ -100,10 +108,10 @@ export default {
   _projects: [/* Disable */],
   projects: [
     {
-      name: '国庆节外高桥保税区上门喂猫',
+      name: '春节期间外高桥保税区上门喂猫',
       iconName: 'orange-cat',
-      timeRangeStart: '2020 年 8 月',
-      timeRangeEnd: '2021 年 3 月',
+      timeRangeStart: '2023 年 1 月',
+      timeRangeEnd: '2023 年 3 月',
       tags: [
         {
           name: '喂猫',
@@ -121,10 +129,10 @@ export default {
       description: '猫咪服务项目：1）清洁猫碗，添加猫粮，饮用水等 2）铲屎，添砂，清理周边卫生等，会把垃圾带走 3）开窗通风换气，临走时会关好 4）不认生的，可陪玩一会儿',
     },
     {
-      name: '春节期间静安区遛狗服务',
+      name: '国庆节静安区遛狗服务',
       iconName: 'brown-dog',
-      timeRangeStart: '2020 年 8 月',
-      timeRangeEnd: '2021 年 3 月',
+      timeRangeStart: '2022 年 9 月',
+      timeRangeEnd: '2022 年 10 月',
       tags: [
         {
           name: '喂狗',

@@ -13,7 +13,7 @@
               :key="`resume-person-info-left-${index}`"
             >
               <span class="resume-info-name">{{ info.name }}：</span>
-              <span>{{ info.value }}</span>
+              <span v-html="info.value"></span>
             </li>
           </ul>
           <ul>
@@ -21,7 +21,7 @@
               :key="`resume-person-info-right-${index}`"
             >
               <span class="resume-info-name">{{ info.name }}：</span>
-              <span>{{ info.value }}</span>
+              <span v-html="info.value"></span>
             </li>
           </ul>
         </div>
