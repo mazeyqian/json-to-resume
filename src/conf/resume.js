@@ -206,8 +206,14 @@ export default {
   patents: [
     {
       name: '专利：贵族猫粮•贵芬溶菌酶无谷猫粮',
-      iconName: 'cat-sale',
+      iconName: 'gray-cat',
       publishNumber: 'B0F2000000002103AD1C',
+      link: 'https://example.com',
+    },
+    {
+      name: '展览：文明在这里丨USHOWART《猫》公益艺术展让爱持续发电',
+      iconName: 'line-cat',
+      publishNumber: '长宁天山',
       link: 'https://example.com',
     },
   ],
