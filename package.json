@@ -1,7 +1,7 @@
 {
   "name": "mazey-resume",
   "version": "2.0.0",
-  "description": "A Vue.js project to generate the resume.",
+  "description": "A tool to generate the resume.",
   "author": "Mazey <mazey@mazey.net>",
   "private": true,
   "scripts": {
