@@ -10,10 +10,12 @@ $resume-black: #111111;
 // Base Length
 $column-padding: 8px;
 
-// tom pet-photography pixel-cat.png rabbit brown-dog pink-rabbit gray-rabbit pixel-rabbit cat-food gray-cat line-cat
+// tom cat-pad red-cat-pad
 $icons: () !default;
 $icons: map-merge(
   (
+    "red-cat-pad": "red-cat-pad.png",
+    "cat-pad": "cat-pad.png",
     "line-cat": "line-cat.png",
     "gray-cat": "gray-cat.png",
     "cat-food": "cat-food.png",

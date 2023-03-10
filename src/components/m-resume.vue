@@ -51,7 +51,12 @@
         <div class="patent">
           <div class="patent-item" v-for="( patent, index ) in resume.others" :key="`patent-item-${index}`">
             <span :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
-            <span v-if="patent.linkContent">{{ patent.name }}[<a :href="patent.link" target="_blank" rel="noopener">{{ patent.linkContent }}</a>]</span>
+            <span>
+              {{ patent.name }}
+              <span v-if="patent.linkContent">
+                [<a :href="patent.link" target="_blank" rel="noopener">{{ patent.linkContent }}</a>]
+              </span>
+            </span>
           </div>
         </div>
       </div>

@@ -226,7 +226,7 @@ export default {
     },
     {
       name: '⾃我总结：⾃学能⼒强，有较好的探索、研究精神，较好的信息检索和动⼿解决问题的能⼒',
-      iconName: 'line-cat',
+      iconName: 'red-cat-pad',
     },
   ],
 }
