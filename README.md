@@ -4,7 +4,7 @@
 
 ## 预览
 
-![](./images/json-to-resume-print-w800.jpg)
+![](./images/json-to-resume-print-v1-w800.jpg)
 
 ## 使用指南
 
