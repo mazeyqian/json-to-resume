@@ -149,7 +149,7 @@ export default {
   individualProjects: [/* Disable */],
   _individualProjects: [
     {
-      name: '小栗读书会',
+      name: '小猫读书会',
       iconName: 'nut-read',
       timeRangeStart: '',
       timeRangeEnd: '',
@@ -170,7 +170,7 @@ export default {
       details: [
         {
           name: '项目描述',
-          value: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/fc" target="_blank" rel="noopener">mazey.cn/t/fc</a>。`
+          value: `提供一个读书分享的平台`
         }
       ],
     },
