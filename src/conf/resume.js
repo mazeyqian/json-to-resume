@@ -210,19 +210,23 @@ export default {
       level: 70
     },
   ],
-  _patents: [/* Disable */],
-  patents: [
+  _others: [/* Disable */],
+  others: [
     {
       name: '专利：贵族猫粮•贵芬溶菌酶无谷猫粮',
       iconName: 'gray-cat',
-      publishNumber: 'B0F2000000002103AD1C',
+      linkContent: 'B0F2000000002103AD1C',
       link: 'https://example.com',
     },
     {
       name: '展览：文明在这里丨USHOWART《猫》公益艺术展让爱持续发电',
       iconName: 'line-cat',
-      publishNumber: '长宁天山',
+      linkContent: '长宁天山',
       link: 'https://example.com',
+    },
+    {
+      name: '⾃我总结：⾃学能⼒强，有较好的探索、研究精神，较好的信息检索和动⼿解决问题的能⼒',
+      iconName: 'line-cat',
     },
   ],
 }
