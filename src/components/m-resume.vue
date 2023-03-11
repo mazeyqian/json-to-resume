@@ -90,7 +90,7 @@
       document.title = this.resume.pageAndFileName // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
     },
     mounted () {
-      addStyle('.m-layout { background-color: #f2f2f2; }', { id: 'resume-fill-in' })
+      addStyle('@media screen { .m-layout { background-color: #f2f2f2; } }', { id: 'resume-fill-in' })
     }
   }
 </script>
