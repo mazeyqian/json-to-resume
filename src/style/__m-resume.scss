@@ -10,7 +10,7 @@ $resume-black: #111111;
 // Base Length
 $column-padding: 8px;
 
-// tom cat-pad red-cat-pad
+// icons
 $icons: () !default;
 $icons: map-merge(
   (
@@ -36,7 +36,7 @@ $icons: map-merge(
   $icons
 );
 
-// cyan e-commerce
+// colours
 $colours: () !default;
 $colours: map-merge(
   (
@@ -79,17 +79,9 @@ $colours: map-merge(
     background-color: #007bff;
   }
 
-  // .secondary {
-  //   background-color: #6c757d;
-  // }
-
   .purple {
     background-color: #7952b3;
   }
-
-  // .green {
-  //   background-color: #28a745;
-  // }
 
   .ms {
     background-color: #0067b8;
@@ -111,17 +103,9 @@ $colours: map-merge(
     background-color: #ffdc00;
   }
 
-  // .cyan {
-  //   background-color: #17a2b8;
-  // }
-
   .crm {
     background-color: #5990a7;
   }
-
-  // .vue {
-  //   background-color: #52b983;
-  // }
 
   .react {
     background-color: #61dafb;
@@ -175,10 +159,6 @@ $colours: map-merge(
     background-color: rgb(61, 181, 238);
   }
 
-  // .e-commerce {
-  //   background-color: rgb(227, 77, 28);
-  // }
-
   .szse {
     background-color: rgb(21, 96, 171);
   }
@@ -209,104 +189,6 @@ $colours: map-merge(
 
   .guardian-tales {
     background-color: rgb(8, 35, 60);
-  }
-
-  // .kusano-yui {
-  //   background-color: rgb(55, 67, 127);
-  // }
-
-  // Custom Image for ICON
-  // Common ICON
-  // .icon-doraemon {
-  //   background-image: url(../assets/img/doraemon.png);
-  // }
-
-  // .icon-mr-black {
-  //   background-image: url(../assets/img/mr-black.png);
-  // }
-
-  // .icon-tom {
-  //   background-image: url(../assets/img/tom.png);
-  // }
-
-  // .icon-pet-photography {
-  //   background-image: url(../assets/img/pet-photography.png);
-  // }
-
-  // .icon-dog-sale {
-  //   background-image: url(../assets/img/dog-sale.png);
-  // }
-
-  // .icon-cat-sale {
-  //   background-image: url(../assets/img/cat-sale.png);
-  // }
-
-  .icon-fgo {
-    background-image: url(../assets/img/fgo.png);
-  }
-
-  .icon-guardian-tales {
-    background-image: url(../assets/img/guardian-tales.png);
-  }
-
-  .icon-kusano-yui {
-    background-image: url(../assets/img/kusano-yui.png);
-  }
-
-  // Companies and Projects
-  // .company-logo-pixel-cat>.icon-company {
-  //   background-image: url(../assets/img/pixel-cat.png);
-  // }
-
-  // .company-logo-rabbit>.icon-company {
-  //   background-image: url(../assets/img/rabbit.png);
-  // }
-
-  .company-logo-nut-read>.icon-company {
-    background-image: url(../assets/img/nut-read.png);
-  }
-
-  .company-logo-qtt>.icon-company {
-    background-image: url(../assets/img/qtt-logo.png);
-  }
-
-  .company-logo-bilibili>.icon-company {
-    background-image: url(../assets/img/bilibili-logo.png);
-  }
-
-  .company-logo-pinnacle>.icon-company {
-    width: 27px;
-    background-image: url(../assets/img/pinnacle-logo.png);
-  }
-
-  .company-logo-suning>.icon-company {
-    width: 25px;
-    height: 25px;
-    background-size: auto 37px;
-    background-position: 0 -7px;
-    background-image: url(../assets/img/suning-logo.png);
-  }
-
-  .company-logo-bangning {
-    width: 53px;
-
-    .icon-company {
-      width: 49px;
-      background-size: auto 25px;
-      background-position: 0 0;
-      margin-bottom: -2px;
-      background-image: url(../assets/img/bangning-logo.png);
-    }
-  }
-
-  .company-logo-lilith {
-    width: 32px;
-
-    .icon-company {
-      width: 24px;
-      height: 24px;
-      background-image: url(../assets/img/login_logo_120_116.png);
-    }
   }
 
   // Patent
@@ -465,6 +347,65 @@ $colours: map-merge(
     &:nth-last-child(n + 2) {
       .resume-experience-content {
         padding-bottom: 20px;
+      }
+    }
+
+    .icon-fgo {
+      background-image: url(../assets/img/fgo.png);
+    }
+  
+    .icon-guardian-tales {
+      background-image: url(../assets/img/guardian-tales.png);
+    }
+  
+    .icon-kusano-yui {
+      background-image: url(../assets/img/kusano-yui.png);
+    }
+  
+    .company-logo-nut-read>.icon-company {
+      background-image: url(../assets/img/nut-read.png);
+    }
+  
+    .company-logo-qtt>.icon-company {
+      background-image: url(../assets/img/qtt-logo.png);
+    }
+  
+    .company-logo-bilibili>.icon-company {
+      background-image: url(../assets/img/bilibili-logo.png);
+    }
+  
+    .company-logo-pinnacle>.icon-company {
+      width: 27px;
+      background-image: url(../assets/img/pinnacle-logo.png);
+    }
+  
+    .company-logo-suning>.icon-company {
+      width: 25px;
+      height: 25px;
+      background-size: auto 37px;
+      background-position: 0 -7px;
+      background-image: url(../assets/img/suning-logo.png);
+    }
+  
+    .company-logo-bangning {
+      width: 53px;
+  
+      .icon-company {
+        width: 49px;
+        background-size: auto 25px;
+        background-position: 0 0;
+        margin-bottom: -2px;
+        background-image: url(../assets/img/bangning-logo.png);
+      }
+    }
+  
+    .company-logo-lilith {
+      width: 32px;
+  
+      .icon-company {
+        width: 24px;
+        height: 24px;
+        background-image: url(../assets/img/login_logo_120_116.png);
       }
     }
   }
