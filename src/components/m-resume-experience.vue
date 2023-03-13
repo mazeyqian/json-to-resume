@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="content-description">
-          <span>{{ project.description }}</span>
+          <span v-html="project.description"></span>
         </div>
         <div class="project-detail" v-for="(detail, index) in project.details" :key="`project-detail-${index}`">
           <div class="detail-name">{{ detail.name }}：</div>
