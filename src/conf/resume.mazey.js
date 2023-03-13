@@ -81,7 +81,7 @@ export default {
       ],
       department: '游戏发行事业部 - 游戏业务组',
       position: '前端工程师',
-      description: '哔哩哔哩游戏中心桌面端 Web 和移动端 H5，维护面向外部游戏厂商的开放平台和为内部运营服务的管理后台。',
+      description: `负责哔哩哔哩游戏中心前端业务迭代和维护：<ul><li>移动端游戏中心：访问地址：https://app.biligame.com/</li><li>桌面端游戏中心：访问地址：https://game.bilibili.com/</li><li>游戏中心开放平台：面向外部游戏厂商，主要为联运、独代游戏服务，访问地址：https://open.biligame.com/#/</li><li>开放平台文档中心：访问地址：https://open.biligame.com/docs/#/</li><li>游戏中心 BWiki：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供，访问地址：https://wiki.biligame.com/</li><li>游戏中心通用组件：埋点上报、按钮、卡片和游戏预约等</li><li>游戏中心管理后台：为内部运营服务，支持游戏、资讯和权限管理</li><li>云游戏管理后台：客户端游戏部署在云端无需下载一键畅玩、即点即玩</li></ul>`,
       products: [
         {
           name: '黑猫警长',
