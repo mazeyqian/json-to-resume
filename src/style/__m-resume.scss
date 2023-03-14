@@ -240,16 +240,6 @@ $colours: map-merge(
     display: inline-flex;
   }
 
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
-
-    li:nth-last-child(n + 2) {
-      margin-bottom: 4px;
-    }
-  }
-
   a {
     text-decoration: none;
     border-bottom: 1px solid currentColor;
@@ -277,6 +267,22 @@ $colours: map-merge(
   font-size: 14px;
   color: $font-color-primary;
   padding: 30px 50px;
+
+  %unique-ui {
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+  
+      li:nth-last-child(n + 2) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .resume-item-content {
+    @extend %unique-ui;
+  }
 
   .resume-title {
     @extend %module-border-bottom;
@@ -347,6 +353,26 @@ $colours: map-merge(
     &:nth-last-child(n + 2) {
       .resume-experience-content {
         padding-bottom: 20px;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      counter-reset: section;
+
+      .list-group-item {
+        background-color: $resume-body-bgc;
+        padding: 1.5px 0;
+        border: none;
+      }
+
+      >.list-group-item:before {
+        content: counters(section, ".") ". ";
+        counter-increment: section;
+      }
+
+      &>li:last-of-type {
+        padding-bottom: 0;
       }
     }
 
