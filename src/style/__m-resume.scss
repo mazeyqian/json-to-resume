@@ -361,7 +361,7 @@ $colours: map-merge(
       counter-reset: section;
 
       .list-group-item {
-        background-color: $resume-body-bgc;
+        background-color: $white; // $resume-body-bgc;
         padding: 1.5px 0;
         border: none;
       }
