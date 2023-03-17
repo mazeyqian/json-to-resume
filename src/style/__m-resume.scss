@@ -213,6 +213,10 @@ $colours: map-merge(
       margin: 5px;
     }
   }
+
+  .list-group-item {
+    background-color: $resume-body-bgc;
+  }
 }
 
 .m-resume {
