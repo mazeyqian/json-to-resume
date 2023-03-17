@@ -81,7 +81,30 @@ export default {
       ],
       department: '游戏发行事业部 - 游戏业务组',
       position: '前端工程师',
-      description: `负责哔哩哔哩游戏中心前端业务迭代和维护：<ul class="list-group list-group-flush resume-list"><li class="list-group-item">移动端游戏中心：访问地址：<a href="https://app.biligame.com/" target="_blank" rel="noopener">app.biligame.com</a></li><li class="list-group-item">桌面端游戏中心：访问地址：<a href="https://game.bilibili.com/" target="_blank" rel="noopener">game.bilibili.com</a></li><li class="list-group-item">游戏中心开放平台：面向外部游戏厂商，主要为联运、独代游戏服务，访问地址：<a href="https://open.biligame.com/#/" target="_blank" rel="noopener">open.biligame.com/#/</a></li><li class="list-group-item">开放平台文档中心：访问地址：<a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">open.biligame.com/docs/#/</a></li><li class="list-group-item">游戏中心 BWiki：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供，访问地址：<a href="https://wiki.biligame.com/" target="_blank" rel="noopener">wiki.biligame.com</a></li><li class="list-group-item">游戏中心通用组件：埋点上报、按钮、卡片和游戏预约等</li><li class="list-group-item">游戏中心管理后台：为内部运营服务，支持游戏、资讯和权限管理</li><li class="list-group-item">云游戏管理后台：客户端游戏部署在云端无需下载一键畅玩、即点即玩</li></ul>`,
+      description: `负责哔哩哔哩游戏中心前端业务迭代和维护：
+      <ul class="list-group list-group-flush resume-list">
+        <li class="list-group-item">
+          游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>
+        </li>
+        <li class="list-group-item">
+          <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理
+        </li>
+        <li class="list-group-item">
+          <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持
+        </li>
+        <li class="list-group-item">
+          <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 BWiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
+        </li>
+        <li class="list-group-item">
+          游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等
+        </li>
+        <li class="list-group-item">
+          游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理
+        </li>
+        <li class="list-group-item">
+          云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能
+        </li>
+      </ul>`,
       products: [
         {
           name: '公主连结Re:Dive',
