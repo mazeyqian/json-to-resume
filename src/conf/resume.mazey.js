@@ -143,7 +143,7 @@ export default {
       ],
       department: '平台产品中心 - 游戏组件组',
       position: '前端&Node.js工程师',
-      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统。',
+      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统',
       products: [
         {
           name: '剑与远征',
@@ -180,7 +180,7 @@ export default {
       ],
       department: '技术中心 - 游戏组',
       position: '前端&Golang工程师',
-      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK。',
+      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK',
     },
     {
       name: '平纳科信息咨询有限公司',
@@ -203,7 +203,7 @@ export default {
       ],
       department: '技术部',
       position: '前端工程师',
-      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。',
+      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作',
     },
     {
       name: '苏宁云商集团股份有限公司',
@@ -218,7 +218,7 @@ export default {
       ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
-      description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观。',
+      description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观',
     },
     {
       name: '江苏邦宁科技有限公司',
@@ -241,13 +241,13 @@ export default {
       ],
       department: '主站研发部',
       position: 'PHP工程师',
-      description: '参与公司域名售卖网站（nic.top）从后端到前端的开发和维护；承担服务器运维工作。',
+      description: '参与公司域名注册局网站（<a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a>）从后端到前端的开发和维护，承担服务器运维工作',
     },
   ],
   _projects: [/* Disable */],
   projects: [
     {
-      name: '莉莉丝游戏内社区',
+      name: '莉莉丝游戏（万国觉醒&剑与远征&战火勋章）社区',
       timeRangeStart: '2020 年 10 月',
       timeRangeEnd: '2022 年 4 月',
       tags: [
