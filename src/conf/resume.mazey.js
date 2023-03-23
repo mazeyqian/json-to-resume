@@ -104,6 +104,9 @@ export default {
         <li class="list-group-item">
           云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能
         </li>
+        <li class="list-group-item">
+          毕方社区：<a href="https://www.bigfun.cn/tools/pcrteam/" target="_blank" rel="noopener">公主连结团队战工具</a>、<a href="https://www.bigfun.cn/tools/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://www.bigfun.cn/tools/gt/" target="_blank" rel="noopener">坎公百宝袋</a>
+        </li>
       </ul>`,
       products: [
         {
