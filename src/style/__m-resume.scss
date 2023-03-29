@@ -362,8 +362,8 @@ $colours: map-merge(
     }
 
     ul {
-      list-style-type: none;
-      counter-reset: section;
+      // list-style-type: none;
+      // counter-reset: section;
 
       .list-group-item {
         background-color: $white; // $resume-body-bgc;
@@ -371,13 +371,23 @@ $colours: map-merge(
         border: none;
       }
 
-      >.list-group-item:before {
-        content: counters(section, ".") ". ";
-        counter-increment: section;
-      }
+      // >.list-group-item:before {
+      //   content: counters(section, ".") ". ";
+      //   counter-increment: section;
+      // }
 
       &>li:last-of-type {
         padding-bottom: 0;
+      }
+    }
+
+    .resume-list-number {
+      list-style-type: none;
+      counter-reset: section;
+
+      >.list-group-item:before {
+        content: counters(section, ".") ". ";
+        counter-increment: section;
       }
     }
 

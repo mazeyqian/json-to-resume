@@ -82,7 +82,7 @@ export default {
       department: '游戏发行事业部 - 游戏业务组',
       position: '前端工程师',
       description: `负责哔哩哔哩游戏中心前端业务迭代和维护：
-      <ul class="list-group list-group-flush resume-list">
+      <ul class="list-group list-group-flush resume-list-number">
         <li class="list-group-item">
           游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>
         </li>
