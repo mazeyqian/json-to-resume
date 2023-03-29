@@ -200,6 +200,7 @@ $colours: map-merge(
   }
 }
 
+// Big Screen
 @media screen and (min-width: 1000px) {
   .m-resume-box {
     display: flex;
@@ -215,7 +216,7 @@ $colours: map-merge(
   }
 
   .list-group-item {
-    background-color: $resume-body-bgc;
+    background-color: $white;
   }
 }
 
