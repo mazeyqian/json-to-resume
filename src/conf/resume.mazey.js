@@ -93,7 +93,7 @@ export default {
           <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持
         </li>
         <li class="list-group-item">
-          <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 BWiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
+          <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
         </li>
         <li class="list-group-item">
           游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等
@@ -378,7 +378,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>`
+          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README.md" target="_blank" rel="noopener">mazey.cn/t/dl</a>`
         }
       ]
     },
@@ -451,7 +451,7 @@ export default {
       details: [
         {
           name: '项目描述',
-          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://mazey.cn/t/fh" target="_blank" rel="noopener">mazey.cn/t/fh</a>`
+          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://blog.mazey.net/1503.html" target="_blank" rel="noopener">mazey.cn/t/fh</a>`
         }
       ]
     },
@@ -570,7 +570,7 @@ export default {
       details: [
         {
           name: '项目描述',
-          value: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/fc" target="_blank" rel="noopener">mazey.cn/t/fc</a>`
+          value: `提供一个读书分享的平台，访问地址：<a href="https://i.mazey.net/x/nut-read/#/home" target="_blank" rel="noopener">mazey.cn/t/arl</a>`
         }
       ]
     },
@@ -594,7 +594,7 @@ export default {
       details: [
         {
           name: '项目描述',
-          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">mazey.cn/t/fe</a>`
+          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`
         }
       ]
     },
@@ -678,7 +678,7 @@ export default {
       details: [
         {
           name: '项目描述',
-          value: `前端性能监控，静态资源上传，DEMO 地址：<a href="https://mazey.cn/t/fg" target="_blank" rel="noopener">mazey.cn/t/fg</a>，密码：demo`
+          value: `前端性能监控，静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">azey.cn/t/arm</a>，密码：demo`
         }
       ]
     },
