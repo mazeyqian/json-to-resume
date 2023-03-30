@@ -10,26 +10,32 @@
       <div class="resume-experience-content">
         <div class="content-title">
           <div class="company project">
-          <span class="company-name project-name">
-            <span v-if="project.iconName" :class="`company-logo-${project.iconName}`">
-              <i class="icon-company"></i>
+            <span class="company-name project-name">
+              <span v-if="project.iconName" :class="`company-logo-${project.iconName}`">
+                <i class="icon-company"></i>
+              </span>
+              <div v-if="project.iconLink" :class="`project-logo`">
+                <i class="icon" :style="{ backgroundImage: `url(${project.iconLink})` }"></i>
+              </div>
+              <span>{{ project.name }}</span>
+              <span class="project-badges">
+                <b-badge v-for="(tag, index) in project.tags"
+                  :key="`project-badges-${index}`"
+                  :pill="true"
+                  class="project-badge"
+                  :class="tag.bgc"
+                >
+                  {{ tag.name }}
+                </b-badge>
+              </span>
             </span>
-            <div v-if="project.iconLink" :class="`project-logo`">
-              <i class="icon" :style="{ backgroundImage: `url(${project.iconLink})` }"></i>
-            </div>
-            <span>{{ project.name }}</span>
-            <span class="project-badges">
-              <b-badge v-for="(tag, index) in project.tags"
-                :key="`project-badges-${index}`"
-                :pill="true"
-                class="project-badge"
-                :class="tag.bgc"
-              >
-                {{ tag.name }}
-              </b-badge>
+            <span>
+              <span>{{ project.timeRangeStart }}</span>
+              &nbsp;
+              <span v-if="project.timeRangeStart && project.timeRangeEnd">-</span>
+              &nbsp;
+              <span>{{ project.timeRangeEnd }}</span>
             </span>
-          </span>
-            <span>{{ project.timeRangeStart }} - {{ project.timeRangeEnd }}</span>
           </div>
           <div class="department">
             <span>{{ project.department }}</span>
@@ -37,7 +43,7 @@
           </div>
         </div>
         <div class="content-description">
-          <span>{{ project.description }}</span>
+          <span v-html="project.description"></span>
         </div>
         <div class="project-detail" v-for="(detail, index) in project.details" :key="`project-detail-${index}`">
           <div class="detail-name">{{ detail.name }}：</div>

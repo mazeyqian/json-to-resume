@@ -46,12 +46,17 @@
         </div>
       </div>
       <!--其他-->
-      <div class="resume-item" :class="{ 'hide': resume.patents.length === 0 }">
+      <div class="resume-item" :class="{ 'hide': resume.others.length === 0 }">
         <h3>其他</h3>
         <div class="patent">
-          <div class="patent-item" v-for="( patent, index ) in resume.patents" :key="`patent-item-${index}`">
+          <div class="patent-item" v-for="( patent, index ) in resume.others" :key="`patent-item-${index}`">
             <span :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
-            <span>{{ patent.name }}[<a :href="patent.link" target="_blank" rel="noopener">{{ patent.publishNumber }}</a>]</span>
+            <span>
+              {{ patent.name }}
+              <span v-if="patent.linkContent">
+                [<a :href="patent.link" target="_blank" rel="noopener">{{ patent.linkContent }}</a>]
+              </span>
+            </span>
           </div>
         </div>
       </div>
@@ -68,8 +73,9 @@
 </template>
 
 <script>
-  import resume from '../conf/resume.js'
+  import resume from '../conf/resume'
   import MResumeExperience from './m-resume-experience.vue'
+  // import { addStyle } from 'mazey'
   export default {
     name: 'm-resume',
     components: {
@@ -82,6 +88,9 @@
     },
     created () {
       document.title = this.resume.pageAndFileName // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
+    },
+    mounted () {
+      // addStyle('@media screen { .m-layout { background-color: #f2f2f2; } }', { id: 'resume-fill-in' })
     }
   }
 </script>

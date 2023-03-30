@@ -4,7 +4,7 @@
 
 ## 预览
 
-![](./images/json-to-resume-print-w800.jpg)
+![](./images/json-to-resume-print-v1-w800.jpg)
 
 ## 使用指南
 
@@ -19,8 +19,8 @@ JSON 文件位于路径：`src/conf/resume.js`
 | personInfo.left | 个人信息 - 右边栏  |  院校、专业 |
 | companies | 工作经历 | - |
 | projects | 项目经验 | - |
-| skills | 技能 | - |
-| patents | 其他 | - |
+| skills | 技能 | 喂猫、遛狗、拍照、旅游、铲猫砂 |
+| others | 其他 | ⾃我总结、个人优势、职业资格 |
 
 ## 本地启动
 
