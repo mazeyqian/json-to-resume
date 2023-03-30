@@ -178,6 +178,10 @@ export default {
           bgc: 'a-d'
         },
         {
+          name: '手机游戏',
+          bgc: 'game'
+        },
+        {
           name: '发行',
           bgc: 'publish'
         },
@@ -245,7 +249,7 @@ export default {
       ],
       department: '主站研发部',
       position: 'PHP工程师',
-      description: '参与公司域名注册局网站（<a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a>）从后端到前端的开发和维护，承担服务器运维工作',
+      description: '参与公司域名注册局网站 <a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a> 从后端到前端的开发和维护，承担服务器运维工作',
     },
   ],
   _projects: [/* Disable */],
@@ -274,7 +278,7 @@ export default {
           value: `社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力`
         }
       ],
-      hideInPrint: true,
+      hideInPrint: false,
     },
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）会员中心',
@@ -332,7 +336,8 @@ export default {
           name: '项目描述',
           value: `搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>`
         }
-      ]
+      ],
+      hideInPrint: true,
     },
     {
       name: '趣头条游戏中心 JS-SDK',
@@ -407,7 +412,8 @@ export default {
           value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；
           通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间`
         }
-      ]
+      ],
+      hideInPrint: true,
     },
     {
       name: '游戏中心开放平台 - 游戏版本和灰度控制',
@@ -479,7 +485,8 @@ export default {
           name: '项目描述',
           value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作`
         }
-      ]
+      ],
+      hideInPrint: true,
     },
     {
       name: 'IDAP 智能数据分析平台',
@@ -508,7 +515,8 @@ export default {
           name: '项目描述',
           value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展'
         }
-      ]
+      ],
+      hideInPrint: true,
     },
     {
       name: '邦宁域名备案核查系统',
@@ -614,6 +622,12 @@ export default {
           <li class="list-group-item">
             Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>
           </li>
+          <li class="list-group-item">
+            Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey-lazy-load-images</a>
+          </li>
+          <li class="list-group-item">
+            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey-wordpress-utils</a>
+          </li>
         </ul>
       `
     },
@@ -626,7 +640,7 @@ export default {
           bgc: 'blue'
         },
       ],
-      description: `长链接转换成短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>`,
+      description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>`,
     },
     {
       name: '前端工作小站',
@@ -649,7 +663,16 @@ export default {
           bgc: 'green'
         },
       ],
-      description: `前端性能监控，静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">azey.cn/t/arm</a>，密码：demo`,
+      description: `
+        <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            前端性能监控，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
+          </li>
+          <li class="list-group-item">
+            静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/asset/oss-upload" target="_blank" rel="noopener">mazey.cn/t/aeo</a>
+          </li>
+        </ul>
+      `,
     },
   ],
   _skills: [/* Disable */],
