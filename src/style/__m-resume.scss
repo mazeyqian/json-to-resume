@@ -391,6 +391,25 @@ $colours: map-merge(
       }
     }
 
+    .resume-list-circle {
+      list-style-type: none;
+
+      .list-group-item {
+        display: flex;
+        align-items: center;
+      }
+
+      >.list-group-item:before {
+        content: "";
+        display: inline-flex;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: $font-color-primary; /* You can change the color to any color you want */
+        margin-right: 5px; /* Add some spacing between the marker and the text */
+      }
+    }
+
     .icon-fgo {
       background-image: url(../assets/img/fgo.png);
     }

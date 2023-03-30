@@ -82,32 +82,33 @@ export default {
       department: '游戏发行事业部 - 游戏业务组',
       position: '前端工程师',
       description: `负责哔哩哔哩游戏中心前端业务迭代和维护：
-      <ul class="list-group list-group-flush resume-list-number">
-        <li class="list-group-item">
-          游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理
-        </li>
-        <li class="list-group-item">
-          <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持
-        </li>
-        <li class="list-group-item">
-          <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
-        </li>
-        <li class="list-group-item">
-          游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等
-        </li>
-        <li class="list-group-item">
-          游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理
-        </li>
-        <li class="list-group-item">
-          云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能
-        </li>
-        <li class="list-group-item">
-          毕方社区游戏工具：<a href="https://www.bigfun.cn/tools/pcrteam/" target="_blank" rel="noopener">公主连结团队战工具</a>、<a href="https://www.bigfun.cn/tools/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://www.bigfun.cn/tools/gt/" target="_blank" rel="noopener">坎公百宝袋</a>
-        </li>
-      </ul>`,
+        <ul class="list-group list-group-flush resume-list-number">
+          <li class="list-group-item">
+            游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理
+          </li>
+          <li class="list-group-item">
+            <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持
+          </li>
+          <li class="list-group-item">
+            <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
+          </li>
+          <li class="list-group-item">
+            游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等
+          </li>
+          <li class="list-group-item">
+            游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理
+          </li>
+          <li class="list-group-item">
+            云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能
+          </li>
+          <li class="list-group-item">
+            毕方社区游戏工具：<a href="https://www.bigfun.cn/tools/pcrteam/" target="_blank" rel="noopener">公主连结团队战工具</a>、<a href="https://www.bigfun.cn/tools/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://www.bigfun.cn/tools/gt/" target="_blank" rel="noopener">坎公百宝袋</a>
+          </li>
+        </ul>
+      `,
       products: [
         {
           name: '公主连结Re:Dive',
@@ -567,12 +568,7 @@ export default {
           bgc: 'purple'
         },
       ],
-      details: [
-        {
-          name: '项目描述',
-          value: `提供一个读书分享的平台，访问地址：<a href="https://i.mazey.net/x/nut-read/#/home" target="_blank" rel="noopener">mazey.cn/t/arl</a>`
-        }
-      ]
+      description: `提供一个读书分享的平台，访问地址：<a href="https://i.mazey.net/x/nut-read/#/home" target="_blank" rel="noopener">mazey.cn/t/arl</a>`,
     },
     {
       name: '上海地铁运营系统',
@@ -591,52 +587,35 @@ export default {
           bgc: 'd3'
         },
       ],
-      details: [
-        {
-          name: '项目描述',
-          value: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`
-        }
-      ]
+      description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
     },
     {
-      name: 'Mazey',
+      name: 'NPM',
       iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
+        // {
+        //   name: 'NPM',
+        //   bgc: 'npm'
+        // },
         {
-          name: 'NPM',
-          bgc: 'npm'
+          name: 'CI/CD',
+          bgc: 'gitlab'
         },
         {
           name: '工具',
           bgc: 'secondary'
         },
       ],
-      details: [
-        {
-          name: '项目描述',
-          value: `前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey</a>`
-        }
-      ]
-    },
-    {
-      name: 'AliyunOss-Cli',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
-      tags: [
-        {
-          name: 'NPM',
-          bgc: 'npm'
-        },
-        {
-          name: 'CI/CD',
-          bgc: 'gitlab'
-        }
-      ],
-      details: [
-        {
-          name: '项目描述',
-          value: `阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>`
-        }
-      ]
+      description: `
+        <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            Mazey：前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey</a>
+          </li>
+          <li class="list-group-item">
+            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>
+          </li>
+        </ul>
+      `
     },
     {
       name: '短链接/短网址在线生成',
@@ -647,12 +626,7 @@ export default {
           bgc: 'blue'
         },
       ],
-      details: [
-        {
-          name: '项目描述',
-          value: `长链接转换成短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>`
-        }
-      ]
+      description: `长链接转换成短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>`,
     },
     {
       name: '前端工作小站',
@@ -675,12 +649,7 @@ export default {
           bgc: 'green'
         },
       ],
-      details: [
-        {
-          name: '项目描述',
-          value: `前端性能监控，静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">azey.cn/t/arm</a>，密码：demo`
-        }
-      ]
+      description: `前端性能监控，静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">azey.cn/t/arm</a>，密码：demo`,
     },
   ],
   _skills: [/* Disable */],
