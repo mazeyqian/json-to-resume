@@ -392,6 +392,8 @@ $colours: map-merge(
     }
 
     .resume-list-circle {
+      $circle-len: 0.36em;
+
       list-style-type: none;
 
       .list-group-item {
@@ -402,11 +404,11 @@ $colours: map-merge(
       >.list-group-item:before {
         content: "";
         display: inline-flex;
-        width: 5px;
-        height: 5px;
+        width: $circle-len;
+        height: $circle-len;
         border-radius: 50%;
-        background-color: $font-color-primary; /* You can change the color to any color you want */
-        margin-right: 5px; /* Add some spacing between the marker and the text */
+        background-color: $font-color-primary;
+        margin-right: $circle-len;
       }
     }
 
