@@ -399,16 +399,16 @@ $colours: map-merge(
       .list-group-item {
         display: flex;
         align-items: center;
-      }
 
-      >.list-group-item:before {
-        content: "";
-        display: inline-flex;
-        width: $circle-len;
-        height: $circle-len;
-        border-radius: 50%;
-        background-color: $font-color-primary;
-        margin-right: $circle-len;
+        &:before {
+          content: "";
+          display: inline-flex;
+          width: $circle-len;
+          height: $circle-len;
+          border-radius: 50%;
+          background-color: $font-color-primary;
+          margin-right: $circle-len;
+        }
       }
     }
 
