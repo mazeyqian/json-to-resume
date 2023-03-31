@@ -271,7 +271,11 @@ export default {
       details: [
         {
           name: '前端技术',
-          value: 'React、Umi、Less、SSR'
+          value: 'React、Umi、Less'
+        },
+        {
+          name: '后端技术',
+          value: 'Node.js、Docker、Nginx'
         },
         {
           name: '项目描述',
