@@ -722,5 +722,17 @@ export default {
       linkContent: 'CN110083409A',
       link: '//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
     },
+    {
+      name: '公众号文章：Promise 异步编程的理解和使用',
+      iconName: 'b-tc',
+      linkContent: '哔哩哔哩技术',
+      link: 'https://mp.weixin.qq.com/s/S_6YAcbZlcWIjcWdo5toXQ',
+    },
+    {
+      name: '公众号文章：前端性能和加载体验优化实践',
+      iconName: 't-cloud',
+      linkContent: '腾讯云',
+      link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
+    },
   ],
 }
