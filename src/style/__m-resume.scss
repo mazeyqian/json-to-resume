@@ -10,7 +10,7 @@ $resume-black: #111111;
 // Base Length
 $column-padding: 8px;
 
-// icons
+// ICON
 $icons: () !default;
 $icons: map-merge(
   (
@@ -38,7 +38,7 @@ $icons: map-merge(
   $icons
 );
 
-// colours
+// Colours
 $colours: () !default;
 $colours: map-merge(
   (
@@ -72,7 +72,7 @@ $colours: map-merge(
     }
   }
 
-  // Color
+  // Colors
   .dark {
     background-color: $resume-black;
   }
@@ -530,11 +530,12 @@ $colours: map-merge(
         }
       }
 
-      &:last-of-type {
-        .timeline-line {
-          background: transparent;
-        }
-      }
+      // Hide the last line.
+      // &:last-of-type {
+      //   .timeline-line {
+      //     background: transparent;
+      //   }
+      // }
     }
   }
 
