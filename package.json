@@ -1,6 +1,6 @@
 {
   "name": "json-to-resume",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A tool to generate the resume.",
   "author": "Mazey <mazey@mazey.net>",
   "private": true,
@@ -11,9 +11,6 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "_release": "Note: It's my server; Please replace the IP address and paths if you want to deploy the project.",
-    "release": "cd dist && scp -r ./ root@118.89.31.187:/web/mazey.cn && cd ../",
-    "publish": "npm run build && npm run release",
     "html-lint": "htmllint"
   },
   "husky": {
