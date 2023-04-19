@@ -14,6 +14,7 @@ $column-padding: 8px;
 $icons: () !default;
 $icons: map-merge(
   (
+    "pink-flower": "pink-with-white-flower.png",
     "red-cat-pad": "red-cat-pad.png",
     "cat-pad": "cat-pad.png",
     "line-cat": "line-cat.png",
@@ -42,6 +43,7 @@ $icons: map-merge(
 $colours: () !default;
 $colours: map-merge(
   (
+    "grassland": rgb(66, 149, 81),
     "green": #28a745,
     "secondary": #6c757d,
     "cyan": #17a2b8,
