@@ -2,6 +2,8 @@
 
 这是一个便捷的 JSON 转简历工具
 
+演示地址：https://i.mazey.net/x/resume/
+
 ## 预览
 
 ![](./images/json-to-resume-print-v1-w800.jpg)
