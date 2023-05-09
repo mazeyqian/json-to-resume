@@ -84,25 +84,25 @@ export default {
       description: `负责哔哩哔哩游戏中心前端业务迭代和维护：
         <ul class="list-group list-group-flush resume-list-number">
           <li class="list-group-item">
-            游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>
+            游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
           </li>
           <li class="list-group-item">
-            <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理
+            <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理。
           </li>
           <li class="list-group-item">
-            <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持
+            <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
           </li>
           <li class="list-group-item">
-            <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供
+            <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供。
           </li>
           <li class="list-group-item">
-            游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等
+            游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等。
           </li>
           <li class="list-group-item">
-            游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理
+            游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理。
           </li>
           <li class="list-group-item">
-            云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能
+            云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能。
           </li>
           <li class="list-group-item">
             毕方社区游戏工具：<a href="https://www.bigfun.cn/tools/pcrteam/" target="_blank" rel="noopener">公主连结团队战工具</a>、<a href="https://www.bigfun.cn/tools/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://www.bigfun.cn/tools/gt/" target="_blank" rel="noopener">坎公百宝袋</a>
@@ -147,7 +147,7 @@ export default {
       ],
       department: '平台产品中心 - 游戏组件组',
       position: '前端&Node.js工程师',
-      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统',
+      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统。',
       products: [
         {
           name: '剑与远征',
@@ -188,7 +188,7 @@ export default {
       ],
       department: '技术中心 - 游戏组',
       position: '前端&Golang工程师',
-      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK',
+      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK。',
     },
     {
       name: '平纳科信息咨询有限公司',
@@ -211,7 +211,7 @@ export default {
       ],
       department: '技术部',
       position: '前端工程师',
-      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作',
+      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。',
     },
     {
       name: '苏宁云商集团股份有限公司',
@@ -226,7 +226,7 @@ export default {
       ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
-      description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观',
+      description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观。',
     },
     {
       name: '江苏邦宁科技有限公司',
@@ -249,7 +249,7 @@ export default {
       ],
       department: '主站研发部',
       position: 'PHP工程师',
-      description: '参与公司域名注册局网站 <a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a> 从后端到前端的开发和维护，承担服务器运维工作',
+      description: '参与公司域名注册局网站 <a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a> 从后端到前端的开发和维护，承担服务器运维工作。',
     },
   ],
   _projects: [/* Disable */],
@@ -266,7 +266,7 @@ export default {
         {
           name: '国际化',
           bgc: 'blue'
-        }
+        },
       ],
       details: [
         {
@@ -279,8 +279,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: `社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力`
-        }
+          value: `社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
+        },
       ],
       hideInPrint: false,
     },
@@ -296,7 +296,7 @@ export default {
         {
           name: 'CI/CD',
           bgc: 'gitlab'
-        }
+        },
       ],
       details: [
         {
@@ -310,7 +310,7 @@ export default {
         {
           name: '项目描述',
           value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>`
-        }
+        },
       ]
     },
     {
@@ -325,7 +325,7 @@ export default {
         {
           name: '国际化',
           bgc: 'blue'
-        }
+        },
       ],
       details: [
         {
@@ -339,7 +339,7 @@ export default {
         {
           name: '项目描述',
           value: `搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>`
-        }
+        },
       ],
       hideInPrint: true,
     },
@@ -375,7 +375,7 @@ export default {
         {
           name: '灰度发版',
           bgc: 'secondary'
-        }
+        },
       ],
       details: [
         {
@@ -389,7 +389,7 @@ export default {
         {
           name: '项目描述',
           value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README.md" target="_blank" rel="noopener">mazey.cn/t/dl</a>`
-        }
+        },
       ]
     },
     {
@@ -404,7 +404,7 @@ export default {
         {
           name: '效率',
           bgc: 'green'
-        }
+        },
       ],
       details: [
         {
@@ -414,8 +414,8 @@ export default {
         {
           name: '项目描述',
           value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；
-          通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间`
-        }
+          通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。`
+        },
       ],
       hideInPrint: true,
     },
@@ -431,7 +431,7 @@ export default {
         {
           name: '灰度发版',
           bgc: 'secondary'
-        }
+        },
       ],
       details: [
         {
@@ -440,8 +440,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本`
-        }
+          value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
+        },
       ],
       hideInPrint: true,
     },
@@ -457,13 +457,13 @@ export default {
         {
           name: '用户体验',
           bgc: 'green'
-        }
+        },
       ],
       details: [
         {
           name: '项目描述',
           value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://blog.mazey.net/1503.html" target="_blank" rel="noopener">mazey.cn/t/fh</a>`
-        }
+        },
       ]
     },
     {
@@ -478,17 +478,17 @@ export default {
         {
           name: '效率',
           bgc: 'green'
-        }
+        },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Vue 2、Vue-cli 3、ColorAdmin、Echarts 4、Sass'
+          value: 'Vue 2、Vue-CLI 3、ColorAdmin、Echarts 4、Sass'
         },
         {
           name: '项目描述',
-          value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作`
-        }
+          value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
+        },
       ],
       hideInPrint: true,
     },
@@ -508,7 +508,7 @@ export default {
         {
           name: '响应式',
           bgc: 'purple'
-        }
+        },
       ],
       details: [
         {
@@ -517,8 +517,8 @@ export default {
         },
         {
           name: '项目描述',
-          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展'
-        }
+          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
+        },
       ],
       hideInPrint: true,
     },
@@ -542,7 +542,7 @@ export default {
         {
           name: '报表',
           bgc: 'secondary'
-        }
+        },
       ],
       details: [
         {
@@ -555,7 +555,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行；通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率'
+          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行；通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
         }
       ],
       hideInPrint: true,
@@ -621,19 +621,19 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Mazey：前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey</a>
+            Mazey：工作中使用的前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
           </li>
           <li class="list-group-item">
-            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli" target="_blank" rel="noopener">https://github.com/mazeyqian/aliyunoss-cli</a>
+            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli#readme" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
           </li>
           <li class="list-group-item">
-            Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey-lazy-load-images</a>
+            Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
           </li>
           <li class="list-group-item">
-            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils" target="_blank" rel="noopener">https://github.com/mazeyqian/mazey-wordpress-utils</a>
+            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
           </li>
         </ul>
-      `
+      `,
     },
     {
       name: '短链接/短网址在线生成',
@@ -644,7 +644,7 @@ export default {
           bgc: 'blue'
         },
       ],
-      description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">https://blog.mazey.net/tiny</a>`,
+      description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
     },
     {
       name: '前端工作小站',
