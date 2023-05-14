@@ -630,6 +630,9 @@ export default {
             Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
           </li>
           <li class="list-group-item">
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://github.com/mazeyqian/mazey-wechat-launch-app#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
+          </li>
+          <li class="list-group-item">
             WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
           </li>
         </ul>
