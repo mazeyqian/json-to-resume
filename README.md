@@ -6,12 +6,14 @@
 
 ![](./images/json-to-resume-print-v1-w800.jpg)
 
+演示地址：https://i.mazey.net/x/resume/
+
 ## 使用指南
 
 JSON 文件位于路径：`src/conf/resume.js`
 
 | 字段 | 说明 | 示例 |
-| --- | --- | --- |
+| :------------ | :------------ | :------------ |
 | title | 简历标题 | 初级喂猫师 |
 | pageAndFileName | 页面/文件标题 | 猫宁-初级喂猫师-2年 |
 | personInfo | 个人信息 | - |

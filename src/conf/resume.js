@@ -145,6 +145,38 @@ export default {
       ],
       description: '遛狗服务项目：1）添加狗粮，冻干饮用水等 2）帮忙简单打扫拆家现场，情况复杂的不帮 3）通风换气，反馈狗狗情况，可拍小视频，照片',
     },
+    {
+      name: '遥远的梦 - 海蒂和爷爷的生活',
+      iconName: 'pink-flower',
+      timeRangeStart: '2021 年 6 月',
+      timeRangeEnd: '2022 年 9 月',
+      tags: [
+        {
+          name: '湖泊',
+          bgc: 'cyan'
+        },
+        {
+          name: '花田',
+          bgc: 'yellow'
+        },
+      ],
+      description: `满山的小花花，遍地的牛羊，远处的雪山，穿梭在林间小路，揭开新疆神秘的面纱：
+        <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            赛里木湖：位于天山脚下，有雪山、湖泊、草原、高山、花田、天鹅等
+          </li>
+          <li class="list-group-item">
+            独库公路：一年只开放五个月，一路上风景绝美，计划去的要抓紧时间了
+          </li>
+          <li class="list-group-item">
+            那拉提草原：袅袅炊烟的毡房，热情好客的牧民们，听一曲冬不拉，歌声回荡在一望无际的草原上
+          </li>
+          <li class="list-group-item">
+            特克斯八卦城：仿佛进入异乡，每一个街道，每一幅璧画都是不一样的风景
+          </li>
+        </ul>
+      `,
+    },
   ],
   individualProjects: [/* Disable */],
   _individualProjects: [

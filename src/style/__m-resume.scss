@@ -10,10 +10,11 @@ $resume-black: #111111;
 // Base Length
 $column-padding: 8px;
 
-// icons
+// ICON
 $icons: () !default;
 $icons: map-merge(
   (
+    "pink-flower": "pink-with-white-flower.png",
     "red-cat-pad": "red-cat-pad.png",
     "cat-pad": "cat-pad.png",
     "line-cat": "line-cat.png",
@@ -31,15 +32,18 @@ $icons: map-merge(
     "tom": "tom.png",
     "pixel-cat": "pixel-cat.png",
     "rabbit": "rabbit.png",
+    "b-tc": "bilibili-logo.png",
+    "t-cloud": "tencent-cloud-400x400.png",
     "mr-black": "mr-black.png"
   ),
   $icons
 );
 
-// colours
+// Colours
 $colours: () !default;
 $colours: map-merge(
   (
+    "grassland": rgb(66, 149, 81),
     "green": #28a745,
     "secondary": #6c757d,
     "cyan": #17a2b8,
@@ -70,7 +74,7 @@ $colours: map-merge(
     }
   }
 
-  // Color
+  // Colors
   .dark {
     background-color: $resume-black;
   }
@@ -528,11 +532,12 @@ $colours: map-merge(
         }
       }
 
-      &:last-of-type {
-        .timeline-line {
-          background: transparent;
-        }
-      }
+      // Hide the last line.
+      // &:last-of-type {
+      //   .timeline-line {
+      //     background: transparent;
+      //   }
+      // }
     }
   }
 
