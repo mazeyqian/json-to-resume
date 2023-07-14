@@ -257,4 +257,5 @@ export default {
       iconName: 'red-cat-pad',
     },
   ],
+  language: 'ZH',
 }
