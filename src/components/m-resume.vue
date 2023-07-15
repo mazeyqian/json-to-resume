@@ -84,7 +84,7 @@
     data () {
       return {
         resume,
-        colon: resume.language === 'ZH' ? '：' : ':',
+        colon: resume.language === 'ZH' ? '：' : ': ',
       }
     },
     created () {
