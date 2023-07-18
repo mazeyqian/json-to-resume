@@ -59,12 +59,14 @@
 // Build the custom controls out of psuedo-elements.
 
 .custom-control-label {
+  $line-height-base-unique: 1.5rem;
+
   margin-bottom: 0;
 
   // Background-color and (when enabled) gradient
   &::before {
     position: absolute;
-    top: (($line-height-base - $custom-control-indicator-size) / 2);
+    top: calc(($line-height-base-unique - $custom-control-indicator-size) / 2);
     left: 0;
     display: block;
     width: $custom-control-indicator-size;
@@ -80,7 +82,7 @@
   // Foreground (icon)
   &::after {
     position: absolute;
-    top: (($line-height-base - $custom-control-indicator-size) / 2);
+    top: calc(($line-height-base-unique - $custom-control-indicator-size) / 2);
     left: 0;
     display: block;
     width: $custom-control-indicator-size;

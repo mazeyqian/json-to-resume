@@ -25,12 +25,20 @@ exports.cssLoaders = function (options) {
   function generateLoaders (loader, loaderOptions) {
     const loaders = [cssLoader]
     if (loader) {
-      loaders.push({
+      let defaultOptions = {}
+      if (loader === 'sass') {
+        defaultOptions = {
+          implementation: require("sass"),
+        }
+      }
+      const conf = {
         loader: loader + '-loader',
-        options: Object.assign({}, loaderOptions, {
+        options: Object.assign(defaultOptions, loaderOptions, {
           sourceMap: options.sourceMap
         })
-      })
+      }
+
+      loaders.push(conf)
     }
 
     // Extract CSS when that option is specified
