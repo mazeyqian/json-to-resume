@@ -73,8 +73,8 @@
 </template>
 
 <script>
-  import resume from '../conf/resume'
-  import MResumeExperience from './m-resume-experience.vue'
+  import resume from '../conf/resume';
+  import MResumeExperience from './m-resume-experience.vue';
   // import { addStyle } from 'mazey'
   export default {
     name: 'm-resume',
@@ -85,13 +85,13 @@
       return {
         resume,
         colon: resume.language === 'ZH' ? '：' : ': ',
-      }
+      };
     },
     created () {
-      document.title = this.resume.pageAndFileName // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
+      document.title = this.resume.pageAndFileName; // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
     },
     mounted () {
       // addStyle('@media screen { .m-layout { background-color: #f2f2f2; } }', { id: 'resume-fill-in' })
-    }
-  }
+    },
+  };
 </script>

@@ -75,5 +75,5 @@
       title: '',
       colon: '',
     },
-  }
+  };
 </script>
