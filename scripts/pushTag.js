@@ -1,5 +1,5 @@
 // Push Tag
-import { gitTagPush } from 'mazey/scripts/github-helper.js'
+const { gitTagPush } = require('mazey/scripts/github-helper.js')
 const pkgVersion = require('../package.json').version
 
 gitTagPush(pkgVersion)

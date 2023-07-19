@@ -12,7 +12,7 @@
             <li v-for="( info, index ) in resume.personInfo.left"
               :key="`resume-person-info-left-${index}`"
             >
-              <span class="resume-info-name">{{ info.name }}：</span>
+              <span class="resume-info-name">{{ info.name }}{{ colon }}</span>
               <span v-html="info.value"></span>
             </li>
           </ul>
@@ -20,18 +20,18 @@
             <li v-for="( info, index) in resume.personInfo.right"
               :key="`resume-person-info-right-${index}`"
             >
-              <span class="resume-info-name">{{ info.name }}：</span>
+              <span class="resume-info-name">{{ info.name }}{{ colon }}</span>
               <span v-html="info.value"></span>
             </li>
           </ul>
         </div>
       </div>
       <!--工作经历-->
-      <m-resume-experience :projects="resume.companies" title="工作经历"></m-resume-experience>
+      <m-resume-experience :projects="resume.companies" title="工作经历" :colon="colon"></m-resume-experience>
       <!--项目经验-->
-      <m-resume-experience :projects="resume.projects" title="项目经验"></m-resume-experience>
+      <m-resume-experience :projects="resume.projects" title="项目经验" :colon="colon"></m-resume-experience>
       <!--个人项目-->
-      <m-resume-experience :projects="resume.individualProjects" title="个人项目"></m-resume-experience>
+      <m-resume-experience :projects="resume.individualProjects" title="个人项目" :colon="colon"></m-resume-experience>
       <!--技能-->
       <div class="resume-item" :class="{ 'hide': resume.skills.length === 0 }">
         <h3>技能</h3>
@@ -84,6 +84,7 @@
     data () {
       return {
         resume,
+        colon: resume.language === 'ZH' ? '：' : ': ',
       }
     },
     created () {

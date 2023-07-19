@@ -26,13 +26,20 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 ## 本地启动
 
-``` bash
-# install dependencies
+Install dependencies:
+
+```
 npm install
+```
 
-# serve with hot reload
+Serve with hot reload:
+
+```
 npm run dev
+```
 
-# build for production
+Build for production:
+
+```
 npm run build
 ```
