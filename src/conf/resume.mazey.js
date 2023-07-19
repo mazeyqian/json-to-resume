@@ -735,4 +735,5 @@ export default {
       link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
     },
   ],
+  language: 'ZH',
 }
