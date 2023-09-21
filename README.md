@@ -1,12 +1,12 @@
 # json-to-resume
 
-这是一个便捷的 JSON 转简历工具
+这是一个便捷的 JSON 转简历工具。
 
 ## 预览
 
-![](./images/json-to-resume-print-v1-w800.jpg)
+![Resume Demo](./images/json-to-resume-print-v1-w800.jpg)
 
-演示地址：https://i.mazey.net/x/resume/
+演示地址：<https://i.mazey.net/x/resume/>
 
 ## 使用指南
 
@@ -28,18 +28,18 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 Install dependencies:
 
-```
+```shell
 npm install
 ```
 
 Serve with hot reload:
 
-```
+```shell
 npm run dev
 ```
 
 Build for production:
 
-```
+```shell
 npm run build
 ```
