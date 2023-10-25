@@ -602,13 +602,9 @@ export default {
       description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
     },
     {
-      name: 'NPM',
+      name: 'npm',
       iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
-        // {
-        //   name: 'NPM',
-        //   bgc: 'npm'
-        // },
         {
           name: 'CI/CD',
           bgc: 'gitlab',
@@ -624,6 +620,9 @@ export default {
             Mazey：工作中使用的前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
           </li>
           <li class="list-group-item">
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://github.com/mazeyqian/mazey-wechat-launch-app#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
+          </li>
+          <li class="list-group-item">
             Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli#readme" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
           </li>
           <li class="list-group-item">
@@ -631,6 +630,27 @@ export default {
           </li>
           <li class="list-group-item">
             WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
+          </li>
+        </ul>
+      `,
+    },
+    {
+      name: 'Go Packages',
+      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
+      tags: [
+        {
+          name: 'CI/CD',
+          bgc: 'gitlab',
+        },
+        {
+          name: '工具',
+          bgc: 'secondary',
+        },
+      ],
+      description: `
+        <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://github.com/mazeyqian/asiatz#readme" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
           </li>
         </ul>
       `,
