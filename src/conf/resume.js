@@ -40,16 +40,16 @@ export default {
       tags: [
         {
           name: '动物',
-          bgc: 'orange'
+          bgc: 'orange',
         },
         {
           name: '爱心',
-          bgc: 'red'
+          bgc: 'red',
         },
       ],
       department: '猫爪发行事业部 - 喂猫组',
       position: '初级喂猫师',
-      description: '为猫咪提供一系列服务：1）添粮换水 2）清理猫砂 3）开窗通风 4）陪伴玩耍 5）健康监测 6）实时反馈',
+      description: '为猫咪提供一系列服务：1）添粮换水 2）清理猫砂 3）开窗通风 4）陪伴玩耍 5）健康监测 6）实时反馈。',
       products: [
         {
           name: '黑猫警长',
@@ -79,11 +79,11 @@ export default {
       tags: [
         {
           name: '美食',
-          bgc: 'e-commerce'
+          bgc: 'e-commerce',
         },
         {
           name: '旅游',
-          bgc: 'kusano-yui'
+          bgc: 'kusano-yui',
         },
       ],
       department: '旅游攻略事业部 - 文案组',
@@ -115,18 +115,18 @@ export default {
       tags: [
         {
           name: '喂猫',
-          bgc: 'react'
+          bgc: 'react',
         },
         {
           name: '铲猫砂',
-          bgc: 'error-monitor'
+          bgc: 'error-monitor',
         },
         {
           name: '陪玩',
-          bgc: 'game'
+          bgc: 'game',
         },
       ],
-      description: '猫咪服务项目：1）清洁猫碗，添加猫粮，饮用水等 2）铲屎，添砂，清理周边卫生等，会把垃圾带走 3）开窗通风换气，临走时会关好 4）不认生的，可陪玩一会儿',
+      description: '猫咪服务项目：1）清洁猫碗，添加猫粮，饮用水等 2）铲屎，添砂，清理周边卫生等，会把垃圾带走 3）开窗通风换气，临走时会关好 4）不认生的，可陪玩一会儿。',
     },
     {
       name: '国庆节静安区遛狗服务',
@@ -136,14 +136,14 @@ export default {
       tags: [
         {
           name: '喂狗',
-          bgc: 'orange'
+          bgc: 'orange',
         },
         {
           name: '遛狗',
-          bgc: 'green'
+          bgc: 'green',
         },
       ],
-      description: '遛狗服务项目：1）添加狗粮，冻干饮用水等 2）帮忙简单打扫拆家现场，情况复杂的不帮 3）通风换气，反馈狗狗情况，可拍小视频，照片',
+      description: '遛狗服务项目：1）添加狗粮，冻干饮用水等 2）帮忙简单打扫拆家现场，情况复杂的不帮 3）通风换气，反馈狗狗情况，可拍小视频，照片。',
     },
     {
       name: '遥远的梦 - 海蒂和爷爷的生活',
@@ -153,26 +153,26 @@ export default {
       tags: [
         {
           name: '湖泊',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: '花田',
-          bgc: 'yellow'
+          bgc: 'yellow',
         },
       ],
       description: `满山的小花花，遍地的牛羊，远处的雪山，穿梭在林间小路，揭开新疆神秘的面纱：
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            赛里木湖：位于天山脚下，有雪山、湖泊、草原、高山、花田、天鹅等
+            赛里木湖：位于天山脚下，有雪山、湖泊、草原、高山、花田、天鹅等。
           </li>
           <li class="list-group-item">
-            独库公路：一年只开放五个月，一路上风景绝美，计划去的要抓紧时间了
+            独库公路：一年只开放五个月，一路上风景绝美，计划去的要抓紧时间了。
           </li>
           <li class="list-group-item">
-            那拉提草原：袅袅炊烟的毡房，热情好客的牧民们，听一曲冬不拉，歌声回荡在一望无际的草原上
+            那拉提草原：袅袅炊烟的毡房，热情好客的牧民们，听一曲冬不拉，歌声回荡在一望无际的草原上。
           </li>
           <li class="list-group-item">
-            特克斯八卦城：仿佛进入异乡，每一个街道，每一幅璧画都是不一样的风景
+            特克斯八卦城：仿佛进入异乡，每一个街道，每一幅璧画都是不一样的风景。
           </li>
         </ul>
       `,
@@ -181,29 +181,25 @@ export default {
   individualProjects: [/* Disable */],
   _individualProjects: [
     {
-      name: '小猫读书会',
+      name: '项目名字',
       iconName: 'nut-read',
       timeRangeStart: '',
       timeRangeEnd: '',
       tags: [
         {
-          name: 'Web',
-          bgc: 'blue'
+          name: '标签 1',
+          bgc: 'blue',
         },
         {
-          name: '分享',
-          bgc: 'green'
-        },
-        {
-          name: 'PWA',
-          bgc: 'purple'
+          name: '标签 2',
+          bgc: 'green',
         },
       ],
       details: [
         {
-          name: '项目描述',
-          value: `提供一个读书分享的平台`
-        }
+          name: '详情标题',
+          value: '详情内容',
+        },
       ],
     },
   ],
@@ -211,35 +207,35 @@ export default {
   skills: [
     {
       name: '喂猫',
-      level: 95
+      level: 95,
     },
     {
       name: '遛狗',
-      level: 90
+      level: 90,
     },
     {
       name: '拍照',
-      level: 85
+      level: 85,
     },
     {
       name: '陪玩',
-      level: 80
+      level: 80,
     },
     {
       name: '文案',
-      level: 75
+      level: 75,
     },
     {
       name: '旅游',
-      level: 70
+      level: 70,
     },
     {
       name: '铲猫砂',
-      level: 70
+      level: 70,
     },
     {
       name: '清理',
-      level: 70
+      level: 70,
     },
   ],
   _others: [/* Disable */],
@@ -257,8 +253,9 @@ export default {
       link: 'https://example.com',
     },
     {
-      name: '⾃我总结：⾃学能⼒强，有较好的探索、研究精神，较好的信息检索和动⼿解决问题的能⼒',
+      name: '⾃我总结：⾃学能⼒强，有较好的探索、研究精神，较好的信息检索和动⼿解决问题的能⼒。',
       iconName: 'red-cat-pad',
     },
   ],
-}
+  language: 'ZH',
+};

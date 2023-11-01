@@ -72,11 +72,11 @@ export default {
       tags: [
         {
           name: '手机游戏',
-          bgc: 'game'
+          bgc: 'game',
         },
         {
           name: '发行',
-          bgc: 'publish'
+          bgc: 'publish',
         },
       ],
       department: '游戏发行事业部 - 游戏业务组',
@@ -138,11 +138,11 @@ export default {
       tags: [
         {
           name: '手机游戏',
-          bgc: 'game'
+          bgc: 'game',
         },
         {
           name: '发行',
-          bgc: 'publish'
+          bgc: 'publish',
         },
       ],
       department: '平台产品中心 - 游戏组件组',
@@ -171,19 +171,19 @@ export default {
       tags: [
         {
           name: '新闻资讯',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: '广告',
-          bgc: 'a-d'
+          bgc: 'a-d',
         },
         {
           name: '手机游戏',
-          bgc: 'game'
+          bgc: 'game',
         },
         {
           name: '发行',
-          bgc: 'publish'
+          bgc: 'publish',
         },
       ],
       department: '技术中心 - 游戏组',
@@ -198,15 +198,15 @@ export default {
       tags: [
         {
           name: '招聘',
-          bgc: 'recruit'
+          bgc: 'recruit',
         },
         {
           name: '智能推荐',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: 'SaaS',
-          bgc: 'saas'
+          bgc: 'saas',
         },
       ],
       department: '技术部',
@@ -221,7 +221,7 @@ export default {
       tags: [
         {
           name: '电商',
-          bgc: 'e-commerce'
+          bgc: 'e-commerce',
         },
       ],
       department: '苏宁技术研究院 - 数据分析部',
@@ -236,15 +236,15 @@ export default {
       tags: [
         {
           name: '域名注册',
-          bgc: 'domain-register'
+          bgc: 'domain-register',
         },
         {
           name: '云主机',
-          bgc: 'cloud-host'
+          bgc: 'cloud-host',
         },
         {
           name: '智能建站',
-          bgc: 'auto-web'
+          bgc: 'auto-web',
         },
       ],
       department: '主站研发部',
@@ -261,25 +261,25 @@ export default {
       tags: [
         {
           name: 'ToC',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: '国际化',
-          bgc: 'blue'
+          bgc: 'blue',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'React、Umi、Less'
+          value: 'React、Umi、Less',
         },
         {
           name: '后端技术',
-          value: 'Node.js、Docker、Nginx'
+          value: 'Node.js、Docker、Nginx',
         },
         {
           name: '项目描述',
-          value: `社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`
+          value: `社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。`,
         },
       ],
       hideInPrint: false,
@@ -291,27 +291,27 @@ export default {
       tags: [
         {
           name: 'ToC',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: 'CI/CD',
-          bgc: 'gitlab'
+          bgc: 'gitlab',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'React、Webpack、Sass'
+          value: 'React、Webpack、Sass',
         },
         {
           name: '后端技术',
-          value: 'Node.js、Egg.js、Redis、MySQL、Sequelize、Docker、Nginx'
+          value: 'Node.js、Egg.js、Redis、MySQL、Sequelize、Docker、Nginx',
         },
         {
           name: '项目描述',
-          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>`
+          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>`,
         },
-      ]
+      ],
     },
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征）礼包兑换码（CDKey）网站',
@@ -320,25 +320,25 @@ export default {
       tags: [
         {
           name: 'ToC',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: '国际化',
-          bgc: 'blue'
+          bgc: 'blue',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'React、Umi、Less、SSR'
+          value: 'React、Umi、Less、SSR',
         },
         {
           name: '后端技术',
-          value: 'Node.js、Egg.js、Redis、Nginx'
+          value: 'Node.js、Egg.js、Redis、Nginx',
         },
         {
           name: '项目描述',
-          value: `搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>`
+          value: `搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>`,
         },
       ],
       hideInPrint: true,
@@ -350,47 +350,47 @@ export default {
       tags: [
         {
           name: '支付',
-          bgc: 'pay'
+          bgc: 'pay',
         },
         {
           name: '广告',
-          bgc: 'a-d'
+          bgc: 'a-d',
         },
         {
           name: '埋点',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: '分享',
-          bgc: 'green'
+          bgc: 'green',
         },
         {
           name: 'API',
-          bgc: 'api'
+          bgc: 'api',
         },
         {
           name: '错误监控',
-          bgc: 'error-monitor'
+          bgc: 'error-monitor',
         },
         {
           name: '灰度发版',
-          bgc: 'secondary'
+          bgc: 'secondary',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Webpack、Rollup、Gulp、Docsify、Sass'
+          value: 'Webpack、Rollup、Gulp、Docsify、Sass',
         },
         {
           name: '后端技术',
-          value: 'Golang、Gin、Gorm、MySQL、MurmurHash、JsonLogic'
+          value: 'Golang、Gin、Gorm、MySQL、MurmurHash、JsonLogic',
         },
         {
           name: '项目描述',
-          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README.md" target="_blank" rel="noopener">mazey.cn/t/dl</a>`
+          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README.md" target="_blank" rel="noopener">mazey.cn/t/dl</a>`,
         },
-      ]
+      ],
     },
     {
       name: '游戏中心 CMS 后台 - 广告配置',
@@ -399,22 +399,22 @@ export default {
       tags: [
         {
           name: 'ToA',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: '效率',
-          bgc: 'green'
+          bgc: 'green',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Vue 2、Element-UI'
+          value: 'Vue 2、Element-UI',
         },
         {
           name: '项目描述',
           value: `随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；
-          通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。`
+          通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。`,
         },
       ],
       hideInPrint: true,
@@ -426,21 +426,21 @@ export default {
       tags: [
         {
           name: 'ToB',
-          bgc: 'cyan'
+          bgc: 'cyan',
         },
         {
           name: '灰度发版',
-          bgc: 'secondary'
+          bgc: 'secondary',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Vue 2、Element-UI'
+          value: 'Vue 2、Element-UI',
         },
         {
           name: '项目描述',
-          value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`
+          value: `打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。`,
         },
       ],
       hideInPrint: true,
@@ -452,19 +452,19 @@ export default {
       tags: [
         {
           name: '性能',
-          bgc: 'orange'
+          bgc: 'orange',
         },
         {
           name: '用户体验',
-          bgc: 'green'
+          bgc: 'green',
         },
       ],
       details: [
         {
           name: '项目描述',
-          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://blog.mazey.net/1503.html" target="_blank" rel="noopener">mazey.cn/t/fh</a>`
+          value: `由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href="https://blog.mazey.net/1503.html" target="_blank" rel="noopener">mazey.cn/t/fh</a>`,
         },
-      ]
+      ],
     },
     {
       name: 'PinnacleSolution 智能招聘系统',
@@ -473,21 +473,21 @@ export default {
       tags: [
         {
           name: 'CRM',
-          bgc: 'crm'
+          bgc: 'crm',
         },
         {
           name: '效率',
-          bgc: 'green'
+          bgc: 'green',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Vue 2、Vue-CLI 3、ColorAdmin、Echarts 4、Sass'
+          value: 'Vue 2、Vue-CLI 3、ColorAdmin、Echarts 4、Sass',
         },
         {
           name: '项目描述',
-          value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`
+          value: `参与前期需求确认到项目稳定上线的整个过程；将客户经理和招聘专员的工作进行分离；整合搜索、筛选、沟通、确认模块，使招聘专员能够一站式的进行管理和操作。`,
         },
       ],
       hideInPrint: true,
@@ -499,25 +499,25 @@ export default {
       tags: [
         {
           name: '数据可视化',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: '大屏',
-          bgc: 'orange'
+          bgc: 'orange',
         },
         {
           name: '响应式',
-          bgc: 'purple'
+          bgc: 'purple',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Vue 2、Element-UI、Echarts 3、Webpack、Sass'
+          value: 'Vue 2、Element-UI、Echarts 3、Webpack、Sass',
         },
         {
           name: '项目描述',
-          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。'
+          value: '项目分为实时数据展示、历史数据分析、促销活动后台管理三个部分；在苏宁年货节、418 等大促活动中承担数据监控和分析的作用，其中大屏模块在活动期间一直投放在公司公众视野中，使全体员工了解大促进展。',
         },
       ],
       hideInPrint: true,
@@ -529,34 +529,34 @@ export default {
       tags: [
         {
           name: 'CRM',
-          bgc: 'crm'
+          bgc: 'crm',
         },
         {
           name: 'IE8+',
-          bgc: 'ms'
+          bgc: 'ms',
         },
         {
           name: '效率',
-          bgc: 'green'
+          bgc: 'green',
         },
         {
           name: '报表',
-          bgc: 'secondary'
+          bgc: 'secondary',
         },
       ],
       details: [
         {
           name: '前端技术',
-          value: 'Bootstrap、jQuery、Less'
+          value: 'Bootstrap、jQuery、Less',
         },
         {
           name: '后端技术',
-          value: 'WindowsServer、IIS、ASP、SQLServer'
+          value: 'WindowsServer、IIS、ASP、SQLServer',
         },
         {
           name: '项目描述',
-          value: '前期收集需求，调查用户喜欢的体验；设计项目流程，数据库结构；独立完成后端到前端的开发；保证项目线上的稳定运行；通过数据筛选、数据对比、批量处理数据等功能提高备案专员的工作效率。'
-        }
+          value: '收集需求、设计流程和数据库结构，完成前后端的开发；通过数据筛选、对比、批量处理等功能提高备案专员的工作效率。',
+        },
       ],
       hideInPrint: true,
     },
@@ -569,15 +569,15 @@ export default {
       tags: [
         {
           name: 'Web',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: '分享',
-          bgc: 'green'
+          bgc: 'green',
         },
         {
           name: 'PWA',
-          bgc: 'purple'
+          bgc: 'purple',
         },
       ],
       description: `提供一个读书分享的平台，访问地址：<a href="https://i.mazey.net/x/nut-read/#/home" target="_blank" rel="noopener">mazey.cn/t/arl</a>`,
@@ -588,40 +588,39 @@ export default {
       tags: [
         {
           name: 'Web',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: '数据可视化',
-          bgc: 'blue'
+          bgc: 'blue',
         },
         {
           name: 'D3.js',
-          bgc: 'd3'
+          bgc: 'd3',
         },
       ],
       description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
     },
     {
-      name: 'NPM',
+      name: 'npm',
       iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
-        // {
-        //   name: 'NPM',
-        //   bgc: 'npm'
-        // },
         {
           name: 'CI/CD',
-          bgc: 'gitlab'
+          bgc: 'gitlab',
         },
         {
           name: '工具',
-          bgc: 'secondary'
+          bgc: 'secondary',
         },
       ],
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
             Mazey：工作中使用的前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
+          </li>
+          <li class="list-group-item">
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://github.com/mazeyqian/mazey-wechat-launch-app#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
           </li>
           <li class="list-group-item">
             Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli#readme" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
@@ -639,39 +638,66 @@ export default {
       `,
     },
     {
-      name: '短链接/短网址在线生成',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+      name: 'Go Packages',
+      iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
       tags: [
         {
-          name: 'Web',
-          bgc: 'blue'
-        },
-      ],
-      description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
-    },
-    {
-      name: '前端工作小站',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
-      tags: [
-        {
-          name: 'Web',
-          bgc: 'blue'
+          name: 'CI/CD',
+          bgc: 'gitlab',
         },
         {
-          name: '数据可视化',
-          bgc: 'blue'
-        },
-        {
-          name: 'ToB',
-          bgc: 'cyan'
-        },
-        {
-          name: '效率',
-          bgc: 'green'
+          name: '工具',
+          bgc: 'secondary',
         },
       ],
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://github.com/mazeyqian/asiatz#readme" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
+          </li>
+          <li class="list-group-item">
+            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://github.com/mazeyqian/gurl#readme" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a>
+          </li>
+        </ul>
+      `,
+    },
+    // {
+    //   name: '短链接/短网址在线生成',
+    //   iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+    //   tags: [
+    //     {
+    //       name: 'Web',
+    //       bgc: 'blue',
+    //     },
+    //   ],
+    //   description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
+    // },
+    {
+      name: '工具类项目',
+      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue',
+        },
+        {
+          name: '数据可视化',
+          bgc: 'blue',
+        },
+        {
+          name: 'ToB',
+          bgc: 'cyan',
+        },
+        {
+          name: '效率',
+          bgc: 'green',
+        },
+      ],
+      description: `
+        <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>
+          </li>
           <li class="list-group-item">
             前端性能监控，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
           </li>
@@ -686,36 +712,36 @@ export default {
   skills: [
     {
       name: 'JavaScript',
-      level: 95
+      level: 95,
     },
     {
       name: 'Golang',
-      level: 90
+      level: 95,
     },
     {
       name: 'React/Vue',
-      level: 85
+      level: 85,
     },
     {
       name: 'CSS',
-      level: 80
+      level: 80,
     },
     {
       name: 'Sass/Less',
-      level: 75
+      level: 75,
     },
     {
       name: 'Node.js',
-      level: 70
+      level: 70,
     },
     {
       name: 'Sketch/PS',
-      level: 70
+      level: 70,
     },
     {
       name: '墨刀',
-      level: 70
-    }
+      level: 70,
+    },
   ],
   _others: [/* Disable */],
   others: [
@@ -738,4 +764,5 @@ export default {
       link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
     },
   ],
-}
+  language: 'ZH',
+};
