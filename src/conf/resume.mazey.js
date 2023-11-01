@@ -636,7 +636,7 @@ export default {
     },
     {
       name: 'Go Packages',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
+      iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v1.png',
       tags: [
         {
           name: 'CI/CD',
@@ -652,22 +652,25 @@ export default {
           <li class="list-group-item">
             Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://github.com/mazeyqian/asiatz#readme" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
           </li>
+          <li class="list-group-item">
+            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://github.com/mazeyqian/gurl#readme" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a>
+          </li>
         </ul>
       `,
     },
+    // {
+    //   name: '短链接/短网址在线生成',
+    //   iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+    //   tags: [
+    //     {
+    //       name: 'Web',
+    //       bgc: 'blue',
+    //     },
+    //   ],
+    //   description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
+    // },
     {
-      name: '短链接/短网址在线生成',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
-      tags: [
-        {
-          name: 'Web',
-          bgc: 'blue',
-        },
-      ],
-      description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
-    },
-    {
-      name: '前端工作小站',
+      name: '工具类项目',
       iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
       tags: [
         {
@@ -689,6 +692,9 @@ export default {
       ],
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
+          <li class="list-group-item">
+            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>
+          </li>
           <li class="list-group-item">
             前端性能监控，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
           </li>
