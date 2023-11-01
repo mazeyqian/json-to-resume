@@ -1,6 +1,6 @@
 export default {
   title: '前端工程师',
-  pageAndFileName: '钱程-前端工程师-6年',
+  pageAndFileName: '钱程-前端工程师-7年',
   personInfo: {
     left: [
       {
@@ -29,7 +29,7 @@ export default {
       },
       {
         name: '工作年限',
-        value: '6 年',
+        value: '7 年',
       },
     ],
     right: [
@@ -105,7 +105,7 @@ export default {
             云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能。
           </li>
           <li class="list-group-item">
-            毕方社区游戏工具：<a href="https://www.bigfun.cn/tools/pcrteam/" target="_blank" rel="noopener">公主连结团队战工具</a>、<a href="https://www.bigfun.cn/tools/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://www.bigfun.cn/tools/gt/" target="_blank" rel="noopener">坎公百宝袋</a>
+            毕方社区游戏工具：公主连结团队战工具、<a href="https://game.bilibili.com/tool/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://game.bilibili.com/tool/gt/" target="_blank" rel="noopener">坎公百宝袋</a>。
           </li>
         </ul>
       `,
@@ -708,8 +708,8 @@ export default {
       `,
     },
   ],
-  _skills: [/* Disable */],
-  skills: [
+  skills: [/* Disable */],
+  _skills: [
     {
       name: 'JavaScript',
       level: 95,
