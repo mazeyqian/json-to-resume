@@ -636,7 +636,7 @@ export default {
     },
     {
       name: 'Go Packages',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v1.png',
+      iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
       tags: [
         {
           name: 'CI/CD',
