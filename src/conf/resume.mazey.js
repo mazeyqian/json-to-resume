@@ -151,15 +151,15 @@ export default {
       products: [
         {
           name: '剑与远征',
-          iconName: 'pet-photography',
+          iconName: 'afk-favicon',
           link: 'https://afk.lilith.com/',
-          bgc: 'afk-icon',
+          bgc: 'afk',
         },
         {
           name: '万国觉醒',
-          iconName: 'cat-sale',
+          iconName: 'rok-favicon',
           link: 'https://rok-cn.lilith.com/',
-          bgc: 'rok-favicon',
+          bgc: 'rok',
         },
       ],
     },
@@ -627,9 +627,6 @@ export default {
           </li>
           <li class="list-group-item">
             Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
-          </li>
-          <li class="list-group-item">
-            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://github.com/mazeyqian/mazey-wechat-launch-app#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
           </li>
           <li class="list-group-item">
             WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
