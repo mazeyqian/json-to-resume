@@ -87,10 +87,10 @@ export default {
             游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
           </li>
           <li class="list-group-item">
-            <a href="https://open.biligame.com/#/" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理。
+            <a href="https://mazey.cn/t/bth" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理。
           </li>
           <li class="list-group-item">
-            <a href="https://open.biligame.com/docs/#/" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
+            <a href="https://mazey.cn/t/bti" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
           </li>
           <li class="list-group-item">
             <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供。
@@ -152,7 +152,7 @@ export default {
         {
           name: '剑与远征',
           iconName: 'afk-favicon',
-          link: 'https://afk.lilith.com/',
+          link: 'https://afk-cn.lilith.com/',
           bgc: 'afk',
         },
         {
@@ -309,7 +309,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://account.lilith.com" target="_blank" rel="noopener">https://account.lilith.com</a>`,
+          value: `承载玩家会员信息展示和礼包中心，访问地址：<a href="https://vip.lilith.com/" target="_blank" rel="noopener">https://vip.lilith.com</a>`,
         },
       ],
     },
@@ -388,7 +388,7 @@ export default {
         },
         {
           name: '项目描述',
-          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://newidea4-gamecenter-frontend.1sapp.com/sdk/docs/#/sdk/README.md" target="_blank" rel="noopener">mazey.cn/t/dl</a>`,
+          value: `给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>`,
         },
       ],
     },
@@ -580,7 +580,7 @@ export default {
           bgc: 'purple',
         },
       ],
-      description: `提供一个读书分享的平台，访问地址：<a href="https://i.mazey.net/x/nut-read/#/home" target="_blank" rel="noopener">mazey.cn/t/arl</a>`,
+      description: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/arl" target="_blank" rel="noopener">mazey.cn/t/arl</a>`,
     },
     {
       name: '上海地铁运营系统',
@@ -599,12 +599,16 @@ export default {
           bgc: 'd3',
         },
       ],
-      description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://i.mazey.net/subway/operation/dev-3.0/index.html#/details/10" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
+      description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
     },
     {
       name: 'npm',
       iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
+        {
+          name: '库',
+          bgc: 'cyan',
+        },
         {
           name: 'CI/CD',
           bgc: 'gitlab',
@@ -617,19 +621,19 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Mazey：工作中使用的前端函数库，访问地址：<a href="https://github.com/mazeyqian/mazey#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
+            Mazey：工作中使用的前端函数库，访问地址：<a href="https://mazey.cn/t/btk" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
           </li>
           <li class="list-group-item">
-            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://github.com/mazeyqian/mazey-wechat-launch-app#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://mazey.cn/t/btl" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
           </li>
           <li class="list-group-item">
-            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://github.com/mazeyqian/aliyunoss-cli#readme" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
+            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://mazey.cn/t/btm" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
           </li>
           <li class="list-group-item">
-            Lazy Load Images：图片懒加载，访问地址：<a href="https://github.com/mazeyqian/mazey-lazy-load-images#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
+            Lazy Load Images：图片懒加载，访问地址：<a href="https://mazey.cn/t/btn" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
           </li>
           <li class="list-group-item">
-            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://github.com/mazeyqian/mazey-wordpress-utils#readme" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
+            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://mazey.cn/t/bto" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
           </li>
         </ul>
       `,
@@ -639,8 +643,8 @@ export default {
       iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
       tags: [
         {
-          name: 'CI/CD',
-          bgc: 'gitlab',
+          name: '库',
+          bgc: 'cyan',
         },
         {
           name: '工具',
@@ -650,10 +654,10 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://github.com/mazeyqian/asiatz#readme" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
+            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://mazey.cn/t/btp" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
           </li>
           <li class="list-group-item">
-            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://github.com/mazeyqian/gurl#readme" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a>
+            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://mazey.cn/t/btq" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a>
           </li>
         </ul>
       `,
@@ -696,10 +700,10 @@ export default {
             短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>
           </li>
           <li class="list-group-item">
-            前端性能监控，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/monitor/perf/mazey.net" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
+            前端性能监控，DEMO 地址：<a href="https://mazey.cn/t/arm" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
           </li>
           <li class="list-group-item">
-            静态资源上传，DEMO 地址：<a href="https://i.mazey.net/x/mazey-workspace/#/asset/oss-upload" target="_blank" rel="noopener">mazey.cn/t/aeo</a>
+            静态资源上传，DEMO 地址：<a href="https://mazey.cn/t/aeo" target="_blank" rel="noopener">mazey.cn/t/aeo</a>
           </li>
         </ul>
       `,
@@ -746,7 +750,7 @@ export default {
       name: '专利：基于HTML5协议的浏览器全屏显示方法及显示装置',
       iconName: 'html5',
       linkContent: 'CN110083409A',
-      link: '//i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
+      link: 'https://i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
     },
     {
       name: '公众号文章：Promise 异步编程的理解和使用',
