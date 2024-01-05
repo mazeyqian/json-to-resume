@@ -1,31 +1,45 @@
-# Mazey's Resume
+# json-to-resume
 
-> My resume project by Vue.js.
+这是一个便捷的 JSON 转简历工具
 
+## 预览
 
-## Build Setup
+![](./images/json-to-resume-print-v1-w800.jpg)
 
-``` bash
-# install dependencies
+演示地址：https://i.mazey.net/x/resume/
+
+## 使用指南
+
+JSON 文件位于路径：`src/conf/resume.js`
+
+| 字段 | 说明 | 示例 |
+| :------------ | :------------ | :------------ |
+| title | 简历标题 | 初级喂猫师 |
+| pageAndFileName | 页面/文件标题 | 猫宁-初级喂猫师-2年 |
+| personInfo | 个人信息 | - |
+| personInfo.left | 个人信息 - 左边栏 | 姓名、性别 |
+| personInfo.right | 个人信息 - 右边栏  |  院校、专业 |
+| companies | 工作经历 | - |
+| projects | 项目经验 | - |
+| skills | 技能 | 喂猫、遛狗、拍照、旅游、铲猫砂 |
+| others | 其他 | ⾃我总结、个人优势、职业资格 |
+
+## 本地启动
+
+Install dependencies:
+
+```
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Serve with hot reload:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
+```

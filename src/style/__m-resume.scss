@@ -1,0 +1,690 @@
+// Base Colours
+$resume-color-primary: #45c8dc;
+$resume-font-color-primary: #38424f;
+$resume-header-color: #1b2026;
+$resume-sub-header-color: #868c94;
+$resume-border-color-primary: #e5e5e5;
+$resume-body-bgc: #f2f2f2;
+$resume-black: #111111;
+
+// Base Length
+$column-padding: 8px;
+
+// ICON
+$icons: () !default;
+$icons: map-merge(
+  (
+    "pink-flower": "pink-with-white-flower.png",
+    "red-cat-pad": "red-cat-pad.png",
+    "cat-pad": "cat-pad.png",
+    "line-cat": "line-cat.png",
+    "gray-cat": "gray-cat.png",
+    "cat-food": "cat-food.png",
+    "pixel-rabbit": "pixel-rabbit.png",
+    "gray-rabbit": "gray-rabbit.png",
+    "pink-rabbit": "pink-rabbit.png",
+    "dog-sale": "dog-sale.png",
+    "brown-dog": "brown-dog.png",
+    "orange-cat": "orange-cat.png",
+    "cat-sale": "cat-sale.png",
+    "pet-photography": "pet-photography.png",
+    "doraemon": "doraemon.png",
+    "tom": "tom.png",
+    "pixel-cat": "pixel-cat.png",
+    "rabbit": "rabbit.png",
+    "rok-favicon": "rok-favicon.png",
+    "afk-favicon": "afk-favicon.png",
+    "b-tc": "bilibili-logo.png",
+    "t-cloud": "tencent-cloud-400x400.png",
+    "mr-black": "mr-black.png"
+  ),
+  $icons
+);
+
+// Colours
+$colours: () !default;
+$colours: map-merge(
+  (
+    "grassland": rgb(66, 149, 81),
+    "green": #28a745,
+    "secondary": #6c757d,
+    "cyan": #17a2b8,
+    "vue": #52b983,
+    "kusano-yui": rgb(55, 67, 127),
+    "e-commerce": rgb(227, 77, 28),
+    "black": lighten($resume-black, 20%),
+    "coffee": #982c18,
+    "afk": #86724d,
+    "rok": #aa8f69
+  ),
+  $colours
+);
+
+// Custom Style for Badges
+.m-resume {
+  @each $iconname, $filename in $icons {
+    .icon-#{$iconname} {
+      background-image: url("../assets/img/" + $filename);
+    }
+
+    .company-logo-#{$iconname}>.icon-company {
+      background-image: url("../assets/img/" + $filename);
+    }
+  }
+
+  @each $colourname, $colourvalue in $colours {
+    .#{$colourname} {
+      background-color: $colourvalue;
+    }
+  }
+
+  // Colors
+  .dark {
+    background-color: $resume-black;
+  }
+
+  .blue {
+    background-color: #007bff;
+  }
+
+  .purple {
+    background-color: #7952b3;
+  }
+
+  .ms {
+    background-color: #0067b8;
+  }
+
+  .orange {
+    background-color: #ff851b;
+  }
+
+  .red {
+    background-color: #ff4136;
+  }
+
+  .gray {
+    background-color: #aaa;
+  }
+
+  .yellow {
+    background-color: #ffdc00;
+  }
+
+  .crm {
+    background-color: #5990a7;
+  }
+
+  .react {
+    background-color: #61dafb;
+  }
+
+  .pay {
+    background-color: rgba(19, 141, 227, 1);
+  }
+
+  .a-d {
+    background-color: rgba(29, 148, 171, 1);
+  }
+
+  .report {
+    background-color: #396fff;
+  }
+
+  .share {
+    background-color: rgba(174, 228, 21, 1);
+  }
+
+  .api {
+    background-color: rgba(243, 57, 10, 1);
+  }
+
+  .error-monitor {
+    background-color: rgba(224, 93, 7, 1);
+  }
+
+  .gitlab {
+    background-color: #fa7035;
+  }
+
+  .game {
+    background-color: rgb(239, 8, 20);
+  }
+
+  .publish {
+    background-color: rgb(98, 16, 203);
+  }
+
+  .nasdaq {
+    background-color: rgb(16, 123, 178);
+  }
+
+  .recruit {
+    background-color: rgb(244, 215, 28);
+  }
+
+  .saas {
+    background-color: rgb(61, 181, 238);
+  }
+
+  .szse {
+    background-color: rgb(21, 96, 171);
+  }
+
+  .domain-register {
+    background-color: rgb(14, 119, 207);
+  }
+
+  .cloud-host {
+    background-color: rgb(36, 87, 233);
+  }
+
+  .auto-web {
+    background-color: rgb(91, 82, 170);
+  }
+
+  .npm {
+    background-color: #CB0000;
+  }
+
+  .d3 {
+    background-color: #e1784b;
+  }
+
+  .fgo {
+    background-color: rgb(57, 87, 172);
+  }
+
+  .guardian-tales {
+    background-color: rgb(8, 35, 60);
+  }
+
+  // Patent
+  .patent {
+    .icon-html5 {
+      margin-bottom: -1px;
+      background-image: url(../assets/img/html5.png);
+    }
+  }
+}
+
+// Big Screen
+@media screen and (min-width: 1000px) {
+  .m-resume-box {
+    display: flex;
+    justify-content: center;
+    background-color: $resume-body-bgc;
+
+    .m-resume {
+      flex: 0 1 1000px;
+      background-color: $white;
+      border-radius: 4px;
+      margin: 5px;
+    }
+  }
+
+  .list-group-item {
+    background-color: $white;
+  }
+}
+
+.m-resume {
+  $font-color-primary: $resume-font-color-primary;
+  $font-color-lighten: lighten($font-color-primary, 20%);
+  $bgc-color-primary: $resume-color-primary;
+  $border-color-primary: $resume-border-color-primary;
+  $item-between-space: 30px;
+
+  %module-border-bottom {
+    border-bottom: 1px solid $border-color-primary;
+  }
+
+  .resume-clear {
+    clear: both;
+  }
+
+  .resume-small {
+    font-size: 12px;
+  }
+
+  .info-padding {
+    width: 2em;
+    height: auto;
+    display: inline-flex;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h1,
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  img[class^="icon-"] {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+  }
+
+  font-size: 14px;
+  color: $font-color-primary;
+  padding: 30px 50px;
+
+  %unique-ui {
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+  
+      li:nth-last-child(n + 2) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .resume-item-content {
+    @extend %unique-ui;
+  }
+
+  .resume-title {
+    @extend %module-border-bottom;
+  }
+
+  .resume-info-name {
+    color: $font-color-lighten;
+  }
+
+  .resume-experience-content {
+    flex: 1 1 auto;
+
+    .company-name,
+    .project-name,
+    .products-badges {
+      font-size: 18px;
+      color: $resume-header-color;
+      display: flex;
+    }
+
+    .project-logo {
+      width: 32px;
+      display: inline-flex;
+      align-items: center;
+
+      .icon {
+        display: inline-flex;
+        width: 23px;
+        height: 23px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left top;
+      }
+    }
+
+    [class^="company-logo"] {
+      display: inline-flex;
+      align-items: center;
+      width: 32px;
+    }
+
+    [class^="icon-company"] {
+      display: inline-flex;
+      width: 23px;
+      height: 23px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left top;
+    }
+
+    .company,
+    .department,
+    .project {
+      display: flex;
+      justify-content: space-between;
+      color: $resume-sub-header-color;
+      margin-bottom: $column-padding;
+    }
+
+    .b {
+      color: $resume-black;
+    }
+  }
+
+  .resume-experience {
+    display: flex;
+
+    &:nth-last-child(n + 2) {
+      .resume-experience-content {
+        padding-bottom: 20px;
+      }
+    }
+
+    ul {
+      // list-style-type: none;
+      // counter-reset: section;
+
+      .list-group-item {
+        background-color: $white; // $resume-body-bgc;
+        padding: 1.5px 0;
+        border: none;
+      }
+
+      // >.list-group-item:before {
+      //   content: counters(section, ".") ". ";
+      //   counter-increment: section;
+      // }
+
+      &>li:last-of-type {
+        padding-bottom: 0;
+      }
+    }
+
+    .resume-list-number {
+      list-style-type: none;
+      counter-reset: section;
+
+      >.list-group-item:before {
+        content: counters(section, ".") ". ";
+        counter-increment: section;
+      }
+    }
+
+    .resume-list-circle {
+      $circle-len: 0.36em;
+
+      list-style-type: none;
+
+      .list-group-item {
+        display: flex;
+        align-items: center;
+
+        &:before {
+          content: "";
+          display: inline-flex;
+          width: $circle-len;
+          height: $circle-len;
+          border-radius: 50%;
+          background-color: $font-color-primary;
+          margin-right: $circle-len;
+        }
+      }
+    }
+
+    .icon-fgo {
+      background-image: url(../assets/img/fgo.png);
+    }
+  
+    .icon-guardian-tales {
+      background-image: url(../assets/img/guardian-tales.png);
+    }
+  
+    .icon-kusano-yui {
+      background-image: url(../assets/img/kusano-yui.png);
+    }
+  
+    .company-logo-nut-read>.icon-company {
+      background-image: url(../assets/img/nut-read.png);
+    }
+  
+    .company-logo-qtt>.icon-company {
+      background-image: url(../assets/img/qtt-logo.png);
+    }
+  
+    .company-logo-bilibili>.icon-company {
+      background-image: url(../assets/img/bilibili-logo.png);
+    }
+  
+    .company-logo-pinnacle>.icon-company {
+      width: 27px;
+      background-image: url(../assets/img/pinnacle-logo.png);
+    }
+  
+    .company-logo-suning>.icon-company {
+      width: 25px;
+      height: 25px;
+      background-size: auto 37px;
+      background-position: 0 -7px;
+      background-image: url(../assets/img/suning-logo.png);
+    }
+  
+    .company-logo-bangning {
+      width: 53px;
+  
+      .icon-company {
+        width: 49px;
+        background-size: auto 25px;
+        background-position: 0 0;
+        margin-bottom: -2px;
+        background-image: url(../assets/img/bangning-logo.png);
+      }
+    }
+  
+    .company-logo-lilith {
+      width: 32px;
+  
+      .icon-company {
+        width: 24px;
+        height: 24px;
+        background-image: url(../assets/img/login_logo_120_116.png);
+      }
+    }
+  }
+
+  .timeline-line {
+    width: 1px;
+    background: $border-color-primary;
+    flex: 1 1 auto;
+  }
+
+  .resume-experience-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+
+    .timeline-circle {
+      width: 12px;
+      border-radius: 50%;
+      border: 3px solid $bgc-color-primary;
+      flex: 0 0 12px;
+    }
+
+    .timeline-line-before {
+      width: 1px;
+      background: $border-color-primary;
+      flex: 0 0 6px;
+    }
+  }
+
+  .resume-item {
+    padding: 24px 0;
+
+    >h3 {
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      color: $resume-header-color;
+
+      &::before {
+        content: ' ';
+        width: 4px;
+        height: 22px;
+        display: flex;
+        background: $bgc-color-primary;
+        margin-right: 12px;
+      }
+    }
+
+    &:nth-last-child(n + 3) {
+      @extend %module-border-bottom;
+    }
+
+    .resume-experience {
+      &:first-of-type {
+        .timeline-line-before {
+          background: transparent;
+        }
+      }
+
+      // Hide the last line.
+      // &:last-of-type {
+      //   .timeline-line {
+      //     background: transparent;
+      //   }
+      // }
+    }
+  }
+
+  .resume-item-content {
+    &.resume-item-between {
+      display: flex;
+
+      > ul {
+        flex: 1 1 50%;
+      }
+    }
+  }
+
+  .project-detail {
+    display: flex;
+
+    &:nth-last-child(n + 2) {
+      margin-bottom: $column-padding;
+    }
+
+    .detail-name {
+      color: $font-color-lighten;
+      flex: 0 0 auto;
+    }
+
+    .detail-content {
+      flex: 1 1 auto;
+    }
+  }
+
+  .project-badges {
+    display: flex;
+    align-items: center;
+  }
+
+  .project-badge {
+    border: none;
+    margin-left: 4px;
+    $ttt: 0.3em;
+    padding-top: $ttt;
+    padding-bottom: $ttt;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .products-badges {
+    @extend .project-badges;
+
+    margin-top: $column-padding;
+  }
+
+  .product-badge {
+    @extend .project-badge;
+
+    &>span {
+      display: inline-flex;
+    }
+
+    &>.product-icon {
+      border-radius: 50%;
+    }
+  }
+
+  .product-icon {
+    width: 1em;
+    height: 1em;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+  }
+
+  .skill-show {
+    display: flex;
+    flex-wrap: wrap;
+
+    .skill-item {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      &:nth-child(even) {
+        padding-left: 20px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 20px;
+      }
+    }
+
+    .skill-name {
+      width: 70px;
+    }
+
+    .skill-progress {
+      flex: 1 1 auto;
+      border-radius: 0.7em;
+
+      .progress-bar {
+        background: $bgc-color-primary;
+      }
+    }
+  }
+
+  .patent-item {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+
+    span[class^="icon-"] {
+      @extend .product-icon;
+    }
+  }
+
+  .resume-footer {
+    display: flex;
+    align-items: center;
+    color: $font-color-lighten;
+    margin-top: 5px;
+
+    .author {
+      color: inherit;
+      text-decoration: none;
+      border: none;
+    }
+  }
+
+  .footer-content {
+    padding: 0 1em;
+  }
+
+  .footer-line {
+    flex: 1 0 auto;
+    height: 1px;
+    background-color: $border-color-primary;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .hide-in-print {
+    @media print {
+      display: none;
+    }
+  }
+}

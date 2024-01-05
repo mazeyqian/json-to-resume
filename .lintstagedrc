@@ -12,6 +12,10 @@
             "stylelint --fix",
             "git add"
         ],
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ],
         "src/**/*.vue": [
             "stylelint --fix",
             "htmllint",
