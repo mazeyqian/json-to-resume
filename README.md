@@ -6,7 +6,7 @@
 
 进入 [Releases](https://github.com/mazeyqian/json-to-resume/releases) 页面下载最新版本：
 
-![Releases](./images/json-to-resume-releases-145242-w800.png)
+![Releases](./images/json-to-resume-releases-145811-w800.png)
 
 ## 预览
 
