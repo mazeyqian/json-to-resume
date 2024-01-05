@@ -2,7 +2,11 @@
   "name": "json-to-resume",
   "version": "2.2.2",
   "description": "A tool to generate the resume.",
-  "author": "Mazey <mazey@mazey.net>",
+  "author": {
+    "name": "Cheng",
+    "email": "mazeyqian@gmail.com",
+    "url": "https://github.com/mazeyqian"
+  },
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
