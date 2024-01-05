@@ -2,6 +2,12 @@
 
 这是一个便捷的 JSON 转简历工具
 
+## 下载
+
+进入 [Releases](https://github.com/mazeyqian/json-to-resume/releases) 页面下载最新版本：
+
+![Releases](./images/json-to-resume-releases-145242-w800.png)
+
 ## 预览
 
 ![Print](./images/json-to-resume-print-v1-w800.jpg)
