@@ -4,9 +4,9 @@
 
 ## 预览
 
-![](./images/json-to-resume-print-v1-w800.jpg)
+![Print](./images/json-to-resume-print-v1-w800.jpg)
 
-演示地址：https://i.mazey.net/x/resume/
+演示地址：<https://i.mazey.net/x/resume/>
 
 ## 使用指南
 
@@ -28,18 +28,18 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 Install dependencies:
 
-```
+```bash
 npm install
 ```
 
 Serve with hot reload:
 
-```
+```bash
 npm run dev
 ```
 
 Build for production:
 
-```
+```bash
 npm run build
 ```
