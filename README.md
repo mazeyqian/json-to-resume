@@ -10,7 +10,7 @@
 
 ## 预览
 
-![Print](./images/json-to-resume-print-v1-w800.jpg)
+![Resume Demo](./images/json-to-resume-print-v1-w800.jpg)
 
 演示地址：<https://i.mazey.net/x/resume/>
 
