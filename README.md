@@ -8,6 +8,12 @@
 
 演示地址：<https://i.mazey.net/x/resume/>
 
+## 下载
+
+进入 [Releases](https://github.com/mazeyqian/json-to-resume/releases) 页面下载最新版本：
+
+![Releases](./images/json-to-resume-releases-145811-w800.png)
+
 ## 使用指南
 
 JSON 文件位于路径：`src/conf/resume.js`
@@ -28,18 +34,18 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 Install dependencies:
 
-```shell
+```bash
 npm install
 ```
 
 Serve with hot reload:
 
-```shell
+```bash
 npm run dev
 ```
 
 Build for production:
 
-```shell
+```bash
 npm run build
 ```
