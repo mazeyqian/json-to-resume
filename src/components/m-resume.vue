@@ -50,7 +50,8 @@
         <h3>其他</h3>
         <div class="patent">
           <div class="patent-item" v-for="( patent, index ) in resume.others" :key="`patent-item-${index}`">
-            <span :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
+            <span v-if="patent.iconName" :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
+            <span v-if="patent.iconLink" class="icon-link" :style="{ backgroundImage: `url(${patent.iconLink})` }"></span>
             <span>
               {{ patent.name }}
               <span v-if="patent.linkContent">

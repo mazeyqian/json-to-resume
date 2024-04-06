@@ -66,7 +66,7 @@ export default {
   companies: [
     {
       name: '上海哔哩哔哩科技有限公司',
-      iconName: 'bilibili',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/bilibili-logo.png',
       timeRangeStart: '2022 年 5 月',
       timeRangeEnd: '至今',
       tags: [
@@ -112,21 +112,21 @@ export default {
       products: [
         {
           name: '公主连结Re:Dive',
-          iconName: 'kusano-yui',
+          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/kusano-yui.png',
           link: 'https://www.biligame.com/detail/?id=102216',
-          bgc: 'kusano-yui',
+          bgcColor: 'rgb(55, 67, 127)',
         },
         {
           name: '坎公骑冠剑',
-          iconName: 'guardian-tales',
+          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/guardian-tales.png',
           link: 'https://www.biligame.com/detail/?id=102567',
-          bgc: 'guardian-tales',
+          bgcColor: 'rgb(8, 35, 60)',
         },
         {
           name: '命运-冠位指定（Fate/GO）',
-          iconName: 'fgo',
+          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/fgo.png',
           link: 'https://www.biligame.com/detail/?id=49',
-          bgc: 'fgo',
+          bgcColor: 'rgb(57, 87, 172)',
         },
       ],
     },
@@ -151,21 +151,21 @@ export default {
       products: [
         {
           name: '剑与远征',
-          iconName: 'afk-favicon',
+          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/afk-favicon.png',
           link: 'https://afk-cn.lilith.com/',
-          bgc: 'afk',
+          bgcColor: '#86724d',
         },
         {
           name: '万国觉醒',
-          iconName: 'rok-favicon',
+          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/rok-favicon.png',
           link: 'https://rok-cn.lilith.com/',
-          bgc: 'rok',
+          bgcColor: '#aa8f69',
         },
       ],
     },
     {
       name: '上海基分文化传播有限公司',
-      iconName: 'qtt',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/qtt-logo.png',
       timeRangeStart: '2018 年 12 月',
       timeRangeEnd: '2020 年 8 月',
       tags: [
@@ -565,7 +565,7 @@ export default {
   individualProjects: [
     {
       name: '小栗读书会',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/gray-6ce2b956-144x144-1.png',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/gray-6ce2b956-144x144-1.png',
       tags: [
         {
           name: 'Web',
@@ -584,7 +584,7 @@ export default {
     },
     {
       name: '上海地铁运营系统',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/metro-144x144-1.png',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/metro-144x144-1.png',
       tags: [
         {
           name: 'Web',
@@ -603,7 +603,7 @@ export default {
     },
     {
       name: 'npm',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
         {
           name: '库',
@@ -640,7 +640,7 @@ export default {
     },
     {
       name: 'Go Packages',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
       tags: [
         {
           name: '库',
@@ -662,20 +662,9 @@ export default {
         </ul>
       `,
     },
-    // {
-    //   name: '短链接/短网址在线生成',
-    //   iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
-    //   tags: [
-    //     {
-    //       name: 'Web',
-    //       bgc: 'blue',
-    //     },
-    //   ],
-    //   description: `转换长链接为短链接，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>`,
-    // },
     {
       name: '工具类项目',
-      iconLink: '//blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
       tags: [
         {
           name: 'Web',
@@ -754,13 +743,13 @@ export default {
     },
     {
       name: '公众号文章：Promise 异步编程的理解和使用',
-      iconName: 'b-tc',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/bilibili-logo.png',
       linkContent: '哔哩哔哩技术',
       link: 'https://mp.weixin.qq.com/s/S_6YAcbZlcWIjcWdo5toXQ',
     },
     {
       name: '公众号文章：前端性能和加载体验优化实践',
-      iconName: 't-cloud',
+      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/tencent-cloud-400x400-1.png',
       linkContent: '腾讯云',
       link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
     },
