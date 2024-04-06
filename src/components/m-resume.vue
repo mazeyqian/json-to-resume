@@ -74,7 +74,7 @@
 </template>
 
 <script>
-  import resume from '../conf/resume.mazey';
+  import resume from '../conf/resume';
   import MResumeExperience from './m-resume-experience.vue';
   // import { addStyle } from 'mazey'
   export default {
