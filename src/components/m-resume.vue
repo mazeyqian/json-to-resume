@@ -50,7 +50,8 @@
         <h3>其他</h3>
         <div class="patent">
           <div class="patent-item" v-for="( patent, index ) in resume.others" :key="`patent-item-${index}`">
-            <span :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
+            <span v-if="patent.iconName" :class="`icon-${patent.iconName}`" alt="Patent ICON"></span>
+            <span v-if="patent.iconLink" class="icon-link" :style="{ backgroundImage: `url(${patent.iconLink})` }"></span>
             <span>
               {{ patent.name }}
               <span v-if="patent.linkContent">
@@ -75,7 +76,7 @@
 <script>
   import resume from '../conf/resume';
   import MResumeExperience from './m-resume-experience.vue';
-  // import { addStyle } from 'mazey'
+
   export default {
     name: 'm-resume',
     components: {
@@ -88,10 +89,8 @@
       };
     },
     created () {
-      document.title = this.resume.pageAndFileName; // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
+      document.title = this.resume.pageAndFileName;
     },
-    mounted () {
-      // addStyle('@media screen { .m-layout { background-color: #f2f2f2; } }', { id: 'resume-fill-in' })
-    },
+    mounted () {},
   };
 </script>

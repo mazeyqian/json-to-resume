@@ -3,7 +3,7 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-export default new Router({
+const vueRouter = new Router({
   routes: [
     {
       path: '/resume',
@@ -21,3 +21,13 @@ export default new Router({
     },
   ],
 });
+
+let routerCount = 0;
+vueRouter.afterEach(() => {
+  if (routerCount > 0) {
+    // Not the first page load.
+  }
+  routerCount++;
+});
+
+export default vueRouter;

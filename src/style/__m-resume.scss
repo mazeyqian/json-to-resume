@@ -31,11 +31,6 @@ $icons: map-merge(
     "doraemon": "doraemon.png",
     "tom": "tom.png",
     "pixel-cat": "pixel-cat.png",
-    "rabbit": "rabbit.png",
-    "rok-favicon": "rok-favicon.png",
-    "afk-favicon": "afk-favicon.png",
-    "b-tc": "bilibili-logo.png",
-    "t-cloud": "tencent-cloud-400x400.png",
     "mr-black": "mr-black.png"
   ),
   $icons
@@ -50,12 +45,9 @@ $colours: map-merge(
     "secondary": #6c757d,
     "cyan": #17a2b8,
     "vue": #52b983,
-    "kusano-yui": rgb(55, 67, 127),
     "e-commerce": rgb(227, 77, 28),
     "black": lighten($resume-black, 20%),
     "coffee": #982c18,
-    "afk": #86724d,
-    "rok": #aa8f69
   ),
   $colours
 );
@@ -191,14 +183,6 @@ $colours: map-merge(
     background-color: #e1784b;
   }
 
-  .fgo {
-    background-color: rgb(57, 87, 172);
-  }
-
-  .guardian-tales {
-    background-color: rgb(8, 35, 60);
-  }
-
   // Patent
   .patent {
     .icon-html5 {
@@ -316,34 +300,35 @@ $colours: map-merge(
       display: flex;
     }
 
-    .project-logo {
+    %logo-box {
       width: 32px;
       display: inline-flex;
       align-items: center;
-
-      .icon {
-        display: inline-flex;
-        width: 23px;
-        height: 23px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: left top;
-      }
     }
 
-    [class^="company-logo"] {
-      display: inline-flex;
-      align-items: center;
-      width: 32px;
-    }
-
-    [class^="icon-company"] {
+    %logo-icon {
       display: inline-flex;
       width: 23px;
       height: 23px;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: left top;
+    }
+
+    .project-logo {
+      @extend %logo-box;
+
+      .icon {
+        @extend %logo-icon;
+      }
+    }
+
+    [class^="company-logo"] {
+      @extend %logo-box;
+    }
+
+    [class^="icon-company"] {
+      @extend %logo-icon;
     }
 
     .company,
@@ -370,19 +355,11 @@ $colours: map-merge(
     }
 
     ul {
-      // list-style-type: none;
-      // counter-reset: section;
-
       .list-group-item {
-        background-color: $white; // $resume-body-bgc;
+        background-color: $white;
         padding: 1.5px 0;
         border: none;
       }
-
-      // >.list-group-item:before {
-      //   content: counters(section, ".") ". ";
-      //   counter-increment: section;
-      // }
 
       &>li:last-of-type {
         padding-bottom: 0;
@@ -417,65 +394,6 @@ $colours: map-merge(
           background-color: $font-color-primary;
           margin-right: $circle-len;
         }
-      }
-    }
-
-    .icon-fgo {
-      background-image: url(../assets/img/fgo.png);
-    }
-  
-    .icon-guardian-tales {
-      background-image: url(../assets/img/guardian-tales.png);
-    }
-  
-    .icon-kusano-yui {
-      background-image: url(../assets/img/kusano-yui.png);
-    }
-  
-    .company-logo-nut-read>.icon-company {
-      background-image: url(../assets/img/nut-read.png);
-    }
-  
-    .company-logo-qtt>.icon-company {
-      background-image: url(../assets/img/qtt-logo.png);
-    }
-  
-    .company-logo-bilibili>.icon-company {
-      background-image: url(../assets/img/bilibili-logo.png);
-    }
-  
-    .company-logo-pinnacle>.icon-company {
-      width: 27px;
-      background-image: url(../assets/img/pinnacle-logo.png);
-    }
-  
-    .company-logo-suning>.icon-company {
-      width: 25px;
-      height: 25px;
-      background-size: auto 37px;
-      background-position: 0 -7px;
-      background-image: url(../assets/img/suning-logo.png);
-    }
-  
-    .company-logo-bangning {
-      width: 53px;
-  
-      .icon-company {
-        width: 49px;
-        background-size: auto 25px;
-        background-position: 0 0;
-        margin-bottom: -2px;
-        background-image: url(../assets/img/bangning-logo.png);
-      }
-    }
-  
-    .company-logo-lilith {
-      width: 32px;
-  
-      .icon-company {
-        width: 24px;
-        height: 24px;
-        background-image: url(../assets/img/login_logo_120_116.png);
       }
     }
   }
@@ -535,13 +453,6 @@ $colours: map-merge(
           background: transparent;
         }
       }
-
-      // Hide the last line.
-      // &:last-of-type {
-      //   .timeline-line {
-      //     background: transparent;
-      //   }
-      // }
     }
   }
 

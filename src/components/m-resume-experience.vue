@@ -54,11 +54,15 @@
             :key="`product-badge-${index}`"
             :pill="true"
             class="product-badge"
-            :class="product.bgc"
+            :class="product.bgc || ''"
+            :style="{
+              backgroundColor: product.bgcColor || '',
+            }"
             :href="product.link"
             target="_blank"
           >
-            <span class="product-icon" :class="`icon-${product.iconName}`"></span>
+            <span v-if="product.iconName" class="product-icon" :class="`icon-${product.iconName}`"></span>
+            <span v-if="product.iconLink" class="product-icon" :style="{ backgroundImage: `url(${product.iconLink})` }"></span>
             <span class="product-name">{{ product.name }}</span>
           </b-badge>
         </div>
