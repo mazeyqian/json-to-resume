@@ -1,3 +1,9 @@
+build/** linguist-detectable=false
+config/** linguist-detectable=false
+public/** linguist-detectable=false
+scripts/** linguist-detectable=false
+test/** linguist-detectable=false
+src/**/*.scss linguist-detectable=false
 *.ts text eol=lf
 *.js text eol=lf
 *.json text eol=lf
