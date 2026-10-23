@@ -36,8 +36,6 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 ### 安装依赖
 
-使用 npm 安装依赖：
-
 ```bash
 npm install
 ```
@@ -61,6 +59,8 @@ npm run dev -- --no-open
 ```bash
 npm run build
 ```
+
+产物输出到 `dist/`，使用 `npm run preview` 预览。
 
 ## License
 

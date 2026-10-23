@@ -1,4 +1,2 @@
-allowBuilds:
-  bootstrap-vue: false
-ignoredBuiltDependencies:
-  - bootstrap-vue
+packages:
+  - "."

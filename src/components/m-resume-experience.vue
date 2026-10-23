@@ -19,14 +19,13 @@
               </div>
               <span v-html="project.name"></span>
               <span class="project-badges">
-                <b-badge v-for="(tag, index) in project.tags"
+                <span v-for="(tag, index) in project.tags"
                   :key="`project-badges-${index}`"
-                  :pill="true"
-                  class="project-badge"
+                  class="badge badge-secondary badge-pill project-badge"
                   :class="tag.bgc"
                 >
                   {{ tag.name }}
-                </b-badge>
+                </span>
               </span>
             </span>
             <span>
@@ -50,21 +49,22 @@
           <div class="detail-content" v-html="detail.value"></div>
         </div>
         <div class="products-badges">
-          <b-badge v-for="(product, index) in project.products"
+          <component v-for="(product, index) in project.products"
             :key="`product-badge-${index}`"
-            :pill="true"
-            class="product-badge"
-            :class="product.bgc || ''"
+            :is="product.link ? 'a' : 'span'"
+            class="badge badge-secondary badge-pill product-badge"
+            :class="product.bgc"
             :style="{
-              backgroundColor: product.bgcColor || '',
+              backgroundColor: product.bgcColor,
             }"
-            :href="product.link"
-            target="_blank"
+            :href="product.link || undefined"
+            :target="product.link ? '_blank' : undefined"
+            :rel="product.link ? 'noopener' : undefined"
           >
             <span v-if="product.iconName" class="product-icon" :class="`icon-${product.iconName}`"></span>
             <span v-if="product.iconLink" class="product-icon" :style="{ backgroundImage: `url(${product.iconLink})` }"></span>
             <span class="product-name">{{ product.name }}</span>
-          </b-badge>
+          </component>
         </div>
       </div>
     </div>

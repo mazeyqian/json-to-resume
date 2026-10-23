@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           package-manager-cache: false
@@ -36,13 +36,16 @@ jobs:
         run: npm run lint
 
       - name: Test
-        run: npm test
+        run: npm run test
 
       - name: Build GitHub Pages artifact
         run: npm run build:pages
 
       - name: Validate GitHub Pages artifact
         run: npm run validate:pages
+
+      - name: Test GitHub Pages preview
+        run: npm run e2e:pages
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v5

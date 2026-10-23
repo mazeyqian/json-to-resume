@@ -16,7 +16,7 @@ module.exports = [
     ],
   },
   js.configs.recommended,
-  ...vue.configs["flat/vue2-essential"],
+  ...vue.configs["flat/essential"],
   {
     files: ["**/*.{js,mjs,vue}"],
     languageOptions: {
@@ -24,7 +24,6 @@ module.exports = [
       globals: {
         ...globals.browser,
         ...globals.node,
-        ...globals.mocha,
       },
       sourceType: "module",
     },

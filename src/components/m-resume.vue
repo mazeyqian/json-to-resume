@@ -38,10 +38,14 @@
         <div class="skill-show">
           <div class="skill-item" v-for="(skill, index) in resume.skills" :key="`skill-item-${index}`">
             <span class="skill-name">{{ skill.name }}</span>
-            <b-progress
-              :value="skill.level"
-              height="12px"
-              class="skill-progress"></b-progress>
+            <div class="progress skill-progress" style="height: 12px">
+              <div class="progress-bar" role="progressbar"
+                :aria-label="skill.name"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                :aria-valuenow="skill.level"
+                :style="{ width: skill.level + '%' }"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,6 +96,5 @@ export default {
   created () {
     document.title = this.resume.pageAndFileName;
   },
-  mounted () {},
 };
 </script>
