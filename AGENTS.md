@@ -6,7 +6,7 @@ This repository is a Vue 3 single-page application built with Vite. Application 
 
 ## Build, test, and development commands
 
-Use Node.js 22, at least 22.12.0. The project does not declare an `engines` field. GitHub Actions uses `npm install` without dependency caching. Locally, use pnpm for dependency operations with the committed `pnpm-lock.yaml` and `pnpm-workspace.yaml`; run lifecycle scripts through npm. Preserve the lockfile policy and do not add `packageManager`, Corepack, or installer automation.
+Use Node.js 22, at least 22.12.0. The project does not declare an `engines` field. GitHub Actions uses `npm install` without dependency caching. Locally, use pnpm for dependency operations with the committed `pnpm-lock.yaml`; run lifecycle scripts through npm. Preserve the lockfile policy and do not add `packageManager`, Corepack, or installer automation.
 
 - `pnpm install --frozen-lockfile` installs the dependency graph recorded in `pnpm-lock.yaml`.
 - `npm run e2e:install` installs the Chromium browser used by end-to-end tests.
@@ -18,7 +18,7 @@ Use Node.js 22, at least 22.12.0. The project does not declare an `engines` fiel
 - `npm run build -- --report` writes and opens `node_modules/.cache/bundle-report.html`; `CI=true` disables opening it.
 - `npm run preview` previews a root-path build; `npm run preview:pages` previews a Pages build.
 - `npm run lint` checks JavaScript, Vue components, and `index.html` with ESLint 9.
-- `npm run lint-fix` applies supported ESLint fixes.
+- `npm run lint:fix` applies supported ESLint fixes.
 - `npm run test:node` checks base-path normalization and prevents artifact path traversal.
 - `npm run unit` runs Vitest component tests with jsdom and V8 coverage.
 - `npm run e2e` runs the Playwright Chromium suite.
